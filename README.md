@@ -28,16 +28,15 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * enrolling
      
 3. Teachers Guide
-   
-          * Adding contents/assignments
-          * Quizzes,
-          * Questionnaires
-          * Interactive content
-          * Creating and managing forums
-          * Scheduling activities
-          * SCORM
-          * Feedback
-          * Surveys
-          * Attendance/reports
-          * Grading
+   * Adding contents/assignments
+   * Quizzes, Questionnaires
+   * Interactive content
+   * Creating and managing forums
+   * Scheduling activities
+   * SCORM
+   * Feedback
+   * Surveys
+   * Attendance/reports
+   * Grading
+     
 5.  Students Guide
