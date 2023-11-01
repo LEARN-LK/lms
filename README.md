@@ -22,11 +22,13 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
 <h2> In this guide, we will cover the following areas </h2>
  
 01.  Moodle Admin Guide
-          * Create courses [(Create category,Create courses ,Delete courses)](https://github.com/LEARN-LK/lms/blob/master/add.md#-adding-a-course-category-)
+   * Create courses [(Create category,Create courses ,Delete courses)](https://github.com/LEARN-LK/lms/blob/master/add.md#-adding-a-course-category-)
           * Add users
           * Authentication methods
           * enrolling
-3. Teachers Guide 
+     
+3. Teachers Guide
+   
           * Adding contents/assignments
           * Quizzes,
           * Questionnaires
@@ -38,4 +40,4 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
           * Surveys
           * Attendance/reports
           * Grading
-4.  Students Guide
+5.  Students Guide
