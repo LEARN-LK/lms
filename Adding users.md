@@ -29,7 +29,7 @@ Support contact: This is the email address that users can contact if they have p
 
 <b>Now you can enable it in the "Create new account" link on the login page.</b>
 
-<h4> 02 New users individually </h4>
+<h4> 02 Add New users individually </h4>
 
 
 
