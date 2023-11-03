@@ -35,6 +35,13 @@ Users with the "Create users" capability (such as administrators, managers, and 
 
 <img src="https://github.com/LEARN-LK/lms/assets/143775988/ca499bf6-cf2c-440a-b6b3-d535ae67cc55" alt="image" style="max-width: 100%;width: 500px;">
 
+
+
+
+
+Clicking the New user button shows the Browse list of users page.
+
+
 <h5>General</h5>
 * Username :
 The user will use this name to log in to Moodle. It should be unique and easy to remember. It can only contain lowercase letters, numbers, hyphens, underscores, periods, or at symbols.
