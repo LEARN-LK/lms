@@ -31,6 +31,12 @@ Support contact: This is the email address that users can contact if they have p
 
 <h4> 02 Add New users individually </h4>
 
+Users with the "Create users" capability (such as administrators, managers, and others) can create new user accounts by going to Site administration > Users > Accounts > Add a new user.
+
+<img src="https://github.com/LEARN-LK/lms/assets/143775988/ca499bf6-cf2c-440a-b6b3-d535ae67cc55" alt="image" style="max-width: 100%;width: 500px;">
+
+
+
 
 
 
