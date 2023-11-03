@@ -56,6 +56,15 @@ Suspended users cannot log in to Moodle.
 * Generate password and notify user
 If you select this option, Moodle will generate a temporary password for the user and email them instructions on how to log in and change it.
 
+<h4> 03 Bulk create accounts via a CSV file </h4>
+
+Follow the these steps :
+* Log in to Moodle as an administrator.
+* Go to Site administration > Users > Accounts > Upload users.
+* Click the Choose a file button and select the CSV file containing your user data.
+* Click the Upload users button.
+* On the Upload user preview page, review the user data and make any necessary changes.
+* Click the Process button to upload the users to Moodle.
 
 
 
