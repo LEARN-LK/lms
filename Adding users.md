@@ -35,6 +35,24 @@ Users with the "Create users" capability (such as administrators, managers, and 
 
 <img src="https://github.com/LEARN-LK/lms/assets/143775988/ca499bf6-cf2c-440a-b6b3-d535ae67cc55" alt="image" style="max-width: 100%;width: 500px;">
 
+<h5>General</h5>
+* Username :
+The user will use this name to log in to Moodle. It should be unique and easy to remember. It can only contain lowercase letters, numbers, hyphens, underscores, periods, or at symbols.
+
+* Authentication method :
+This setting determines how Moodle will verify the user's password. There are two options:
+
+* Manual accounts: Accounts created by an administrator.
+Email-based self-registration: Accounts created by the user themselves.
+
+* Suspended account
+Suspended users cannot log in to Moodle.
+
+* Generate password and notify user
+If you select this option, Moodle will generate a temporary password for the user and email them instructions on how to log in and change it.
+
+
+
 
 
 
