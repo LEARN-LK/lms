@@ -34,15 +34,13 @@ Support contact: This is the email address that users can contact if they have p
 Users with the "Create users" capability (such as administrators, managers, and others) can create new user accounts by going to Site administration > Users > Accounts > Add a new user.
 
 <img src="https://github.com/LEARN-LK/lms/assets/143775988/ca499bf6-cf2c-440a-b6b3-d535ae67cc55" alt="image" style="max-width: 100%;width: 500px;">
-
-
-
-
+<img src="https://github.com/LEARN-LK/lms/assets/143775988/74fdbe11-f679-44d9-85d9-fad5cbe1ab18" alt="image" style="max-width: 100%;width: 500px;">
 
 Clicking the New user button shows the Browse list of users page.
 
+<img src="https://github.com/LEARN-LK/lms/assets/143775988/a9a63750-b18c-4ce7-afc8-e32f0174f7f4" alt="image" style="max-width: 100%;width: 500px;">
 
-<h5>General</h5>
+<h4>General</h4>
 * Username :
 The user will use this name to log in to Moodle. It should be unique and easy to remember. It can only contain lowercase letters, numbers, hyphens, underscores, periods, or at symbols.
 
