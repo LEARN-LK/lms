@@ -27,6 +27,7 @@ Support contact: This is the email address that users can contact if they have p
 
 5. Click the Save changes button.
 
+<b>Now you can enable it in the "Create new account" link on the login page.</b>
 
 
 
