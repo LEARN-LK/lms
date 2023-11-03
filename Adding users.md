@@ -61,7 +61,12 @@ If you select this option, Moodle will generate a temporary password for the use
 Follow the these steps :
 * Log in to Moodle as an administrator.
 * Go to Site administration > Users > Accounts > Upload users.
+
+<img src="https://github.com/LEARN-LK/lms/assets/143775988/2cea11c8-2e94-4429-9392-6874a892ba88" alt="image" style="max-width: 100%;width: 500px;">
+  
 * Click the Choose a file button and select the CSV file containing your user data.
+<img src="https://github.com/LEARN-LK/lms/assets/143775988/0de68ed8-24cd-4e6e-9b99-83232a4b38ca" alt="image" style="max-width: 100%;width: 500px;">
+
 * Click the Upload users button.
 * On the Upload user preview page, review the user data and make any necessary changes.
 * Click the Process button to upload the users to Moodle.
