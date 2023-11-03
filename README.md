@@ -23,9 +23,7 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
  
 01. Moodle Admin Guide
     * Create courses [(Create category,Create courses ,Delete courses)](https://github.com/LEARN-LK/lms/blob/master/add.md#-adding-a-course-category-)
-    * Add users
-    * Authentication methods
-    * enrolling
+    * Add users [Authentication methods,enrolling](https://github.com/LEARN-LK/lms/blob/master/Adding%20users.md#adding-users-)
      
 3. Teachers Guide
    * Adding contents/assignments
