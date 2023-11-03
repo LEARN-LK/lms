@@ -2,7 +2,7 @@
 
 This is a two-step process, 
 
-* 01 - [Authentication]()
+* 01 - Authentication
 * 02 - Enrolment
 
 <h3>Authentication</h3>
@@ -17,6 +17,15 @@ Everyone using your site is required to have an account. You may allow people to
 
 3. Under the Manage authentication page in the common settings section, in the Self-registration dropdown, select Email-based self-registration.
 <img src="https://github.com/LEARN-LK/lms/assets/143775988/26ab0238-8cc5-4e3e-bd89-beec49568990" alt="image" style="max-width: 100%;width: 500px;">
+
+4. Configure the following settings:
+
+Allowed email domains: Optionally, you can restrict self-registration to specific email domains.
+Email confirmation message: This is the email that will be sent to users to confirm their registration.
+Resending the confirmation email: This setting allows users to request a new confirmation email if they do not receive the original one.
+Support contact: This is the email address that users can contact if they have problems with self-registration.
+
+5. Click the Save changes button.
 
 
 
