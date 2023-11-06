@@ -85,17 +85,20 @@ Now is the time to give users their student, teacher, or other roles. Once users
 * Step 2: Editing manual enrolment settings
 Managers and users with the capability "enrol/manual:config" can modify manual enrollment settings for a course, including the default enrollment period and default role. To access these settings, click on the "Enrolment methods" link.
 
-<img src="https://github.com/LEARN-LK/lms/assets/143775988/011296e3-7463-4b84-81fa-a438759b8145" alt="image" style="max-width: 100%;width: 500px;">
-
+  <img src="https://github.com/LEARN-LK/lms/assets/143775988/011296e3-7463-4b84-81fa-a438759b8145" alt="image" style="max-width: 100%;width: 500px;">
+  
 Students and teachers can receive notifications about expiring enrollments. To enable these notifications, select either "Enroller only" or "Enroller and enrolled user" from the "Notify before enrolment expires" dropdown menu.Additionally, specify a time in the "Notification threshold" field. This determines how many days in advance the notifications will be sent.
 
-* Step 3 : Access the Course: Navigate to the course where you want to manually enroll users. Click on the course name to enter the course
+* Step 3 : Access the Course: Navigate to the course where you want to manually enroll users. Click on the course name to enter thecourse
+
   <img src="https://github.com/LEARN-LK/lms/assets/143775988/a7ef05f7-c1cf-4dc8-8c97-d2f6ce6c45ae" alt="image" style="max-width: 100%;width: 500px;">
+ 
 * step 4 : Enrollment Methods: Once inside the course, click on the "Participants" link in the course administration block
   <img src="https://github.com/LEARN-LK/lms/assets/143775988/0dd2927e-e022-45b8-8534-03ba0d2685a4" alt="image" style="max-width: 100%;width: 500px;">
 * step 5 :Enroll Users: In the Participants page,  To manually enroll a user, click on the "Enroll users" button at the top right corner of the page.
-* steo 6 : Choose Enrollment Method: In the "Enroll users" window, you will have several options for enrolling users. Select the "Manual enrolment" method.
+* steo 6 : Search for the User: In the "Manual enrolment" section, you will need to find the user you want to enroll. You can search for the user by their name or username.
 
+   <img src="https://github.com/LEARN-LK/lms/assets/143775988/45ecf135-e886-4a03-92e1-59a3c0d3924e" alt="image" style="max-width: 100%;width: 500px;">
 
 
 
