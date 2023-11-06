@@ -82,7 +82,23 @@ Now is the time to give users their student, teacher, or other roles. Once users
   <img src="https://github.com/LEARN-LK/lms/assets/143775988/b3aa7df7-3a1f-4491-9e9a-5b6bd50e6c4f" alt="image" style="max-width: 100%;width: 500px;">
    <img src="https://github.com/LEARN-LK/lms/assets/143775988/c692d534-f0a0-4a73-bc69-a0dad589c3fa" alt="image" style="max-width: 100%;width: 500px;">
 
-* Step 2: 
+* Step 2: Editing manual enrolment settings
+Managers and users with the capability "enrol/manual:config" can modify manual enrollment settings for a course, including the default enrollment period and default role. To access these settings, click on the "Enrolment methods" link.
+
+ <img src="https://github.com/LEARN-LK/lms/assets/143775988/011296e3-7463-4b84-81fa-a438759b8145" alt="image" style="max-width: 100%;width: 500px;">
+
+Students and teachers can receive notifications about expiring enrollments. To enable these notifications, select either "Enroller only" or "Enroller and enrolled user" from the "Notify before enrolment expires" dropdown menu.Additionally, specify a time in the "Notification threshold" field. This determines how many days in advance the notifications will be sent.
+
+* Step 3 : Access the Course: Navigate to the course where you want to manually enroll users. Click on the course name to enter the course.
+* step 4 : Enrollment Methods: Once inside the course, click on the "Participants" link in the course administration block
+* step 5 :Enroll Users: In the Participants page,  To manually enroll a user, click on the "Enroll users" button at the top right corner of the page.
+* steo 6 : Choose Enrollment Method: In the "Enroll users" window, you will have several options for enrolling users. Select the "Manual enrolment" method.
+
+
+
+
+
+
 
 
 
