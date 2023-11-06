@@ -74,7 +74,7 @@ Follow the these steps :
 <h1>Enrolled in Courses</h1>
 Now is the time to give users their student, teacher, or other roles. Once users have an account, they need to be enrolled in courses. This can be done through self-enrollment, manual enrollment by an administrator, or through various other methods.
 
-<h2>Manual enrolment</h2>
+<h2> 01 - Manual enrolment</h2>
 
 * Step 1: You can log in to your Moodle site as an administrator by entering your username and password in the login form located at the top right of the page.
 * Make sure Manual enrolments has its "eye" opened.
@@ -99,6 +99,19 @@ Students and teachers can receive notifications about expiring enrollments. To e
 * steo 6 : Search for the User: In the "Manual enrolment" section, you will need to find the user you want to enroll. You can search for the user by their name or username.
 
    <img src="https://github.com/LEARN-LK/lms/assets/143775988/45ecf135-e886-4a03-92e1-59a3c0d3924e" alt="image" style="max-width: 100%;width: 500px;">
+
+<h2>Self-enrolment</h2>
+Self-enrolment empowers users to register themselves in courses. They can do so instantly by clicking "Enroll me in this course" or by entering a provided enrollment key. For this feature to work, the site administrator must enable the enrollment plugin in the Enrolment plugins section, and enable it within the respective course. Additionally, the manual enrollment plugin must be enabled within the same course.
+
+* step :1  In your course, click the Participants link from Course navigation
+* step :2  From the dropdown select click Enrolment methods
+* step :3  Open the "eye" icon next to the Self enrolment method:
+  
+  <img src="https://github.com/LEARN-LK/lms/assets/143775988/b28f3536-2c87-411b-b2c4-eb308f373e51)https://github.com/LEARN-LK/lms/assets/143775988/b28f3536-2c87-411b-b2c4-eb308f373e51" alt="image" style="max-width: 100%;width: 500px;">
+
+<b>Note</b> : When you log in to Moodle as a student, you'll see an "Enroll me" button next to courses you can join
+
+  <img src="https://github.com/LEARN-LK/lms/assets/143775988/9e77753f-009b-4729-96f9-2843a628a161" alt="image" style="max-width: 100%;width: 500px;">
 
 
 
