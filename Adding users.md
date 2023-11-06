@@ -71,8 +71,18 @@ Follow the these steps :
 * On the Upload user preview page, review the user data and make any necessary changes.
 * Click the Process button to upload the users to Moodle.
 
+<h1>Enrolled in Courses</h1>
+Now is the time to give users their student, teacher, or other roles. Once users have an account, they need to be enrolled in courses. This can be done through self-enrollment, manual enrollment by an administrator, or through various other methods.
 
+<h2>Manual enrolment</h2>
 
+* Step 1: You can log in to your Moodle site as an administrator by entering your username and password in the login form located at the top right of the page.
+* Make sure Manual enrolments has its "eye" opened.
+ 
+  <img src="https://github.com/LEARN-LK/lms/assets/143775988/b3aa7df7-3a1f-4491-9e9a-5b6bd50e6c4f" alt="image" style="max-width: 100%;width: 500px;">
+   <img src="https://github.com/LEARN-LK/lms/assets/143775988/c692d534-f0a0-4a73-bc69-a0dad589c3fa" alt="image" style="max-width: 100%;width: 500px;">
+
+* Step 2: 
 
 
 
