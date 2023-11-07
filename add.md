@@ -9,7 +9,7 @@ Note: Regular teachers cannot add new courses to Moodle. To do this, you need to
 Step – 01
 From the Site administration link, click Courses>Manage courses and categories
 
-[<img width="500" alt="image" src="https://github.com/LEARN-LK/lms/assets/143775988/de1e6ddb-e3af-454e-bd3a-83faac473e91">]
+[<img width="500" alt="image" src="https://github.com/LEARN-LK/lms/assets/143775988/b0770fa8-0d1f-4e18-b814-2555ed24f37e">]
 
 Step – 02
 Assume you have to add categories and courses  following like this
