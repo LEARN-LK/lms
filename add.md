@@ -41,7 +41,8 @@ Before you create courses, you must add coerces categories (main & sub categorie
 	<p dir="auto" style=" margin-bottom: 0px;"><b>&emsp;&emsp;Semester 01</b></p>
  	<p dir="auto" style=" margin-bottom: 0px;&emsp;&emsp;"><b>&emsp;&emsp;Semester 02</b></p>
 
- [<img width="500" src="https://github.com/LEARN-LK/lms/assets/143775988/72f45638-b802-4310-ba3d-ecf0ae2c7034">
+ [<img width="500" src="https://github.com/LEARN-LK/lms/assets/143775988/746eb200-7dfd-480c-af50-53cf3a5ae431">
+
 
  <h5>Eg : Sub Category  <b>"Year 01</b> > Semester 01 , Semester 02 </h5></p>
 
@@ -50,14 +51,15 @@ sometimes it might be useful to have a sub-category of a course. For example, yo
 You can make one category a subcategory of another by checking the box to the left of its name and then by selecting from the drop down menu 'Move selected categories to' You can create a new, empty sub-category by clicking the actions icon next to its name in Administration>Site administration>Courses>Manage courses and categories. and selecting 'Create new subcategory.'
 
 
- [<img width="500" src="https://github.com/LEARN-LK/lms/assets/143775988/a1a6ae53-d31b-467e-812d-6972aa89ea23">]
+ [<img width="500" src="https://github.com/LEARN-LK/lms/assets/143775988/c5470219-f524-4ab1-a2d6-79c69df6ecf7">]
+
 
 <h2>Adding a Course</h2>
 Assume that Year 01 > Semester 01 has two courses (Business Management,Economics). Follow these steps to add courses:
 
 Click the category you want your course to be in (Bachelor Degree Program > Year 01 > Semester 01), then click the "Create course" button. Enter the course settings, then choose either "Save and return" to go back to your course, or "Save and display" to go to the next screen.
 
- [<img width="500" src="https://github.com/LEARN-LK/lms/assets/143775988/95902d35-349d-4194-968e-9af64b5a1028">]
+ [<img width="500" src="https://github.com/LEARN-LK/lms/assets/143775988/2cfaf2a6-47a2-42b3-bc17-98b63f979f78">]
 
 <h2>Deleting a course</h2>
 
@@ -73,7 +75,9 @@ Click on the Delete button.
 Confirm that you want to delete the course
 
 
- [<img width="500" src="https://github.com/LEARN-LK/lms/assets/143775988/7e9fe21d-6d2c-4bf4-8fee-766d279427f0">]
+ [<img width="500" src="https://github.com/LEARN-LK/lms/assets/143775988/edb421a8-f78a-4c4d-be82-6b0ff8bbe810">]
+
+
 
 
 
