@@ -10,13 +10,14 @@ Everyone using your site is required to have an account. You may allow people to
 
 <h4> 01 Email-based self-registration </h4>
 1. Go to Site administration > Plugins > Authentication > Manage authentication.
-<img src="https://github.com/LEARN-LK/lms/assets/143775988/b2a3ee94-2452-41fb-a84b-dd02b6bceaf3" alt="image" style="max-width: 100%;width: 500px;">
+<img src="https://github.com/LEARN-LK/lms/assets/143775988/b58412d5-3afb-4407-a9b5-e74232dd4ddf" alt="image" style="max-width: 100%;width: 500px;">
 
 2. Enable the Email-based self-registration plugin.
-<img src="https://github.com/LEARN-LK/lms/assets/143775988/b2b11611-7808-40bf-b19f-f3c64f2bd23c" alt="image" style="max-width: 100%;width: 500px;">
+<img src="https://github.com/LEARN-LK/lms/assets/143775988/0fd5ea66-175f-41ad-8445-8e859ebbf2fc" alt="image" style="max-width: 100%;width: 500px;">
 
 3. Under the Manage authentication page in the common settings section, in the Self-registration dropdown, select Email-based self-registration.
-<img src="https://github.com/LEARN-LK/lms/assets/143775988/26ab0238-8cc5-4e3e-bd89-beec49568990" alt="image" style="max-width: 100%;width: 500px;">
+<img src="https://github.com/LEARN-LK/lms/assets/143775988/d0b332be-ae02-465c-901b-25adb76a5381" alt="image" style="max-width: 100%;width: 500px;">
+
 
 4. Configure the following settings:
 
@@ -33,12 +34,14 @@ Support contact: This is the email address that users can contact if they have p
 
 Users with the "Create users" capability (such as administrators, managers, and others) can create new user accounts by going to Site administration > Users > Accounts > Add a new user.
 
-<img src="https://github.com/LEARN-LK/lms/assets/143775988/ca499bf6-cf2c-440a-b6b3-d535ae67cc55" alt="image" style="max-width: 100%;width: 500px;">
-<img src="https://github.com/LEARN-LK/lms/assets/143775988/74fdbe11-f679-44d9-85d9-fad5cbe1ab18" alt="image" style="max-width: 100%;width: 500px;">
+<img src="https://github.com/LEARN-LK/lms/assets/143775988/3bf30d61-715f-4c4c-a1a0-c50e34531fef" alt="image" style="max-width: 100%;width: 500px;">
+<img src="https://github.com/LEARN-LK/lms/assets/143775988/d8d6ceed-0bdd-45c3-a8ee-9634c279d01b" alt="image" style="max-width: 100%;width: 500px;">
+
 
 Clicking the New user button shows the Browse list of users page.
 
-<img src="https://github.com/LEARN-LK/lms/assets/143775988/a9a63750-b18c-4ce7-afc8-e32f0174f7f4" alt="image" style="max-width: 100%;width: 500px;">
+<img src="https://github.com/LEARN-LK/lms/assets/143775988/cac50d3c-26e3-4763-9ae9-0d495dc8b99b" alt="image" style="max-width: 100%;width: 500px;">
+
 
 <h4>General</h4>
 * Username :
@@ -62,10 +65,10 @@ Follow the these steps :
 * Log in to Moodle as an administrator.
 * Go to Site administration > Users > Accounts > Upload users.
 
-<img src="https://github.com/LEARN-LK/lms/assets/143775988/2cea11c8-2e94-4429-9392-6874a892ba88" alt="image" style="max-width: 100%;width: 500px;">
-  
+<img src="https://github.com/LEARN-LK/lms/assets/143775988/eafcd1f3-fbbe-4c29-89a0-f1aa2848b183" alt="image" style="max-width: 100%;width: 500px;">
+
 * Click the Choose a file button and select the CSV file containing your user data.
-<img src="https://github.com/LEARN-LK/lms/assets/143775988/0de68ed8-24cd-4e6e-9b99-83232a4b38ca" alt="image" style="max-width: 100%;width: 500px;">
+<img src="https://github.com/LEARN-LK/lms/assets/143775988/d566e4ac-079b-4c08-9c4b-b6b4cba17d76" alt="image" style="max-width: 100%;width: 500px;">
 
 * Click the Upload users button.
 * On the Upload user preview page, review the user data and make any necessary changes.
@@ -79,27 +82,29 @@ Now is the time to give users their student, teacher, or other roles. Once users
 * Step 1: You can log in to your Moodle site as an administrator by entering your username and password in the login form located at the top right of the page.
 * Make sure Manual enrolments has its "eye" opened.
  
-  <img src="https://github.com/LEARN-LK/lms/assets/143775988/b3aa7df7-3a1f-4491-9e9a-5b6bd50e6c4f" alt="image" style="max-width: 100%;width: 500px;">
-   <img src="https://github.com/LEARN-LK/lms/assets/143775988/c692d534-f0a0-4a73-bc69-a0dad589c3fa" alt="image" style="max-width: 100%;width: 500px;">
+  <img src="https://github.com/LEARN-LK/lms/assets/143775988/259387b7-2b26-4e19-aa54-e3e272a4cb5a" alt="image" style="max-width: 100%;width: 500px;">
+   <img src="https://github.com/LEARN-LK/lms/assets/143775988/e57673b4-6acf-429b-900d-cc63f0d32ace" alt="image" style="max-width: 100%;width: 500px;">
 
 * Step 2: Editing manual enrolment settings
 Managers and users with the capability "enrol/manual:config" can modify manual enrollment settings for a course, including the default enrollment period and default role. To access these settings, click on the "Enrolment methods" link.
 
-  <img src="https://github.com/LEARN-LK/lms/assets/143775988/011296e3-7463-4b84-81fa-a438759b8145" alt="image" style="max-width: 100%;width: 500px;">
+  <img src="https://github.com/LEARN-LK/lms/assets/143775988/740ef6db-2df1-483e-9ece-ab8f687baf48" alt="image" style="max-width: 100%;width: 500px;">
   
 Students and teachers can receive notifications about expiring enrollments. To enable these notifications, select either "Enroller only" or "Enroller and enrolled user" from the "Notify before enrolment expires" dropdown menu.Additionally, specify a time in the "Notification threshold" field. This determines how many days in advance the notifications will be sent.
 
 * Step 3 : Access the Course: Navigate to the course where you want to manually enroll users. Click on the course name to enter thecourse
 
-  <img src="https://github.com/LEARN-LK/lms/assets/143775988/a7ef05f7-c1cf-4dc8-8c97-d2f6ce6c45ae" alt="image" style="max-width: 100%;width: 500px;">
+  <img src="https://github.com/LEARN-LK/lms/assets/143775988/be41593b-df0f-436b-8355-0e5fedb95ab3" alt="image" style="max-width: 100%;width: 500px;">
+
  
 * step 4 : Enrollment Methods: Once inside the course, click on the "Participants" link in the course administration block
-  <img src="https://github.com/LEARN-LK/lms/assets/143775988/0dd2927e-e022-45b8-8534-03ba0d2685a4" alt="image" style="max-width: 100%;width: 500px;">
+  <img src="https://github.com/LEARN-LK/lms/assets/143775988/cc2d2fa5-f2d6-4aed-8c1b-53838b5a7d66" alt="image" style="max-width: 100%;width: 500px;">
+ 
 * step 5 :Enroll Users: In the Participants page,  To manually enroll a user, click on the "Enroll users" button at the top right corner of the page.
 * steo 6 : Search for the User: In the "Manual enrolment" section, you will need to find the user you want to enroll. You can search for the user by their name or username.
 
-   <img src="https://github.com/LEARN-LK/lms/assets/143775988/45ecf135-e886-4a03-92e1-59a3c0d3924e" alt="image" style="max-width: 100%;width: 500px;">
-
+   <img src="https://github.com/LEARN-LK/lms/assets/143775988/f10f7a8d-4e1c-49f8-b8a9-36c3f603e791" alt="image" style="max-width: 100%;width: 500px;">
+  
 <h2>Self-enrolment</h2>
 Self-enrolment empowers users to register themselves in courses. They can do so instantly by clicking "Enroll me in this course" or by entering a provided enrollment key. For this feature to work, the site administrator must enable the enrollment plugin in the Enrolment plugins section, and enable it within the respective course. Additionally, the manual enrollment plugin must be enabled within the same course.
 
@@ -107,11 +112,12 @@ Self-enrolment empowers users to register themselves in courses. They can do so 
 * step :2  From the dropdown select click Enrolment methods
 * step :3  Open the "eye" icon next to the Self enrolment method:
   
-  <img src="https://github.com/LEARN-LK/lms/assets/143775988/b28f3536-2c87-411b-b2c4-eb308f373e51)https://github.com/LEARN-LK/lms/assets/143775988/b28f3536-2c87-411b-b2c4-eb308f373e51" alt="image" style="max-width: 100%;width: 500px;">
+  <img src="https://github.com/LEARN-LK/lms/assets/143775988/e21a93df-42da-4234-880a-b614157fb19b" alt="image" style="max-width: 100%;width: 500px;">
 
 <b>Note</b> : When you log in to Moodle as a student, you'll see an "Enroll me" button next to courses you can join
 
-  <img src="https://github.com/LEARN-LK/lms/assets/143775988/9e77753f-009b-4729-96f9-2843a628a161" alt="image" style="max-width: 100%;width: 500px;">
+  <img src="https://github.com/LEARN-LK/lms/assets/143775988/5411d96a-43b9-4175-8f5c-459c09cc2079" alt="image" style="max-width: 100%;width: 500px;">
+
 
 
 
