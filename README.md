@@ -21,11 +21,7 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
 
 <h2> In this guide, we will cover the following areas </h2>
 
-<div dir="auto" style="
-    border: 1px solid #7f8186;
-    padding: 3%;
-    color: #b26c4d;
-">Note : This guide was prepared for Moodle version 4.0.11+ (Build: 20231020) and Ubuntu 22.04.3 LTS.</div>
+<div class="border: 1px solid #7f8186;padding: 3%;color: #b26c4d;">Note : This guide was prepared for Moodle version 4.0.11+ (Build: 20231020) and Ubuntu 22.04.3 LTS.</div>
  
 01. Moodle Admin Guide
     * Create courses [(Create category,Create courses ,Delete courses)](https://github.com/LEARN-LK/lms/blob/master/add.md#-adding-a-course-category-)
