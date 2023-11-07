@@ -105,7 +105,7 @@ Students and teachers can receive notifications about expiring enrollments. To e
 
    <img src="https://github.com/LEARN-LK/lms/assets/143775988/f10f7a8d-4e1c-49f8-b8a9-36c3f603e791" alt="image" style="max-width: 100%;width: 500px;">
   
-<h2>Self-enrolment</h2>
+<h2>02 - Self-enrolment</h2>
 Self-enrolment empowers users to register themselves in courses. They can do so instantly by clicking "Enroll me in this course" or by entering a provided enrollment key. For this feature to work, the site administrator must enable the enrollment plugin in the Enrolment plugins section, and enable it within the respective course. Additionally, the manual enrollment plugin must be enabled within the same course.
 
 * step :1  In your course, click the Participants link from Course navigation
