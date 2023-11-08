@@ -14,10 +14,15 @@ Students can send work to their teacher for feedback. Submissions can be typed o
    <img src="https://github.com/LEARN-LK/lms/assets/143775988/9a9ad5e4-a367-465e-a5a6-b77e42777188" alt="image" style="max-width: 100%;width: 500px;">
 
 * Step 05 : Configure Assignment Settings:
-    >  Fill in the assignment name and description.
-    >  Set the due date, if applicable.
-Configure submission settings, such as file types allowed, maximum file size, and feedback types.
-Set the grading method and grade scale.
-Configure availability options and group settings if needed.
+  ```
+    Fill in the assignment name and description.
+    Set the due date, if applicable.
+    Configure submission settings, such as file types allowed, maximum file size, and feedback types.
+    Set the grading method and grade scale.
+    Configure availability options and group settings if needed.
+  ```
+  <img src="https://github.com/LEARN-LK/lms/assets/143775988/fe23f002-74b5-4745-b03d-232055d69fe7" alt="image" style="max-width: 100%;width: 500px;">
+ 
 
+    
 
