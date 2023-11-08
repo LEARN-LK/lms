@@ -22,6 +22,18 @@ Students can send work to their teacher for feedback. Submissions can be typed o
     Configure availability options and group settings if needed.
   ```
   <img src="https://github.com/LEARN-LK/lms/assets/143775988/fe23f002-74b5-4745-b03d-232055d69fe7" alt="image" style="max-width: 100%;width: 500px;">
+
+<h3>Assignment Student View</h3>
+  How does it work?
+Students click the assignment link and click “Add submission” (1)
+Depending on the assignment settings, they either have a text box into which to type their work or an upload area to submit their file (2)
+They may be able to return to their work and redraft it, or they might have to click a submit button to send in a final version which cannot be changed.
+
+ <img src="https://github.com/LEARN-LK/lms/assets/143775988/077264af-7bcf-41e5-b9fb-30b6582f95d3" alt="image" style="max-width: 100%;width: 500px;">
+  <img src="https://github.com/LEARN-LK/lms/assets/143775988/8c7bb14e-8e0b-4040-99a0-5de698a4d8ba" alt="image" style="max-width: 100%;width: 500px;">
+
+
+
  
 
     
