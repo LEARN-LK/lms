@@ -33,9 +33,13 @@ They may be able to return to their work and redraft it, or they might have to c
   <img src="https://github.com/LEARN-LK/lms/assets/143775988/8c7bb14e-8e0b-4040-99a0-5de698a4d8ba" alt="image" style="max-width: 100%;width: 500px;">
 
 <h3>Teacher view:</h3>
-Once students have submitted work, click on the assignment and click “Grades”
-The exact view depends on the teacher and admin settings. See Assignment settings for more detail.
-Here, the submission may be annotated (1) and/or downloaded (2); a grade entered (3) and individual feedback given (4). The teacher saves the changes (5) and moves to the next student (6)
+* Once students have submitted work, click on the assignment and click “Grades”
+ <img src="https://github.com/LEARN-LK/lms/assets/143775988/0eec67e8-6b44-43fa-a44f-591e39a6cb47" alt="image" style="max-width: 100%;width: 500px;">
+
+* The exact view depends on the teacher and admin settings. See Assignment settings for more detail.Here, the submission may be annotated (1) and/or downloaded (2); a grade entered (3) and individual feedback given (4). The teacher saves the changes (5) and moves to the next student (6)
+
+<img src="https://github.com/LEARN-LK/lms/assets/143775988/3ae56424-cdce-4b65-9917-077fc07c6c88" alt="image" style="max-width: 100%;width: 500px;">
+
 
 
 
