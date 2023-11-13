@@ -2,14 +2,14 @@
 
 Before adding a course, you should log in as an administrator, course creator, or manager.
 
-[<img width="281" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/1.png?raw=true">]
+<img width="281" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/1.png?raw=true">
 
 `Note: Regular teachers cannot add new courses to Moodle. To do this, you need to be an administrator, course creator, or manager.`
 
 Step – 01
 From the Site administration link, click Courses>Manage courses and categories
 
-[<img width="500" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/02%20course%20add.png?raw=true">]
+<img width="500" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/02%20course%20add.png?raw=true">
 
 Step – 02
 Assume you have to add categories and courses  following like this
@@ -41,7 +41,7 @@ Before you create courses, you must add coerces categories (main & sub categorie
 	<p dir="auto" style=" margin-bottom: 0px;"><b>&emsp;&emsp;Semester 01</b></p>
  	<p dir="auto" style=" margin-bottom: 0px;&emsp;&emsp;"><b>&emsp;&emsp;Semester 02</b></p>
 
- [<img width="500" src=" https://github.com/LEARN-LK/lms/blob/master/img/03%20add%20new%20cate.png?raw=true">
+ <img width="500" src=" https://github.com/LEARN-LK/lms/blob/master/img/03%20add%20new%20cate.png?raw=true">
 
 
 
@@ -52,7 +52,7 @@ sometimes it might be useful to have a sub-category of a course. For example, yo
 You can make one category a subcategory of another by checking the box to the left of its name and then by selecting from the drop down menu 'Move selected categories to' You can create a new, empty sub-category by clicking the actions icon next to its name in Administration>Site administration>Courses>Manage courses and categories. and selecting 'Create new subcategory.'
 
 
- [<img width="500" src="https://github.com/LEARN-LK/lms/assets/143775988/c5470219-f524-4ab1-a2d6-79c69df6ecf7">]
+ <img width="500" src="https://github.com/LEARN-LK/lms/assets/143775988/c5470219-f524-4ab1-a2d6-79c69df6ecf7">
 
 
 <h2>Adding a Course</h2>
@@ -60,7 +60,7 @@ Assume that Year 01 > Semester 01 has two courses (Business Management,Economics
 
 Click the category you want your course to be in (Bachelor Degree Program > Year 01 > Semester 01), then click the "Create course" button. Enter the course settings, then choose either "Save and return" to go back to your course, or "Save and display" to go to the next screen.
 
- [<img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/05%20-add%20couser%20-%20sem%2001.png?raw=true">]
+ <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/05%20-add%20couser%20-%20sem%2001.png?raw=true">
  
 
 <h2>Deleting a course</h2>
@@ -77,7 +77,7 @@ Click on the Delete button.
 Confirm that you want to delete the course
 
 
- [<img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/06%20-%20delete%2001.png?raw=true">]
+ <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/06%20-%20delete%2001.png?raw=true">
 
 
 
