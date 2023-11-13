@@ -52,7 +52,8 @@ sometimes it might be useful to have a sub-category of a course. For example, yo
 You can make one category a subcategory of another by checking the box to the left of its name and then by selecting from the drop down menu 'Move selected categories to' You can create a new, empty sub-category by clicking the actions icon next to its name in Administration>Site administration>Courses>Manage courses and categories. and selecting 'Create new subcategory.'
 
 
- <img width="500" src="https://github.com/LEARN-LK/lms/assets/143775988/c5470219-f524-4ab1-a2d6-79c69df6ecf7">
+ <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/04%20sub%20-%20cat.png?raw=true">
+
 
 
 <h2>Adding a Course</h2>
