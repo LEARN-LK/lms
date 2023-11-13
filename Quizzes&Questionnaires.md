@@ -24,6 +24,9 @@ Quizzes can be graded automatically or manually. For automatically graded quizze
 * Click add Quastion button
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/32-add%20Quiz.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
 
+* Click Add and then click '+ a new question' (If you already made questions in the question bank, then click '+ from question bank' or if you wish to add a question randomly picked from a category of questions, click '+ a random question'.)"
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/33-add%20new%20quastion.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+
 
 
 
