@@ -32,7 +32,7 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
      
 3. Teachers Guide
    * [Adding contents/assignments](https://github.com/LEARN-LK/lms/blob/master/Assignment-activity.md)
-   * Quizzes, Questionnaires
+   * [Quizzes, Questionnaires](https://github.com/LEARN-LK/lms/blob/master/Quizzes&Questionnaires.md)
    * Interactive content
    * Creating and managing forums
    * Scheduling activities
