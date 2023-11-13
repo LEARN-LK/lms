@@ -9,3 +9,17 @@ Quizzes can be graded automatically or manually. For automatically graded quizze
 * New question types: Moodle 4.0 includes several new question types, such as drag-and-drop questions, matching questions, and hotspot questions.
 * Improved grading: Moodle 4.0 includes a number of improvements to the grading process, such as the ability to give partial credit for answers and the ability to provide feedback to students on their answers.
 *  Such as the ability to generate more detailed reports on student performance and the ability to export reports to different formats.
+
+<h2>How is it set up</h2>
+
+* Open the Moodle course where you want to add the quiz.
+* Turn editing on.
+* Click the Add an activity or resource button.
+* Select Quiz from the list of activities.
+* Click the Add button.
+* Enter a name and description for the quiz.
+* Configure the quiz settings, such as the time limit, number of attempts, and grading method.
+* Click the Save and continue button.
+ <img src="https://github.com/LEARN-LK/lms/assets/143775988/df677258-e50c-49b8-85e7-4984e727c297" alt="image" style="max-width: 100%;width: 500px;">
+
+
