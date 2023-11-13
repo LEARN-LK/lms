@@ -2,8 +2,9 @@
 
 Before adding a course, you should log in as an administrator, course creator, or manager.
 
-<img width="281" alt="image" src="https://github.com/LEARN-LK/lms/assets/143775988/fe896f69-2895-4a00-9ded-581b37b4bc8d">
+[<img width="281" alt="image" src="https://github.com/LEARN-LK/lms/assets/143775988/fe896f69-2895-4a00-9ded-581b37b4bc8d">]
 
+![Hello](img/02 course add.png)
 `Note: Regular teachers cannot add new courses to Moodle. To do this, you need to be an administrator, course creator, or manager.`
 
 Step – 01
