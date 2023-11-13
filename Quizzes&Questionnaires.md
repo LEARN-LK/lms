@@ -22,6 +22,9 @@ Quizzes can be graded automatically or manually. For automatically graded quizze
 * Click the Save and continue button.
  <img src="https://github.com/LEARN-LK/lms/assets/143775988/6c89c2b9-3dcd-4b0f-a793-e63929d70861" alt="image" style="max-width: 100%;width: 500px;">
 
+ ![image](https://github.com/LEARN-LK/lms/assets/143775988/d4d8d588-d092-4fe8-97f6-fc636d2948a3)
+
+
 
 
 
