@@ -19,9 +19,10 @@ Quizzes can be graded automatically or manually. For automatically graded quizze
 * Click the Add button.
 * Enter a name and description for the quiz.
 * Configure the quiz settings, such as the time limit, number of attempts, and grading method.
-* Click the Save and continue button.
+* Click Save and Display button.
  <img src="https://github.com/LEARN-LK/lms/blob/master/img/31-%20Quiz.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
-
+* Click add Quastion button
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/32-add%20Quiz.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
 
 
 
