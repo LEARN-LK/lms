@@ -8,6 +8,7 @@ Before adding a course, you should log in as an administrator, course creator, o
 
 Step – 01
 From the Site administration link, click Courses>Manage courses and categories
+[<img width="500" alt="image" src=img/02 course add.png>]
 
 [<img width="500" alt="image" src="https://github.com/LEARN-LK/lms/assets/143775988/b0770fa8-0d1f-4e18-b814-2555ed24f37e">]
 
