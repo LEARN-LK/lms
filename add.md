@@ -1,8 +1,8 @@
 <H1> Adding a Course Category </H1>
 
 Before adding a course, you should log in as an administrator, course creator, or manager.
-[<img width="281" alt="image" src="https://github.com/LEARN-LK/lms/assets/143775988/fe896f69-2895-4a00-9ded-581b37b4bc8d">]
-<img width="281" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/02%20course%20add.png">
+
+[<img width="281" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/1.png?raw=true">]
 
 `Note: Regular teachers cannot add new courses to Moodle. To do this, you need to be an administrator, course creator, or manager.`
 
