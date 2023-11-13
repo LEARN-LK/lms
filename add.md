@@ -9,7 +9,7 @@ Before adding a course, you should log in as an administrator, course creator, o
 Step – 01
 From the Site administration link, click Courses>Manage courses and categories
 
-[<img width="500" alt="image" src="https://github.com/LEARN-LK/lms/assets/143775988/b0770fa8-0d1f-4e18-b814-2555ed24f37e">]
+[<img width="500" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/02%20course%20add.png?raw=true">]
 
 Step – 02
 Assume you have to add categories and courses  following like this
@@ -41,7 +41,8 @@ Before you create courses, you must add coerces categories (main & sub categorie
 	<p dir="auto" style=" margin-bottom: 0px;"><b>&emsp;&emsp;Semester 01</b></p>
  	<p dir="auto" style=" margin-bottom: 0px;&emsp;&emsp;"><b>&emsp;&emsp;Semester 02</b></p>
 
- [<img width="500" src="https://github.com/LEARN-LK/lms/assets/143775988/746eb200-7dfd-480c-af50-53cf3a5ae431">
+ [<img width="500" src=" https://github.com/LEARN-LK/lms/blob/master/img/03%20add%20new%20cate.png?raw=true">
+
 
 
  <h5>Eg : Sub Category  <b>"Year 01</b> > Semester 01 , Semester 02 </h5></p>
@@ -59,7 +60,8 @@ Assume that Year 01 > Semester 01 has two courses (Business Management,Economics
 
 Click the category you want your course to be in (Bachelor Degree Program > Year 01 > Semester 01), then click the "Create course" button. Enter the course settings, then choose either "Save and return" to go back to your course, or "Save and display" to go to the next screen.
 
- [<img width="500" src="https://github.com/LEARN-LK/lms/assets/143775988/2cfaf2a6-47a2-42b3-bc17-98b63f979f78">]
+ [<img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/05%20-add%20couser%20-%20sem%2001.png?raw=true">]
+ 
 
 <h2>Deleting a course</h2>
 
@@ -75,7 +77,9 @@ Click on the Delete button.
 Confirm that you want to delete the course
 
 
- [<img width="500" src="https://github.com/LEARN-LK/lms/assets/143775988/edb421a8-f78a-4c4d-be82-6b0ff8bbe810">]
+ [<img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/06%20-%20delete%2001.png?raw=true">]
+
+
 
 
 
