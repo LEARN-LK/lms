@@ -12,6 +12,8 @@ The Form activity in Moodle  is a powerful tool that allows teachers to create c
 * Select Form from the list of activities.
 * Give your form a name and description.
 * Click on the Next button.
+
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/41-form-activity.png?raw=true" style="max-width: 100%;width: 60%;">
   
 
 
