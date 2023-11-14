@@ -7,9 +7,9 @@ The Form activity in Moodle  is a powerful tool that allows teachers to create c
 <h2>To create a Form activity in Moodle 4.0, follow these steps:</h2>
 
 * Go to the course homepage where you want to create the form.
-* Click on the editing turned on button,
-* Click on the Add an activity or resource button.
-* Select Form from the list of activities.
+* Click on the editing turned on button [1],
+* Click on the Add an activity or resource button [2].
+* Select Form from the list of activities [3].
 * Give your form a name and description.
 * Click on the Next button.
 
