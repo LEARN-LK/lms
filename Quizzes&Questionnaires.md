@@ -61,9 +61,7 @@ To complete the quiz:
 * After you have submitted your quiz, you will see your quiz results.
 * Your results will show you your score for the quiz, as well as the correct answers to each question [4].
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/39-all%20-student%20view.png?raw=true" alt="image" style="max-width: 100%;width: 1000px;">
-
-
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/39-all%20-student%20view.png?raw=true" alt="image" style="max-width:100%;width: 1000px;">
 
 
 
