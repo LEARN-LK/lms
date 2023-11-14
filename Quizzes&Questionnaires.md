@@ -63,7 +63,14 @@ To complete the quiz:
 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/39-all%20-student%20view.png?raw=true" alt="image" style="max-width:100%;width: 1000px;">
 
+<h3>Quiz Teacher View</h3>
+To review quiz attempts:
 
+* On the quiz page, click on the Preiews Button.
+* This will show you a list of all the quiz reviews that have been created by teachers.
+* Grades can be viewed either by clicking the quiz and the link 'Attempts' when students have attempted the quiz, or from the Actions menu top right > Results (as in the above screenshot)
+
+<img src="https://github.com/LEARN-LK/lms/raw/master/img/40-teacher%20preview.png?raw=true" style="max-width: 100%;width: 60%;">
 
 
 
