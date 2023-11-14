@@ -20,18 +20,18 @@ Quizzes can be graded automatically or manually. For automatically graded quizze
 * Enter a name and description for the quiz.
 * Configure the quiz settings, such as the time limit, number of attempts, and grading method.
 * Click Save and Display button.
- <img src="https://github.com/LEARN-LK/lms/blob/master/img/31-%20Quiz.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+ <img src="https://github.com/LEARN-LK/lms/blob/master/img/31-%20Quiz.png?raw=true"  style="max-width: 100%;width: 500px;">
 * Click add Quastion button
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/32-add%20Quiz.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/32-add%20Quiz.png?raw=true" style="max-width: 100%;width: 500px;">
 
 * Click Add and then click '+ a new question' (If you already made questions in the question bank, then click '+ from question bank' or if you wish to add a question randomly picked from a category of questions, click '+ a random question'.)"
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/33-add%20new%20quastion.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/33-add%20new%20quastion.png?raw=true" style="max-width: 100%;width: 500px;">
 
 <h4>To add questions to your quiz:</h4>
 
 * Choose the type of question you want to add.
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/34-quastion%20type.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/34-quastion%20type.png?raw=true"  style="max-width: 100%;width: 500px;">
   
 * Click Add at the bottom.
 * Add your question. For help, see the documentation on question types.
@@ -61,7 +61,7 @@ To complete the quiz:
 * After you have submitted your quiz, you will see your quiz results.
 * Your results will show you your score for the quiz, as well as the correct answers to each question [4].
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/39-all%20-student%20view.png?raw=true" alt="image" style="max-width:100%;width: 1000px;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/39-all%20-student%20view.png?raw=true" style="max-width:100%;width: 1000px;">
 
 <h3>Quiz Teacher View</h3>
 To review quiz attempts:
