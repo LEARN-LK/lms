@@ -48,20 +48,20 @@ Quiz view:
      > The number of questions in the quiz.
      > The time limit for the quiz,
      > if any.The number of attempts you have remaining.Below the quiz information,
-* you will see the first question in the quiz.
+* you will see the first question in the quiz [1].
 * To answer a question, select the answer choice that you think is correct.
-* To move to the next question, click on the Next button.
+* To move to the next question, click on the Next button [2].
 * To review a previous question, click on the Previous button.
 * To flag a question, click on the Flag button. This will mark the question for your review and alert your teacher to a possible query.
 To complete the quiz:
-* Once you have answered all of the questions in the quiz, click on the Finish attempt button.
+* Once you have answered all of the questions in the quiz, click on the Finish attempt button [3].
 * You will be asked to review your answers and then click on the Submit all and finish button to submit your quiz.
 
 <h4>Quiz results:</h4>
 * After you have submitted your quiz, you will see your quiz results.
-* Your results will show you your score for the quiz, as well as the correct answers to each question.
+* Your results will show you your score for the quiz, as well as the correct answers to each question [4].
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/39-all%20-student%20view.png?raw=true" alt="image" style="max-width: 100%;width: 600px;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/39-all%20-student%20view.png?raw=true" alt="image" style="max-width: 100%;width: 1000px;">
 
 
 
