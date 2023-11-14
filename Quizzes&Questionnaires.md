@@ -30,7 +30,8 @@ Quizzes can be graded automatically or manually. For automatically graded quizze
 <h4>To add questions to your quiz:</h4>
 
 * Choose the type of question you want to add.
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/34-quastion%20type.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/34-quastion%20type.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
   
 * Click Add at the bottom.
 * Add your question. For help, see the documentation on question types.
