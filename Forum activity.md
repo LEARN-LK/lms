@@ -10,10 +10,19 @@ The Form activity in Moodle  is a powerful tool that allows teachers to create c
 * Click on the editing turned on button [1],
 * Click on the Add an activity or resource button [2].
 * Select Form from the list of activities [3].
-* Give your form a name and description.
-* Click on the Next button.
+* Give your form a name and description [4].
+
 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/41-form-activity.png?raw=true" style="max-width: 100%;width: 60%;">
+
+* Choose your Forum type, clicking the question mark (?) icon for descriptions of each type. If you're unsure, use the default Standard forum for general use[5].
+* Expand the other sections to define the settings you want [6]. 
+* Click Save and display and, optionally, add a post to get started [7].
+
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/42-%20add%20form-activity.png?raw=true" style="max-width: 100%;width: 60%;">
+
+  
+
   
 
 
