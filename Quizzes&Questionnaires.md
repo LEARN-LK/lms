@@ -48,7 +48,7 @@ Quiz view:
      > The number of questions in the quiz.
      > The time limit for the quiz,
      > if any.The number of attempts you have remaining.Below the quiz information,
-* you will see the first question in the quiz [1].
+* when clicking "attemp quiz" Button [1]. you will see the first question in the quiz .
 * To answer a question, select the answer choice that you think is correct.
 * To move to the next question, click on the Next button [2].
 * To review a previous question, click on the Previous button.
