@@ -1,14 +1,24 @@
 <h1>Feedback activity</h1>
 
 <h3>1. Enable the feedback activity.</h3>
-* Navigate to Site administration > Plugins > Activity modules.
-* Enable the Feedback activity.
+
+`Note : Mostly pluging is enabled ,if not follow below step` 
+
+* Navigate to Site administration[1] > Plugins[2] > Activity modules[3].
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/43-%20feedback%20plugin.png?raw=true" style="max-width: 100%;width: 60%;">  
+* Enable the Feedback activity[4].
+  
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/44-pluging%20enable.png?raw=true" style="max-width: 100%;width: 60%;">
 
 <h3>2. Create a new feedback activity.</h3>
 
+* Enble Edit Mode [5].
 * Go to the course where you want to create the feedback activity.
-* Click on the Add an activity or resource button.
-* Select Feedback from the list of activities.
+* Click on the Add an activity or resource button [6].
+* Select Feedback from the list of activities [7].
+
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/46-add%20feedback.png?raw=true" style="max-width: 100%;width: 60%;">
+
 * Give the feedback activity a name and description.
 * Select the Question and Submission settings you want.
 * Click on the Save and display button.
