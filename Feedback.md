@@ -19,16 +19,21 @@
 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/46-add%20feedback.png?raw=true" style="max-width: 100%;width: 60%;">
 
-* Give the feedback activity a name and description.
+* Give the feedback activity a name and description [8].
 * Select the Question and Submission settings you want.
-* Click on the Save and display button.
+* Click on the Save and display button [9].
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/47-add%20feedback%20form.png?raw=true" style="max-width: 100%;width: 60%;">
 
 <h3>3. Add questions to the feedback activity.</h3>
 
-* Click on the Edit questions tab.
-* Click on the Add question drop-down menu.
+* Click on the Edit questions tab [10].
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/49%20-%20Edit%20Question.png?raw=true" style="max-width: 100%;width: 60%;">
+
+* Click on the Add question drop-down menu [11].
 * Select the type of question you want to add.
 * Enter the question text and answer options.
+
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/48%20-%20multiple%20answer-2.png?raw=true" style="max-width: 100%;width: 60%;">  
 * Click on the Save button.
   
 <h3>4. Set up the feedback submission settings.</h3>
