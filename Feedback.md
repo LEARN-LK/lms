@@ -60,6 +60,8 @@
 
 <h3>7. Teachers can view student feedback submissions.</h3>
 
-* Teachers can view student feedback submissions by clicking on the Submissions tab in the feedback activity.
+* Teachers can view student feedback submissions by clicking on the Response tab in the feedback activity [12].
 * They can read the student feedback and leave comments.
 * They can grade the feedback submissions if they have enabled grading.
+
+    <img src="https://github.com/LEARN-LK/lms/blob/master/img/52-teacher%20view%20feedback.png?raw=true" style="max-width: 100%;width: 60%;"> 
