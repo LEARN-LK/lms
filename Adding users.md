@@ -68,7 +68,8 @@ Follow the these steps :
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/15%20bulk.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
 
 * Click the Choose a file button and select the CSV file containing your user data.
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/16cvs.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/16-nCVS.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+
 
 * Click the Upload users button.
 * On the Upload user preview page, review the user data and make any necessary changes.
