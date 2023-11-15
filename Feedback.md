@@ -27,7 +27,8 @@
 <h3>3. Add questions to the feedback activity.</h3>
 
 * Click on the Edit questions tab [10].
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/49%20-%20Edit%20Question.png?raw=true" style="max-width: 100%;width: 60%;">
+
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/49%20-%20Edit%20Question.png?raw=true" style="max-width: 100%;width: 60%;">
 
 * Click on the Add question drop-down menu [11].
 * Select the type of question you want to add.
