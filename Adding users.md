@@ -21,10 +21,10 @@ Everyone using your site is required to have an account. You may allow people to
 
 4. Configure the following settings:
 
-Allowed email domains: Optionally, you can restrict self-registration to specific email domains.
-Email confirmation message: This is the email that will be sent to users to confirm their registration.
-Resending the confirmation email: This setting allows users to request a new confirmation email if they do not receive the original one.
-Support contact: This is the email address that users can contact if they have problems with self-registration.
+* Allowed email domains: Optionally, you can restrict self-registration to specific email domains.
+* Email confirmation message: This is the email that will be sent to users to confirm their registration.
+* Resending the confirmation email: This setting allows users to request a new confirmation email if they do not receive the original one.
+* Support contact: This is the email address that users can contact if they have problems with self-registration.
 
 5. Click the Save changes button.
 
