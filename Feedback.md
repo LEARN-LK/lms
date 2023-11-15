@@ -37,38 +37,28 @@
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/48%20-%20multiple%20answer-2.png?raw=true" style="max-width: 100%;width: 60%;">  
 * Click on the Save button.
   
-<h3>4. Set up the feedback submission settings.</h3>
-
-* Click on the Submission settings tab.
-* Select the Submission type you want.
-* Select the Due date for the feedback submission.
-* Select the Grading options you want.
-* Click on the Save button.
-  
-<h3>5. Set up the feedback display settings.</h3>
-
-* Click on the After submission tab.
-* Select the Feedback type you want to display to students.
-* Select the Feedback options you want.
-* Click on the Save button.
-  
-<h3>6. Preview the feedback activity.</h3>
+<h3>4. Preview the feedback activity.</h3>
 
 * Click on the Preview button.
 * Test the feedback activity to make sure it is working correctly.
 
-<h3>7. Save the feedback activity.</h3>
+<h3>5. Save the feedback activity.</h3>
 
 * Click on the Save and display button.
 
-<h3>8. Students can now access the feedback activity and submit their feedback.</h3>
+<h3>6. Students can now access the feedback activity and submit their feedback.</h3>
 
 * Students will see the feedback activity on the course page.
 * They can click on the feedback activity to open it.
+
+   <img src="https://github.com/LEARN-LK/lms/blob/master/img/50-student%20feedback.png?raw=true" style="max-width: 100%;width: 60%;"> 
+ 
 * They can read the questions and enter their answers.
 * They can submit their feedback when they are finished.
-  
-<h3>9. Teachers can view student feedback submissions.</h3>
+
+   <img src="https://github.com/LEARN-LK/lms/blob/master/img/51-student%20feedback%20answer.png?raw=true" style="max-width: 100%;width: 60%;"> 
+
+<h3>7. Teachers can view student feedback submissions.</h3>
 
 * Teachers can view student feedback submissions by clicking on the Submissions tab in the feedback activity.
 * They can read the student feedback and leave comments.
