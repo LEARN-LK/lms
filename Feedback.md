@@ -42,6 +42,7 @@
 * Test the feedback activity to make sure it is working correctly.
 
 <h3>7. Save the feedback activity.</h3>
+
 * Click on the Save and display button.
 
 <h3>8. Students can now access the feedback activity and submit their feedback.</h3>
