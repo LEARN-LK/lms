@@ -37,7 +37,7 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * [Creating and managing forums](https://github.com/LEARN-LK/lms/blob/master/Forum%20activity.md)
    * Scheduling activities
    * SCORM
-   * Feedback
+   * [Feedback](https://github.com/LEARN-LK/lms/blob/master/Feedback.md)
    * Surveys
    * Attendance/reports
    * Grading
