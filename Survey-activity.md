@@ -17,7 +17,19 @@ The Survey activity provides a collection of validated survey instruments, such 
 
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/53-%20survey%20interface.png?raw=true" style="max-width: 100%;width: 60%;"> 
 
-  <h3>Student View</h3>
+<h3>Student View</h3>
 
-Students can easily access the Survey by clicking on the Survey icon within their course. Once inside, students can breeze through the survey questions by simply selecting the corresponding radio button next to each statement. After finishing the survey, students can get a sense of how their responses stack up against the average responses of their classmates, giving them a valuable peek into their understanding of the course material.
-  
+Students can easily access the Survey by clicking on the Survey icon within their course [1]. 
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/54-student%20view%20survey%20activity.png?raw=true" style="max-width: 100%;width: 60%;"> 
+
+Once inside, students can breeze through the survey questions by simply selecting the corresponding radio button next to each statement [2]. After finishing the survey [3,4], students can get a sense of how their responses stack up against the average responses of their classmates, giving them a valuable peek into their understanding of the course material [5].
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/55-student%20view.png?raw=true" style="max-width: 100%;width: 60%;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/56-submit%20survey.png?raw=true" style="max-width: 100%;width: 60%;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/57%20-%20student%20view%20survey%20chart.png?raw=true
+" style="max-width: 100%;width: 60%;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/57%20-%20student%20view%20survey%20chart.png?raw=true" style="max-width: 100%;width: 60%;">
+
+
+ 
+ 
+ 
