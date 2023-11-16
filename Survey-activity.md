@@ -29,6 +29,10 @@ Once inside, students can breeze through the survey questions by simply selectin
 " style="max-width: 100%;width: 60%;">
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/57%20-%20student%20view%20survey%20chart.png?raw=true" style="max-width: 100%;width: 60%;">
 
+<h3>Teacher view</h3>
+Teachers can access survey results by clicking on the Survey icon and selecting either the 'View ... survey responses' link or the 'Response reports' option from the gear icon Action menu. This will open a page with a variety of tabs providing different data about the survey responses. 
+
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/58-survy%20view%20teachers.png?raw=true" style="max-width: 100%;width: 60%;">
 
  
  
