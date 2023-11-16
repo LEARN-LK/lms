@@ -14,3 +14,6 @@ The Survey activity provides a collection of validated survey instruments, such 
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/52-Survey.png?raw=true" style="max-width: 100%;width: 60%;"> 
 * Give the step survey activity a name and description.
 * Click on the Save and display button.
+
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/53-%20survey%20interface.png?raw=true" style="max-width: 100%;width: 60%;"> 
+  
