@@ -16,4 +16,8 @@ The Survey activity provides a collection of validated survey instruments, such 
 * Click on the Save and display button.
 
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/53-%20survey%20interface.png?raw=true" style="max-width: 100%;width: 60%;"> 
+
+  <h3>Student View</h3>
+
+Students can easily access the Survey by clicking on the Survey icon within their course. Once inside, students can breeze through the survey questions by simply selecting the corresponding radio button next to each statement. After finishing the survey, students can get a sense of how their responses stack up against the average responses of their classmates, giving them a valuable peek into their understanding of the course material.
   
