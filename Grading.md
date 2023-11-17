@@ -22,4 +22,8 @@ To access the grading page for a specific student, select the 'Edit' option and 
 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/61-Edit%20Grade.png?raw=true" style="max-width: 100%;width: 60%;">
 
+On the following page, you can enter a grade [5], provide feedback [6], and choose whether to notify the student. Once completed, click "Save". The "Save and Show Next" [7] button will save the grade for the current student and proceed to the next student's grading page.
+
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/62-entergrade.png?raw=true" style="max-width: 100%;width: 60%;">
+
 
