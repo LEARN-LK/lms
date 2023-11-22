@@ -23,6 +23,12 @@ The Scheduler module is a handy tool that helps teachers efficiently schedule on
 * Effective Assessment: Gather valuable insights into student progress and understanding through appointment interactions.
 
 <h3>Creating a basic scheduler</h3>
+
 * Go to the Course Section
 * Click the "Turn editing on" button.
+* Click the link "Add an activity or resource."
+* In the box that appears, choose "Scheduler" and click the "Add" button.
+
+  <img width="450" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/74-add%20scheduler%20.png?raw=true">
+  
 
