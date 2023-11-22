@@ -1,9 +1,11 @@
 <h1>Scheduling-activities</h1>
+
 `Note : You must have teacher access to a Moodle course.Teachers and students must be enrolled in the course.The Moodle scheduler must be installed,`
 
 <h3>Steps to Install Scheduler Plugin:`</h3>
+
 * Download the Scheduler Plugin:Visit the Moodle Plugins Directory and search for the Scheduler plugin.
-* Download the appropriate version of the Scheduler plugin that is compatible with your Moodle version.
+* Select appropriate version of the Scheduler plugin that is compatible with your Moodle version Then Click on the install now button.
 * Extract the Plugin:
 * Extract the contents of the downloaded zip file.
 Copy to the Mod Directory:
