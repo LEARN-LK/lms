@@ -1,4 +1,14 @@
 <h1>Scheduling-activities</h1>
+
+You must have teacher access to a Moodle course.
+Teachers and students must be enrolled in the course.
+The Moodle scheduler must be installed, 
+
+
+
+
+
+
 <h3>The Scheduler Module: Streamlined Appointment Scheduling for One-on-One Interactions</h3>
 The Scheduler module is a handy tool that helps teachers efficiently schedule one-on-one appointments with their students. With this module, teachers can easily define their availability, set appointment lengths, and allow students to book appointments directly. It also allows teachers to record attendance and provide feedback or grades.
 
