@@ -1,6 +1,9 @@
 <h1>Scheduling-activities</h1>
 
-`Note : You must have teacher access to a Moodle course.Teachers and students must be enrolled in the course.The Moodle scheduler must be installed,`
+Note : 
+* You must have teacher access to a Moodle course.
+* Teachers and students must be enrolled in the course.
+* [The Moodle scheduler must be installed,](https://github.com/LEARN-LK/lms/blob/master/Scheduling-activities-plugin.md)
 
 <h3>Steps to Install Scheduler Plugin:`</h3>
 
