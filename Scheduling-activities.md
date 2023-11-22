@@ -1,8 +1,5 @@
 <h1>Scheduling-activities</h1>
-`Note : 
-* You must have teacher access to a Moodle course.
-* Teachers and students must be enrolled in the course.
-* The Moodle scheduler must be installed,`
+`Note : You must have teacher access to a Moodle course.Teachers and students must be enrolled in the course.The Moodle scheduler must be installed,`
 
 <h3>Steps to Install Scheduler Plugin:`</h3>
 * Download the Scheduler Plugin:Visit the Moodle Plugins Directory and search for the Scheduler plugin.
