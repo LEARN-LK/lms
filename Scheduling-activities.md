@@ -25,28 +25,9 @@ Configure Scheduler:
  
 * After the installation is complete, go to Site administration > Plugins > Activity modules > Scheduler to configure the Scheduler settings according to your preferences.
 
-
-
-* Extract the Plugin:
-* Extract the contents of the downloaded zip file.
-Copy to the Mod Directory:
-
-Copy the extracted Scheduler plugin folder to the mod directory within your Moodle installation. The typical path is /path/to/your/moodle/mod.
-Ensure Correct Permissions:
-
-Ensure that the directory where you copied the Scheduler plugin has the correct permissions. The web server user should have write access to this directory.
-Visit Moodle Admin Interface:
-
-Log in to your Moodle site as an administrator.
-Navigate to Site administration > Notifications. Moodle will detect the new plugin, and you should see a message about installing the Scheduler plugin.
-Install the Plugin:
-
-Click on the "Upgrade Moodle database now" button or follow the on-screen instructions to install the Scheduler plugin.
-Configure Scheduler:
-
-After the installation is complete, go to Site administration > Plugins > Activity modules > Scheduler to configure the Scheduler settings according to your preferences.
-
-
+`Ensure that you have to correct permissions to install Scheduler plugin. The web server user should have write access to this directory.
+if not ,follow the follwing code in terminal.` 
+`sudo chmod 777 /var/www/html/moodle/mod`
 
 <h3>The Scheduler Module: Streamlined Appointment Scheduling for One-on-One Interactions</h3>
 The Scheduler module is a handy tool that helps teachers efficiently schedule one-on-one appointments with their students. With this module, teachers can easily define their availability, set appointment lengths, and allow students to book appointments directly. It also allows teachers to record attendance and provide feedback or grades.
