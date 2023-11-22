@@ -29,6 +29,6 @@ The Scheduler module is a handy tool that helps teachers efficiently schedule on
 * Click the link "Add an activity or resource."
 * In the box that appears, choose "Scheduler" and click the "Add" button.
 
-  <img width="450" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/74-add%20scheduler%20.png?raw=true">
+  <img width="600" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/74-add%20scheduler%20.png?raw=true">
   
 
