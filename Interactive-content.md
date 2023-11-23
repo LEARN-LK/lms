@@ -16,5 +16,10 @@ Interactive content in Moodle refers to any content that allows learners to enga
   
 * Custom development: Experienced Moodle developers can create custom interactive content types.
 
-<h2>[Install the H5P plugin](https://github.com/LEARN-LK/lms/blob/master/Install-H5P-plugin.md)</h2>
-<h2>Create an H5P activity</h2>
+<h1>01 - Install the H5P plugin</h1>
+
+[Install the H5P plugin](https://github.com/LEARN-LK/lms/blob/master/Install-H5P-plugin.md)
+
+<h1>02 - Create an H5P activity</h1>
+
+[Create an H5P activity](https://github.com/LEARN-LK/lms/edit/master/Create-H5P-activity.md)
