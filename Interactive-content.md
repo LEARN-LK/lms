@@ -22,4 +22,4 @@ Interactive content in Moodle refers to any content that allows learners to enga
 
 <h1>02 - Create an H5P activity</h1>
 
-[Create an H5P activity](https://github.com/LEARN-LK/lms/edit/master/Create-H5P-activity.md)
+[Create an H5P activity](https://github.com/LEARN-LK/lms/blob/master/Create-H5P-activity.md)
