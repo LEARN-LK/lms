@@ -24,22 +24,25 @@ The Scheduler module is a handy tool that helps teachers efficiently schedule on
 
 <h3>Creating a basic scheduler</h3>
 
-* Go to the Course Section
-* Click the "Turn editing on" button.
+* Go to the Course Section.
+* Click the "Turn editing on" button [1].
 * Click the link "Add an activity or resource."
-* In the box that appears, choose "Scheduler" and click the "Add" button.
-
-  <img width="600" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/74-add%20scheduler%20.png?raw=true">
-
+* In the box that appears, choose "Scheduler" and click the "Add" button[2].
+<img width="600" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/74-add%20scheduler%20.png?raw=true">
 * A web page will appear called "Adding a new Scheduler." Type in the name of the scheduler, which can be changed later.
 * Scroll to the bottom of the webpage and click the "Save and display" button.
-* A webpage will appear with the name of your scheduler at the top. Click the "Add slots" link.
-Scheduler slots01.png
-* A drop-down menu will appear that allows you to add repeated slots or a single slot. Click the link to add repeated slots.
+* A webpage will appear with the name of your scheduler at the top. Click the "Add slots" link [3].
+   <img width="600" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/75-add%20slot.png?raw=true">
+* A drop-down menu will appear that allows you to add repeated slots or a single slot. Click the link to add repeated slots[4].
+  <img width="600" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/76-add%20repeat.png">  
 * Options will appear to add time slots. For this lesson, the slots you add can be real or fictitious, for practice. All time slots must occur in the future, and the start time must be before the end time. The simplest option is to:
 * Click the "Start time" menu and choose a time that is one hour from now.
 * Click the "End time" menu and choose a time that is one hour after the start time.
 * Scroll to the bottom of the webpage and click "Save changes."
-* After these steps, a basic scheduler will appear. To learn more, view the scheduler as a student or explore the options below.
+
+ <img width="600" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/77-scheduler.png?raw=true ">
+  
+
+* After these steps, a basic scheduler will appear. 
   
 
