@@ -23,7 +23,7 @@ Once logged in, you will see your dashboard displaying enrolled courses, upcomin
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/101-Dashborad.png?raw=true" style="max-width:100%;width: 60%;"> 
 
 <h3>Navigating Courses</h3>
-Click on a course title to access the course.
+Click on a Mycourse  to access the course.
 Explore different sections, such as "Announcements," "Resources," and "Activities."
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/102-myCourse.png?raw=true" style="max-width:100%;width: 60%;"> 
 
@@ -31,22 +31,7 @@ Explore different sections, such as "Announcements," "Resources," and "Activitie
 Enrolling in Courses
 If not automatically enrolled:
 
-Check for a course enrollment key from your instructor.
-Click on "Enroll me in this course" and enter the key.
-Accessing Course Materials
-Navigate to the "Resources" or "Course Materials" section.
-Click on links to access files, documents, or external resources.
-Uploading and Downloading Files
-To upload an assignment, navigate to the "Assignments" section.
-Click on the assignment link, and follow the instructions to upload your file.
-To download files, click on the file link, and choose the download option.
-Participating in Forums
-Access the "Forums" section of your course.
-Click on a forum topic to read or contribute to discussions.
-Submitting Assignments
-Navigate to the "Assignments" section.
-Click on the assignment title.
-Follow the instructions to submit your assignment.
+
 4. Communication Tools
 Messaging within Moodle
 Access the "Messages" or "Inbox" section.
@@ -57,7 +42,8 @@ Click on a forum topic to read or reply to discussions.
 Using the Chat Feature
 Check if your course has a live chat feature.
 Join the chat during scheduled times for real-time communication.
-5. Assessment and Grading
+
+6. Assessment and Grading
 Understanding Quizzes and Exams
 Navigate to the "Quizzes" or "Exams" section.
 Click on a quiz title to begin the assessment.
@@ -67,28 +53,32 @@ Review your grades and feedback provided by instructors.
 Receiving Feedback on Assignments
 Go to the "Assignments" or "Feedback" section.
 Click on the assignment to view feedback from instructors.
-6. Collaborative Tools
+
+8. Collaborative Tools
 Group Activities and Assignments
 If applicable, join or create a group in the "Groups" section.
 Collaborate on group activities and assignments.
 Wiki Pages and Collaborative Documents
 Explore the "Wiki" or "Collaborative Documents" section.
 Contribute to and edit shared documents.
-7. Personalization and Preferences
+
+10. Personalization and Preferences
 Customizing Your Profile
 Click on your profile picture or name.
 Update your profile information, including a profile picture.
 Setting Preferences for Notifications
 Access the "Notification Preferences" or "Settings" section.
 Choose your preferred notification settings for emails, forum posts, etc.
-8. Troubleshooting and FAQs
+
+12. Troubleshooting and FAQs
 Common Issues and Solutions
 Check the "Help" or "FAQ" section for common issues.
 Contact technical support for assistance.
 Contacting Support
 Find the "Support" or "Helpdesk" section.
 Follow the provided instructions to contact support.
-9. Mobile Access
+
+14. Mobile Access
 Accessing Moodle on Mobile Devices
 Download the Moodle Mobile app from your device's app store.
 Log in using your Moodle credentials.
@@ -96,7 +86,7 @@ Access your courses and materials on the go.
 Mobile App Features
 Explore additional features available in the Moodle Mobile app, such as offline access and notifications.
 
-10. Best Practices for Online Learning
+15. Best Practices for Online Learning
 Time Management Tips
 Create a schedule for studying and completing assignments.
 Set realistic goals for each study session.
@@ -106,14 +96,14 @@ Use clear and concise language in written communication.
 Utilizing Resources Available in Moodle
 Explore and use additional resources, such as tutorials, forums, and external links provided in your courses.
 
-11. Privacy and Security
+16. Privacy and Security
 Protecting Your Account
 Use a strong password for your Moodle account.
 Log out when using public computers.
 Understanding Privacy Settings
 Review and adjust privacy settings in your profile.
 Be aware of who can view your profile information.
-12. Additional Resources
+17. Additional Resources
 Links to Moodle Documentation
 Provide links to official Moodle documentation for additional help and guidance.
 
