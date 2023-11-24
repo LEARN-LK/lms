@@ -31,4 +31,7 @@ Locate the section where you want to add the attendance activity and click on th
 * Take Attendance: When it's time to take attendance, click on the session, and mark each student's attendance status.
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/98-attendence.png?raw=true" style="max-width: 100%;width: 60%;">
 View Reports:
+
 * Moodle often provides reports and summaries of attendance data. Explore the reporting options to get insights into attendance trends.
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/99-attendance.png?raw=true" style="max-width: 100%;width: 60%;">
+  
