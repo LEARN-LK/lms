@@ -21,18 +21,14 @@ Locate the section where you want to add the attendance activity and click on th
 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/96-Attendance-activity.png" style="max-width: 100%;width: 60%;">
 
-Configure Attendance Settings:
+<h3>Configure Attendance Settings:</h3>
 
-Fill in the necessary details for your attendance activity. This may include setting up the session duration, attendance methods, and other options.
-Save and Display:
+* Fill in the necessary details for your attendance activity. This may include setting up the session duration, attendance methods, and other options [4].
+* Save and Display:After configuring the attendance settings, click the "Save and display" button to view the attendance activity [5].
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/97-attendence.png?raw=true" style="max-width: 100%;width: 60%;">
 
-After configuring the attendance settings, click the "Save and display" button to view the attendance activity.
-Manage Sessions:
-
-Once inside the attendance activity, you can manage sessions. Sessions are the individual meetings or class periods for which you want to track attendance.
-Take Attendance:
-
-When it's time to take attendance, click on the session, and mark each student's attendance status.
+<h3>Manage Sessions:</h3>
+* Once inside the attendance activity, you can manage sessions. Sessions are the individual meetings or class periods for which you want to track attendance.
+* Take Attendance: When it's time to take attendance, click on the session, and mark each student's attendance status.
 View Reports:
-
-Moodle often provides reports and summaries of attendance data. Explore the reporting options to get insights into attendance trends.
+* Moodle often provides reports and summaries of attendance data. Explore the reporting options to get insights into attendance trends.
