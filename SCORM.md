@@ -18,17 +18,17 @@ In the section of the course where you want to add the SCORM activity, click on 
 
 * Step 5: Choose SCORM Package
 From the activity chooser, select "SCORM Package" and click the "Add" button.
+<img width="681" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/104-SCORM.png?raw=true">
 
 * Step 6: Configure SCORM Activity
-Name and Description: Give your SCORM activity a name and provide a description if needed.
-Package: Upload or link to your SCORM package. This is typically a ZIP file containing the SCORM content.
-Display package: Choose how you want the package to be displayed. You can either choose to have it displayed in a new window or embedded in the current window.
-Choose when to show the activity: Decide when the SCORM activity will be available to students. You can set specific dates and times.
-Grade: Decide if the SCORM activity will be graded and set the grading options if necessary.
+
+Name and Description: Give your SCORM activity a name and provide a description if needed.Package: Upload or link to your SCORM package. This is typically a ZIP file containing the SCORM content.Display package: Choose how you want the package to be displayed. You can either choose to have it displayed in a new window or embedded in the current window.Choose when to show the activity: Decide when the SCORM activity will be available to students. You can set specific dates and times.Grade: Decide if the SCORM activity will be graded and set the grading options if necessary.
 
 * Step 7: Save and Display
 
 Once you have configured the SCORM activity, click the "Save and display" button. This will save your settings and take you to the page where you can view the SCORM content.
+
+<img width="681" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/105-SCORM.png?raw=true">
 
 * Step 8: Test the SCORM Activity
 
