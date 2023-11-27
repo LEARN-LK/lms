@@ -84,7 +84,7 @@ Once inside, students can breeze through the survey questions by simply selectin
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/57%20-%20student%20view%20survey%20chart.png?raw=true
 " style="max-width: 100%;width: 60%;">
 
-10. Personalization and Preferences
+<h3>Personalization and Preferences</h3>
 * Customizing Your Profile
 * Click on your profile picture or name.
   
