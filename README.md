@@ -28,18 +28,18 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
  
 01. Moodle Admin Guide
     * Create courses [(Create category,Create courses ,Delete courses)](https://github.com/LEARN-LK/lms/blob/master/add.md#-adding-a-course-category-)
-    * Add users [Authentication methods,enrolling](https://github.com/LEARN-LK/lms/blob/master/Adding%20users.md#adding-users-)
+    * Add users [Authentication methods,Enrolling](https://github.com/LEARN-LK/lms/blob/master/Adding%20users.md#adding-users-)
      
 3. Teachers Guide
-   * [Adding contents/assignments](https://github.com/LEARN-LK/lms/blob/master/Assignment-activity.md)
+   * [Adding contents/Assignments](https://github.com/LEARN-LK/lms/blob/master/Assignment-activity.md)
    * [Quizzes, Questionnaires](https://github.com/LEARN-LK/lms/blob/master/Quizzes&Questionnaires.md)
    * [Interactive content](https://github.com/LEARN-LK/lms/blob/master/Interactive-content.md)
-   * [Creating and managing forums](https://github.com/LEARN-LK/lms/blob/master/Forum%20activity.md)
+   * [Creating and Managing forums](https://github.com/LEARN-LK/lms/blob/master/Forum%20activity.md)
    * [Scheduling activities](https://github.com/LEARN-LK/lms/blob/master/Scheduling-activities.md)
    * [SCORM](https://github.com/LEARN-LK/lms/blob/master/SCORM.md)
    * [Feedback](https://github.com/LEARN-LK/lms/blob/master/Feedback.md)
    * [Surveys](https://github.com/LEARN-LK/lms/blob/master/Survey-activity.md)
-   * [Attendance/reports](https://github.com/LEARN-LK/lms/blob/master/Attendance-activity.md)
+   * [Attendance/Reports](https://github.com/LEARN-LK/lms/blob/master/Attendance-activity.md)
    * [Grading](https://github.com/LEARN-LK/lms/blob/master/Grading.md)
      
 5.  [Students Guide](https://github.com/LEARN-LK/lms/blob/master/Student-Guide.md)
