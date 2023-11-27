@@ -83,16 +83,19 @@ Once inside, students can breeze through the survey questions by simply selectin
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/56-submit%20survey.png?raw=true" style="max-width: 100%;width: 60%;">
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/57%20-%20student%20view%20survey%20chart.png?raw=true
 " style="max-width: 100%;width: 60%;">
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/57%20-%20student%20view%20survey%20chart.png?raw=true" style="max-width: 100%;width: 60%;">
-
-
-
 
 10. Personalization and Preferences
-Customizing Your Profile
-Click on your profile picture or name.
-Update your profile information, including a profile picture.
-Setting Preferences for Notifications
-Access the "Notification Preferences" or "Settings" section.
-Choose your preferred notification settings for emails, forum posts, etc.
+* Customizing Your Profile
+* Click on your profile picture or name.
+  
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/100-profile.png?raw=true" style="max-width: 100%;width: 60%;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/101-profile.png?raw=true" style="max-width: 100%;width: 60%;">
+
+* Update your profile information, including a profile picture.
+* Setting Preferences for Notifications
+* Access the "Notification Preferences" or "Settings" section.
+* Choose your preferred notification settings for emails, forum posts, etc.
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/103-profile.png?raw=true" style="max-width: 100%;width: 60%;">
+ 
+ 
 
