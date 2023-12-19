@@ -8,7 +8,21 @@ Users have the flexibility to create personalized rooms for hosting sessions or 
 
 Furthermore, teachers affiliated with LEARN member institutions enjoy complimentary access to the platform, inclusive of free data usage. While the service operates without a formal Service Level Agreement (SLA), LEARN engineering commits to delivering the best possible service through diligent efforts. This ensures a high-quality educational experience for both educators and students within the vCR ecosystem.
 
-<h2> </h2>
+<h2> 01 How to start VCR </h2>
+
+<h3>login to vCR.learn.ac.lk </h3>
+You can log in to VRC in two ways: once using institutional credentials and the other using eduid.
+
+<h4>Log in to VCR using EDUID</h4>
+<h5>About eduid</h5>
+
+LEARN eduID is to provide students and staff members with lifelong learning, research, and collaboration with a number of research institutions and companies. eduID is easier because you only have to remember one username and password to access many services around the world. It is also safer for the Universities because it is connected to a real individual.
+
+<h5>Step</h5>
+
+* To log in using EDUID, you need to visit the following URL https://idp.eduid.lk/idp/profile/SAML2/POST/SSO?execution=e1s1 .
+* select the dropdown menu and choose "equID Sri Lanka." Afterward, click the "Continue" button.
+* You will be redirected to the login page. Enter your EDUID username and password, and then you will gain access to Learn VCR.
 
 
 
