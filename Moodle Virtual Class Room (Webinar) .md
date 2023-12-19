@@ -11,21 +11,21 @@ Furthermore, teachers affiliated with LEARN member institutions enjoy compliment
 <h2> 01 - How to start VCR </h2>
 
 <h3>login to vCR.learn.ac.lk </h3>
-You can log in to VRC in two ways: one using institutional credentials and the other using EDUID. Please note that the VCR service is exclusively available for EDUID staff members."
+You can log in to VRC in two ways: one using institutional credentials and the other using EDUID. 
 
-<h4>1.1 -Log in to VCR using EDUID</h4>
-<h5>About eduid</h5>
+ `Note : VCR service is exclusively available for EDUID staff members.` 
 
-LEARN eduID is to provide students and staff members with lifelong learning, research, and collaboration with a number of research institutions and companies. eduID is easier because you only have to remember one username and password to access many services around the world. It is also safer for the Universities because it is connected to a real individual.
+<h4>1.1 -Log in to VCR using EDUID/Institutional credentials</h4>
 
 <h5>Step</h5>
 
-* To log in using EDUID, you need to visit the following URL https://idp.eduid.lk/idp/profile/SAML2/POST/SSO?execution=e1s1 .
-* select the dropdown menu and choose "equID Sri Lanka." Afterward, click the "Continue" button.
+* To log in using EDUID/Institutional credentials you need to visit the following URL https://idp.eduid.lk/idp/profile/SAML2/POST/SSO?execution=e1s1 .
+* Select the dropdown menu and choose 'equID Sri Lanka.' Afterward, click the 'Continue' button. If you have institutional credentials, you should choose your institute from the dropdown menu.
 
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/106-eduid.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
-* You will be redirected to the login page. Enter your EDUID username and password,
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/107-login.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+* You will be redirected to the login page. Enter your EDUID username and password. If you have institutional credentials, enter those credentials instead.
+
+   <img src="https://github.com/LEARN-LK/lms/blob/master/img/107-login.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
 * Then you will gain access to Learn VCR.
   
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/108-vcrDashboard.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
