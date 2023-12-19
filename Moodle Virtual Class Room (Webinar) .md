@@ -17,7 +17,7 @@ You can log in to VRC in two ways: one using institutional credentials and the o
 
 <h4>1.1 -Log in to VCR using EDUID/Institutional credentials</h4>
 
-<h5>Step</h5>
+<h5>Step :</h5>
 
 * To log in using EDUID/Institutional credentials you need to visit the following URL https://idp.eduid.lk/idp/profile/SAML2/POST/SSO?execution=e1s1 .
 * Select the dropdown menu and choose 'equID Sri Lanka.' Afterward, click the 'Continue' button. If you have institutional credentials, you should choose your institute from the dropdown menu.
