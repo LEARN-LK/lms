@@ -13,7 +13,7 @@ Furthermore, teachers affiliated with LEARN member institutions enjoy compliment
 <h3>login to vCR.learn.ac.lk </h3>
 You can log in to VRC in two ways: once using institutional credentials and the other using eduid.
 
-<h4>Log in to VCR using EDUID</h4>
+<h4>1.1 -Log in to VCR using EDUID</h4>
 <h5>About eduid</h5>
 
 LEARN eduID is to provide students and staff members with lifelong learning, research, and collaboration with a number of research institutions and companies. eduID is easier because you only have to remember one username and password to access many services around the world. It is also safer for the Universities because it is connected to a real individual.
@@ -23,6 +23,9 @@ LEARN eduID is to provide students and staff members with lifelong learning, res
 * To log in using EDUID, you need to visit the following URL https://idp.eduid.lk/idp/profile/SAML2/POST/SSO?execution=e1s1 .
 * select the dropdown menu and choose "equID Sri Lanka." Afterward, click the "Continue" button.
 * You will be redirected to the login page. Enter your EDUID username and password, and then you will gain access to Learn VCR.
+
+<h4>1.2 </h4>
+
 
 
 
