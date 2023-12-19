@@ -31,8 +31,8 @@ You can log in to VRC in two ways: one using institutional credentials and the o
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/108-vcrDashboard.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
  
   
-
-<h4>1.2 </h4>
+<h4>1.2 Create VCR Classroom</h4>
+To create the VCR classroom, refer to the following user guideline link:https://vcr.learn.ac.lk/userguide/"
 
 
 
