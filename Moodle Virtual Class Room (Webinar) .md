@@ -36,6 +36,7 @@ To create the VCR classroom, refer to the following user guideline link:https://
 
 <h4>1.3 add VCR as a URL activity to Moodle course</h4>
 <h5>Step :</h5>
+* after creating VCR Class room Copy it & Then
 
 
 
