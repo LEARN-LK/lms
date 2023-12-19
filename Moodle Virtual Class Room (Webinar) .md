@@ -8,7 +8,7 @@ Users have the flexibility to create personalized rooms for hosting sessions or 
 
 Furthermore, teachers affiliated with LEARN member institutions enjoy complimentary access to the platform, inclusive of free data usage. While the service operates without a formal Service Level Agreement (SLA), LEARN engineering commits to delivering the best possible service through diligent efforts. This ensures a high-quality educational experience for both educators and students within the vCR ecosystem.
 
-<h2> 01 How to start VCR </h2>
+<h2> 01 - How to start VCR </h2>
 
 <h3>login to vCR.learn.ac.lk </h3>
 You can log in to VRC in two ways: once using institutional credentials and the other using eduid.
