@@ -34,6 +34,9 @@ You can log in to VRC in two ways: one using institutional credentials and the o
 <h4>1.2 Create VCR Classroom</h4>
 To create the VCR classroom, refer to the following user guideline link:https://vcr.learn.ac.lk/userguide/"
 
+<h4>1.3 add VCR as a URL activity to Moodle course</h4>
+<h5>Step :</h5>
+
 
 
 
