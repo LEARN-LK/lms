@@ -22,7 +22,12 @@ LEARN eduID is to provide students and staff members with lifelong learning, res
 
 * To log in using EDUID, you need to visit the following URL https://idp.eduid.lk/idp/profile/SAML2/POST/SSO?execution=e1s1 .
 * select the dropdown menu and choose "equID Sri Lanka." Afterward, click the "Continue" button.
-* You will be redirected to the login page. Enter your EDUID username and password, and then you will gain access to Learn VCR.
+
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/106-eduid.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+* You will be redirected to the login page. Enter your EDUID username and password,
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/107-login.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+* Then you will gain access to Learn VCR.
+  
 
 <h4>1.2 </h4>
 
