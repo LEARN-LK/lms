@@ -13,7 +13,7 @@ Furthermore, teachers affiliated with LEARN member institutions enjoy compliment
 <h3>login to vCR.learn.ac.lk </h3>
 You can log in to VRC in two ways: one using institutional credentials and the other using EDUID. 
 
- `Note : VCR service is exclusively available for EDUID staff members.` 
+ `Note: The VCR service is exclusively available for EDUID staff members. If you don't have an EDUID account, please refer to the following link: https://eduid.lk/` 
 
 <h4>1.1 -Log in to VCR using EDUID/Institutional credentials</h4>
 
