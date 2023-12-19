@@ -28,6 +28,9 @@ LEARN eduID is to provide students and staff members with lifelong learning, res
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/107-login.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
 * Then you will gain access to Learn VCR.
   
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/108-vcrDashboard.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+ 
+  
 
 <h4>1.2 </h4>
 
