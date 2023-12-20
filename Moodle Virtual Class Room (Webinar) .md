@@ -38,16 +38,26 @@ To create the VCR classroom, refer to the following user guideline link:https://
 <h5>Step :</h5>
 
 * after creating VCR Class room Copy URL:
+
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/111-vcr-link.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
 * Log in to your Moodle site as a teacher or administrator.
 * Navigate to the course where you want to add the URL activity.
 * Click on the "Turn editing on" button to enable editing mode.
+
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/110-url-1.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
 * Click on the "Add an activity or resource" button.
+
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/111-url-2.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
 * Scroll down or use the search bar to find the "URL" activity module.
+
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/112-url-3.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
 * Click on the "Add" button next to the URL activity.
 * Fill in the Activity Details:
   - Activity name: Provide a descriptive name for the activity, so students understand its purpose.
   - External URL: Paste the full URL of the external website or resource you want to link to.
   - Description (optional): Add a brief description of the activity or the content of the linked resource.
+
+     <img src="https://github.com/LEARN-LK/lms/blob/master/img/113-url-4.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
 
 
 
