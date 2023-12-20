@@ -1,5 +1,9 @@
 <h1>Enable Safe Exam Browser</h1>
 
+<h2>Introduction</h2>
+Safe Exam Browser is a web browser environment to carry out e-assessments safely. The software turns any computer temporarily into a secure workstation. It controls access to resources like system functions, other websites and applications and prevents unauthorized resources being used during an exam.
+
+
 1. Install the Safe Exam Browser Plugin:
 
 Navigate to Site Administration > Plugins > Install Plugins.
