@@ -60,7 +60,7 @@ To create the VCR classroom, refer to the following user guideline link:https://
      <img src="https://github.com/LEARN-LK/lms/blob/master/img/113-url-4.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
 
 <h2>Student Access:</h2>
-* Students will now see the URL activity within the course page.
+* Students will now see the URL activity (VCR) within the course page.
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/107-stud-vcr.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/108-stud-vcr2.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
 
