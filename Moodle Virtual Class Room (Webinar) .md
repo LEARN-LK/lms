@@ -29,14 +29,25 @@ You can log in to VRC in two ways: one using institutional credentials and the o
 * Then you will gain access to Learn VCR.
   
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/108-vcrDashboard.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
- 
-  
+   
 <h4>1.2 Create VCR Classroom</h4>
 To create the VCR classroom, refer to the following user guideline link:https://vcr.learn.ac.lk/userguide/"
 
 <h4>1.3 add VCR as a URL activity to Moodle course</h4>
+
 <h5>Step :</h5>
-* after creating VCR Class room Copy it & Then
+
+* after creating VCR Class room Copy URL:
+* Log in to your Moodle site as a teacher or administrator.
+* Navigate to the course where you want to add the URL activity.
+* Click on the "Turn editing on" button to enable editing mode.
+* Click on the "Add an activity or resource" button.
+* Scroll down or use the search bar to find the "URL" activity module.
+* Click on the "Add" button next to the URL activity.
+* Fill in the Activity Details:
+  - Activity name: Provide a descriptive name for the activity, so students understand its purpose.
+  - External URL: Paste the full URL of the external website or resource you want to link to.
+  - Description (optional): Add a brief description of the activity or the content of the linked resource.
 
 
 
