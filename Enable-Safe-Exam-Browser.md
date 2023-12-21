@@ -42,11 +42,14 @@ Safe Exam Browser is a web browser environment to carry out e-assessments safely
 * Visit the download page at https://safeexambrowser.org/download_en.html and acquire the most recent version of SEB. This software is compatible with Windows PC, Mac, and iOS. Keep in mind that SEB is not supported on Android phones or tablets, preventing the ability to take online tests on these devices.
  <img src="https://github.com/LEARN-LK/lms/blob/master/img/118-SEB%20Version.png?raw=true" alt="image" style="max-width: 100%;width: 700px;">
 
-* Disable popup blockers in the browser you typically use to access VCC Moodle courses. Follow the links below for instructions on the most commonly used browsers:
+* Disable popup blockers in the browser you typically use to access  Moodle. Follow the links below for instructions on the most commonly used browsers:
   + Chrome: [Disable Pop-up Blockers in Chrome](https://support.google.com/chrome/answer/95472?co=GENIE.Platform%3DDesktop&hl=en)
   + Firefox: [Adjust Pop-up Blocker Settings in Firefox](https://support.mozilla.org/en-US/kb/pop-blocker-settings-exceptions-troubleshooting)
   + Safari: [Manage Pop-up Blockers in Safari](https://support.apple.com/en-ca/HT203987)
   + Microsoft Edge: [Block or Allow Pop-ups in Microsoft Edge](https://support.microsoft.com/en-us/microsoft-edge/block-pop-ups-in-microsoft-edge-1d8ba4f8-f385-9a0b-e944-aa47339b6bb5)
+
+*  Go to the quiz in your course and click on it to start.
+*  
 
 
   
