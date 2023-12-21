@@ -9,13 +9,13 @@ Safe Exam Browser is a web browser environment to carry out e-assessments safely
 * Navigate to Site Administration > Plugins > Install Plugins.
 * Search for "Safe Exam Browser" and install the plugin.
 
+   <img src="https://github.com/LEARN-LK/lms/blob/master/img/114-plugin.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+
 <h3>02- Configure Global Settings (Optional):</h3>
 
 * Go to Site Administration > Plugins > Activity Modules > Quiz > Safe Exam Browser.
-* Adjust settings as needed, such as:
-* Requiring a password to launch SEB
-* Enabling audio controls
-* Disabling spell checking
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/115-safe%20browser.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+
 * 
 <h3>03- Enable SEB for a Specific Quiz:</h3>
 
