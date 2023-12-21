@@ -19,4 +19,8 @@ Safe Exam Browser is a web browser environment to carry out e-assessments safely
 * Choose 'Yes - Configure Manually' to edit how you want Safe Exam Browser to behave.
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/116-safe%20browser.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
 * Select 'Yes' to display the "Show Safe Exam Browser download button" option. Enabling this button in Moodle facilitates a seamless experience for your students, allowing them to swiftly download Safe Exam Browser on any device when taking a quiz. If students have already installed Safe Exam Browser on their personal devices, there's no need for them to repeat this step.
+  
+* After you have configured SEB, you can download this configuration and use these settings for future quizzes.  Otherwise, select 'Edit Quiz' or 'Back to the course'
+ <img src="https://github.com/LEARN-LK/lms/blob/master/img/117-downlord%20config.png?raw=true" alt="image" style="max-width: 100%;width: 700px;">
+  
 
