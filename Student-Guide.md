@@ -3,13 +3,13 @@
 <h3>What is Moodle?</h3> 
 Moodle is a learning management system (LMS) that allows you to access course materials, participate in discussions, submit assignments, and communicate with your instructors and peers in an online environment.
 
-<h3>How to Access Moodle</h3>
+<h2>01. How to Access Moodle</h2>
 
 * Open your web browser.
 * Enter the URL provided by your institution for Moodle.
 * Log in using your username and password.
 
-<h3>Getting Started</h3>
+<h2>02. Getting Started</h2>
 
 * Logging In
 * Go to the Moodle login page.
@@ -17,17 +17,17 @@ Moodle is a learning management system (LMS) that allows you to access course ma
 * Click the "Log In" button.
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/100-Student-login.png?raw=true" style="max-width:100%;width: 60%;"> 
 
-<h3>Dashboard Overview</h3>
+<h2>03. Dashboard Overview</h2>
 Once logged in, you will see your dashboard displaying enrolled courses, upcoming deadlines, and recent activities.
 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/101-Dashborad.png?raw=true" style="max-width:100%;width: 60%;"> 
 
-<h3>Navigating Courses</h3>
+<h2>04. Navigating Courses</h2>
 Click on a Mycourse  to access the course.
 Explore different sections, such as "Announcements," "Resources," and "Activities."
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/102-myCourse.png?raw=true" style="max-width:100%;width: 60%;"> 
 
-<h3>Submit the Assignment </h3>
+<h2>05. Submit the Assignment </h2>
 
 How does it work?
 Students click the assignment link and click “Add submission” (1)
@@ -37,7 +37,7 @@ They may be able to return to their work and redraft it, or they might have to c
  <img src="https://github.com/LEARN-LK/lms/blob/master/img/27-student%20view.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/28-Add+submission.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
 
-<h3>Quiz Submission </h3>
+<h2>06. Quiz Submission </h2>
 Quiz view:
 
 * The quiz will open in a fullscreen popup window.
@@ -55,13 +55,13 @@ To complete the quiz:
 * Once you have answered all of the questions in the quiz, click on the Finish attempt button [3].
 * You will be asked to review your answers and then click on the Submit all and finish button to submit your quiz.
 
-<h4>Quiz results:</h4>
+<h2>07. Quiz results:</h2>
 * After you have submitted your quiz, you will see your quiz results.
 * Your results will show you your score for the quiz, as well as the correct answers to each question [4].
 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/39-all%20-student%20view.png?raw=true" style="max-width:100%;width: 60%;">
 
-<h3>feedback activity and submit feedback.</h3>
+<h2>08. feedback activity and submit feedback.</h2>
 
 * Students will see the feedback activity on the course page.
 * They can click on the feedback activity to open it.
@@ -73,7 +73,7 @@ To complete the quiz:
 
    <img src="https://github.com/LEARN-LK/lms/blob/master/img/51-student%20feedback%20answer.png?raw=true" style="max-width: 100%;width: 60%;"> 
 
-<h3>Survey Submission </h3>
+<h2>09. Survey Submission </h2>
 
 Students can easily access the Survey by clicking on the Survey icon within their course [1]. 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/54-student%20view%20survey%20activity.png?raw=true" style="max-width: 100%;width: 60%;"> 
@@ -84,7 +84,7 @@ Once inside, students can breeze through the survey questions by simply selectin
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/57%20-%20student%20view%20survey%20chart.png?raw=true
 " style="max-width: 100%;width: 60%;">
 
-<h3>Personalization and Preferences</h3>
+<h2>10. Personalization and Preferences</h2>
 * Customizing Your Profile
 * Click on your profile picture or name.
   
@@ -97,7 +97,7 @@ Once inside, students can breeze through the survey questions by simply selectin
 * Choose your preferred notification settings for emails, forum posts, etc.
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/103-profile.png?raw=true" style="max-width: 100%;width: 60%;">
 
-<H3>Join in VCR Class Room</H3>
+<H2>11. Join in VCR Class Room</H2>
 * Students will now see the URL activity (VCR) within the course page.
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/107-stud-vcr.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/108-stud-vcr2.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
@@ -106,7 +106,7 @@ Once inside, students can breeze through the survey questions by simply selectin
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/109-stud-vcr3.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
  
 
-<h3>Using Safe Exam Browser: A Guide for Students</h3>
+<h2>12. Using Safe Exam Browser</h2>
 
 01. Visit the download page at https://safeexambrowser.org/download_en.html and acquire the most recent version of SEB. This software is compatible with Windows PC, Mac, and iOS. Keep in mind that SEB is not supported on Android phones or tablets, preventing the ability to take online tests on these devices.
  <img src="https://github.com/LEARN-LK/lms/blob/master/img/118-SEB%20Version.png?raw=true" alt="image" style="max-width: 100%;width: 700px;">
