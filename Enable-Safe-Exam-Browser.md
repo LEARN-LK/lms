@@ -49,7 +49,7 @@ Safe Exam Browser is a web browser environment to carry out e-assessments safely
   + Microsoft Edge: [Block or Allow Pop-ups in Microsoft Edge](https://support.microsoft.com/en-us/microsoft-edge/block-pop-ups-in-microsoft-edge-1d8ba4f8-f385-9a0b-e944-aa47339b6bb5)
 
 *  Go to the quiz in your course and click on it to start.
-*  
+*  Click the 'Launch Safe Exam Browser' button - ignore the other button labelled 'Download Configuration'
 
 
   
