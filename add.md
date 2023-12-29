@@ -85,8 +85,7 @@ Confirm that you want to delete the course
 
  <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/06%20-%20delete%2001.png?raw=true">
 
-
-
+<h2>Automated Course Backup</h2>
 
 
 
