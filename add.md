@@ -63,6 +63,11 @@ Click the category you want your course to be in (Bachelor Degree Program > Year
 
  <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/05%20-add%20couser%20-%20sem%2001.png?raw=true">
  
+<h2>Add Bulk Course </h2>
+
+
+
+
 
 <h2>Deleting a course</h2>
 
