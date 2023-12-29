@@ -15,16 +15,17 @@ Step – 02
 Assume you have to add categories and courses  following like this
 
 <h5>Bachelor Degree Program</h5>
-		<h6>&emsp; Year 01</h6>
-					<p> &emsp;&emsp; > Semester 01</p>
-		      <p>&emsp;&emsp;&emsp;&emsp;Business Management </p>
-			  	<p>&emsp;&emsp;&emsp;&emsp;Economics</p>
-     			<p> &emsp;&emsp; > Semester 02</p>
-		      <p>&emsp;&emsp;&emsp;&emsp;Statistics</p>
-			  	<p>&emsp;&emsp;&emsp;&emsp;Mathematics</p>
-			<h6>&emsp; Year 02</h6>
-					<p> &emsp;&emsp; > Semester 01</p>
-     			<p> &emsp;&emsp; > Semester 02</p>
+	
+1. Year 01
+   - Semester 01
+     - Business Management
+     - Economics
+   - Semester 02
+     - Statistics
+     - Mathematics
+2. Year 02
+   - Semester 01
+   - Semester 02
 
 <hr>
 Before you create courses, you must add coerces categories (main & sub categories). You should follow the following steps:
