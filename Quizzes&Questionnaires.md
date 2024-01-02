@@ -74,7 +74,10 @@ Match the following cities with the correct state:`
 `{1:MR:%34%An IPv4 address is 32 bits long~%-50%In IPv6, addresses are represented as 32 hexadecimal digits~%34%Subnetting is a technique used to divide an IP network into smaller, more manageable sub-networks~%-50%The loopback address in IPv4 is 127.0.0.1~%34%DHCP is used to assign static IP addresses to devices on a network.}`
 
 <h4>3 - SA: for short answer questions</h4>
+`Moodle is the {:SA:=best~<span>=</span>leading}` LMS.
 
+<h4>4 - NM: for numerical questions</h4>
+`Calculate: 10 x 5 = {1:NM:=50}`
 
 <h2> 03 - Quiz Student View</h2>
 Quiz view:
