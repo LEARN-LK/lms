@@ -39,6 +39,12 @@ Quizzes can be graded automatically or manually. For automatically graded quizze
 * Repeat steps 1-4 for as many questions as you need.
 * When you are finished, click Save changes again.
 
+<h3>Embed answers - Short answer questions, Numerical questions, Multi-response answers.</h3>
+
+
+
+
+
 <h3>Quiz Student View</h3>
 Quiz view:
 
