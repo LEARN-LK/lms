@@ -41,6 +41,23 @@ Quizzes can be graded automatically or manually. For automatically graded quizze
 
 <h3>Embed answers - Question type(Short answer questions, Numerical questions, Multi-response answers). </h3>
 
+In Moodle, questions can be structured with a passage of text that incorporates embedded answers. These embedded answers may include a variety of response formats, such as multiple-choice, short answers, and numerical answers. This approach allows for a more dynamic and interactive assessment experience, enabling learners to engage with the content in a comprehensive manner.
+in this section cover following 
+* :MC: for multiple choice questions
+* :MR: for multi response questions
+* :SA: for short answer questions
+* :NM: for numerical questions
+
+<h3>01 - MC: for multiple choice questions</h3>
+While multiple choice questions are often favored for their efficient grading, cloze questions offer flexibility in question types. By using the appropriate code, you can combine these benefits within a single question.
+
+
+
+
+
+
+
+
 
 
 
