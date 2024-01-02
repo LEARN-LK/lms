@@ -67,6 +67,52 @@ Click the category you want your course to be in (Bachelor Degree Program > Year
 <h2>Add Bulk Course </h2>
 
 
+Creating courses in bulk on Moodle can save you a lot of time and effort. Here's a step-by-step guide to get you started:
+
+1. Prepare your CSV file:
+
+You'll need a comma-separated values (CSV) file containing course information. You can create this in any spreadsheet program like Excel or Google Sheets.
+Required fields:
+shortname: Unique identifier for the course (lowercase, no spaces).
+fullname: The course's full name.
+category: The category where the course will be listed.
+Optional fields:
+course format: Choose a format like "weeks" or "topics".
+startdate: Course start date (YYYY-MM-DD format).
+enddate: Course end date (YYYY-MM-DD format).
+enrolmentmethod: Course enrollment method (manual, self-enrolment, etc.).
+Many other options you can find in the Moodle documentation.
+2. Access the course upload page:
+
+Log in to your Moodle site as an administrator.
+Click on the gear icon in the top right corner to access the Site administration panel.
+Go to Courses > Upload courses.
+3. Upload your CSV file:
+
+Drag and drop your CSV file or click the Choose a file button to select it.
+Select the appropriate Import options:
+Encoding: Choose the character encoding of your CSV file (usually UTF-8).
+Field delimiter: Make sure it's comma (",").
+Quote character: Usually double quote ("") or single quote (').
+Click Preview to see how Moodle will interpret your CSV data. Review the information carefully and ensure everything looks correct.
+4. (Optional) Use a course template:
+
+If you have a pre-existing course setup with settings you want to apply to all new courses, you can use it as a template.
+In the Course process section, enter the shortname of your template course.
+This will copy all settings and activities from the template course to your newly created courses.
+5. Apply default course values:
+
+You can define default values for various settings that will apply to all new courses unless overridden in your CSV file.
+Click on Default course values and set your preferred options for enrollment methods, format, start date, etc.
+6. Upload your courses:
+
+Once you're happy with everything, click the Upload button.
+Moodle will process your CSV file and create new courses based on the provided information.
+
+
+
+
+
 
 
 
