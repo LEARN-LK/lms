@@ -48,7 +48,7 @@ in this section cover following
 3. :SA: for short answer questions
 4. :NM: for numerical questions
 
-<h3>01 - To add MC: /MR: /SA:/ NM: you should follow below step </h3>
+<h3> To add MC: /MR: /SA:/ NM: you should follow below step </h3>
 
 Step: Follow the steps shown in the image.
 
