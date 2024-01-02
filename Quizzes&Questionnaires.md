@@ -10,7 +10,7 @@ Quizzes can be graded automatically or manually. For automatically graded quizze
 * Improved grading: Moodle 4.0 includes a number of improvements to the grading process, such as the ability to give partial credit for answers and the ability to provide feedback to students on their answers.
 *  Such as the ability to generate more detailed reports on student performance and the ability to export reports to different formats.
 
-<h2>How is it set up</h2>
+<h2> 01 - How is it set up</h2>
 
 * Open the Moodle course where you want to add the quiz.
 * Turn editing on.
@@ -39,7 +39,7 @@ Quizzes can be graded automatically or manually. For automatically graded quizze
 * Repeat steps 1-4 for as many questions as you need.
 * When you are finished, click Save changes again.
 
-<h3>Embed answers - Question type(Short answer questions, Numerical questions, Multi-response answers). </h3>
+<h2>02 - Embed answers - Question type(Short answer questions, Numerical questions, Multi-response answers). </h2>
 
 In Moodle, questions can be structured with a passage of text that incorporates embedded answers. These embedded answers may include a variety of response formats, such as multiple-choice, short answers, and numerical answers. This approach allows for a more dynamic and interactive assessment experience, enabling learners to engage with the content in a comprehensive manner.
 in this section cover following 
@@ -48,21 +48,34 @@ in this section cover following
 * :SA: for short answer questions
 * :NM: for numerical questions
 
-<h3>01 - MC: for multiple choice questions</h3>
-While multiple choice questions are often favored for their efficient grading, cloze questions offer flexibility in question types. By using the appropriate code, you can combine these benefits within a single question.
+<h3>01 - To add MC: /MR: /SA:/ NM: you should follow below step </h3>
+
+Step: Follow the steps shown in the image.
+
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/120-embed%20ans.png?raw=true" style="max-width:100%;width: 60%;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/121-emb.png?raw=true" style="max-width:100%;width: 60%;">
+
+Preview 
+
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/122-em.png?raw=true" style="max-width:100%;width: 60%;">
+
+<h3>Example</h3>
+<h4></h4>Adding :MC: for multiple choice questions:</h4>
+
+Match the following cities with the correct state:
+* San Francisco: {1:MULTICHOICE:=California#OK~Arizona#Wrong}
+* Tucson: {1:MULTICHOICE:California#Wrong~%100%Arizona#OK}
+* Los Angeles: {1:MULTICHOICE:=California#OK~Arizona#Wrong}
+* Phoenix: {1:MULTICHOICE:%0%California#Wrong~=Arizona#OK}
+
+<h4></h4>Adding :MR: for multi response questions</h4>
+Which of the following statements about IP addressing are correct? (Select all that apply)
+{1:MR:%34%An IPv4 address is 32 bits long~%-50%In IPv6, addresses are represented as 32 hexadecimal digits~%34%Subnetting is a technique used to divide an IP network into smaller, more manageable sub-networks~%-50%The loopback address in IPv4 is 127.0.0.1~%34%DHCP is used to assign static IP addresses to devices on a network.}
+
+<h4>:SA: for short answer questions</h4>
 
 
-
-
-
-
-
-
-
-
-
-
-<h3>Quiz Student View</h3>
+<h2> 03 - Quiz Student View</h2>
 Quiz view:
 
 * The quiz will open in a fullscreen popup window.
@@ -80,7 +93,7 @@ To complete the quiz:
 * Once you have answered all of the questions in the quiz, click on the Finish attempt button [3].
 * You will be asked to review your answers and then click on the Submit all and finish button to submit your quiz.
 
-<h4>Quiz results:</h4>
+<h2>04 - Quiz results:</h2>
 * After you have submitted your quiz, you will see your quiz results.
 * Your results will show you your score for the quiz, as well as the correct answers to each question [4].
 
