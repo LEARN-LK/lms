@@ -27,7 +27,6 @@ Assume you have to add categories and courses  following like this
    - Semester 01
    - Semester 02
 
-<hr>
 Before you create courses, you must add coerces categories (main & sub categories). You should follow the following steps:
 
 - Go to the Courses  > Click Manage courses and categories > Click Create new
@@ -37,16 +36,14 @@ Before you create courses, you must add coerces categories (main & sub categorie
 - Repeat steps 3 and 4 until you have created all of your categories.
 - Once you have created your categories, you can begin creating courses.
   
-<h5>Ex : Manin Category  <b>"Bachelor Degree Program </h5></p>
-  <p>  Sub Category   <b>Year 01</b> </p>
-	<p dir="auto" style=" margin-bottom: 0px;"><b>&emsp;&emsp;Semester 01</b></p>
- 	<p dir="auto" style=" margin-bottom: 0px;&emsp;&emsp;"><b>&emsp;&emsp;Semester 02</b></p>
+<h5>Ex : Manin Category "Bachelor Degree Program </h5>
+      - Sub Category  Year 01
+	- Semester 01
+  	- Semester 02
 
  <img width="500" src=" https://github.com/LEARN-LK/lms/blob/master/img/03%20add%20new%20cate.png?raw=true">
 
-
-
- <h5>Eg : Sub Category  <b>"Year 01</b> > Semester 01 , Semester 02 </h5></p>
+<h5>Ex : Sub Category "Year 01 > Semester 01 , Semester 02 </h5>
 
 sometimes it might be useful to have a sub-category of a course. For example, you might have a category "Bachelor Degree Program " and wish to have sub-categories  "Year 01" and "Year 02”.
 
