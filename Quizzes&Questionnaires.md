@@ -43,10 +43,10 @@ Quizzes can be graded automatically or manually. For automatically graded quizze
 
 In Moodle, questions can be structured with a passage of text that incorporates embedded answers. These embedded answers may include a variety of response formats, such as multiple-choice, short answers, and numerical answers. This approach allows for a more dynamic and interactive assessment experience, enabling learners to engage with the content in a comprehensive manner.
 in this section cover following 
-* :MC: for multiple choice questions
-* :MR: for multi response questions
-* :SA: for short answer questions
-* :NM: for numerical questions
+1. :MC: for multiple choice questions
+2. :MR: for multi response questions
+3. :SA: for short answer questions
+4. :NM: for numerical questions
 
 <h3>01 - To add MC: /MR: /SA:/ NM: you should follow below step </h3>
 
@@ -60,7 +60,7 @@ Preview
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/122-em.png?raw=true" style="max-width:100%;width: 60%;">
 
 <h3>Example</h3>
-<h4></h4>Adding :MC: for multiple choice questions:</h4>
+<h4></h4>1 - Adding :MC: for multiple choice questions:</h4>
 
 Match the following cities with the correct state:
 * San Francisco: {1:MULTICHOICE:=California#OK~Arizona#Wrong}
@@ -68,11 +68,12 @@ Match the following cities with the correct state:
 * Los Angeles: {1:MULTICHOICE:=California#OK~Arizona#Wrong}
 * Phoenix: {1:MULTICHOICE:%0%California#Wrong~=Arizona#OK}
 
-<h4></h4>Adding :MR: for multi response questions</h4>
-Which of the following statements about IP addressing are correct? (Select all that apply)
+<h4></h4>2 - Adding :MR: for multi response questions</h4>
+<p>Which of the following statements about IP addressing are correct? (Select all that apply)</p>
+
 {1:MR:%34%An IPv4 address is 32 bits long~%-50%In IPv6, addresses are represented as 32 hexadecimal digits~%34%Subnetting is a technique used to divide an IP network into smaller, more manageable sub-networks~%-50%The loopback address in IPv4 is 127.0.0.1~%34%DHCP is used to assign static IP addresses to devices on a network.}
 
-<h4>:SA: for short answer questions</h4>
+<h4>:3 - SA: for short answer questions</h4>
 
 
 <h2> 03 - Quiz Student View</h2>
