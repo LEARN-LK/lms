@@ -138,16 +138,17 @@ Confirm that you want to delete the course
 - Set the execution time for the backup process. Consider choosing a time when server activity is low, such as early morning.
 4. Specify Backup Location:
 
-Set the "Save to..." path to the desired location for storing backups.
+- Set the "Save to..." path to the desired location for storing backups.
 Important: Choose a location that is not on the same drive as your Moodle installation. This ensures that backups are preserved even if the main drive fails.
+
 5. Optional: Use Course Names in Filenames:
 
-Check the "Use course name in backup filename" box if you prefer backups to be named using course shortnames instead of course IDs.
+- Check the "Use course name in backup filename" box if you prefer backups to be named using course shortnames instead of course IDs.
 
 6. Save Settings:
 
-Click the "Save changes" button to apply the settings.
-Additional Considerations:
+- Click the "Save changes" button to apply the settings.
+- Additional Considerations:
 
 Backup Reports: Monitor backup status and logs by accessing Site administration > Reports > Backups.
 Cron Job: Ensure your server's cron job is configured correctly to execute the backup script at the scheduled times. Refer to Moodle's documentation for specific cron job setup instructions.
