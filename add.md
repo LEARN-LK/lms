@@ -142,6 +142,7 @@ Confirm that you want to delete the course
 
 - Set the "Save to..." path to the desired location for storing backups.
 Important: Choose a location that is not on the same drive as your Moodle installation. This ensures that backups are preserved even if the main drive fails.
+ <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/127-path.png?raw=true"> 
 
 5. Optional: Use Course Names in Filenames:
 
@@ -152,11 +153,7 @@ Important: Choose a location that is not on the same drive as your Moodle instal
 - Click the "Save changes" button to apply the settings.
 - Additional Considerations:
 
-Backup Reports: Monitor backup status and logs by accessing Site administration > Reports > Backups.
-Cron Job: Ensure your server's cron job is configured correctly to execute the backup script at the scheduled times. Refer to Moodle's documentation for specific cron job setup instructions.
-Backup Storage: Regularly transfer backups to a secure offsite location for enhanced protection against data loss.
-Testing: It's highly recommended to test the automated backup process after configuration to ensure it's working as expected.
-Large Courses: If you have particularly large courses, you may need to adjust the backup script's memory limit in Moodle's configuration settings.
+
 
 
 
