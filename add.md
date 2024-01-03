@@ -129,6 +129,32 @@ Confirm that you want to delete the course
 
 <h1>05 -Automated Course Backup</h1>
 
+1. Access Backup Settings:
+- Navigate to Site administration > Courses > Backups > Automated backup setup.
+2. Enable Automated Backups:
+- Set the backup_auto_active option to enabled.
+3. Choose Backup Frequency:
+- Select the days of the week on which you want the backups to run.
+- Set the execution time for the backup process. Consider choosing a time when server activity is low, such as early morning.
+4. Specify Backup Location:
+
+Set the "Save to..." path to the desired location for storing backups.
+Important: Choose a location that is not on the same drive as your Moodle installation. This ensures that backups are preserved even if the main drive fails.
+5. Optional: Use Course Names in Filenames:
+
+Check the "Use course name in backup filename" box if you prefer backups to be named using course shortnames instead of course IDs.
+
+6. Save Settings:
+
+Click the "Save changes" button to apply the settings.
+Additional Considerations:
+
+Backup Reports: Monitor backup status and logs by accessing Site administration > Reports > Backups.
+Cron Job: Ensure your server's cron job is configured correctly to execute the backup script at the scheduled times. Refer to Moodle's documentation for specific cron job setup instructions.
+Backup Storage: Regularly transfer backups to a secure offsite location for enhanced protection against data loss.
+Testing: It's highly recommended to test the automated backup process after configuration to ensure it's working as expected.
+Large Courses: If you have particularly large courses, you may need to adjust the backup script's memory limit in Moodle's configuration settings.
+
 
 
 
