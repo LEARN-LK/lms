@@ -1,2 +1,2 @@
-<h1>CustomizeMoodle Themes</h1>
+<h1>Customize Moodle Themes</h1>
  
