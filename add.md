@@ -131,11 +131,13 @@ Confirm that you want to delete the course
 
 1. Access Backup Settings:
 - Navigate to Site administration > Courses > Backups > Automated backup setup.
+  <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/125-backup.png">
 2. Enable Automated Backups:
 - Set the backup_auto_active option to enabled.
 3. Choose Backup Frequency:
 - Select the days of the week on which you want the backups to run.
 - Set the execution time for the backup process. Consider choosing a time when server activity is low, such as early morning.
+   <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/126-backup.png?raw=true"> 
 4. Specify Backup Location:
 
 - Set the "Save to..." path to the desired location for storing backups.
@@ -155,6 +157,8 @@ Cron Job: Ensure your server's cron job is configured correctly to execute the b
 Backup Storage: Regularly transfer backups to a secure offsite location for enhanced protection against data loss.
 Testing: It's highly recommended to test the automated backup process after configuration to ensure it's working as expected.
 Large Courses: If you have particularly large courses, you may need to adjust the backup script's memory limit in Moodle's configuration settings.
+
+
 
 
 
