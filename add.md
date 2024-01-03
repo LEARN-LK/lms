@@ -133,10 +133,10 @@ Confirm that you want to delete the course
 - Navigate to Site administration > Courses > Backups > Automated backup setup.
   <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/125-backup.png">
 2. Enable Automated Backups:
-- Set the backup_auto_active option to enabled.
+- Set the backup_auto_active option to enabled [4].
 3. Choose Backup Frequency:
-- Select the days of the week on which you want the backups to run.
-- Set the execution time for the backup process. Consider choosing a time when server activity is low, such as early morning.
+- Select the days of the week on which you want the backups to run [5].
+- Set the execution time for the backup process. Consider choosing a time when server activity is low, such as early morning [6].
    <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/126-backup.png?raw=true"> 
 4. Specify Backup Location:
 
