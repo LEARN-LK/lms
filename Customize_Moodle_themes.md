@@ -26,4 +26,4 @@
 - Save the changes:Click Save changes at the bottom of the page.
 
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/131-menu.png" alt="image" style="max-width: 100%;width: 500px;"> 
-<h3>Change Theme</h3>
+<h3>03 - Change Theme</h3>
