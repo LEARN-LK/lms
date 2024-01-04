@@ -1,6 +1,6 @@
 <h1>Customize Moodle Themes</h1>
 
-<h2>Basic Customization (Theme Selector and Settings):</h2>
+<h2> 01 -Basic Customization (Theme Selector and Settings):</h2>
 
 - Go to Administration > Appearance > Themes.
 
@@ -12,12 +12,17 @@
    <img src="https://github.com/LEARN-LK/lms/blob/master/img/129-thems.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
 - Save your changes to see the updated theme.
 
-<h3>Add Custom Menu</h3>
+<h3>02 - Add Custom Menu</h3>
+
 - Go to Administration > Appearance > Themes.
 - Select the theme you want to modify.
 - Create the menu item:
-- Look for the section titled Custom menu items.
-- Each line defines a single item. Enter the details in this format:
-  Name|Link
-  Name is the text displayed for the menu item.
+-  Look for the section titled Custom menu items.
+-  Each line defines a single item. Enter the details in this format:
+   - Name|Link
+   - Name is the text displayed for the menu item.
+
+     <img src="https://github.com/LEARN-LK/lms/blob/master/img/130-menu.png" alt="image" style="max-width: 100%;width: 500px;">    
 - Save the changes:Click Save changes at the bottom of the page.
+
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/131-menu.png" alt="image" style="max-width: 100%;width: 500px;"> 
