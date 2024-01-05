@@ -44,3 +44,23 @@
 - As with header options in the section above, the administrator can add links, CSS or Java Script to the footer section of your page via Site administration > Appearance > Additional HTML
 - This might be useful for adding Google Analytics, for example.
 - Add your HTML/CSS to the 'Before BODY is closed' box.
+
+<h3>05 - Change Theme</h3>
+
+- Log in as an administrator and navigate to Administration > Site administration > Appearance > Themes > Theme Selector.
+
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/Screenshot%202024-01-05%20at%2010.27.26.png?raw=true" alt="image" style="max-width: 100%;width: 500px;"> 
+
+- Locate the "Change theme" button on the right side of the current theme used for the device and click on it.
+  
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/Screenshot%202024-01-05%20at%2010.27.46.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+
+- Scroll down to identify the desired theme you want to use.
+- Click the "Use theme" button next to the chosen theme.
+- Moodle will confirm the theme has been saved as the default, and it's recommended to check your Moodle site to ensure the changes are reflected.
+
+
+
+
+
+
