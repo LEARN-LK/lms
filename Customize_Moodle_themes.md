@@ -40,3 +40,6 @@
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/134-header.png" alt="image" style="max-width: 100%;width: 500px;"> 
 
 <h3>04 - Customising the Footer</h3>
+
+- Visit Site administration > Appearance > Additional HTML
+- Add your HTML/CSS to the 'Before BODY is closed' box.
