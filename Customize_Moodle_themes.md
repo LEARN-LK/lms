@@ -49,11 +49,11 @@
 
 - Log in as an administrator and navigate to Administration > Site administration > Appearance > Themes > Theme Selector.
 
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/Screenshot%202024-01-05%20at%2010.27.26.png?raw=true" alt="image" style="max-width: 100%;width: 500px;"> 
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/Screenshot%202024-01-05%20at%2010.27.26.png?raw=true" alt="image" style="max-width: 100%;width: 900px;"> 
 
 - Locate the "Change theme" button on the right side of the current theme used for the device and click on it.
   
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/Screenshot%202024-01-05%20at%2010.27.46.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/Screenshot%202024-01-05%20at%2010.27.46.png?raw=true" alt="image" style="max-width: 100%;width: 900px;">
 
 - Scroll down to identify the desired theme you want to use.
 - Click the "Use theme" button next to the chosen theme.
