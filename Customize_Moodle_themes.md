@@ -26,4 +26,17 @@
 - Save the changes:Click Save changes at the bottom of the page.
 
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/131-menu.png" alt="image" style="max-width: 100%;width: 500px;"> 
-<h3>03 - Change Theme</h3>
+<h3>03 - Customising the Header</h3>
+
+- The administrator has the capability to incorporate links, metatags, CSS, or JavaScript into the header section of your page through Site administration > Appearance > Additional HTML.
+
+ <img src="https://github.com/LEARN-LK/lms/blob/master/img/132-header.png" alt="image" style="max-width: 100%;width: 500px;"> 
+ 
+- In the 'Within HEAD' box, you can define HTML, CSS, or JavaScript that will be included on every page without the need to modify the Moodle code files."
+
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/133-header.png" alt="image" style="max-width: 100%;width: 500px;"> 
+- Save and Preview:
+
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/134-header.png" alt="image" style="max-width: 100%;width: 500px;"> 
+
+<h3>04 - Customising the Footer</h3>
