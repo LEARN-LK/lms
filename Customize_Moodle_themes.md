@@ -41,5 +41,6 @@
 
 <h3>04 - Customising the Footer</h3>
 
-- Visit Site administration > Appearance > Additional HTML
+- As with header options in the section above, the administrator can add links, CSS or Java Script to the footer section of your page via Site administration > Appearance > Additional HTML
+- This might be useful for adding Google Analytics, for example.
 - Add your HTML/CSS to the 'Before BODY is closed' box.
