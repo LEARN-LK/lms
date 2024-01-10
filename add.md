@@ -27,7 +27,7 @@ Assume you have to add categories and courses  following like this
    - Semester 01
    - Semester 02
 
-Before you create courses, you must add coerces categories (main & sub categories). You should follow the following steps:
+Before you create courses, you must add cources categories (main & sub categories). You should follow the following steps:
 
 - Go to the Courses  > Click Manage courses and categories > Click Create new
 - Click on the " Click Create new category " button.
