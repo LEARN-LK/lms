@@ -6,7 +6,7 @@ This is a two-step process,
 * 02 - Enrolment
 
 <h3>Authentication</h3>
-Everyone using your site is required to have an account. You may allow people to create their own account using email-based self-registration, or you may **add new users individually,or you may **create bulk  accounts via a CSV file, or choose from several other authentication methods.
+Everyone using your site is required to have an account. You may allow people to create their own account using email-based self-registration, or you may add new users individually,or you may create bulk  accounts via a CSV file, or choose from several other authentication methods.
 
 <h4> 01 Email-based self-registration </h4>
 1. Go to Site administration > Plugins > Authentication > Manage authentication.
