@@ -24,8 +24,8 @@ Assume you have to add categories and courses  following like this
      - Statistics
      - Mathematics
 2. Year 02
-   - Semester 01
-   - Semester 02
+   - Semester 03
+   - Semester 04
 
 Before you create courses, you must add cources categories (main & sub categories). You should follow the following steps:
 
