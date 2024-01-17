@@ -14,7 +14,7 @@ From the Site administration link, click Courses>Manage courses and categories
 Step – 02
 Assume you have to add categories and courses  following like this
 
-<h5>Bachelor Degree Program</h5>
+<h5>Higher National Diploma in Management</h5>
 	
 1. Year 01
    - Semester 01
