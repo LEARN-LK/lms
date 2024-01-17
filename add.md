@@ -73,6 +73,9 @@ You'll need a comma-separated values (CSV) file containing course information. Y
    - shortname: Unique identifier for the course (lowercase, no spaces).
    - fullname: The course's full name.
    - category: The category where the course will be listed.
+ 
+     <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/001-bulk-courses.png?raw=true">
+     
 * Optional fields:
    - course format: Choose a format like "weeks" or "topics".
    - startdate: Course start date (YYYY-MM-DD format).
