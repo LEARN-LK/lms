@@ -10,7 +10,21 @@
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/82-h5p-plugin5.png?raw=true"  style="max-width: 100%;width: 600px;">
 *  On the following screen, click the "Install now" link next to the site on which you want to install H5P.
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/83-h5p-plugin6.png?raw=true"  style="max-width: 100%;width: 600px;">     
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/83-h5p-plugin6.png?raw=true"  style="max-width: 100%;width: 600px;">  
+
+* if you having this kind of error:
+
+> [!NOTE]
+> There is a request to install plugin Interactive Content – H5P (mod_hvp) version 2023122500 from the Moodle plugins directory on this site. However, the location /var/www/html/moodle/mod is not writable. You need to give write access for the web server user to the location, then press the continue button to repeat the check.
+
+
+* follow this Step :
+<pre><code>sudo chown -R www-data:www-data /var/www/html/moodle/mod
+sudo chmod -R 755 /var/www/html/moodle/mod
+sudo chmod -R 775 /var/www/html/moodle/mod/data
+</code></pre>
+
+
 *  You'll be redirected back to your site; confirm the installation by clicking on "Continue."
 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/84-h5p-plugin7.png?raw=true"  style="max-width: 100%;width: 600px;">       
