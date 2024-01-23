@@ -52,7 +52,8 @@ in this section cover following
 
 Step: Follow the steps shown in the image.
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/120-embed%20ans.png?raw=true" style="max-width:100%;width: 60%;">
+
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/135-Embeded.jpg?raw=true" style="max-width:100%;width: 60%;">
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/121-emb.png?raw=true" style="max-width:100%;width: 60%;">
 
 Preview 
