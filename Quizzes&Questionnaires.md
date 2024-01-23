@@ -60,25 +60,28 @@ Preview
 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/122-em.png?raw=true" style="max-width:100%;width: 60%;">
 
+
 <h3>Example</h3>
 <h4>1 - Adding :MC: for multiple choice questions:</h4>
 
 Match the following cities with the correct state:`
+<pre><code>
 * `San Francisco: {1:MULTICHOICE:=California#OK~Arizona#Wrong}`
 * `Tucson: {1:MULTICHOICE:California#Wrong~%100%Arizona#OK}`
 * `Los Angeles: {1:MULTICHOICE:=California#OK~Arizona#Wrong}`
 * `Phoenix: {1:MULTICHOICE:%0%California#Wrong~=Arizona#OK}`
+</code></pre>
 
 <h4>2 - Adding :MR: for multi response questions</h4>
 <p>Which of the following statements about IP addressing are correct? (Select all that apply)</p>
 
-`{1:MR:%34%An IPv4 address is 32 bits long~%-50%In IPv6, addresses are represented as 32 hexadecimal digits~%34%Subnetting is a technique used to divide an IP network into smaller, more manageable sub-networks~%-50%The loopback address in IPv4 is 127.0.0.1~%34%DHCP is used to assign static IP addresses to devices on a network.}`
+<pre><code> `{1:MR:%34%An IPv4 address is 32 bits long~%-50%In IPv6, addresses are represented as 32 hexadecimal digits~%34%Subnetting is a technique used to divide an IP network into smaller, more manageable sub-networks~%-50%The loopback address in IPv4 is 127.0.0.1~%34%DHCP is used to assign static IP addresses to devices on a network.}` </pre></code>
 
 <h4>3 - SA: for short answer questions</h4>
-`Moodle is the {:SA:=best~<span>=</span>leading}` LMS.
+<pre><code> `Moodle is the {:SA:=best~<span>=</span>leading}` LMS.</pre></code>
 
 <h4>4 - NM: for numerical questions</h4>
-`Calculate: 10 x 5 = {1:NM:=50}`
+<pre><code> `Calculate: 10 x 5 = {1:NM:=50}` </code></pre>
 
 <h2> 03 - Quiz Student View</h2>
 Quiz view:
