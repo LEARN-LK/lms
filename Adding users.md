@@ -8,7 +8,7 @@ This is a two-step process,
 <h3>Authentication</h3>
 Everyone using your site is required to have an account. You may allow people to create their own account using email-based self-registration, or you may add new users individually,or you may create bulk  accounts via a CSV file, or choose from several other authentication methods.
 
-<h4> 01 Email-based self-registration (Enable)</h4>
+<h4> 01 Email-based self-registration - (Enable)</h4>
 1. Go to Site administration > Plugins > Authentication > Manage authentication.
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/08%20-email-based%20self-registration.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
 
