@@ -2,8 +2,14 @@
 
 This is a two-step process, 
 
-* 01 - Authentication
-* 02 - Enrolment
+1. Authentication
+   - mail-based self-registration
+   - add new users individually
+   - create bulk  accounts via a CSV
+
+2. Enrolment
+   - Manual enrolment
+   - Self enrolment
 
 <h3>Authentication</h3>
 Everyone using your site is required to have an account. You may allow people to create their own account using email-based self-registration, or you may add new users individually,or you may create bulk  accounts via a CSV file, or choose from several other authentication methods.
