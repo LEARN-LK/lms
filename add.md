@@ -36,7 +36,7 @@ Before you create courses, you must add cources categories (main & sub categorie
 - Repeat steps 3 and 4 until you have created all of your categories.
 - Once you have created your categories, you can begin creating courses.
   
-<h5>Ex : Manin Category "Bachelor Degree Program </h5>
+<h5>Ex : Main Category "Bachelor Degree Program </h5>
       - Sub Category  Year 01
 	- Semester 01
   	- Semester 02
