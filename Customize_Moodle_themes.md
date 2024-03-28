@@ -59,6 +59,8 @@
 - Click the "Use theme" button next to the chosen theme.
 - Moodle will confirm the theme has been saved as the default, and it's recommended to check your Moodle site to ensure the changes are reflected.
 
+<h3>06 - Add Custom Theme</h3>
+
 
 
 
