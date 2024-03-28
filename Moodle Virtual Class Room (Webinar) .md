@@ -73,19 +73,25 @@ when VRC meeting repeat you can add it to the Calender
 <h3> Step </h3>
 
 - Copy the VCR meeting link.
-- Navigate to the Dashboard Menu in Moodle.
-- Locate and access the Calendar on the Dashboard page.
-- Choose the date for the VCR Meeting or Click on "New Event" Button.
+- Navigate to the Dashboard Menu in Moodle [1].
+- Locate and access the Calendar on the Dashboard page [2].
+- Choose the date for the VCR Meeting or Click on "New Event" Button [3].
+
+   <img src="https://github.com/LEARN-LK/lms/blob/master/img/136%20-Event.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+  
 - Add the following details:
-  - Event title
-  - Date
-  - Type of event
-  - Description
+
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/136%20-%20Event%20dialog%20box.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+  
+  - Event title [4]
+  - Date [5]
+  - Type of event [6]
+  - Description [7]
   - Location
   - Duration
 
-- Tick the "Repeat weekly" option to create multiple occurrences.
-- If the VCR session repeats, select the "Repeat this event" button.
-- Specify the number of repeated weeks in the "Repeat weekly" tab.
+- If the VCR session repeats, select the "Repeat this event" button [8].
+- Specify the number of repeated weeks [9]in the "Repeat weekly" tab.
+- Then Click on "Save" Button.
 
 
