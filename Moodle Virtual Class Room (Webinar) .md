@@ -54,7 +54,7 @@ To create the VCR classroom, refer to the following user guideline link:https://
 * Click on the "Add" button next to the URL activity.
 * Fill in the Activity Details:
   - Activity name: Provide a descriptive name for the activity, so students understand its purpose.
-  - External URL: Paste the full URL of the external website or resource you want to link to.
+  - External URL: Paste the full URL of VCR Meeting link you want to link to.
   - Description (optional): Add a brief description of the activity or the content of the linked resource.
 
      <img src="https://github.com/LEARN-LK/lms/blob/master/img/113-url-4.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
@@ -67,6 +67,17 @@ To create the VCR classroom, refer to the following user guideline link:https://
 * They can click on the link or resource to access the VCR Classroom.
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/109-stud-vcr3.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
   
+<h2> Add VRC Repater Session to Calender   </h2>
+when VRC meeting repeat you can add it to the Calender
 
+<h3> Step </h3>
+
+- Copy to VCR meeting link
+- in Moodle Select Dashboard Menu
+- then now you can see calender in dashboard page
+- Select the date VCR Meeting going held
+- then you can add follwong detail (Event title,date,type of event,Description,Location,Duration,Repeat weekly, creating altogether)
+- when VCR session is Repeart you can tick "Repeat this event" button
+- then now  you shoud add count of repaeted week in "Repeat weekly tab"
 
 
