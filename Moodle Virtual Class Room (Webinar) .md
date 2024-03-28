@@ -80,15 +80,16 @@ when VRC meeting repeat you can add it to the Calender
    <img src="https://github.com/LEARN-LK/lms/blob/master/img/136%20-Event.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
   
 - Add the following details:
-
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/136%20-%20Event%20dialog%20box.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
-  
   - Event title [4]
   - Date [5]
   - Type of event [6]
   - Description [7]
   - Location
   - Duration
+
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/136%20-%20Event%20dialog%20box.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+  
+ 
 
 - If the VCR session repeats, select the "Repeat this event" button [8].
 - Specify the number of repeated weeks [9]in the "Repeat weekly" tab.
