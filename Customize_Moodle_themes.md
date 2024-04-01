@@ -4,13 +4,13 @@
 
 - Go to Administration > Appearance > Themes.
 
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/128-thems.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
-- Select your current theme.
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/128-thems.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+ - Select your current theme.
 - Click on the Themes Settings .
 - Here, you can adjust various options like Designer mode, User themes, .
 
-   <img src="https://github.com/LEARN-LK/lms/blob/master/img/129-thems.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
-- Save your changes to see the updated theme.
+ <img src="https://github.com/LEARN-LK/lms/blob/master/img/129-thems.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+ - Save your changes to see the updated theme.
 
 <h3>02 - Add Custom Menu</h3>
 
@@ -62,11 +62,26 @@
 <h3>06 - Add Custom Themes</h3>
 
 - Choose a Theme: Browse the official Moodle themes repository for free themes or search online for reputable Moodle theme vendors based on features, functionalities, and appearance.
+
+   <img src="https://github.com/LEARN-LK/lms/blob/master/img/138-0%20thems.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+   
 - Download or Install the Theme: Once you've chosen your theme, download it as a zip file or use the provided installation method, such as clicking on an "Install" button.
+   
+   <img src="https://github.com/LEARN-LK/lms/blob/master/img/137-thems.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+   
 - Using Moodle Plugin Installer: If your Moodle site allows it, you can upload the theme zip file directly through the Moodle interface. Navigate to Site administration > Plugins > Install plugins, and then drag and drop the zip file or use the file picker to select it.
+ 
+   <img src="https://github.com/LEARN-LK/lms/blob/master/img/139-1%20thems.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+   
 - Set File Permissions (if using FTP): If you uploaded the theme via FTP, ensure the theme folder and its contents have the correct permissions for the web server to access them.
+
 - Typically, you'll want to set the permissions to 755 (read/write/execute for owner, read/execute for group, read/execute for everyone).
+  <pre><code>sudo chown -R www-data:www-data /var/www/html/moodle/theme</code></pre>
+  
 - Activate the Theme in Moodle: Log in as an administrator on your Moodle site. Navigate to Site administration > Appearance > Themes > Theme selector. You should see your uploaded theme listed. Click the "Use theme" button next to the theme to activate it.
+
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/141-thems.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+
 - Clear Theme Cache (optional): In some Moodle versions, you may need to clear the theme cache for the changes to take effect. You'll usually find a "Clear theme caches" button on the Theme selector page.
 
 
