@@ -51,13 +51,13 @@
 
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/Screenshot%202024-01-05%20at%2010.27.26.png?raw=true" alt="image" style="max-width: 100%;width: 900px;"> 
 
-- Locate the "Change theme" button on the right side of the current theme used for the device and click on it.
+- In the "Appearance" section, you will see an option labeled "Themes". Click on it to see the available theme options.Change Theme: From the list of available themes, click on "Theme selector". You'll be presented with options to change the theme for different devices.
   
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/Screenshot%202024-01-05%20at%2010.27.46.png?raw=true" alt="image" style="max-width: 100%;width: 900px;">
 
-- Scroll down to identify the desired theme you want to use.
-- Click the "Use theme" button next to the chosen theme.
-- Moodle will confirm the theme has been saved as the default, and it's recommended to check your Moodle site to ensure the changes are reflected.
+- Choose a New Theme: For the device you want to change the theme for, click on the "Change theme" button next to the current theme.
+- Select a New Theme: A list of available themes will appear. Choose the theme you want to apply by clicking the "Use theme" button next to it.
+- Save Changes: Once you’ve selected a new theme, make sure to click "Save changes" at the bottom of the page.
 
 <h3>06 - Add Custom Themes</h3>
 
