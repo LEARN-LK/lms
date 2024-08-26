@@ -39,7 +39,7 @@ Quizzes can be graded automatically or manually. For automatically graded quizze
 * Repeat steps 1-4 for as many questions as you need.
 * When you are finished, click Save changes again.
 
-<h2>02 - Embed answers - Question type(Short answer questions, Numerical questions, Multi-response answers). </h2>
+<!-- <h2>02 - Embed answers - Question type(Short answer questions, Numerical questions, Multi-response answers). </h2>
 
 In Moodle, questions can be structured with a passage of text that incorporates embedded answers. These embedded answers may include a variety of response formats, such as multiple-choice, short answers, and numerical answers. This approach allows for a more dynamic and interactive assessment experience, enabling learners to engage with the content in a comprehensive manner.
 in this section cover following 
@@ -114,7 +114,7 @@ To review quiz attempts:
 * This will show you a list of all the quiz reviews that have been created by teachers.
 * Grades can be viewed either by clicking the quiz and the link 'Attempts' when students have attempted the quiz, or from the Actions menu top right > Results (as in the above screenshot)
 
-<img src="https://github.com/LEARN-LK/lms/raw/master/img/40-teacher%20preview.png?raw=true" style="max-width: 100%;width: 60%;">
+<img src="https://github.com/LEARN-LK/lms/raw/master/img/40-teacher%20preview.png?raw=true" style="max-width: 100%;width: 60%;">   -->
 
 
 
