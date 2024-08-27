@@ -65,7 +65,7 @@ To add Microsoft 365 (O365) authentication to Moodle 4.3, you can use OAuth 2 au
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-m06.png?raw=true" style="max-width: 50%;width: 50%;">
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-m07.png?raw=true" style="max-width: 50%;width: 50%;"> 
 
-     
+<!--     
    - Set the `Authorization endpoint URL` to:
      ```
      https://login.microsoftonline.com/common/oauth2/v2.0/authorize
@@ -83,12 +83,33 @@ To add Microsoft 365 (O365) authentication to Moodle 4.3, you can use OAuth 2 au
      https://graph.microsoft.com/
      ```
    - Enable the service by checking the `Enabled` box.
-   - Click `Save changes`.
+   - Click `Save changes`.  -->
+
+  ### Additional Single Tenancy Configuration 
+   - Once the above steps have been completed, Moodle O365 Authentication click "Overview" if not already selected and choose "Endpoints"
+
+     <img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-m08.png?raw=true" style="max-width: 50%;width: 50%;"> 
+     
+   - From the list of endpoints copy the OpenID Connect metadata document endpoint URL. It is only necessary to copy the portion up to and including "v2.0". In the example below, the copied URL would be, "https://login.microsoftonline.com/96e0421d-d572-4839-9c32-b8bc00cf250b/v2.0/". Note that it is important to include the trailing slash.
+
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-m09.png?raw=true" style="max-width: 50%;width: 50%;"> 
+     
+- Now return to Moodle and in the newly created OAuth2 Microsoft service, paste the endpoint in the 'Service base URL' field.
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-m10.png?raw=true" style="max-width: 50%;width: 50%;"> 
+  
+-  Save your changes.
+
 
 4. **Enable Microsoft 365 Login:**
    - Go to `Site administration` > `Plugins` > `Authentication` > `Manage authentication`.
+     
+     <img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-m11.png?raw=true" style="max-width: 50%;width: 50%;"> 
+     
    - Scroll down to `OAuth 2` and make sure it's enabled.
    - Set `Microsoft 365` as an issuer.
+   
+     <img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-m12.png?raw=true" style="max-width: 50%;width: 50%;"> 
+  
 
 ### Step 3: Test Microsoft 365 Authentication
 
@@ -98,13 +119,11 @@ To add Microsoft 365 (O365) authentication to Moodle 4.3, you can use OAuth 2 au
 2. **Test the Login:**
    - Go to the Moodle login page.
    - You should now see a "Login with Microsoft" button.
+
+     <img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-m13.png?raw=true" style="max-width: 50%;width: 50%;"> 
+     
    - Click on it and log in with a Microsoft 365 account to test.
 
-### Step 4: Adjust Permissions and Settings (Optional)
 
-- Return to the Azure portal if you need to adjust application settings or permissions.
-- In Moodle, you can configure additional settings for the OAuth 2 service under `OAuth 2 services`.
-
-This setup allows users to authenticate with Microsoft 365 when logging into your Moodle 4.3 site.
 
 https://docs.moodle.org/403/en/OAuth_2_Microsoft_service
