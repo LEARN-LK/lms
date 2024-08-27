@@ -35,14 +35,15 @@ To add Microsoft 365 (O365) authentication to Moodle 4.3, you can use OAuth 2 au
    - Click `Add permissions`.
    - Grant admin consent for your organization.
      
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-03.png?raw=true" style="max-width: 100%;width: 60%;"> 
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-03.png?raw=true" style="max-width: 80%;width: 60%;"> 
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-04.png?raw=true" style="max-width: 80%;width: 60%;"> 
 
 4. **Create Client Secret:**
    - Go to `Certificates & secrets`.
    - Click on `New client secret`, provide a description, and set an expiration period.
    - After creating the client secret, copy the value immediately; you will need this for Moodle.
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-04.png?raw=true" style="max-width: 100%;width: 60%;"> 
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-05.png?raw=true" style="max-width: 80%;width: 60%;"> 
 
 
 ### Step 2: Configure Moodle for O365 Authentication
