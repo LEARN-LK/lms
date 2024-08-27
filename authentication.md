@@ -127,3 +127,5 @@ To add Microsoft 365 (O365) authentication to Moodle 4.3, you can use OAuth 2 au
 
 
 https://docs.moodle.org/403/en/OAuth_2_Microsoft_service
+
+<h1>Google authentication</h1>
