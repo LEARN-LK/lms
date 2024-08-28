@@ -136,32 +136,49 @@ Here is the corrected step-by-step guide:
    Go to the Google Cloud Console:  
    [https://console.cloud.google.com](https://console.cloud.google.com)
 
-2. **Create a New Project or Select an Existing Project**  
-   - Select your newly created project.
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-1.png?raw=true" style="max-width: 50%;width: 50%;"> 
 
-3. **Navigate to the API & Services > Credentials section**  
+2. **Create a New Project or Select an Existing Project**
+   **if you select "New Project, add project name and Click Create button"**
+
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-2.png?raw=true" style="max-width: 50%;width: 50%;"> 
+
+ 
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-3.png?raw=true" style="max-width: 50%;width: 50%;"> 
+  - Select your newly created project.
+
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-4.png?raw=true" style="max-width: 50%;width: 50%;"> 
+
+4. **Navigate to the API & Services > Credentials section**
+
+
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-5.png?raw=true" style="max-width: 50%;width: 50%;"> 
+
    - Go to **API & Services** and click on **Credentials**.
+     
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-6.png?raw=true" style="max-width: 50%;width: 50%;"> 
 
-4. **Create OAuth 2.0 Client ID**  
+6. **Create OAuth 2.0 Client ID**  
    - Click on **Create Credentials** and choose **OAuth client ID**.
+     <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-7.png?raw=true" style="max-width: 50%;width: 50%;"> 
    
-5. **Configure Consent Screen**  
+7. **Configure Consent Screen**  
    - Select User Type **External** and click the **Create** button.
    - Under **Edit app registration > OAuth Consent Screen > App Information**, fill in the required details.
    - In the **Authorized domains** section, add the domain of your Moodle site and provide the developer contact information.
    - Click **Save and Continue**.
 
-6. **Scopes Section**  
+8. **Scopes Section**  
    - Click **Save and Continue** in the **Scopes** section.
    - Then, click on the **Back to Dashboard** button.
 
-7. **Create OAuth Client ID**  
+9. **Create OAuth Client ID**  
    - Go to **Credentials** again, then click on **Create Credentials** and choose **OAuth Client ID**.
    - Select **Web Application** as the application type.
 
-8. **Configure Authorized Redirect URLs**  
+10. **Configure Authorized Redirect URLs**  
    - Add the following authorized redirect URL:  
    `https://your-moodle-site.com/admin/oauth2callback.php`
 
-9. **Click Create**  
+11. **Click Create**  
    - Finally, click the **Create** button to generate your OAuth 2.0 Client ID.
