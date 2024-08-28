@@ -160,23 +160,32 @@ Here is the corrected step-by-step guide:
 
 6. **Create OAuth 2.0 Client ID**  
    - Click on **Create Credentials** and choose **OAuth client ID**.
+     
      <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-7.png?raw=true" style="max-width: 50%;width: 50%;"> 
+     
+7. **Configure Consent Screen**
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-8.png?raw=true" style="max-width: 50%;width: 50%;"> 
    
-7. **Configure Consent Screen**  
    - Select User Type **External** and click the **Create** button.
+
+       <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-8.1.png?raw=true" style="max-width: 50%;width: 50%;"> 
+       
    - Under **Edit app registration > OAuth Consent Screen > App Information**, fill in the required details.
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-9.png?raw=true" style="max-width: 50%;width: 50%;"> 
+     
    - In the **Authorized domains** section, add the domain of your Moodle site and provide the developer contact information.
+     <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-10.png?raw=true" style="max-width: 50%;width: 50%;"> 
    - Click **Save and Continue**.
 
-8. **Scopes Section**  
+9. **Scopes Section**  
    - Click **Save and Continue** in the **Scopes** section.
    - Then, click on the **Back to Dashboard** button.
 
-9. **Create OAuth Client ID**  
+10. **Create OAuth Client ID**  
    - Go to **Credentials** again, then click on **Create Credentials** and choose **OAuth Client ID**.
    - Select **Web Application** as the application type.
 
-10. **Configure Authorized Redirect URLs**  
+11. **Configure Authorized Redirect URLs**  
    - Add the following authorized redirect URL:  
    `https://your-moodle-site.com/admin/oauth2callback.php`
 
