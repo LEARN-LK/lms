@@ -129,3 +129,39 @@ To add Microsoft 365 (O365) authentication to Moodle 4.3, you can use OAuth 2 au
 https://docs.moodle.org/403/en/OAuth_2_Microsoft_service
 
 <h1>Google authentication</h1>
+
+Here is the corrected step-by-step guide:
+
+1. **Login with Google**  
+   Go to the Google Cloud Console:  
+   [https://console.cloud.google.com](https://console.cloud.google.com)
+
+2. **Create a New Project or Select an Existing Project**  
+   - Select your newly created project.
+
+3. **Navigate to the API & Services > Credentials section**  
+   - Go to **API & Services** and click on **Credentials**.
+
+4. **Create OAuth 2.0 Client ID**  
+   - Click on **Create Credentials** and choose **OAuth client ID**.
+   
+5. **Configure Consent Screen**  
+   - Select User Type **External** and click the **Create** button.
+   - Under **Edit app registration > OAuth Consent Screen > App Information**, fill in the required details.
+   - In the **Authorized domains** section, add the domain of your Moodle site and provide the developer contact information.
+   - Click **Save and Continue**.
+
+6. **Scopes Section**  
+   - Click **Save and Continue** in the **Scopes** section.
+   - Then, click on the **Back to Dashboard** button.
+
+7. **Create OAuth Client ID**  
+   - Go to **Credentials** again, then click on **Create Credentials** and choose **OAuth Client ID**.
+   - Select **Web Application** as the application type.
+
+8. **Configure Authorized Redirect URLs**  
+   - Add the following authorized redirect URL:  
+   `https://your-moodle-site.com/admin/oauth2callback.php`
+
+9. **Click Create**  
+   - Finally, click the **Create** button to generate your OAuth 2.0 Client ID.
