@@ -180,14 +180,22 @@ Here is the corrected step-by-step guide:
 9. **Scopes Section**  
    - Click **Save and Continue** in the **Scopes** section.
    - Then, click on the **Back to Dashboard** button.
-
+  
 10. **Create OAuth Client ID**  
    - Go to **Credentials** again, then click on **Create Credentials** and choose **OAuth Client ID**.
+     
+     <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-11.png?raw=true" style="max-width: 50%;width: 50%;"> 
+     
    - Select **Web Application** as the application type.
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-10.1.png?raw=true" style="max-width: 50%;width: 50%;">
 
 11. **Configure Authorized Redirect URLs**  
    - Add the following authorized redirect URL:  
    `https://your-moodle-site.com/admin/oauth2callback.php`
 
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-12.png?raw=true" style="max-width: 50%;width: 50%;"> 
+
 11. **Click Create**  
    - Finally, click the **Create** button to generate your OAuth 2.0 Client ID.
+
+     <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-13.png?raw=true" style="max-width: 50%;width: 50%;"> 
