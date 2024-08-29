@@ -205,18 +205,30 @@ Here is the corrected step-by-step guide:
 i. **Login to Moodle as Admin:**
    - Log in to your Moodle site as an administrator.
 
+      <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-13.png?raw=true" style="max-width: 50%;width: 50%;"> 
+
 ii. **Enable OAuth 2 Services:**
    - Go to `Site administration` > `Server` > `OAuth 2 services`.
    - Click on `Add a new service`.
-       
+   - 
+        <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-m01.png?raw=true" style="max-width: 50%;width: 50%;"> 
 
 iii . **Add Google as an OAuth 2 Service:**
    - Name the service (e.g., "Google").
    - In the `Client ID` field, paste the `Application (client) ID` from Google Cloud Console.
    - In the `Client secret` field, paste the client secret you created in Google Cloud Console.
+   - 
+     <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-m02.png?raw=true" style="max-width: 50%;width: 50%;"> 
+
  
 iv . **Enable the Google API in Moodle**
    - In the same “Manage authentication “page look for “OAuth 2” in the list of authentication methods.
    - Enable the OAuth 2 authentication plugin
+   - 
+     <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-m03.png?raw=true" style="max-width: 50%;width: 50%;"> 
+
    - After performing all the above step, you google will be coming on your loving page (as it is appearing in below screen)
+   - 
+     <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-m04.png?raw=true" style="max-width: 50%;width: 50%;"> 
+
 
