@@ -7,41 +7,41 @@ To add Microsoft 365 (O365) authentication to Moodle 4.3, you can use OAuth 2 au
 1. **Access Azure Active Directory:**
    - Go to the [Azure portal](https://portal.azure.com/).
    - Sign in with your Microsoft 365 administrator account.
-   - Navigate to `Azure Active Directory` > `App registrations`.
+   - Navigate to `Azure Active Directory` > `App registrations [1]`.
      
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/Azure-01.png?raw=true" style="max-width: 100%;width: 100%;"> 
 
 2. **Register a New Application:**
    - Click on `New registration`.
-   - Enter a name for your application (e.g., "Moodle O365 Authentication").
-   - Choose `Accounts in this organizational directory only` or `Accounts in any organizational directory` depending on your user base.
-   - Under `Redirect URI`, select `Web` and enter the following URI:
+   - Enter a name for your application [2](e.g., "Moodle O365 Authentication").
+   - Choose `Accounts in this organizational directory only` or `Accounts in any organizational directory`[3] depending on your user base.
+   - Under `Redirect URI`, [4] select `Web` and enter the following URI:
      ```
      https://yourmoodleurl.com/admin/oauth2callback.php
      ```
      Replace `yourmoodleurl.com` with your actual Moodle site URL.
-   - Click `Register`.
+   - Click `Register` [5].
      
      <img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-02.png?raw=true" style="max-width: 60%;width: 100%;"> 
 
 3. **Configure API Permissions:**
-   - After the app is created, go to `API permissions`.
-   - Click on `Add a permission`, select `Microsoft Graph`, and then choose `Delegated permissions`.
-   - Add the following permissions:
+   - After the app is created, go to `API permissions`[6].
+   - Click on `Add a permission`[7], select `Microsoft Graph`,[8] and then choose `Delegated permissions`[9].
+   - Add the following permissions [10]:
      - `openid`
      - `profile`
      - `email`
      - `offline_access`
-   - Click `Add permissions`.
+   - Click `Add permissions`[11].
    - Grant admin consent for your organization.
      
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-03.png?raw=true" style="max-width: 80%;width: 60%;"> 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-04.png?raw=true" style="max-width: 80%;width: 60%;"> 
 
 4. **Create Client Secret:**
-   - Go to `Certificates & secrets`.
-   - Click on `New client secret`, provide a description, and set an expiration period.
-   - After creating the client secret, copy the value immediately; you will need this for Moodle.
+   - Go to `Certificates & secrets`[12].
+   - Click on `New client secret`[13], provide a description, and set an expiration period.
+   - After creating the client secret, copy the value immediately;[14] you will need this for Moodle.
 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-05.png?raw=true" style="max-width: 80%;width: 60%;"> 
 
@@ -52,17 +52,17 @@ To add Microsoft 365 (O365) authentication to Moodle 4.3, you can use OAuth 2 au
    - Log in to your Moodle site as an administrator.
 
 2. **Enable OAuth 2 Services:**
-   - Go to `Site administration` > `Server` > `OAuth 2 services`.
+   - Go to `Site administration`[16] > `Server`[17] > `OAuth 2 services`[18].
    - Click on `Add a new service`.
      
      <img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-m05.1.png?raw=true" style="max-width: 80%;width: 60%;"> 
-
+     <img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-m06.png?raw=true" style="max-width: 50%;width: 50%;">
 
 3. **Add Microsoft as an OAuth 2 Service:**
-   - Name the service (e.g., "Microsoft 365").
-   - In the `Client ID` field, paste the `Application (client) ID` from Azure AD.
-   - In the `Client secret` field, paste the client secret you created in Azure AD.
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-m06.png?raw=true" style="max-width: 50%;width: 50%;">
+   - Name the service [19] (e.g., "Microsoft 365").
+   - In the `Client ID` [20] field, paste the `Application (client) ID` from Azure AD.
+   - In the `Client secret`[21] field, paste the client secret you created in Azure AD.
+
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-m07.png?raw=true" style="max-width: 50%;width: 50%;"> 
 
 <!--     
