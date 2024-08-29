@@ -215,4 +215,8 @@ iii . **Add Google as an OAuth 2 Service:**
    - In the `Client ID` field, paste the `Application (client) ID` from Google Cloud Console.
    - In the `Client secret` field, paste the client secret you created in Google Cloud Console.
  
+iv . **Enable the Google API in Moodle**
+   - In the same “Manage authentication “page look for “OAuth 2” in the list of authentication methods.
+   - Enable the OAuth 2 authentication plugin
+   - After performing all the above step, you google will be coming on your loving page (as it is appearing in below screen)
 
