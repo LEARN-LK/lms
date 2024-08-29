@@ -200,7 +200,7 @@ Here is the corrected step-by-step guide:
 
      <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-13.png?raw=true" style="max-width: 50%;width: 50%;"> 
 
-12 **Configure Moodle for Google Authenticatio**
+12 **Configure Moodle for Google Cloud Console Authentication**
 
 i. **Login to Moodle as Admin:**
    - Log in to your Moodle site as an administrator.
@@ -208,12 +208,11 @@ i. **Login to Moodle as Admin:**
 ii. **Enable OAuth 2 Services:**
    - Go to `Site administration` > `Server` > `OAuth 2 services`.
    - Click on `Add a new service`.
-     
-     
+       
 
 iii . **Add Google as an OAuth 2 Service:**
    - Name the service (e.g., "Google").
-   - In the `Client ID` field, paste the `Application (client) ID` from Google.
-   - In the `Client secret` field, paste the client secret you created in Google.
+   - In the `Client ID` field, paste the `Application (client) ID` from Google Cloud Console.
+   - In the `Client secret` field, paste the client secret you created in Google Cloud Console.
  
 
