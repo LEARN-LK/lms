@@ -140,68 +140,69 @@ Here is the corrected step-by-step guide:
 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-1.png?raw=true" style="max-width: 50%;width: 50%;"> 
 
-2. **Create a New Project or Select an Existing Project**
-   **if you select "New Project, add project name and Click Create button"**
+2. **Create a New Project or Select an Existing Project [1]**
+   **if you select "New Project [2], add project name and [3] Click Create button [4]"**
 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-2.png?raw=true" style="max-width: 50%;width: 50%;"> 
 
  
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-3.png?raw=true" style="max-width: 50%;width: 50%;"> 
-  - Select your newly created project.
+  - Select your newly created project [5].
 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-4.png?raw=true" style="max-width: 50%;width: 50%;"> 
 
-4. **Navigate to the API & Services > Credentials section**
+4. **Navigate to the API & Services [7] > Credentials section [8]**
 
 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-5.png?raw=true" style="max-width: 50%;width: 50%;"> 
 
-   - Go to **API & Services** and click on **Credentials**.
+   - Go to **API & Services** and click on **Credentials [9]**.
      
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-6.png?raw=true" style="max-width: 50%;width: 50%;"> 
 
-6. **Create OAuth 2.0 Client ID**  
+6. **Create OAuth 2.0 Client ID [10]**  
    - Click on **Create Credentials** and choose **OAuth client ID**.
      
      <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-7.png?raw=true" style="max-width: 50%;width: 50%;"> 
      
-7. **Configure Consent Screen**
+7. **Configure Consent Screen [12]**
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-8.png?raw=true" style="max-width: 50%;width: 50%;"> 
    
-   - Select User Type **External** and click the **Create** button.
+   - Select User Type **External [13]** and click the **Create [14]** button.
 
        <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-8.1.png?raw=true" style="max-width: 50%;width: 50%;"> 
        
    - Under **Edit app registration > OAuth Consent Screen > App Information**, fill in the required details.
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-9.png?raw=true" style="max-width: 50%;width: 50%;"> 
      
-   - In the **Authorized domains** section, add the domain of your Moodle site and provide the developer contact information.
+   - In the **Authorized domain [16]s** section, add the domain of your Moodle site and provide the developer contact information.
      <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-10.png?raw=true" style="max-width: 50%;width: 50%;"> 
-   - Click **Save and Continue**.
+   - Click **Save and Continue [17]**.
 
 9. **Scopes Section**  
    - Click **Save and Continue** in the **Scopes** section.
    - Then, click on the **Back to Dashboard** button.
   
 10. **Create OAuth Client ID**  
-   - Go to **Credentials** again, then click on **Create Credentials** and choose **OAuth Client ID**.
+   - Go to **Credentials[18]** again, then click on **Create Credentials[19]** and choose **OAuth Client ID[20]**.
      
      <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-11.png?raw=true" style="max-width: 50%;width: 50%;"> 
      
-   - Select **Web Application** as the application type.
+   - Select **Web Application** as the application type [18].
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-10.1.png?raw=true" style="max-width: 50%;width: 50%;">
 
-11. **Configure Authorized Redirect URLs**  
+11. **Configure Authorized Redirect URLs[21]**  
    - Add the following authorized redirect URL:  
    `https://your-moodle-site.com/admin/oauth2callback.php`
 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-12.png?raw=true" style="max-width: 50%;width: 50%;"> 
 
-11. **Click Create**  
+11. **Click Create [22]**  
    - Finally, click the **Create** button to generate your OAuth 2.0 Client ID.
 
      <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-13.png?raw=true" style="max-width: 50%;width: 50%;"> 
 
+<hr>
 12 **Configure Moodle for Google Cloud Console Authentication**
 
 i. **Login to Moodle as Admin:**
@@ -210,21 +211,21 @@ i. **Login to Moodle as Admin:**
       <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-13.png?raw=true" style="max-width: 50%;width: 50%;"> 
 
 ii. **Enable OAuth 2 Services:**
-   - Go to `Site administration` > `Server` > `OAuth 2 services`.
-   - Click on `Add a new service`.
+   - Go to `Site administration` > `Server`[25] > `OAuth 2 services`.
+   - Click on `Add a new service`[26].
    - 
         <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-m01.png?raw=true" style="max-width: 50%;width: 50%;"> 
 
 iii . **Add Google as an OAuth 2 Service:**
-   - Name the service (e.g., "Google").
-   - In the `Client ID` field, paste the `Application (client) ID` from Google Cloud Console.
-   - In the `Client secret` field, paste the client secret you created in Google Cloud Console.
+   - Name the service[27] (e.g., "Google").
+   - In the `Client ID`[28] field, paste the `Application (client) ID` from Google Cloud Console.
+   - In the `Client secret`[29] field, paste the client secret you created in Google Cloud Console.
    - 
      <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-m02.png?raw=true" style="max-width: 50%;width: 50%;"> 
 
  
 iv . **Enable the Google API in Moodle**
-   - In the same “Manage authentication “page look for “OAuth 2” in the list of authentication methods.
+   - In the same “Manage authentication “page look for “OAuth 2” [30]in the list of authentication methods.
    - Enable the OAuth 2 authentication plugin
    - 
      <img src="https://github.com/LEARN-LK/lms/blob/master/img/Google-m03.png?raw=true" style="max-width: 50%;width: 50%;"> 
