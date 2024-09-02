@@ -1,6 +1,6 @@
 # LEARN SSO - Auth SAML2
 
-01 -To install the `auth_saml2` plugin via the Moodle site interface, follow these steps:
+## 01 -To install the `auth_saml2` plugin via the Moodle site interface, follow these steps:
 
 
 * Access your Moodle installation with administrator credentials. Navigate to Site Administration in the admin menu, click on Plugins, and select the option to install plugins. Next, click on the button labeled "Install plugins from the Moodle plugins directory."
@@ -45,7 +45,7 @@ sudo chmod -R 755 /var/www/html/moodle/auth
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/88-h5p-plugin11.png?raw=true"  style="max-width: 100%;width: 600px;">   
 
 
-02. Add following line to the Moodle config.php
+## 02. Add following line to the Moodle config.php
   To add the configuration setting `$CFG->auth_saml2_disco_url` in your Moodle configuration file, follow these steps:
 
 ### i. **Access the Moodle Server:**
