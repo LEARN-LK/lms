@@ -1,5 +1,6 @@
 # LEARN SSO - Auth SAML2
-To install the `auth_saml2` plugin via the Moodle site interface, follow these steps:
+
+01 -To install the `auth_saml2` plugin via the Moodle site interface, follow these steps:
 
 
 * Access your Moodle installation with administrator credentials. Navigate to Site Administration in the admin menu, click on Plugins, and select the option to install plugins. Next, click on the button labeled "Install plugins from the Moodle plugins directory."
@@ -42,4 +43,46 @@ sudo chmod -R 755 /var/www/html/moodle/auth
 *  Verify the Auth_SAML2 Settings and press Save changes. The default settings should be fine for most sites.
 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/88-h5p-plugin11.png?raw=true"  style="max-width: 100%;width: 600px;">   
+
+
+02. Add following line to the Moodle config.php
+  To add the configuration setting `$CFG->auth_saml2_disco_url` in your Moodle configuration file, follow these steps:
+
+### i. **Access the Moodle Server:**
+   - Use SSH or direct access to your Moodle server to open a terminal.
+
+### ii. **Locate the Moodle Configuration File:**
+   - The Moodle configuration file is usually named `config.php` and is located in the root directory of your Moodle installation (typically `/var/www/html/moodle/`).
+
+### iii. **Edit the Configuration File:**
+   - Open the `config.php` file with a text editor such as `nano` or `vim`:
+
+     ```bash
+     sudo nano /var/www/html/moodle/config.php
+     ```
+     or
+     ```bash
+     sudo vim /var/www/html/moodle/config.php
+     ```
+
+### iv. **Add the Configuration Setting:**
+   
+   - Add the following line:
+     ```php
+     $CFG->auth_saml2_disco_url = 'https://fds.ac.lk';
+     ```
+### v. **Save and Exit the Editor:**
+   - If you are using `nano`, press `CTRL + X`, then `Y` to confirm the changes, and `Enter` to save.
+   - If you are using `vim`, press `ESC`, type `:wq`, and press `Enter` to save and exit.
+
+### vi. **Restart the Web Server (Optional):**
+   - Although not always necessary, it's a good idea to restart your web server to ensure all changes are applied:
+     ```bash
+     sudo systemctl restart apache2
+     ```
+     or
+     ```bash
+     sudo systemctl restart httpd
+     ```
+
   
