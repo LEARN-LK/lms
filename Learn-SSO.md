@@ -171,5 +171,44 @@ sudo chmod -R 755 /var/www/html/moodle/auth
    - If you are using `nano`, press `CTRL + X`, then `Y` to confirm the changes, and `Enter` to save.
    - If you are using `vim`, press `ESC`, type `:wq`, and press `Enter` to save and exit.
 
+## 05. enable and configure SAML2 authentication in Moodle:
 
-  
+### i. **Log in to Moodle as an Administrator:**
+   - Open your web browser and log in to your Moodle site using an account with administrative privileges.
+
+### ii. **Navigate to Manage Authentication:**
+   - From the Moodle dashboard, go to:
+     ```
+     Site Administration -> Plugins -> Manage Authentication
+     ```
+### iii. **Enable SAML2 Authentication:**
+   - On the "Manage Authentication" page, scroll down to find the "SAML2" authentication method.
+   - Click the eye icon (👁️) next to "SAML2" to enable it if it is not already enabled.
+
+### iv. **Access SAML2 Settings:**
+   - After enabling SAML2, click on the "Settings" link next to the SAML2 authentication method to configure its settings.
+
+### v. **Configure SAML2 Settings:**
+   - Set the following values in the SAML2 settings page:
+     - **IdP metadata xml:**
+       ```
+       https://fr.ac.lk/signedmetadata/metadata.xml
+       ```
+     - **IdP label override:**
+       ```
+       LEARN SSO
+       ```
+     - **Federation Discovery Service:**  
+       Find the option to make Federation Discovery Service active from the list of available IdPs and ensure it is enabled.
+     - **Enable logging to file:**
+       - Select `Yes` to enable logging.
+     - **Auto create users:**
+       - Select `Yes` to allow the automatic creation of users.
+     - **Mapping IdP:**
+       - Set this to `uid`.
+     - **Attempt IdP Signout:**
+       - Set this to `No`.
+
+### vi. **Save the Configuration:**
+   - Once all the settings are configured, scroll down and click the "Save changes" button to apply the changes.
+
