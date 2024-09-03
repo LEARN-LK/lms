@@ -35,7 +35,7 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
     * Authentication 
       - [O365 Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#-mirosoft-o365--)
       - [Google Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#google-authentication)
-      - [LEARN SSO -Auth SAML2]
+      - [LEARN SSO -Auth SAML2](https://github.com/LEARN-LK/lms/blob/master/Learn-SSO.md)
       - Shiboleth SP
      
 3. Teachers Guide
