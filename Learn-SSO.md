@@ -209,6 +209,24 @@ sudo chmod -R 755 /var/www/html/moodle/auth
      - **Attempt IdP Signout:**
        - Set this to `No`.
 
-### vi. **Save the Configuration:**
+### vi. **Access Data Mapping Settings:**
+   - Scroll down the SAML2 settings page until you find the **Data mapping** section.
+
+### vii. **Set Data Mapping Fields:**
+   - Configure the following mappings:
+     - **Username:**
+       - Set the field to `uid`.
+       - Check the box to lock this field, ensuring it cannot be changed by users.
+     - **First name:**
+       - Set the field to `givenName`.
+       - Check the box to lock this field.
+     - **Last name:**
+       - Set the field to `sn`.
+       - Check the box to lock this field.
+     - **Email address:**
+       - Set the field to `mail`.
+       - Check the box to lock this field.
+
+### viii. **Save the Configuration:**
    - Once all the settings are configured, scroll down and click the "Save changes" button to apply the changes.
 
