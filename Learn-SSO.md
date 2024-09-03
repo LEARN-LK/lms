@@ -127,6 +127,7 @@ sudo chmod -R 755 /var/www/html/moodle/auth
 ### v. **Save and Exit the Editor:**
    - If you are using `nano`, press `CTRL + X`, then `Y` to confirm the changes, and `Enter` to save.
    - If you are using `vim`, press `ESC`, type `:wq`, and press `Enter` to save and exit.
+     
 
 ## 04. To add the line `'tempdir' => '/var/moodledata',` to the `auth/saml2/config/config.php` file in your Moodle installation, follow these steps:
 
