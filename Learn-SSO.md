@@ -124,7 +124,49 @@ sudo chmod -R 755 /var/www/html/moodle/auth
      ```
    - Ensure the change is exact, with no additional spaces or errors.
 
-### 5. **Save and Exit the Editor:**
+### v. **Save and Exit the Editor:**
+   - If you are using `nano`, press `CTRL + X`, then `Y` to confirm the changes, and `Enter` to save.
+   - If you are using `vim`, press `ESC`, type `:wq`, and press `Enter` to save and exit.
+
+## 04. To add the line `'tempdir' => '/var/moodledata',` to the `auth/saml2/config/config.php` file in your Moodle installation, follow these steps:
+
+
+
+### i. **Navigate to the SAML2 Plugin Configuration Directory:**
+   - Use the `cd` command to navigate to the directory where the `config.php` file is located:
+     ```bash
+     cd /var/www/html/moodle/auth/saml2/config/
+     ```
+### ii. **Open the `config.php` File:**
+   - Open the `config.php` file using a text editor such as `nano` or `vim`:
+     ```bash
+     sudo nano config.php
+     ```
+     or
+     ```bash
+     sudo vim config.php
+     ```
+### iii. **Add the `tempdir` Configuration:**
+   - Look through the file to see if the `'tempdir'` setting is already present.
+   - If it is not present, add the following line within the array structure (usually within a section defining various settings):
+
+     ```php
+     'tempdir' => '/var/moodledata',
+     ```
+
+   - Ensure you place this line correctly within the configuration array, following the syntax of the existing entries. Typically, it should be added within the array like so:
+
+     ```php
+     return array(
+         'setting1' => 'value1',
+         'setting2' => 'value2',
+         'tempdir'  => '/var/moodledata',
+         // Other settings...
+     );
+     ```
+   - If the line already exists, you don't need to add it again.
+
+### iv. **Save and Exit the Editor:**
    - If you are using `nano`, press `CTRL + X`, then `Y` to confirm the changes, and `Enter` to save.
    - If you are using `vim`, press `ESC`, type `:wq`, and press `Enter` to save and exit.
 
