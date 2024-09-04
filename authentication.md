@@ -61,7 +61,9 @@ To add Microsoft 365 (O365) authentication to Moodle 4.3, you can use OAuth 2 au
 3. **Add Microsoft as an OAuth 2 Service:**
    - Name the service [19] (e.g., "Microsoft 365").
    - In the `Client ID` [20] field, paste the `Application (client) ID` from Azure AD.
-   - In the `Client secret`[21] field, paste the client secret you created in Azure AD.
+     <img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-m14.png?raw=true" style="max-width: 50%;width: 50%;"> 
+   - In the `Client secret`[21] field, paste the client secret you(Certification & Secret > Value) created in Azure AD.
+   - <img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-m15.png?raw=true" style="max-width: 50%;width: 50%;"> 
 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/azure-m07.png?raw=true" style="max-width: 50%;width: 50%;"> 
 
