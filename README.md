@@ -28,11 +28,11 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
  
 01. Moodle Admin Guide
     * Create courses [(Create category,Create courses ,Add bulk course,Delete courses,Automated course backup)](https://github.com/LEARN-LK/lms/blob/master/add.md#-adding-a-course-category-)
-    * Add users [Authentication methods,Enrolling](https://github.com/LEARN-LK/lms/blob/master/Adding%20users.md#adding-users-)
+    * Add users [Adding User methods,Enrolling](https://github.com/LEARN-LK/lms/blob/master/Adding%20users.md#adding-users-)
     * [Moodle Virtual Class Room (Webinar)](https://github.com/LEARN-LK/lms/blob/master/Moodle%20Virtual%20Class%20Room%20(Webinar)%20.md)
     * [Enable Safe Exam Browser](https://github.com/LEARN-LK/lms/blob/master/Enable-Safe-Exam-Browser.md)
     * [Customize the Moodle themes](https://github.com/LEARN-LK/lms/blob/master/Customize_Moodle_themes.md)
-    * Authentication 
+    * External Authentication
       - [O365 Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#-mirosoft-o365--)
       - [Google Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#google-authentication)
       - [LEARN SSO -Auth SAML2](https://github.com/LEARN-LK/lms/blob/master/Learn-SSO.md)
