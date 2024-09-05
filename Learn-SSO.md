@@ -1,4 +1,4 @@
-# LEARN SSO - Auth SAML2
+# LIAF SSO - Auth SAML2
 
 ## 01 - Use the following steps for the installation of the auth_saml2 plugin via the Moodle site interface:
 
