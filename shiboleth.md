@@ -4,6 +4,6 @@ The LIAF SSO document describes how to implement Single Sign-On (SSO) for their 
 
 ***Testing environment*** 
 
-* OS version : Ubuntu 24.04
+* OS version : Ubuntu 22.04
 * php version : 
 * Moodle Version : 4.3
