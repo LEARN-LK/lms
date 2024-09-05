@@ -48,8 +48,9 @@ sudo chmod -R 755 /var/www/html/moodle/auth
 
 <!-- <img src="https://github.com/LEARN-LK/lms/blob/master/img/88-h5p-plugin11.png?raw=true"  style="max-width: 100%;width: 600px;"> -->  
 
+## 02.Configure the Moodle core.
 
-## 02. Add following line to the Moodle config.php
+### 02.1 Add following line to the Moodle config.php
   To add the configuration setting `$CFG->auth_saml2_disco_url` in your Moodle configuration file, follow these steps:
 
 ### i. **Access the Moodle Server:**
