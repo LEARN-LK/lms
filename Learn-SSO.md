@@ -269,3 +269,4 @@ sudo chmod -R 755 /var/www/html/moodle/auth
    - After submitting your registration, your campus will need to sign the LIAF Service Provider application.
 
 *****  add login step ****
+**** troubleshoot step***
