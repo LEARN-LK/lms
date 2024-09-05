@@ -268,4 +268,4 @@ sudo chmod -R 755 /var/www/html/moodle/auth
      - Uploading the SP metadata file you downloaded in the previous step.
    - After submitting your registration, your campus will need to sign the LIAF Service Provider application.
 
-
+*****  add login step ****
