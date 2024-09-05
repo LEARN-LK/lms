@@ -238,25 +238,25 @@ sudo chmod -R 755 /var/www/html/moodle/auth
 
 
 
-## 06   To generate a certificate, download SP metadata, and register it at LIAF for your Moodle site's SAML2 configuration, follow these steps:
+### 3.1   To generate a certificate, download SP metadata, and register it at LIAF for your Moodle site's SAML2 configuration, follow these steps:
 
 
-### i. **Navigate to SAML2 Settings:**
+#### i. **Navigate to SAML2 Settings:**
    - From the Moodle dashboard, go to:
      ```
      Site Administration -> Plugins -> Authentication -> SAML2
      ```
    - This will take you to the settings page for the SAML2 authentication method.
 
-### ii. **Generate the Certificate:**
+#### ii. **Generate the Certificate:**
    - In the SAML2 settings page, scroll down to the **Generate Certificate** section.
    - Click the **Generate** button to create the certificate.
 
-### iii. **Download SP Metadata:**
+#### iii. **Download SP Metadata:**
    - After generating the certificate, locate the option to download the Service Provider (SP) metadata file.
    - Click the link to **Download SP Metadata** and save the file to your computer.
 
-### iv. **Register at LIAF:**
+#### iv. **Register at LIAF:**
    - Visit the LIAF (Lanka Identity and Access Federation) registration page:
      ```
      https://liaf.ac.lk/#join
