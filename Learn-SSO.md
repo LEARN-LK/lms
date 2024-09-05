@@ -1,5 +1,7 @@
 # LIAF SSO - Auth SAML2
 
+The LIAF SSO document describes how to implement Single Sign-On (SSO) for their Learning Management System (LMS). It likely provides instructions on configuring and integrating SSO, enabling users to access the LMS with a single set of login credentials across various systems. This approach improves user convenience and security by minimizing the need to remember multiple passwords and simplifying the authentication process.
+
 ## 01 - Use the following steps for the installation of the auth_saml2 plugin via the Moodle site interface:
 
 
