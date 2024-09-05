@@ -53,13 +53,13 @@ sudo chmod -R 755 /var/www/html/moodle/auth
 ### 02.1 Add following line to the Moodle config.php
   To add the configuration setting `$CFG->auth_saml2_disco_url` in your Moodle configuration file, follow these steps:
 
-### i. **Access the Moodle Server:**
+#### i. **Access the Moodle Server:**
    - Use SSH or direct access to your Moodle server to open a terminal.
 
-### ii. **Locate the Moodle Configuration File:**
+#### ii. **Locate the Moodle Configuration File:**
    - The Moodle configuration file is usually named `config.php` and is located in the root directory of your Moodle installation (typically `/var/www/html/moodle/`).
 
-### iii. **Edit the Configuration File:**
+#### iii. **Edit the Configuration File:**
    - Open the `config.php` file with a text editor such as `nano` or `vim`:
 
      ```bash
@@ -70,17 +70,17 @@ sudo chmod -R 755 /var/www/html/moodle/auth
      sudo vim /var/www/html/moodle/config.php
      ```
 
-### iv. **Add the Configuration Setting:**
+#### iv. **Add the Configuration Setting:**
    
    - Add the following line:
      ```php
      $CFG->auth_saml2_disco_url = 'https://fds.ac.lk';
      ```
-### v. **Save and Exit the Editor:**
+#### v. **Save and Exit the Editor:**
    - If you are using `nano`, press `CTRL + X`, then `Y` to confirm the changes, and `Enter` to save.
    - If you are using `vim`, press `ESC`, type `:wq`, and press `Enter` to save and exit.
 
-### vi. **Restart the Web Server (Optional):**
+#### vi. **Restart the Web Server (Optional):**
    - Although not always necessary, it's a good idea to restart your web server to ensure all changes are applied:
      ```bash
      sudo systemctl restart apache2
@@ -91,12 +91,12 @@ sudo chmod -R 755 /var/www/html/moodle/auth
      ```
 
 
-## 03. To edit the `module.php` file in your Moodle installation and change the required file path, follow these steps:
+## 02.2. To edit the `module.php` file in your Moodle installation and change the required file path, follow these steps:
 
-### i. **Access the Moodle Server:**
+#### i. **Access the Moodle Server:**
    - Use SSH or direct access to connect to your Linux server where Moodle is installed.
 
-### ii.. **Navigate to the SAML2 Plugin Directory:**
+#### ii.. **Navigate to the SAML2 Plugin Directory:**
    - Use the `cd` command to navigate to the directory where the `module.php` file is located:
 
      ```bash
@@ -105,7 +105,7 @@ sudo chmod -R 755 /var/www/html/moodle/auth
 
    - Adjust the path if your Moodle installation is located in a different directory.
 
-### iii. **Open the `module.php` File:**
+#### iii. **Open the `module.php` File:**
    - Open the `module.php` file using a text editor such as `nano` or `vim`:
 
      ```bash
@@ -116,7 +116,7 @@ sudo chmod -R 755 /var/www/html/moodle/auth
      sudo vim module.php
      ```
 
-### iv. **Find and Edit the Required Line:**
+#### iv. **Find and Edit the Required Line:**
    - Look for the following line in the `module.php` file:
 
      ```php
@@ -128,21 +128,21 @@ sudo chmod -R 755 /var/www/html/moodle/auth
      ```
    - Ensure the change is exact, with no additional spaces or errors.
 
-### v. **Save and Exit the Editor:**
+#### v. **Save and Exit the Editor:**
    - If you are using `nano`, press `CTRL + X`, then `Y` to confirm the changes, and `Enter` to save.
    - If you are using `vim`, press `ESC`, type `:wq`, and press `Enter` to save and exit.
      
 
-## 04. To add the line `'tempdir' => '/var/moodledata',` to the `auth/saml2/config/config.php` file in your Moodle installation, follow these steps:
+### 02.3. To add the line `'tempdir' => '/var/moodledata',` to the `auth/saml2/config/config.php` file in your Moodle installation, follow these steps:
 
 
 
-### i. **Navigate to the SAML2 Plugin Configuration Directory:**
+#### i. **Navigate to the SAML2 Plugin Configuration Directory:**
    - Use the `cd` command to navigate to the directory where the `config.php` file is located:
      ```bash
      cd /var/www/html/moodle/auth/saml2/config/
      ```
-### ii. **Open the `config.php` File:**
+#### ii. **Open the `config.php` File:**
    - Open the `config.php` file using a text editor such as `nano` or `vim`:
      ```bash
      sudo nano config.php
@@ -151,7 +151,7 @@ sudo chmod -R 755 /var/www/html/moodle/auth
      ```bash
      sudo vim config.php
      ```
-### iii. **Add the `tempdir` Configuration:**
+#### iii. **Add the `tempdir` Configuration:**
    - Look through the file to see if the `'tempdir'` setting is already present.
    - If it is not present, add the following line within the array structure (usually within a section defining various settings):
 
@@ -171,28 +171,29 @@ sudo chmod -R 755 /var/www/html/moodle/auth
      ```
    - If the line already exists, you don't need to add it again.
 
-### iv. **Save and Exit the Editor:**
+#### iv. **Save and Exit the Editor:**
    - If you are using `nano`, press `CTRL + X`, then `Y` to confirm the changes, and `Enter` to save.
    - If you are using `vim`, press `ESC`, type `:wq`, and press `Enter` to save and exit.
 
-## 05. enable and configure SAML2 authentication in Moodle:
+## 03.Moodle UI Configuration 
+### enable and configure SAML2 authentication in Moodle:
 
-### i. **Log in to Moodle as an Administrator:**
+#### i. **Log in to Moodle as an Administrator:**
    - Open your web browser and log in to your Moodle site using an account with administrative privileges.
 
-### ii. **Navigate to Manage Authentication:**
+#### ii. **Navigate to Manage Authentication:**
    - From the Moodle dashboard, go to:
      ```
      Site Administration -> Plugins -> Manage Authentication
      ```
-### iii. **Enable SAML2 Authentication:**
+#### iii. **Enable SAML2 Authentication:**
    - On the "Manage Authentication" page, scroll down to find the "SAML2" authentication method.
    - Click the eye icon (👁️) next to "SAML2" to enable it if it is not already enabled.
 
-### iv. **Access SAML2 Settings:**
+#### iv. **Access SAML2 Settings:**
    - After enabling SAML2, click on the "Settings" link next to the SAML2 authentication method to configure its settings.
 
-### v. **Configure SAML2 Settings:**
+#### v. **Configure SAML2 Settings:**
    - Set the following values in the SAML2 settings page:
      - **IdP metadata xml:**
        ```
@@ -213,10 +214,10 @@ sudo chmod -R 755 /var/www/html/moodle/auth
      - **Attempt IdP Signout:**
        - Set this to `No`.
 
-### vi. **Access Data Mapping Settings:**
+#### vi. **Access Data Mapping Settings:**
    - Scroll down the SAML2 settings page until you find the **Data mapping** section.
 
-### vii. **Set Data Mapping Fields:**
+#### vii. **Set Data Mapping Fields:**
    - Configure the following mappings:
      - **Username:**
        - Set the field to `uid`.
@@ -231,7 +232,7 @@ sudo chmod -R 755 /var/www/html/moodle/auth
        - Set the field to `mail`.
        - Check the box to lock this field.
 
-### viii. **Save the Configuration:**
+#### viii. **Save the Configuration:**
    - Once all the settings are configured, scroll down and click the "Save changes" button to apply the changes.
    - 
 
