@@ -99,8 +99,8 @@ sudo chmod -R 755 /var/www/html/moodle/auth
      sudo systemctl restart httpd
      ```
 
-
-## 02.2. To edit the `module.php` file in your Moodle installation and change the required file path, follow these steps:
+## 02.2. Edit the `module.php` 
+file in your Moodle installation and change the required file path, follow these steps:
 
 #### i. **Access the Moodle Server:**
    - Use SSH or direct access to connect to your Linux server where Moodle is installed.
@@ -142,9 +142,8 @@ sudo chmod -R 755 /var/www/html/moodle/auth
    - If you are using `vim`, press `ESC`, type `:wq`, and press `Enter` to save and exit.
      
 
-### 02.3. To add the line `'tempdir' => '/var/moodledata',` to the `auth/saml2/config/config.php` file in your Moodle installation, follow these steps:
-
-
+### 02.3. EDIT `auth/saml2/config/config.php` file
+To add the line `'tempdir' => '/var/moodledata',` to the `auth/saml2/config/config.php` file in your Moodle installation, follow these steps:
 
 #### i. **Navigate to the SAML2 Plugin Configuration Directory:**
    - Use the `cd` command to navigate to the directory where the `config.php` file is located:
@@ -185,7 +184,7 @@ sudo chmod -R 755 /var/www/html/moodle/auth
    - If you are using `vim`, press `ESC`, type `:wq`, and press `Enter` to save and exit.
 
 ## 03.Moodle UI Configuration 
-### enable and configure SAML2 authentication in Moodle:
+### 03.1 enable and configure SAML2 authentication in Moodle:
 
 #### i. **Log in to Moodle as an Administrator:**
    - Open your web browser and log in to your Moodle site using an account with administrative privileges.
@@ -247,8 +246,8 @@ sudo chmod -R 755 /var/www/html/moodle/auth
 
 
 
-### 3.1   To generate a certificate, download SP metadata, and register it at LIAF for your Moodle site's SAML2 configuration, follow these steps:
-
+### 3.2  Generate Moodle SAML2 certificate and register with LIAF
+To generate a certificate, download SP metadata, and register it at LIAF for your Moodle site's SAML2 configuration, follow these steps:
 
 #### i. **Navigate to SAML2 Settings:**
    - From the Moodle dashboard, go to:
