@@ -286,12 +286,12 @@ To generate a certificate, download SP metadata, and register it at LIAF for you
 
 ##  04 Steps for logging into Moodle using LIAF SSO
 
-   - Browse to the Moodle URL: Visit the specified Moodle URL (https://mdatest.learn.ac.lk/moodle/).
-   - Select the Login Button: Click the login button located in the top right corner of the screen.
-   - Choose LIAF SSO: You'll be redirected to a login page. Select the "LIAF SSO" login button.
-   - Choose Your Institution: If your institution is part of a federation, use the dropdown button to select your specific institution.
-   - Enter Credentials: Enter your institutional username and password.
-   - Login: Click the "Login" or "Sign In" button. Your institution's authentication system will verify your identity.
-   - Access Moodle: After successful authentication, you will be logged into your Moodle account.
+   - **Browse to the Moodle URL**: Visit the specified Moodle URL (https://mdatest.learn.ac.lk/moodle/).
+   - **Select the Login Button**: Click the login button located in the top right corner of the screen.
+   - **Choose LIAF SSO**: You'll be redirected to a login page. Select the "LIAF SSO" login button.
+   - **Choose Your Institution**: If your institution is part of a federation, use the dropdown button to select your specific institution.
+   - **Enter Credentials**: Enter your institutional username and password.
+   - **Login**: Click the "Login" or "Sign In" button. Your institution's authentication system will verify your identity.
+   - **Access Moodle**: After successful authentication, you will be logged into your Moodle account.
 
 **** troubleshoot step***
