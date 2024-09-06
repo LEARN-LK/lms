@@ -1,8 +1,12 @@
 # LIAF SSO - Auth SAML2 (Recommended)
 
-The LIAF SSO document describes how to implement Single Sign-On (SSO) for their Learning Management System (LMS). It likely provides instructions on configuring and integrating SSO, enabling users to access the LMS with a single set of login credentials across various systems. This approach improves user convenience and security by minimizing the need to remember multiple passwords and simplifying the authentication process.
+LIAF SSO facilitates Moodle admins to get rid of need of creating student/staff user account manually. The people can access the Moodle site either by their eduID (provide hyper link to eduID) or their campus credentials.
 
-***testing environment*** 
+The document describes the way to implement the LIAF (provide hyper link to LIAF site) Single Sign-On (SSO) for Moodle.
+
+<!-- The LIAF SSO document describes how to implement Single Sign-On (SSO) for their Learning Management System (LMS). It likely provides instructions on configuring and integrating SSO, enabling users to access the LMS with a single set of login credentials across various systems. This approach improves user convenience and security by minimizing the need to remember multiple passwords and simplifying the authentication process.-->
+
+***Tested and verified on*** 
 
 * OS version : Ubuntu 22.04
 * php version : 8.1.2
