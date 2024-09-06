@@ -15,18 +15,28 @@ The document describes the way to implement the LIAF (provide hyper link to LIAF
 ## 01 - Installing the auth_saml2 Plugin for Moodle 
 Use the following steps for the installation of the auth_saml2 plugin via the Moodle site interface:
 
-**i.** Take administrative control of your Moodle installation.
+<!-- **i.** Take administrative control of your Moodle installation.
 * Navigate to Site Administration in the admin menu > click on Plugins, and select the option to install plugins. Next > click on the button labeled "Install plugins from the Moodle plugins directory."
-  
-<!-- <img src="https://github.com/LEARN-LK/lms/blob/master/img/78-h5p-plugin1.png?raw=true"  style="max-width: 100%;width: 600px;"><img src="https://github.com/LEARN-LK/lms/blob/master/img/79-h5p-plugin2.png?raw=true"  style="max-width: 100%;width: 600px;"> -->
 **ii.**  At this moment you might be required to log in to your moodle.org account. Locate the auth_saml2 plugin page and press Install now button.
-  
-<!-- <img src="https://github.com/LEARN-LK/lms/blob/master/img/80-h5p-plugin3.png?raw=true"  style="max-width: 100%;width: 600px;">
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/81-h5p-plugin4.png?raw=true"  style="max-width: 100%;width: 600px;">
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/82-h5p-plugin5.png?raw=true"  style="max-width: 100%;width: 600px;"> -->
-**iii.**  On the next screen, click I want to install the plugin on the following site (the site with auth_saml2 is required).
+**iii.**  On the next screen, click I want to install the plugin on the following site (the site with auth_saml2 is required).  -->
 
-<!-- <img src="https://github.com/LEARN-LK/lms/blob/master/img/83-h5p-plugin6.png?raw=true"  style="max-width: 100%;width: 600px;">  --> 
+
+i. Take Administrative Control:
+
+   - Navigate to Site Administration in the admin menu.
+   - Click on Plugins.
+   - Select the option to install plugins.
+   - Next, click on the button labeled "Install plugins from the Moodle plugins directory."
+     
+ii. Locate and Install the Plugin:
+
+- (Optional) You might be prompted to log in to your moodle.org account.
+- Locate the auth_saml2 plugin page and press the Install now button.
+  
+iii. Confirm Installation:
+
+- On the next screen, click I want to install the plugin on the following site (the site with auth_saml2 is required).
+
 
 **iv.** if you having this kind of error:
 
