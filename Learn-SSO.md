@@ -21,51 +21,68 @@ Use the following steps for the installation of the auth_saml2 plugin via the Mo
 **iii.**  On the next screen, click I want to install the plugin on the following site (the site with auth_saml2 is required).  -->
 
 
-i. Take Administrative Control:
+#### i. Take Administrative Control:
 
    - Navigate to Site Administration in the admin menu.
    - Click on Plugins.
    - Select the option to install plugins.
    - Next, click on the button labeled "Install plugins from the Moodle plugins directory."
      
-ii. Locate and Install the Plugin:
+#### ii. Locate and Install the Plugin:
 
 - (Optional) You might be prompted to log in to your moodle.org account.
 - Locate the auth_saml2 plugin page and press the Install now button.
   
-iii. Confirm Installation:
+#### iii. Confirm Installation:
 
 - On the next screen, click I want to install the plugin on the following site (the site with auth_saml2 is required).
 
 
-**iv.** if you having this kind of error:
+#### iv. if you having this kind of error:
 
 > [!NOTE]
 > There is a request to install plugin Auth_SAML2 from the Moodle plugins directory on this site. However, the location /var/www/html/moodle/mod is not writable. You need to give write access for the web server user to the location, then press the continue button to repeat the check.
 
 
-**v.** follow this Step :
+#### v. follow this Step :
 <pre><code>sudo chown -R www-data:www-data /var/www/html/moodle/auth
 sudo chmod -R 755 /var/www/html/moodle/auth
 </code></pre>
 
 
-**vi.**  You'll be redirected back to your site; confirm the installation by clicking on "Continue."
+<!-- **vi.**  You'll be redirected back to your site; confirm the installation by clicking on "Continue."
 
-<!-- <img src="https://github.com/LEARN-LK/lms/blob/master/img/84-h5p-plugin7.png?raw=true"  style="max-width: 100%;width: 600px;">  -->     
 **vii.**  Review the installation log and look for any error messages. Afterward, click "Continue" again.
-
-<!-- <img src="https://github.com/LEARN-LK/lms/blob/master/img/85-h5p-plugin8.png?raw=true"  style="max-width: 100%;width: 600px;"> -->
      
 **viii.**  You are now on the Plugins check page. Confirm that the Auth_SAML2 plugin status is set to "To be installed." Continue by clicking the button labeled "Upgrade Moodle database now" (Note: This process may take some time).
   
-<!-- <img src="https://github.com/LEARN-LK/lms/blob/master/img/86-h5p-plugin9.png?raw=true"  style="max-width: 100%;width: 600px;"> -->     
 **ix.**  You should now see a message from the Auth_SAML2 plugin. Take note of whether the content types were automatically installed. If not, proceed to the next section on uploading and creating content. Click "Continue" when you are ready to proceed.
 
-<!-- <img src="https://github.com/LEARN-LK/lms/blob/master/img/87-h5p-plugin10.png?raw=true"  style="max-width: 100%;width: 600px;">    --> 
-**x.**  Verify the Auth_SAML2 Settings and press Save changes. The default settings should be fine for most sites.
+**x.**  Verify the Auth_SAML2 Settings and press Save changes. The default settings should be fine for most sites. -->
 
-<!-- <img src="https://github.com/LEARN-LK/lms/blob/master/img/88-h5p-plugin11.png?raw=true"  style="max-width: 100%;width: 600px;"> -->  
+#### Vi. Confirm Installation: 
+- You'll be redirected back to your site.
+- Click "Continue."
+
+#### Vii. Review Installation Log:
+- Review the installation log for any error messages.
+- Click "Continue."
+
+#### Viii .Check Plugin Status:
+ - You are now on the Plugins check page.
+- Confirm that the Auth_SAML2 plugin status is set to "To be installed."
+- Click "Upgrade Moodle database now."
+
+#### ix Note Content Type Installation:
+- You should see a message from the Auth_SAML2 plugin.
+- Note whether the content types were automatically installed.
+- Click "Continue."
+
+#### x Verify Auth_SAML2 Settings:
+- Verify the Auth_SAML2 Settings.
+- Click "Save changes."
+
+
 
 ## 02.Configure the Moodle core.
 
