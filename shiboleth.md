@@ -8,7 +8,7 @@ The LIAF SSO document describes how to implement Single Sign-On (SSO) for their 
 * php version : 
 * Moodle Version : 4.3
 * SSL/ HTTPS Certificates issued ( using Letsencrypt )
-* sudo access to the server. All following commands have to be entered as the root user. Best way to do it is, by login in as root with {{{ sudo su }}}
+* sudo access to the server. All following commands have to be entered as the root user. Best way to do it is, by login in as root with ``` sudo su ```
 
 Shibboleth SP installation
 
