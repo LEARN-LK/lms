@@ -16,7 +16,7 @@ Install needed packages:
 
  apt install libapache2-mod-shib ntp --no-install-recommends 
 
-=== Moodle Apache Config ===
+***Moodle Apache Config***
 
 '''http''' config: {{{ /etc/apache2/sites-enabled/mdl.conf }}}
 
@@ -34,20 +34,20 @@ Install needed packages:
 </VirtualHost>
 }}}
 
-=== Install Letsencrypt and enable HTTPS: ===
+***Install Letsencrypt and enable HTTPS:***
 
 {{{
 * apt install python3-certbot-apache
 * certbot --apache -d idp.YOUR-DOMAIN
 }}}
 
-== Shibboleth SP Installation ==
+***Shibboleth SP Installation***
 
 Install needed packages:
 
 {{{ apt install libapache2-mod-shib ntp --no-install-recommends }}}
 
-=== Shibboleth SP Configuration ===
+***Shibboleth SP Configuration***
 
 Web application need to be connected to LIAF, therefore, download Federation Metadata Signing Certificate:
 
@@ -184,7 +184,7 @@ Download the  metadata from both applications by going to the following URL's.
 
 Now register them with LIAF separately. 
 
-== Enabling Moodle Plugin ==
+***Enabling Moodle Plugin***
 
 As Moodle admin, go to the '''Site administration''' >>> '''Plugins''' >>> '''Authentication''' and click on the '''Shibboleth''' enable '''eye'''. Next go to its settings.
 
