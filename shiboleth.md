@@ -18,10 +18,10 @@ Install needed packages:
 
 ***Moodle Apache Config***
 
-'''http''' config: {{{ /etc/apache2/sites-enabled/mdl.conf }}}
+'''http''' config: ``` /etc/apache2/sites-enabled/mdl.conf ```
 
 
-{{{
+```
 <VirtualHost *:80>
 
 	ServerName mdl.Your-Domain
@@ -32,33 +32,33 @@ Install needed packages:
 	CustomLog ${APACHE_LOG_DIR}/mdl-access.log combined
 
 </VirtualHost>
-}}}
+```
 
 ***Install Letsencrypt and enable HTTPS:***
 
-{{{
-* apt install python3-certbot-apache
-* certbot --apache -d idp.YOUR-DOMAIN
-}}}
+```
+ apt install python3-certbot-apache
+ certbot --apache -d idp.YOUR-DOMAIN
+```
 
 ***Shibboleth SP Installation***
 
 Install needed packages:
 
-{{{ apt install libapache2-mod-shib ntp --no-install-recommends }}}
+```apt install libapache2-mod-shib ntp --no-install-recommends ```
 
 ***Shibboleth SP Configuration***
 
 Web application need to be connected to LIAF, therefore, download Federation Metadata Signing Certificate:
 
-{{{
+```
     cd /etc/shibboleth/
     wget https://fr.ac.lk/signedmetadata/metadata-signer -O federation-cert.pem
-}}}
+```
 
 Edit shibboleth2.xml opportunely: {{{ vim /etc/shibboleth/shibboleth2.xml }}}
 
-{{{
+```
 #!xml
 . . .
 
@@ -112,13 +112,13 @@ Edit shibboleth2.xml opportunely: {{{ vim /etc/shibboleth/shibboleth2.xml }}}
     <!-- Policies that determine how to process and authenticate runtime messages. -->
     <SecurityPolicyProvider type="XML" validate="true" path="security-policy.xml"/>
 
-}}}
+```
 
 Now lets create those certificate pairs.
 
 
-* {{{ /usr/sbin/shib-keygen -n mdl-signing -e https://YOUR-DNS/shibboleth }}}
-* {{{ /usr/sbin/shib-keygen -n mdl-encrypt -e https://YOUR-DNS/shibboleth }}}
+* ``` /usr/sbin/shib-keygen -n mdl-signing -e https://YOUR-DNS/shibboleth ```
+* ``` /usr/sbin/shib-keygen -n mdl-encrypt -e https://YOUR-DNS/shibboleth ```
 
 
 Activate required attributes from  the {{{ /etc/shibboleth/attribute-map.xml }}} For the example, lets uncomment all, but make sure you didnt messed with the file.  
@@ -126,14 +126,14 @@ Activate required attributes from  the {{{ /etc/shibboleth/attribute-map.xml }}}
 
 Then check the shibboleth configuration for errors by, 
 
-{{{ shibd -t /etc/shibboleth/shibboleth2.xml }}}
+``` shibd -t /etc/shibboleth/shibboleth2.xml ```
 
 
 Edit Moodle virtual host as follows:
 
-config file: {{{ /etc/apache2/sites-enabled/mdl-le-ssl.conf }}}
+config file: ``` /etc/apache2/sites-enabled/mdl-le-ssl.conf ```
 
-{{{
+```
 <IfModule mod_ssl.c>
 <VirtualHost *:443>
 	
@@ -164,23 +164,23 @@ config file: {{{ /etc/apache2/sites-enabled/mdl-le-ssl.conf }}}
 
 </VirtualHost>
 </IfModule>
-}}}
+```
 
 Next, enable apache shibboleth module and restart apache.
 
-{{{
+```
 #!bash
     a2enmod shib
     systemctl reload apache2.service
-}}}
+```
 
-== Register both services with LIAF ==
+***Register both services with LIAF***
 
 We have now set up shibboleth SP for the entity.It has to be registered with LIAF before using the Federation discovery Service to point different IDP's.
 
 Download the  metadata from both applications by going to the following URL's. 
 
-* {{{ https://mdl.YOUR-DOMAIN/Shibboleth.sso/Metadata }}}
+* ``` https://mdl.YOUR-DOMAIN/Shibboleth.sso/Metadata ```
 
 Now register them with LIAF separately. 
 
@@ -193,6 +193,7 @@ Fill in the fields of the form.
 
 The fields 'Username', 'First name', 'Surname', etc. should contain the name of the environment variables of the Shibboleth attributes that you want to map onto the corresponding Moodle variable. Especially the 'Username' field is of great importance because this attribute is used for the Moodle authentication of Shibboleth users.
 
+```
 Username: eppn
 
 Moodle WAYF service: No
@@ -209,12 +210,12 @@ Update local (Email address): On Creation
 
 Lock value (Email address): Locked
 
-
+```
 Click Save.
 
 
 * Adjust  attribute-map .xml  as
-{{{
+```
     <Attribute name="urn:mace:dir:attribute-def:sn" id="sn"/>
     <Attribute name="urn:oid:2.5.4.4" id="sn"/>
     <Attribute name="urn:mace:dir:attribute-def:givenName" id="givenName"/>
@@ -223,11 +224,11 @@ Click Save.
     <Attribute name="urn:oid:0.9.2342.19200300.100.1.3" id="mail"/>
     <Attribute name="urn:mace:dir:attribute-def:email" id="email"/>
     <Attribute name="urn:oid:1.3.6.1.4.1.5923.1.1.1.10" id="email"/>
-}}}
+```
 
 * Adjust attribute-policy.xml as 
 
-{{{
+```
 
         <AttributeRule attributeID="sn">
             <PermitValueRule xsi:type="ANY" />
@@ -244,7 +245,7 @@ Click Save.
         <AttributeRule attributeID="email">
             <PermitValueRule xsi:type="ANY" />
         </AttributeRule>
-}}}
+```
 
 After, restart shibd and apache2
 
