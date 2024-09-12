@@ -228,3 +228,14 @@ systemctl restart apache2
 systemctl restart shibd
 ```
 Now using a private browser, try to log in to both systems using your IDP test user.
+
+## Steps for logging into Moodle using LIAF SSO
+
+   - **Browse to the Moodle URL**: Visit the specified Moodle URL.
+   - **Select the Login Button**: Click the login button located in the top right corner of the screen.
+   - **Choose LIAF SSO**: You'll be redirected to a login page. Select the "Shibboleth Login" login button (As Administrator,Button name can be changed by ```Site Administration``` > ```Plugin``` > ```Authentication``` > ```Sibboleth``` > ```Authentication Method name```).
+   - **Choose Your Institution**: If your institution is part of a federation, use the dropdown button to select your specific institution.
+   - **Enter Credentials**: Enter your institutional username and password.
+   - **Login**: Click the "Login" or "Sign In" button. Your institution's authentication system will verify your identity.
+   - **Access Moodle**: After successful authentication, you will be logged into your Moodle account.
+
