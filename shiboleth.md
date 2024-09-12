@@ -7,3 +7,12 @@ The LIAF SSO document describes how to implement Single Sign-On (SSO) for their 
 * OS version : Ubuntu 22.04
 * php version : 
 * Moodle Version : 4.3
+
+Shibboleth SP installation
+
+Install needed packages:
+
+ apt install libapache2-mod-shib ntp --no-install-recommends 
+
+
+ 
