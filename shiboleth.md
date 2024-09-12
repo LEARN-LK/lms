@@ -200,7 +200,7 @@ Check and add the details if it's missing in the file
     <Attribute name="urn:mace:dir:attribute-def:email" id="email"/>
     <Attribute name="urn:oid:1.3.6.1.4.1.5923.1.1.1.10" id="email"/>
 ```
-* Adjust ```attribute-policy.xml``` as 
+* Add following lines in ```attribute-policy.xml```.
 
 ``` vi attribute-policy.xml```
   
