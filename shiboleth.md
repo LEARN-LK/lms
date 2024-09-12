@@ -1,53 +1,28 @@
 # LIAF SSO - Shibboleth SP (Recommended for those who are familiar with Linux)
 
-The LIAF SSO document describes how to implement Single Sign-On (SSO) for their Learning Management System (LMS). It likely provides instructions on configuring and integrating SSO, enabling users to access the LMS with a single set of login credentials across various systems. This approach improves user convenience and security by minimizing the need to remember multiple passwords and simplifying the authentication process.
+LIAF SSO facilitates Moodle admins to get rid of need of creating student/staff user account manually. The people can access the Moodle site either by their [eduID](https://eduid.lk/) or their campus credentials.
 
-***Testing environment*** 
+The document describes the way to implement the [LIAF Single Sign-On (SSO)](https://fds.ac.lk/?entityID=https%3A%2F%2Fmdqtest.learn.ac.lk%2Fmoodle%2Fauth%2Fsaml2%2Fsp%2Fmetadata.php&return=https%3A%2F%2Fmdqtest.learn.ac.lk%2Fmoodle%2Fauth%2Fsaml2%2Fsp%2Fmodule.php%2Fsaml%2Fsp%2FdiscoResponse%3FAuthID%3D_d74a632720fb9ac65e78981fcf2cb59df22ff2e252%253Ahttps%253A%252F%252Fmdqtest.learn.ac.lk%252Fmoodle%252Fauth%252Fsaml2%252Fsp%252Fmodule.php%252Fsaml%252Fsp%252Flogin%252Fmdqtest.learn.ac.lk%253FReturnTo%253Dhttps%25253A%25252F%25252Fmdqtest.learn.ac.lk%25252Fmoodle%25252Fauth%25252Fsaml2%25252Flogin.php%25253Fwants%252526idp%25253Dc20fdc0a583f7d847e917aa67c86089a%252526passive%25253Doff&returnIDParam=idpentityid)   for Moodle.
+
+<!-- The LIAF SSO document describes how to implement Single Sign-On (SSO) for their Learning Management System (LMS). It likely provides instructions on configuring and integrating SSO, enabling users to access the LMS with a single set of login credentials across various systems. This approach improves user convenience and security by minimizing the need to remember multiple passwords and simplifying the authentication process.-->
+
+***Tested and verified on*** 
 
 * OS version : Ubuntu 22.04
-* php version : 
+* php version : 8.1.2
 * Moodle Version : 4.3
 * SSL/ HTTPS Certificates issued ( using Letsencrypt )
+
+***Requirement***
 * sudo access to the server. All following commands have to be entered as the root user. Best way to do it is, by login in as root with ``` sudo su ```
 
-Shibboleth SP installation
-
-Install needed packages:
-
- apt install libapache2-mod-shib ntp --no-install-recommends 
-
-***Moodle Apache Config***
-
-'''http''' config: ``` /etc/apache2/sites-enabled/mdl.conf ```
-
-
-```
-<VirtualHost *:80>
-
-	ServerName mdl.Your-Domain
-	ServerAdmin you@yourwebsite.com
-	DocumentRoot /var/www/html/moodle #Location of Moodle installation
-
-	ErrorLog ${APACHE_LOG_DIR}/mdl-error.log
-	CustomLog ${APACHE_LOG_DIR}/mdl-access.log combined
-
-</VirtualHost>
-```
-
-***Install Letsencrypt and enable HTTPS:***
-
-```
- apt install python3-certbot-apache
- certbot --apache -d idp.YOUR-DOMAIN
-```
-
-***Shibboleth SP Installation***
+## Shibboleth SP installation
 
 Install needed packages:
 
 ```apt install libapache2-mod-shib ntp --no-install-recommends ```
 
-***Shibboleth SP Configuration***
+### Shibboleth SP Configuration
 
 Web application need to be connected to LIAF, therefore, download Federation Metadata Signing Certificate:
 
@@ -56,36 +31,39 @@ Web application need to be connected to LIAF, therefore, download Federation Met
     wget https://fr.ac.lk/signedmetadata/metadata-signer -O federation-cert.pem
 ```
 
-Edit shibboleth2.xml opportunely: {{{ vim /etc/shibboleth/shibboleth2.xml }}}
+Edit shibboleth2.xml opportunely: 
 
+``` vim /etc/shibboleth/shibboleth2.xml ```
+
+Change the ```ApplicationDefacults``` tag to your domain name
 ```
 #!xml
-. . .
 
     <!-- The ApplicationDefaults element is where most of Shibboleth's SAML bits are defined. -->
     <ApplicationDefaults entityID="https://YOUR_DNS/shibboleth"
         REMOTE_USER="eppn subject-id pairwise-id persistent-id"
         cipherSuites="DEFAULT:!EXP:!LOW:!aNULL:!eNULL:!DES:!IDEA:!SEED:!RC4:!3DES:!kRSA:!SSLv2:!SSLv3:!TLSv1:!TLSv1.1">
-
-. . .
-
-        <Sessions lifetime="28800" timeout="3600" relayState="ss:mem"
-                  checkAddress="false" handlerSSL="true" cookieProps="https">
-
-. . .
-
+```
+Modify the ```SSO``` tag as below
+```
+#!xml
             <SSO discoveryProtocol="SAMLDS" discoveryURL="https://fds.ac.lk">
               SAML2
             </SSO>
+```
+Change the ```Error suportsContact``` section as below
 
-. . .
-
-        <Errors supportContact="you@you-domain"
+```
+#!xml
+        <Errors supportContact="tac@learn.ac.lk"
              helpLocation="/about-this-service.html"
              styleSheet="/shibboleth-sp/main.css"/>
 
-. . .
+```
+Change the ```MetadataProvider``` section as below
 
+```
+#!xml
 	<MetadataProvider type="XML" url="https://fr.ac.lk/signedmetadata/metadata.xml" legacyOrgName="true" backingFilePath="test-metadata.xml" reloadInterval="600">
 
       		<MetadataFilter type="Signature" certificate="federation-cert.pem" verifyBackup="false"/>
@@ -93,24 +71,17 @@ Edit shibboleth2.xml opportunely: {{{ vim /etc/shibboleth/shibboleth2.xml }}}
       		<MetadataFilter type="RequireValidUntil" maxValidityInterval="864000" />
         </MetadataProvider>
 
-. . .
+```
 
+Change the key and certificate fields as given. We will later generate these keys and certificates.
+
+```
+#!xml
         <!-- Simple file-based resolvers for separate signing/encryption keys. -->
         <CredentialResolver type="File" use="signing"
             key="mdl-signing-key.pem" certificate="mdl-signing-cert.pem"/>
         <CredentialResolver type="File" use="encryption"
             key="mdl-encrypt-key.pem" certificate="mdl-encrypt-cert.pem"/>
-
-	<ApplicationOverride id="mdl" entityID="https://mdl.Your-Domain/shibboleth">
-		<CredentialResolver type="File" use="signing"
-            		key="mdl-signing-key.pem" certificate="mdl-signing-cert.pem"/>
-        	<CredentialResolver type="File" use="encryption"
-            		key="mdl-encrypt-key.pem" certificate="mdl-encrypt-cert.pem"/>
-	</ApplicationOverride>
-    </ApplicationDefaults>
-
-    <!-- Policies that determine how to process and authenticate runtime messages. -->
-    <SecurityPolicyProvider type="XML" validate="true" path="security-policy.xml"/>
 
 ```
 
@@ -120,14 +91,13 @@ Now lets create those certificate pairs.
 * ``` /usr/sbin/shib-keygen -n mdl-signing -e https://YOUR-DNS/shibboleth ```
 * ``` /usr/sbin/shib-keygen -n mdl-encrypt -e https://YOUR-DNS/shibboleth ```
 
-
-Activate required attributes from  the {{{ /etc/shibboleth/attribute-map.xml }}} For the example, lets uncomment all, but make sure you didnt messed with the file.  
-
-
 Then check the shibboleth configuration for errors by, 
 
-``` shibd -t /etc/shibboleth/shibboleth2.xml ```
-
+```
+shibd -t /etc/shibboleth/shibboleth2.xml 
+systemctl restart apache2
+systemctl restart shibd
+```
 
 Edit Moodle virtual host as follows:
 
@@ -149,17 +119,16 @@ config file: ``` /etc/apache2/sites-enabled/mdl-le-ssl.conf ```
         SSLCertificateKeyFile /etc/letsencrypt/live/mdl.Your-Domain/privkey.pem
         Include /etc/letsencrypt/options-ssl-apache.conf
 
-        <Location />
-             ShibRequestSetting applicationId mdl  
+        <Location /moodle>
+         	#ShibRequestSetting applicationId mdl
         </Location>
-        #Defining shibboleth application override
 
-        <Directory /var/www/mdl/auth/shibboleth/index.php> 
-             AuthType shibboleth
-             ShibRequestSetting applicationId mdl
+        <Directory /var/www/html/moodle/auth/shibboleth/index.php>
+	     AuthType shibboleth
+              #ShibRequestSetting applicationId mdl
              ShibRequireSession On
              require valid-user
-        </Directory>
+	</Directory>
         #Double Check Moodle installation path
 
 </VirtualHost>
@@ -169,7 +138,6 @@ config file: ``` /etc/apache2/sites-enabled/mdl-le-ssl.conf ```
 Next, enable apache shibboleth module and restart apache.
 
 ```
-#!bash
     a2enmod shib
     systemctl reload apache2.service
 ```
@@ -180,16 +148,23 @@ We have now set up shibboleth SP for the entity.It has to be registered with LIA
 
 Download the  metadata from both applications by going to the following URL's. 
 
-* ``` https://mdl.YOUR-DOMAIN/Shibboleth.sso/Metadata ```
+* ``` https://YOUR-DNS/Shibboleth.sso/Metadata ```
 
-Now register them with LIAF separately. 
+Now register moodle service with LIAF .
 
-***Enabling Moodle Plugin***
+Go to https://liaf.ac.lk/#join and follow the Service provider registration. 
+
+Once the federation operator approves your request you will be sent a SP registration link.
+
+you will be asked to use the content of your metadata file on federation registry registration. You may have to answer several questions describing your service to the federation provider.
+
+Once you registered successfully you have enable the Shibboleth support in the application itself. For that Moodle and Wordpress has pluggins to be enabled and configured.
+
+### Enabling Moodle Plugin
 
 As Moodle admin, go to the '''Site administration''' >>> '''Plugins''' >>> '''Authentication''' and click on the '''Shibboleth''' enable '''eye'''. Next go to its settings.
 
-
-Fill in the fields of the form. 
+***Fill in the fields of the form.***
 
 The fields 'Username', 'First name', 'Surname', etc. should contain the name of the environment variables of the Shibboleth attributes that you want to map onto the corresponding Moodle variable. Especially the 'Username' field is of great importance because this attribute is used for the Moodle authentication of Shibboleth users.
 
@@ -213,9 +188,13 @@ Lock value (Email address): Locked
 ```
 Click Save.
 
+* Adjust  ```attribute-map.xml```  as
 
-* Adjust  attribute-map .xml  as
+  ``` vi attribute-map.xml```
+Check and add the details if it's missing in the file
+  
 ```
+#!xml
     <Attribute name="urn:mace:dir:attribute-def:sn" id="sn"/>
     <Attribute name="urn:oid:2.5.4.4" id="sn"/>
     <Attribute name="urn:mace:dir:attribute-def:givenName" id="givenName"/>
@@ -225,11 +204,12 @@ Click Save.
     <Attribute name="urn:mace:dir:attribute-def:email" id="email"/>
     <Attribute name="urn:oid:1.3.6.1.4.1.5923.1.1.1.10" id="email"/>
 ```
+* Adjust ```attribute-policy.xml``` as 
 
-* Adjust attribute-policy.xml as 
-
+``` vi attribute-policy.xml```
+  
 ```
-
+#!xml
         <AttributeRule attributeID="sn">
             <PermitValueRule xsi:type="ANY" />
         </AttributeRule>
@@ -248,5 +228,8 @@ Click Save.
 ```
 
 After, restart shibd and apache2
-
+```
+systemctl restart apache2
+systemctl restart shibd
+```
 Now using a private browser, try to log in to both systems using your IDP test user.
