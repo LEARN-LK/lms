@@ -36,8 +36,7 @@ Edit shibboleth2.xml opportunely:
 ``` vim /etc/shibboleth/shibboleth2.xml ```
 
 Change the ```ApplicationDefacults``` tag to your domain name
-```
-#!xml
+```bash
 
     <!-- The ApplicationDefaults element is where most of Shibboleth's SAML bits are defined. -->
     <ApplicationDefaults entityID="https://YOUR_DNS/shibboleth"
@@ -45,16 +44,14 @@ Change the ```ApplicationDefacults``` tag to your domain name
         cipherSuites="DEFAULT:!EXP:!LOW:!aNULL:!eNULL:!DES:!IDEA:!SEED:!RC4:!3DES:!kRSA:!SSLv2:!SSLv3:!TLSv1:!TLSv1.1">
 ```
 Modify the ```SSO``` tag as below
-```
-#!xml
+```bash
             <SSO discoveryProtocol="SAMLDS" discoveryURL="https://fds.ac.lk">
               SAML2
             </SSO>
 ```
 Change the ```Error suportsContact``` section as below
 
-```
-#!xml
+```bash
         <Errors supportContact="tac@learn.ac.lk"
              helpLocation="/about-this-service.html"
              styleSheet="/shibboleth-sp/main.css"/>
@@ -62,8 +59,7 @@ Change the ```Error suportsContact``` section as below
 ```
 Change the ```MetadataProvider``` section as below
 
-```
-#!xml
+```bash
 	<MetadataProvider type="XML" url="https://fr.ac.lk/signedmetadata/metadata.xml" legacyOrgName="true" backingFilePath="test-metadata.xml" reloadInterval="600">
 
       		<MetadataFilter type="Signature" certificate="federation-cert.pem" verifyBackup="false"/>
@@ -75,8 +71,7 @@ Change the ```MetadataProvider``` section as below
 
 Change the key and certificate fields as given. We will later generate these keys and certificates.
 
-```
-#!xml
+```bash
         <!-- Simple file-based resolvers for separate signing/encryption keys. -->
         <CredentialResolver type="File" use="signing"
             key="mdl-signing-key.pem" certificate="mdl-signing-cert.pem"/>
@@ -148,7 +143,7 @@ We have now set up shibboleth SP for the entity.It has to be registered with LIA
 
 Download the  metadata from both applications by going to the following URL's. 
 
-* ``` https://YOUR-DNS/Shibboleth.sso/Metadata ```
+* ```https://YOUR-DNS/Shibboleth.sso/Metadata ```
 
 Now register moodle service with LIAF .
 
@@ -190,11 +185,12 @@ Click Save.
 
 * Adjust  ```attribute-map.xml```  as
 
-  ``` vi attribute-map.xml```
+```cd /etc/shibboleth/```
+
+``` vi attribute-map.xml```
 Check and add the details if it's missing in the file
   
-```
-#!xml
+```bash
     <Attribute name="urn:mace:dir:attribute-def:sn" id="sn"/>
     <Attribute name="urn:oid:2.5.4.4" id="sn"/>
     <Attribute name="urn:mace:dir:attribute-def:givenName" id="givenName"/>
@@ -208,8 +204,7 @@ Check and add the details if it's missing in the file
 
 ``` vi attribute-policy.xml```
   
-```
-#!xml
+```bash
         <AttributeRule attributeID="sn">
             <PermitValueRule xsi:type="ANY" />
         </AttributeRule>
