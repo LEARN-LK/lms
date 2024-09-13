@@ -16,7 +16,7 @@ The document describes the way to implement the [LIAF Single Sign-On (SSO)](http
 
 * SSL/HTTPS enabled for your sp FQDN (In this guide letsencrypt is used to secure FQDN)
 * sudo access to the server. All following commands have to be entered as the root user. Best way to do it is, by login in as root with ``` sudo su ```
-## if you are going to use Letsencrypt to secure your FQDN
+## (Optional)if you are going to use Letsencrypt to secure your FQDN
 
 Install Letsencrypt and enable HTTPS:
 ```
