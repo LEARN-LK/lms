@@ -43,36 +43,24 @@ Web application need to be connected to LIAF, therefore, download Federation Met
 Edit shibboleth2.xml opportunely: 
 
 ``` vim /etc/shibboleth/shibboleth2.xml ```
-
-Change the ```<ApplicationDefaults>``` tag to your domain name
-```bash
+```
 ...
     <!-- The ApplicationDefaults element is where most of Shibboleth's SAML bits are defined. -->
     <ApplicationDefaults entityID="https://YOUR_DNS/shibboleth"
         REMOTE_USER="eppn subject-id pairwise-id persistent-id"
         cipherSuites="DEFAULT:!EXP:!LOW:!aNULL:!eNULL:!DES:!IDEA:!SEED:!RC4:!3DES:!kRSA:!SSLv2:!SSLv3:!TLSv1:!TLSv1.1">
 ...
-```
-Modify the ```<SSO>``` tag as below
-```bash
+
 ...
             <SSO discoveryProtocol="SAMLDS" discoveryURL="https://fds.ac.lk">
               SAML2
             </SSO>
 ...
-```
-Change the ```<Error suportsContact>``` section as below
-
-```bash
 ...
         <Errors supportContact="tac@learn.ac.lk"
              helpLocation="/about-this-service.html"
              styleSheet="/shibboleth-sp/main.css"/>
 ...
-```
-Change the ```<MetadataProvider>``` section as below
-
-```bash
 ...
 	<MetadataProvider type="XML" url="https://fr.ac.lk/signedmetadata/metadata.xml" legacyOrgName="true" backingFilePath="test-metadata.xml" reloadInterval="600">
 
@@ -81,11 +69,6 @@ Change the ```<MetadataProvider>``` section as below
       		<MetadataFilter type="RequireValidUntil" maxValidityInterval="864000" />
         </MetadataProvider>
 ...
-```
-
-Change the key and certificate fields as given. We will later generate these keys and certificates.
-
-```bash
 ...
         <!-- Simple file-based resolvers for separate signing/encryption keys. -->
         <CredentialResolver type="File" use="signing"
