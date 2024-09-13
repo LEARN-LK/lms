@@ -74,6 +74,7 @@ Edit shibboleth2.xml opportunely:
         <CredentialResolver type="File" use="encryption"
             key="mdl-encrypt-key.pem" certificate="mdl-encrypt-cert.pem"/>
 ...
+    </ApplicationDefaults>
 ```
 
 Now lets create those certificate pairs.
