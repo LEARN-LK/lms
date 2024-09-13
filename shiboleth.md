@@ -186,6 +186,9 @@ Click Save.
 
 ``` vi attribute-map.xml```
 Check and add the details if it's missing in the file
+
+ <!-- Older LDAP-defined attributes (SAML 2.0 names followed by SAML 1 names)... -->
+ 
   
 ```bash
     <Attribute name="urn:mace:dir:attribute-def:sn" id="sn"/>
