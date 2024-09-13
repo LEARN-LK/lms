@@ -2,19 +2,28 @@
 
 LIAF SSO facilitates Moodle admins to get rid of need of creating student/staff user account manually. The people can access the Moodle site either by their [eduID](https://eduid.lk/) or their campus credentials.
 
-The document describes the way to implement the [LIAF Single Sign-On (SSO)](https://fds.ac.lk/?entityID=https%3A%2F%2Fmdqtest.learn.ac.lk%2Fmoodle%2Fauth%2Fsaml2%2Fsp%2Fmetadata.php&return=https%3A%2F%2Fmdqtest.learn.ac.lk%2Fmoodle%2Fauth%2Fsaml2%2Fsp%2Fmodule.php%2Fsaml%2Fsp%2FdiscoResponse%3FAuthID%3D_d74a632720fb9ac65e78981fcf2cb59df22ff2e252%253Ahttps%253A%252F%252Fmdqtest.learn.ac.lk%252Fmoodle%252Fauth%252Fsaml2%252Fsp%252Fmodule.php%252Fsaml%252Fsp%252Flogin%252Fmdqtest.learn.ac.lk%253FReturnTo%253Dhttps%25253A%25252F%25252Fmdqtest.learn.ac.lk%25252Fmoodle%25252Fauth%25252Fsaml2%25252Flogin.php%25253Fwants%252526idp%25253Dc20fdc0a583f7d847e917aa67c86089a%252526passive%25253Doff&returnIDParam=idpentityid)   for Moodle.
+The document describes the way to implement the [LIAF Single Sign-On (SSO)](https://fds.ac.lk/?entityID=https%3A%2F%2Fmdqtest.learn.ac.lk%2Fmoodle%2Fauth%2Fsaml2%2Fsp%2Fmetadata.php&return=https%3A%2F%2Fmdqtest.learn.ac.lk%2Fmoodle%2Fauth%2Fsaml2%2Fsp%2Fmodule.php%2Fsaml%2Fsp%2FdiscoResponse%3FAuthID%3D_d74a632720fb9ac65e78981fcf2cb59df22ff2e252%253Ahttps%253A%252F%252Fmdqtest.learn.ac.lk%252Fmoodle%252Fauth%252Fsaml2%252Fsp%252Fmodule.php%252Fsaml%252Fsp%252Flogin%252Fmdqtest.learn.ac.lk%253FReturnTo%253Dhttps%25253A%25252F%25252Fmdqtest.learn.ac.lk%25252Fmoodle%25252Fauth%25252Fsaml2%25252Flogin.php%25253Fwants%252526idp%25253Dc20fdc0a583f7d847e917aa67c86089a%252526passive%25253Doff&returnIDParam=idpentityid) for Moodle.
 
 <!-- The LIAF SSO document describes how to implement Single Sign-On (SSO) for their Learning Management System (LMS). It likely provides instructions on configuring and integrating SSO, enabling users to access the LMS with a single set of login credentials across various systems. This approach improves user convenience and security by minimizing the need to remember multiple passwords and simplifying the authentication process.-->
 
 ***Tested and verified on*** 
 
-* OS version : Ubuntu 22.04
+* OS version : Ubuntu 22.04/24.04
 * php version : 8.1.2
 * Moodle Version : 4.3
-* SSL/ HTTPS Certificates issued ( using Letsencrypt )
 
 ***Requirement***
+
+* SSL/HTTPS enabled for your sp FQDN (In this guide letsencrypt is used to secure FQDN)
 * sudo access to the server. All following commands have to be entered as the root user. Best way to do it is, by login in as root with ``` sudo su ```
+## if you are going to use Letsencrypt to secure your FQDN
+
+Install Letsencrypt and enable HTTPS:
+```
+apt install python3-certbot-apache
+certbot --apache -d YOUR_FQDN
+```
+(or you can use a commecrcial SSL certificate)
 
 ## Shibboleth SP installation
 
@@ -35,49 +44,55 @@ Edit shibboleth2.xml opportunely:
 
 ``` vim /etc/shibboleth/shibboleth2.xml ```
 
-Change the ```ApplicationDefacults``` tag to your domain name
+Change the ```<ApplicationDefaults>``` tag to your domain name
 ```bash
-
+...
     <!-- The ApplicationDefaults element is where most of Shibboleth's SAML bits are defined. -->
     <ApplicationDefaults entityID="https://YOUR_DNS/shibboleth"
         REMOTE_USER="eppn subject-id pairwise-id persistent-id"
         cipherSuites="DEFAULT:!EXP:!LOW:!aNULL:!eNULL:!DES:!IDEA:!SEED:!RC4:!3DES:!kRSA:!SSLv2:!SSLv3:!TLSv1:!TLSv1.1">
+...
 ```
-Modify the ```SSO``` tag as below
+Modify the ```<SSO>``` tag as below
 ```bash
+...
             <SSO discoveryProtocol="SAMLDS" discoveryURL="https://fds.ac.lk">
               SAML2
             </SSO>
+...
 ```
-Change the ```Error suportsContact``` section as below
+Change the ```<Error suportsContact>``` section as below
 
 ```bash
+...
         <Errors supportContact="tac@learn.ac.lk"
              helpLocation="/about-this-service.html"
              styleSheet="/shibboleth-sp/main.css"/>
-
+...
 ```
-Change the ```MetadataProvider``` section as below
+Change the ```<MetadataProvider>``` section as below
 
 ```bash
+...
 	<MetadataProvider type="XML" url="https://fr.ac.lk/signedmetadata/metadata.xml" legacyOrgName="true" backingFilePath="test-metadata.xml" reloadInterval="600">
 
       		<MetadataFilter type="Signature" certificate="federation-cert.pem" verifyBackup="false"/>
 
       		<MetadataFilter type="RequireValidUntil" maxValidityInterval="864000" />
         </MetadataProvider>
-
+...
 ```
 
 Change the key and certificate fields as given. We will later generate these keys and certificates.
 
 ```bash
+...
         <!-- Simple file-based resolvers for separate signing/encryption keys. -->
         <CredentialResolver type="File" use="signing"
             key="mdl-signing-key.pem" certificate="mdl-signing-cert.pem"/>
         <CredentialResolver type="File" use="encryption"
             key="mdl-encrypt-key.pem" certificate="mdl-encrypt-cert.pem"/>
-
+...
 ```
 
 Now lets create those certificate pairs.
