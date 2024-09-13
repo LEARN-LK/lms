@@ -51,24 +51,22 @@ Edit shibboleth2.xml opportunely:
         cipherSuites="DEFAULT:!EXP:!LOW:!aNULL:!eNULL:!DES:!IDEA:!SEED:!RC4:!3DES:!kRSA:!SSLv2:!SSLv3:!TLSv1:!TLSv1.1">
 ...
 
-...
             <SSO discoveryProtocol="SAMLDS" discoveryURL="https://fds.ac.lk">
               SAML2
             </SSO>
 ...
-...
+
         <Errors supportContact="tac@learn.ac.lk"
              helpLocation="/about-this-service.html"
              styleSheet="/shibboleth-sp/main.css"/>
 ...
-...
+
 	<MetadataProvider type="XML" url="https://fr.ac.lk/signedmetadata/metadata.xml" legacyOrgName="true" backingFilePath="test-metadata.xml" reloadInterval="600">
 
       		<MetadataFilter type="Signature" certificate="federation-cert.pem" verifyBackup="false"/>
 
       		<MetadataFilter type="RequireValidUntil" maxValidityInterval="864000" />
         </MetadataProvider>
-...
 ...
         <!-- Simple file-based resolvers for separate signing/encryption keys. -->
         <CredentialResolver type="File" use="signing"
