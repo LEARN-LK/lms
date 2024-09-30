@@ -160,10 +160,101 @@ Let me know if you need help with any specific part of the process!
 5. In the **Database Type** section, select **Improved MySQL (native/mysqli)** and click **Next**.
 6. On the next screen, enter your **Database Username**, **Database Password**, and other required database settings. After filling in the details, click **Next**.
 7. Click the **Install** or **Confirm** button to begin the installation process.
-8. The system will perform a server environment check. 
-   - If there are any issues or errors with your server environment, resolve all of them before proceeding.
-   - Once all environmental problems are resolved, continue with the installation.
+Here’s the corrected version with the additional steps for handling the MariaDB error:
+8. The system will perform a server environment check.
 
+- If there are any issues or errors with your server environment, resolve all of them before proceeding.
+- Once all environmental problems are resolved, continue with the installation.  
+---
+#### **Common Errors and Their Solutions:**
 
- 
+1. **If you encounter the following error:**
 
+   ```
+   database mysql (10.11.8-MariaDB-0ubuntu0.24.04.1) must be installed and enabled
+   Wrong $CFG->dbtype. You need to change it in your config.php file from 'mysqli' to 'mariadb'.
+   ```
+
+   Follow these steps to resolve the error:
+
+   **i. Open the Moodle configuration file:**
+
+   The `config.php` file is located in the root of your Moodle installation. Open it using a text editor like `nano`:
+
+   ```bash
+   sudo nano /path/to/moodle/config.php
+   ```
+
+   **ii. Locate the `$CFG->dbtype` setting:**
+
+   Look for the line that defines the database type:
+
+   ```php
+   $CFG->dbtype = 'mysqli';
+   ```
+
+   **iii. Change the database type to `'mariadb'`:**
+
+   Modify the line to:
+
+   ```php
+   $CFG->dbtype = 'mariadb';
+   ```
+
+   **iv. Save the file and exit:**
+
+   Press `CTRL+O` to save the file, then `CTRL+X` to exit the text editor.
+
+   **v. Test the changes:**
+
+   Refresh your browser and check if the Moodle installation process continues without the database error.
+
+---
+
+2. **If you encounter the following error:**
+
+   ```
+   PHP setting max_input_vars must be at least 5000.
+   ```
+
+   This error means that the `max_input_vars` PHP configuration value is too low. To resolve it, you need to increase `max_input_vars` to at least 5000.
+
+   ### Steps to increase `max_input_vars` in PHP:
+
+   **i. Locate your PHP configuration file:**
+
+   The `php.ini` file location depends on the PHP version and web server you're using. On Ubuntu, common paths are:
+
+   - For Apache: `/etc/php/{php_version}/apache2/php.ini`
+   
+   Replace `{php_version}` with your installed PHP version (e.g., `8.3`).
+
+   **ii. Edit the `php.ini` file:**
+
+   Open the `php.ini` file in a text editor. For example, using `nano`:
+
+   For Apache:
+   ```bash
+   sudo nano /etc/php/{php_version}/apache2/php.ini
+   ```
+
+   **iii. Increase the `max_input_vars` value:**
+
+   Find or add the line for `max_input_vars` in the file and set it to at least 5000:
+
+   ```ini
+   max_input_vars = 5000
+   ```
+
+   **iv. Save and exit the file:**
+
+   Press `CTRL+O` to save the file, then `CTRL+X` to exit.
+
+   **v. Restart your web server:**
+
+   After modifying the `php.ini` file, restart the web server to apply the changes:
+
+   For Apache:
+   ```bash
+   sudo systemctl restart apache2
+   ```
