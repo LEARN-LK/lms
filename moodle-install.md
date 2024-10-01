@@ -155,20 +155,25 @@ Let me know if you need help with any specific part of the process!
 
 i. Open your browser and enter your domain name or server IP address.
 ii. You will be directed to a language selection page. Choose your preferred language and click the **Next** button.
+
 <img width="500" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/webui01.png">
    
 iii. The installation page will appear. In this section, choose the location for your **Data Directory** path and click **Next**.
+
 <img width="500" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/webui02.png">
    
 iv. You will then be redirected to the database configuration page.
       
 v. In the **Database Type** section, select **Improved MySQL (native/mysqli)** and click **Next**.
+
 <img width="500" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/webui03.png">
    
 vi. On the next screen, enter your **Database Username**, **Database Password**, and other required database settings. After filling in the details, click **Next**.
+
 <img width="500" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/webui04.png">
    
 vii. Click the **Install** or **Confirm** button to begin the installation process.
+
 <img width="500" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/webui05.png">
       
 Here’s the corrected version with the additional steps for handling the MariaDB error:
