@@ -153,26 +153,26 @@ Let me know if you need help with any specific part of the process!
 
 ### 9. **Moodle Web UI Configuration**
 
-1. Open your browser and enter your domain name or server IP address.
-2. You will be directed to a language selection page. Choose your preferred language and click the **Next** button.
+i. Open your browser and enter your domain name or server IP address.
+ii. You will be directed to a language selection page. Choose your preferred language and click the **Next** button.
 <img width="500" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/webui01.png">
    
-3. The installation page will appear. In this section, choose the location for your **Data Directory** path and click **Next**.
+iii. The installation page will appear. In this section, choose the location for your **Data Directory** path and click **Next**.
 <img width="500" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/webui02.png">
    
-4. You will then be redirected to the database configuration page.
+iv. You will then be redirected to the database configuration page.
       
-5. In the **Database Type** section, select **Improved MySQL (native/mysqli)** and click **Next**.
+v. In the **Database Type** section, select **Improved MySQL (native/mysqli)** and click **Next**.
 <img width="500" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/webui03.png">
    
-6. On the next screen, enter your **Database Username**, **Database Password**, and other required database settings. After filling in the details, click **Next**.
+vi. On the next screen, enter your **Database Username**, **Database Password**, and other required database settings. After filling in the details, click **Next**.
 <img width="500" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/webui04.png">
    
-7. Click the **Install** or **Confirm** button to begin the installation process.
+vii. Click the **Install** or **Confirm** button to begin the installation process.
 <img width="500" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/webui05.png">
       
 Here’s the corrected version with the additional steps for handling the MariaDB error:
-8. The system will perform a server environment check.
+viii. The system will perform a server environment check.
 
 - If there are any issues or errors with your server environment, resolve all of them before proceeding.
 - Once all environmental problems are resolved, continue with the installation.  
