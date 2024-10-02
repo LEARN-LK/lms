@@ -1,4 +1,6 @@
+```bash
 Here’s a step-by-step guide to installing **Moodle 4.4** on **Ubuntu 24 Server**:
+```
 
 ### 1. **Update Your System**
 
