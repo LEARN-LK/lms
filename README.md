@@ -39,6 +39,7 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
       -  [O365 Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#-mirosoft-o365--)
       -  [Google Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#google-authentication)
      
+     
 3. Teachers Guide
    * [Adding contents/Assignments](https://github.com/LEARN-LK/lms/blob/master/Assignment-activity.md)
    * [Quizzes, Questionnaires](https://github.com/LEARN-LK/lms/blob/master/Quizzes&Questionnaires.md)
@@ -50,5 +51,6 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * [Surveys](https://github.com/LEARN-LK/lms/blob/master/Survey-activity.md)
    * [Attendance/Reports](https://github.com/LEARN-LK/lms/blob/master/Attendance-activity.md)
    * [Grading](https://github.com/LEARN-LK/lms/blob/master/Grading.md)
+   * [Virtual Programming Lab - VPL]()
      
 5.  [Students Guide](https://github.com/LEARN-LK/lms/blob/master/Student-Guide.md)
