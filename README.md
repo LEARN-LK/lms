@@ -51,6 +51,6 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * [Surveys](https://github.com/LEARN-LK/lms/blob/master/Survey-activity.md)
    * [Attendance/Reports](https://github.com/LEARN-LK/lms/blob/master/Attendance-activity.md)
    * [Grading](https://github.com/LEARN-LK/lms/blob/master/Grading.md)
-   * [Virtual Programming Lab - VPL]()
+   * [Virtual Programming Lab - VPL](https://github.com/LEARN-LK/lms/blob/master/VirtualProgrammingLab-VPL.md)
      
 5.  [Students Guide](https://github.com/LEARN-LK/lms/blob/master/Student-Guide.md)
