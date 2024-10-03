@@ -1,5 +1,6 @@
 
-` Note  : Here’s a step-by-step guide to installing Moodle 4.4 on Ubuntu 24 Server.`
+
+` Note: If you are planning to self-host Moodle on your own server, here’s a step-by-step guide to installing Moodle 4.4 on Ubuntu 24 Server.`
 
 ### 1. **Update Your System**
 
