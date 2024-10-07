@@ -20,9 +20,9 @@ Here are the steps to download, install, and configure Virtual Programming Lab (
    - Install the VPL server on a separate machine or the same server. Detailed instructions can be found [here](https://vpl.dis.ulpgc.es).
    - Configure the execution server in Moodle using the server’s IP address and port.
 
-Here’s how to create a sample assignment using VPL in Moodle 4.3 where students are required to calculate the total of the numbers **123 + 234 + 43352** in both Python and C++.
 
-### 1. Prepare the Assignment Question
+
+### 2. Prepare the Assignment Question
 The assignment question will be the same for both Python and C++:
 
 **Assignment**:  
@@ -31,7 +31,7 @@ Write a program that calculates the sum of the following numbers: **123 + 234 + 
 **Expected Output**:  
 43709
 
-### 2. Steps to Add the Question in Moodle VPL for Python and C++
+### 3. Steps to Add the Question in Moodle VPL for Python and C++
 
 #### Step 1: Create a New VPL Activity
 1. **Log in** to your Moodle site as a teacher.
