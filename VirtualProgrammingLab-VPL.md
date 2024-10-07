@@ -1,8 +1,8 @@
-## Virtual Programming Lab - VPL
+# Virtual Programming Lab - VPL
 
 Here are the steps to download, install, and configure Virtual Programming Lab (VPL) for Moodle, and how to set up a simple "Hello World" assignment for students.
 
-### 1. Download and Install VPL Plugin for Moodle
+## 1. Download and Install VPL Plugin for Moodle
 
 #### Step 1: Download VPL Plugin
 1. Go to the [Moodle plugins directory](https://moodle.org/plugins/mod_vpl).
@@ -22,7 +22,7 @@ Here are the steps to download, install, and configure Virtual Programming Lab (
 
 
 
-### 2. Prepare the Assignment Question
+## 2. Prepare the Assignment Question (TEACHER)
 The assignment question will be the same for both Python and C++:
 
 **Assignment**:  
@@ -31,7 +31,7 @@ Write a program that calculates the sum of the following numbers: **123 + 234 + 
 **Expected Output**:  
 43709
 
-### 3. Steps to Add the Question in Moodle VPL for Python and C++
+### 2.1. Steps to Add the Question in Moodle VPL for Python and C++
 
 #### Step 1: Create a New VPL Activity
 1. **Log in** to your Moodle site as a teacher.
@@ -108,3 +108,60 @@ You can add these snippets in the **Instructions** or as a **Preloaded code** in
 - **Steps**: Add the VPL activity, configure execution options, add evaluation cases, and optionally provide sample code.
 
 Let me know if you need any further customizations or additional test cases!
+
+
+Here's how students can answer the assignment in Moodle using VPL:
+
+## 3 Steps for Students to Answer the VPL Assignment
+
+#### 3.1. Access the Assignment
+1. **Log in** to Moodle as a student.
+2. Navigate to the course where the assignment has been posted.
+3. Find the VPL activity (e.g., "Sum Calculation in Python and C++") and click on it.
+
+#### 3.2. Read the Instructions
+1. Review the assignment instructions provided by the teacher:
+   - **Task**: Write a program that calculates the sum of **123 + 234 + 43352** and prints the result.
+   - **Languages**: The assignment can be answered in either Python or C++.
+
+#### 3.3. Write the Code
+1. Click **Edit** to begin writing your program.
+2. Select the programming language (either **Python** or **C++**) from the dropdown menu.
+
+#### 3.4. Write the Code for Python
+If the student selects **Python**, they should write the following code:
+```python
+# Python program to calculate sum of 123, 234, and 43352
+result = 123 + 234 + 43352
+print(result)
+```
+
+#### 3.5. Write the Code for C++
+If the student selects **C++**, they should write the following code:
+```cpp
+// C++ program to calculate sum of 123, 234, and 43352
+#include <iostream>
+using namespace std;
+
+int main() {
+    int result = 123 + 234 + 43352;
+    cout << result << endl;
+    return 0;
+}
+```
+
+#### 3.6. Save and Run the Code
+1. After writing the code, the student can click on **Save**.
+2. To test their program, click on **Run**.
+   - The output window will display the result of the program. For this assignment, the expected result is `43709`.
+
+#### 3.7. Submit the Assignment
+1. Once satisfied with the result, the student clicks **Submit** to turn in the assignment for grading.
+   - The system may automatically evaluate the submission if the teacher enabled auto-grading with test cases (like checking for the output "43709").
+
+### Summary for Students:
+- **Python code**: Write a script that prints the sum of 123, 234, and 43352.
+- **C++ code**: Write a program using `cout` to print the sum of the numbers.
+- **Steps**: Write the code, run it to test the result, and submit it.
+
+Students should see their output and grades once they have submitted the assignment successfully. Let me know if you need more details!
