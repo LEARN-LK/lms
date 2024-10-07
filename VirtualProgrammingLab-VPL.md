@@ -20,56 +20,91 @@ Here are the steps to download, install, and configure Virtual Programming Lab (
    - Install the VPL server on a separate machine or the same server. Detailed instructions can be found [here](https://vpl.dis.ulpgc.es).
    - Configure the execution server in Moodle using the server’s IP address and port.
 
-### 2. Create a Simple VPL Assignment (Print "Hello World")
+Here’s how to create a sample assignment using VPL in Moodle 4.3 where students are required to calculate the total of the numbers **123 + 234 + 43352** in both Python and C++.
+
+### 1. Prepare the Assignment Question
+The assignment question will be the same for both Python and C++:
+
+**Assignment**:  
+Write a program that calculates the sum of the following numbers: **123 + 234 + 43352** and prints the result.
+
+**Expected Output**:  
+43709
+
+### 2. Steps to Add the Question in Moodle VPL for Python and C++
 
 #### Step 1: Create a New VPL Activity
-1. Go to your Moodle course and **Turn editing on**.
-2. In the section where you want the assignment to appear, click **Add an activity or resource**.
-3. Select **Virtual Programming Lab (VPL)** from the activity list.
+1. **Log in** to your Moodle site as a teacher.
+2. Go to the course where you want to add the assignment and **Turn editing on**.
+3. In the section where you want to place the assignment, click **Add an activity or resource**.
+4. From the list, select **Virtual Programming Lab (VPL)**.
 
-#### Step 2: Configure the VPL Activity
-1. **Name** the activity (e.g., "Hello World Program").
-2. In the **Description**, provide instructions like: 
-   - "Write a program that prints 'Hello World' on the screen."
-3. Under the **Submission restrictions**:
-   - Set the programming language (e.g., Python, Java, C++).
-4. Under **Grade**:
-   - Choose the grading method and maximum grade.
+#### Step 2: Configure the Assignment
+1. **Name** the activity (e.g., "Sum Calculation in Python and C++").
+2. In the **Description** field, provide instructions like:
+   - **Description for Python**: "Write a Python program that calculates the sum of 123, 234, and 43352, and prints the result."
+   - **Description for C++**: "Write a C++ program that calculates the sum of 123, 234, and 43352, and prints the result."
 
-#### Step 3: Configure Execution Settings
-1. Go to the **Execution options** tab and configure:
+3. Under the **Submission restrictions** section, select both Python and C++ as allowed programming languages.
+
+4. In the **Grade** section, set up your grading method and assign the maximum grade.
+
+#### Step 3: Configure VPL Execution Files (for Python and C++)
+To ensure that students' code is evaluated, you will add an evaluation file.
+
+1. In the **Execution options** tab:
    - Enable **Run** to allow students to run their programs.
-   - Enable **Evaluation** if you want automatic grading based on test cases.
-   
-2. For automatic grading, go to **Execution files** and add a test case:
-   - Create a file like `vpl_evaluate.cases` for Python or other languages and input a simple case to check for "Hello World" output.
-   - Example for Python:
-     ```
-     output == "Hello World\n"
-     ```
+   - Enable **Evaluation** if you want the assignment to be automatically graded.
 
-3. Save the activity.
+2. In the **Execution files** tab:
+   - Click **Create a new file** and name it `vpl_evaluate.cases`.
 
-### 3. Adding a VPL Question for Teachers
+3. Add the following content to `vpl_evaluate.cases` to check if the output is correct:
 
-#### Step 1: Access the VPL Assignment
-1. As a teacher, log in and navigate to the course.
-2. Select the VPL activity you've created (e.g., "Hello World Program").
+   For **Python**:
+   ```bash
+   output == "43709\n"
+   ```
 
-#### Step 2: Add VPL Question (Simple Task)
-1. Inside the VPL activity, click **Edit**.
-2. You can add a test case in the **Execution files** section by selecting **Create a new file**. 
-   - Name the file `vpl_evaluate.cases`.
-   - Inside the file, write the evaluation criteria. For example:
-     ```bash
-     output == "Hello World\n"
-     ```
-3. Click **Save** and return to the assignment.
+   For **C++**:
+   ```bash
+   output == "43709\n"
+   ```
 
-### Example Student Assignment:
-- **Task**: Write a program in Python that outputs the text "Hello World".
-- **Submission Instructions**: Students will write and submit the program using the VPL interface.
+4. Save the `vpl_evaluate.cases` file and the overall assignment.
 
-This setup will allow you to automatically grade the assignment when students submit their programs.
+#### Step 4: Add Sample Code (Optional)
+You can also provide students with a sample template for Python and C++ to help them get started.
 
-Would you like to test a different type of question, or is this enough for the assignment?
+- For **Python**:
+  ```python
+  # Python program to calculate sum of 123 + 234 + 43352
+  result = 123 + 234 + 43352
+  print(result)
+  ```
+
+- For **C++**:
+  ```cpp
+  // C++ program to calculate sum of 123 + 234 + 43352
+  #include <iostream>
+  using namespace std;
+
+  int main() {
+      int result = 123 + 234 + 43352;
+      cout << result << endl;
+      return 0;
+  }
+  ```
+
+You can add these snippets in the **Instructions** or as a **Preloaded code** in the VPL interface if you want to guide students.
+
+#### Step 5: Finalize and Test
+1. Save and return to the course.
+2. Test the activity by submitting the code as a student to ensure that both the Python and C++ code are evaluated correctly and produce the expected output.
+
+### Summary:
+- **Assignment**: Calculate the total of 123 + 234 + 43352.
+- **Languages**: Python and C++.
+- **Steps**: Add the VPL activity, configure execution options, add evaluation cases, and optionally provide sample code.
+
+Let me know if you need any further customizations or additional test cases!
