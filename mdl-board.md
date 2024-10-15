@@ -1,4 +1,4 @@
-### Board Plugin
+## Board Plugin
 
 The Board plugin for Moodle is a collaborative activity that lets students and teachers create and organize content in a "post-it" style format. It enables educators to set up multiple columns or sections where students can add posts containing text, images, links, or even embedded videos. These posts can be edited, moved between columns, or deleted as needed, making it ideal for brainstorming sessions, project management boards, or collaborative research projects.
 
@@ -6,7 +6,41 @@ Teachers have the option to download board content or a spreadsheet of all submi
 
 Initially developed by Brickfield Education Labs with funding from Dublin City University, the plugin aims to foster interactive learning and collaboration in both virtual and physical classroom environments
 
-Here's an IT-related example for using the *Board* plugin in Moodle:
+
+## Here are the steps to install the *Board* plugin for Moodle:
+
+### Installation Steps for the Board Plugin
+
+1. **Download the Plugin:**
+   - Go to the Moodle plugins directory: [Moodle Plugins Directory](https://moodle.org/plugins/).
+   - Search for "Board" and select the appropriate plugin page.
+   - Download the latest version of the plugin in a ZIP format.
+
+2. **Upload the Plugin:**
+   - Log in to your Moodle site as an administrator.
+   - Navigate to **Site administration > Plugins > Install plugins**.
+   - In the upload section, drag and drop the downloaded ZIP file or click the "Choose a file" button to upload the file.
+
+3. **Install the Plugin:**
+   - After the upload, Moodle will display a confirmation message. Click **Install plugin** to proceed.
+   - Follow the on-screen instructions to complete the installation. This typically includes reviewing the plugin details and confirming the installation.
+
+4. **Configure the Plugin:**
+   - Once installed, navigate to **Site administration > Plugins > Activity modules > Board**.
+   - Here, you can configure settings like enabling ratings, user visibility options, and more based on your teaching needs.
+
+5. **Add the Board Activity to a Course:**
+   - Go to the desired course where you want to add the Board activity.
+   - Click on **Add an activity or resource** in the section where you want the Board to appear.
+   - Select **Board** from the activity list and click **Add**.
+   - Fill in the required details, such as activity name, description, and column settings, then save changes.
+
+6. **Test the Plugin:**
+   - After setting up, it’s a good idea to test the Board activity by adding some posts and checking if everything functions as expected.
+
+
+
+## Here's an IT-related example for using the *Board* plugin in Moodle:
 
 ### Scenario: Collaborative Software Development Projects
 A teacher creates a board with the following columns:
