@@ -64,6 +64,9 @@ A teacher creates a board with the following columns:
   - **Post:** "Version control with Git"  
     - *Details:* Key strategies for using Git effectively in team projects.  
     - *Link:* Documentation on Git workflows.
+   
+      
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/1-Board.png?raw=true" alt="image" style="max-width: 100%;width: 800px;">
 
 ### Additional Features:
 - **Ratings:** Students can rate posts to highlight the most valuable ideas or resources.
