@@ -8,3 +8,11 @@ Participants can access their certificates directly within the course or receive
 
 These tools are especially useful in workplace environments and structured courses, where automated and verifiable certification is required to acknowledge achievements systematically.
 
+### Plugin Installation 
+
+* logging with the admin credential
+* Site administration > Plugin
+* install Plugins
+* browse the workplace course plugging
+
+
