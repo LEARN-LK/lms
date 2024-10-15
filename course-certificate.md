@@ -1,1 +1,1 @@
-## Course Certificate
+## Workplace Course Certificate
