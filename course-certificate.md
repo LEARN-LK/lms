@@ -34,7 +34,7 @@ These tools are especially useful in workplace environments and structured cours
 
 
 ### Step 5: **Design Certificate Templates**  
-1. Go to **Site Administration > Certificate Manager** (provided by the `tool_certificate` plugin).  
+1. Go to **Site Administration > Manage Certificate Template** (provided by the `tool_certificate` plugin).  
 2. Create a new template and add dynamic fields like course name, student name, date, and a QR code for verification.
 
 
