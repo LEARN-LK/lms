@@ -36,13 +36,15 @@ These tools are especially useful in workplace environments and structured cours
 ### Step 5: **Design Certificate Templates**  
 1. Go to **Site Administration > Manage Certificate Template** (provided by the `tool_certificate` plugin).  
 2. Create a new template and add dynamic fields like course name, student name, date, and a QR code for verification.
-
+ <img src="https://github.com/LEARN-LK/lms/blob/master/img/2-Certificate-manage.png?raw=true" alt="image" style="max-width: 100%;width: 800px;">
 
 ### Step 6: **Add Certificate Activity to a Course**  
 1. In the course where you want to issue certificates, click **Add an activity or resource**.  
-2. Select **Course Certificate** from the list.  
-3. Configure the activity’s settings (e.g., restrict access to students who have completed the course).
+2. Select **Course Certificate** from the list.
+    <img src="https://github.com/LEARN-LK/lms/blob/master/img/1-Certificate-manage.png?raw=true" alt="image" style="max-width: 100%;width: 800px;">
 
+4. Configure the activity’s settings (e.g., restrict access to students who have completed the course).
+   
 ### Step 7: **Test the Plugin**  
 - Assign the certificate to a test user and verify the PDF download or email functionality.  
 - Scan the QR code (if used) to validate the certificate.
