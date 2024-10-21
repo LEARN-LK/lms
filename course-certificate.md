@@ -49,5 +49,31 @@ These tools are especially useful in workplace environments and structured cours
 - Assign the certificate to a test user and verify the PDF download or email functionality.  
 - Scan the QR code (if used) to validate the certificate.
 
+Here’s the corrected process for **issuing a certificate to students** using the Moodle Workplace Course Certificate plugin:
 
+---
+
+## **Issuing Certification in Moodle**
+
+1. **Log in as Teacher or Manager:**  
+   - Make sure you have the necessary permissions to issue certificates.
+
+2. **Navigate to the Certificate Management Section:**  
+   - Go to **Site Administration**.  
+   - Under the **Certificates** section, click **Manage Certificate Templates**.
+     <img src="https://github.com/LEARN-LK/lms/blob/master/img/01-certification.png?raw=true" alt="image" style="max-width: 100%;width: 800px;">
+
+3. **Access the Issue Certificate Option:**  
+   - Inside the Certificate Manager, click on the **Certificates** button.  
+   - From the dropdown, select **Issue Certificate**.
+      <img src="https://github.com/LEARN-LK/lms/blob/master/img/02-certification.png?raw=true" alt="image" style="max-width: 100%;width: 800px;">
+
+4. **Select the Student:**  
+   - Choose the name of the student to whom the certificate will be issued.
+     <img src="https://github.com/LEARN-LK/lms/blob/master/img/03-certification.png?raw=true" alt="image" style="max-width: 100%;width: 800px;">
+5. **Save and Issue Certificate:**  
+   - Click the **Save** button.  
+
+6. **Certificate Delivery:**  
+   - The certificate will automatically appear in the student’s **Moodle login** under their course or profile, and it can be downloaded directly.
 
