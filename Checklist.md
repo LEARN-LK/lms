@@ -80,4 +80,6 @@ To add the **Scenario - Course Cybersecurity** checklist to Moodle, follow these
 ### Step 8: Communicate with Students
 - Inform students about the new checklist activity in your course, explaining its purpose and how they can use it to track their progress through the course materials.
 
+   <img src="https://github.com/LEARN-LK/lms/blob/master/img/01-checklist.png?raw=true" alt="image" style="max-width: 100%;width: 800px;">
+
 
