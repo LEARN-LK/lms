@@ -1,6 +1,6 @@
 <h1>Forum Activity</h1>
 
-Moodle Form activity in Moodle 
+
 A **forum activity** in Moodle is a tool for online discussions, enabling teachers and students to collaborate on specific topics. It supports different formats:
 
 1. **Types of Forums**:
@@ -40,16 +40,20 @@ To lock a specific discussion within a forum in Moodle, follow these steps:
 ###  01 **Managing the Forum (Locking, Pinning, Deleting Posts)**
    - **Locking a Forum**:
      - Open the forum, go to **Forum settings**, and set the **cut-off date** after which no new posts can be made.
+       <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-discussion-lock.png?raw=true" style="max-width: 100%;width: 60%;">
    - **Locking a Specific Discussion**:
      - Inside the forum, go to the discussion you want to lock.
      - Click the options menu (often three dots or a dropdown) next to the discussion title.
      - Select **Lock discussion** to prevent new replies from being posted.
+       <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-lock-discusion.png?raw=true" style="max-width: 100%;width: 60%;">   
    - **Pinning Discussions**:
      - In the forum, click on the discussion you want to pin, then choose **Pin** from the dropdown menu next to the post title. This keeps the post at the top.
+        <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-lock-discusion.png?raw=true" style="max-width: 100%;width: 60%;"> 
    - **Deleting a Forum or Discussion**:
      - **Delete a Forum**: Turn on editing, then select the **Delete** icon next to the forum in your course. Confirm when prompted.
+        <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-delete descussion.png?raw=true" style="max-width: 100%;width: 60%;">  001-delete discution
      - **Delete a Discussion**: Open the forum, locate the discussion, and choose **Delete** from the options menu next to the post. Confirm to remove it.
-
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-delete discution.png?raw=true" style="max-width: 100%;width: 60%;">  
 To set up grading for a forum in Moodle, follow these steps:
 
 ### 02. **Adding Grading to a Forum**
