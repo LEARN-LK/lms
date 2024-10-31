@@ -34,6 +34,51 @@ Forum activities are ideal for asynchronous courses, enabling collaborative lear
 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/42-%20add%20form-activity.png?raw=true" style="max-width: 100%;width: 60%;">
 
+
+To lock a specific discussion within a forum in Moodle, follow these steps:
+
+###  01 **Managing the Forum (Locking, Pinning, Deleting Posts)**
+   - **Locking a Forum**:
+     - Open the forum, go to **Forum settings**, and set the **cut-off date** after which no new posts can be made.
+   - **Locking a Specific Discussion**:
+     - Inside the forum, go to the discussion you want to lock.
+     - Click the options menu (often three dots or a dropdown) next to the discussion title.
+     - Select **Lock discussion** to prevent new replies from being posted.
+   - **Pinning Discussions**:
+     - In the forum, click on the discussion you want to pin, then choose **Pin** from the dropdown menu next to the post title. This keeps the post at the top.
+   - **Deleting a Forum or Discussion**:
+     - **Delete a Forum**: Turn on editing, then select the **Delete** icon next to the forum in your course. Confirm when prompted.
+     - **Delete a Discussion**: Open the forum, locate the discussion, and choose **Delete** from the options menu next to the post. Confirm to remove it.
+
+To set up grading for a forum in Moodle, follow these steps:
+
+### 02. **Adding Grading to a Forum**
+   1. **Go to the Forum Settings**: After creating your forum, click on it and then select **Edit settings** from the forum menu.
+   2. **Enable Ratings for Grading**:
+      - Scroll down to the **Ratings** section.
+      - In the **Aggregate type** dropdown, choose how you want to calculate grades:
+         - **Average of ratings**: The average of all ratings given.
+         - **Count of ratings**: The number of rated items is counted.
+         - **Maximum rating**: The highest rating is used.
+         - **Minimum rating**: The lowest rating is used.
+         - **Sum of ratings**: All ratings are summed up.
+   3. **Set Grade Type and Scale**:
+      - In the **Scale** dropdown, choose a grading scale or select **Point** to assign a numeric value.
+      - Specify the **Maximum grade** if using points.
+
+### 2. **Assign Grades in the Forum**
+   - **Rate Individual Posts**:
+     - Open the forum and navigate to individual posts.
+     - Under each post, you'll see a **Rating** dropdown (if ratings are enabled).
+     - Select a rating or score for each student’s post. Moodle will automatically calculate the grade based on the aggregate type.
+
+### 3. **View Forum Grades in the Gradebook**
+   - Go to **Grades** in the course’s navigation menu to see the grades recorded for the forum.
+   - Moodle will display the grades as per the aggregate type you selected.
+
+These steps allow you to set up, grade, and review student participation in forums, making it easy to include discussion contributions in overall course assessments.
+
+
   
 
   
