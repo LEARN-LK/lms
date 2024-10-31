@@ -73,6 +73,7 @@ To set up grading for a forum in Moodle, follow these steps:
    3. **Set Grade Type and Scale**:
       - In the **Scale** dropdown, choose a grading scale or select **Point** to assign a numeric value.
       - Specify the **Maximum grade** if using points.
+        
           <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-rating.png?raw=true" style="max-width: 100%;width: 60%;">
 
 ### 2. **Assign Grades in the Forum**
@@ -81,7 +82,7 @@ To set up grading for a forum in Moodle, follow these steps:
      - Under each post, you'll see a **Rating** dropdown (if ratings are enabled).
      - Select a rating or score for each student’s post. Moodle will automatically calculate the grade based on the aggregate type.
 
-       <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-give-rating?raw=true" style="max-width: 100%;width: 60%;">
+       <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-give-rating.png?raw=true" style="max-width: 100%;width: 60%;">
 
       
 
