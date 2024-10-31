@@ -48,12 +48,16 @@ To lock a specific discussion within a forum in Moodle, follow these steps:
        <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-lock-discusion.png?raw=true" style="max-width: 100%;width: 60%;">   
    - **Pinning Discussions**:
      - In the forum, click on the discussion you want to pin, then choose **Pin** from the dropdown menu next to the post title. This keeps the post at the top.
-        <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-lock-discusion.png?raw=true" style="max-width: 100%;width: 60%;"> 
+
+        <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-lock-discusion.png?raw=true" style="max-width: 100%;width: 60%;">
+       
    - **Deleting a Forum or Discussion**:
      - **Delete a Forum**: Turn on editing, then select the **Delete** icon next to the forum in your course. Confirm when prompted.
-        <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-delete descussion.png?raw=true" style="max-width: 100%;width: 60%;">  001-delete discution
+        <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-delete descussion.png?raw=true" style="max-width: 100%;width: 60%;">
+       
      - **Delete a Discussion**: Open the forum, locate the discussion, and choose **Delete** from the options menu next to the post. Confirm to remove it.
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-delete discution.png?raw=true" style="max-width: 100%;width: 60%;">  
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-delete discution.png?raw=true" style="max-width: 100%;width: 60%;">
+
 To set up grading for a forum in Moodle, follow these steps:
 
 ### 02. **Adding Grading to a Forum**
@@ -75,6 +79,8 @@ To set up grading for a forum in Moodle, follow these steps:
      - Open the forum and navigate to individual posts.
      - Under each post, you'll see a **Rating** dropdown (if ratings are enabled).
      - Select a rating or score for each student’s post. Moodle will automatically calculate the grade based on the aggregate type.
+
+        <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-rating.png?raw=true" style="max-width: 100%;width: 60%;">
 
 ### 3. **View Forum Grades in the Gradebook**
    - Go to **Grades** in the course’s navigation menu to see the grades recorded for the forum.
