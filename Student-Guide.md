@@ -149,5 +149,3 @@ Here are the steps for a student to reply to a forum in Moodle:
 
 5. **Confirm Submission**:
    - After posting, Moodle may show a confirmation message. Once confirmed, your reply will appear under the original post in the discussion thread.
-
-These steps allow students to participate in discussions and interact with peers in Moodle forums.
