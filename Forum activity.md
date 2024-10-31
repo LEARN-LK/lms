@@ -1,8 +1,21 @@
 <h1>Forum Activity</h1>
 
 Moodle Form activity in Moodle 
+A **forum activity** in Moodle is a tool for online discussions, enabling teachers and students to collaborate on specific topics. It supports different formats:
 
-The Form activity in Moodle  is a powerful tool that allows teachers to create custom forms for students to complete. Forms can be used to collect a variety of information from students, such as feedback, surveys, or quiz answers.
+1. **Types of Forums**:
+   - **Standard forum**: Open for anyone to start a discussion.
+   - **Single simple discussion**: A single thread for all posts.
+   - **Q&A forum**: Students post before viewing others’ replies.
+   - **Each person posts one discussion**: Each student can start only one topic.
+
+2. **Interactions**: Students post new topics or replies, fostering peer learning.
+
+3. **Assessment**: Teachers can grade or give feedback on posts.
+
+4. **Notifications**: Subscriptions notify users of new posts.
+
+Forum activities are ideal for asynchronous courses, enabling collaborative learning outside traditional lectures.
 
 <h2>To create a Form activity in Moodle 4.0, follow these steps:</h2>
 
