@@ -33,6 +33,7 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
     * [Moodle Virtual Class Room (Webinar)](https://github.com/LEARN-LK/lms/blob/master/Moodle%20Virtual%20Class%20Room%20(Webinar)%20.md)
     * [Enable Safe Exam Browser](https://github.com/LEARN-LK/lms/blob/master/Enable-Safe-Exam-Browser.md)
     * [Customize the Moodle themes](https://github.com/LEARN-LK/lms/blob/master/Customize_Moodle_themes.md)
+    * [Configuring Email Outgoing](https://github.com/LEARN-LK/lms/blob/master/Configuring-Email-Outgoing.md)
     * External Authentication
       -  [LIAF SSO - Auth SAML2](https://github.com/LEARN-LK/lms/blob/master/Learn-SSO.md)
       -  [LIAF SSO - Shiboleth SP](https://github.com/LEARN-LK/lms/blob/master/shiboleth.md)
