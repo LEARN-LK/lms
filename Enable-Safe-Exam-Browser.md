@@ -23,7 +23,7 @@ Safe Exam Browser is a web browser environment to carry out e-assessments safely
 * Navigate to Site Administration > Plugins > Install Plugins.
 * Search for "Safe Exam Browser" and install the plugin.
 
-   <img src="https://github.com/LEARN-LK/lms/blob/master/img/114-plugin.png?raw=true" alt="image" style="max-width: 100%;width: 600px;">
+   <img src="https://github.com/LEARN-LK/lms/blob/master/img/114-plugin.png?raw=true" alt="image" style="max-width: 100%;width: 700px;">
 
 <h3>02- Configure Global Settings (Optional):</h3>
 
@@ -31,19 +31,19 @@ Safe Exam Browser is a web browser environment to carry out e-assessments safely
 
 <h3>03-add quiz</h3>
 * Go to MyCourses > Select the couruse > Enable Edit Mode> Add an activity or resource >Select Quiz >Safe Exam Browser>
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/115-safe%20browser.png?raw=true" alt="image" style="max-width: 100%;width: 600px;">
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/115-safe%20browser.png" alt="image" style="max-width: 100%;width: 700px;">
   
 * Choose 'Yes - Configure Manually' to edit how you want Safe Exam Browser to behave.
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/116-safe%20browser.png?raw=true" alt="image" style="max-width: 100%;width: 600px;">
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/116-safe%20browser.png" alt="image" style="max-width: 100%;width: 700px;">
 * Select 'Yes' to display the "Show Safe Exam Browser download button" option. Enabling this button in Moodle facilitates a seamless experience for your students, allowing them to swiftly download Safe Exam Browser on any device when taking a quiz. If students have already installed Safe Exam Browser on their personal devices, there's no need for them to repeat this step.
   
 * After you have configured SEB, you can download this configuration and use these settings for future quizzes.  Otherwise, select 'Edit Quiz' or 'Back to the course'
- <img src="https://github.com/LEARN-LK/lms/blob/master/img/117-downlord%20config.png?raw=true" alt="image" style="max-width: 100%;width: 700px;">
+ <img src="https://github.com/LEARN-LK/lms/blob/master/img/117-downlord%20config.png" alt="image" style="max-width: 100%;width: 700px;">
   
 <h2>Using Safe Exam Browser: A Guide for Students</h2>
 
 01. Visit the download page at https://safeexambrowser.org/download_en.html and acquire the most recent version of SEB. This software is compatible with Windows PC, Mac, and iOS. Keep in mind that SEB is not supported on Android phones or tablets, preventing the ability to take online tests on these devices.
- <img src="https://github.com/LEARN-LK/lms/blob/master/img/118-SEB%20Version.png?raw=true" alt="image" style="max-width: 100%;width: 700px;">
+ <img src="https://github.com/LEARN-LK/lms/blob/master/img/118-SEB%20Version.png" alt="image" style="max-width: 100%;width: 700px;">
 
 02.  Disable popup blockers in the browser you typically use to access  Moodle. Follow the links below for instructions on the most commonly used browsers:
   + Chrome: [Disable Pop-up Blockers in Chrome](https://support.google.com/chrome/answer/95472?co=GENIE.Platform%3DDesktop&hl=en)
@@ -53,7 +53,7 @@ Safe Exam Browser is a web browser environment to carry out e-assessments safely
 
 03.  Go to the quiz in your course and click on it to start.
 04.  Click the 'Launch Safe Exam Browser' button - ignore the other button labelled 'Download Configuration'
- <img src="https://github.com/LEARN-LK/lms/blob/master/img/120-safe%20browser.png?raw=true" alt="image" style="max-width: 100%;width: 700px;">
+ <img src="https://github.com/LEARN-LK/lms/blob/master/img/120-safe%20browser.png" alt="image" style="max-width: 100%;width: 800px;">
  
 05.  A popup window will appear: In the popup window choose "Open Safe Exam browser". If you don’t see the popup window, go back to Step 2 to make sure you have enabled popups in the browser you are using.
 06.   The Safe Exam Browser will launch and you will be prompted to enter your Moodle username and password to continue.
