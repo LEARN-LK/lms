@@ -33,4 +33,4 @@ Once logged in, you will see your dashboard displaying enrolled courses, upcomin
 * Setting Preferences for Notifications
 * Access the "Notification Preferences" or "Settings" section.
 * Choose your preferred notification settings for emails, forum posts, etc.
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/103-profile.png?raw=true" style="max-width: 100%;width: 60%;">
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/103-profile.png?raw=true" style="max-width: 100%;width: 80%;">
