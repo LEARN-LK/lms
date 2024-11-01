@@ -34,10 +34,10 @@
  
 - In the 'Within HEAD' box, you can define HTML, CSS, or JavaScript that will be included on every page without the need to modify the Moodle code files."
 
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/133-header.png" alt="image" style="max-width: 100%;width: 700px;"> 
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/133-header.png" alt="image" style="max-width: 100%;width: 800px;"> 
 - Save and Preview:
 
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/134-header.png" alt="image" style="max-width: 100%;width: 700px;"> 
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/134-header.png" alt="image" style="max-width: 100%;width: 800px;"> 
 
 <h3>04 - Customising the Footer</h3>
 
