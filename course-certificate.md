@@ -36,12 +36,12 @@ These tools are especially useful in workplace environments and structured cours
 ### Step 5: **Design Certificate Templates**  
 1. Go to **Site Administration > Manage Certificate Template** (provided by the `tool_certificate` plugin).  
 2. Create a new template and add dynamic fields like course name, student name, date, and a QR code for verification.
- <img src="https://github.com/LEARN-LK/lms/blob/master/img/2-Certificate-manage.png?raw=true" alt="image" style="max-width: 100%;width: 800px;">
+ <img src="https://github.com/LEARN-LK/lms/blob/master/img/2-Certificate-manage.png" alt="image" style="max-width: 100%;width: 800px;">
 
 ### Step 6: **Add Certificate Activity to a Course**  
 1. In the course where you want to issue certificates, click **Add an activity or resource**.  
 2. Select **Course Certificate** from the list.
-    <img src="https://github.com/LEARN-LK/lms/blob/master/img/1-Certificate-manage.png?raw=true" alt="image" style="max-width: 100%;width: 800px;">
+    <img src="https://github.com/LEARN-LK/lms/blob/master/img/1-Certificate-manage.png" alt="image" style="max-width: 100%;width: 800px;">
 
 4. Configure the activity’s settings (e.g., restrict access to students who have completed the course).
    
@@ -61,16 +61,16 @@ Here’s the corrected process for **issuing a certificate to students** using t
 2. **Navigate to the Certificate Management Section:**  
    - Go to **Site Administration**.  
    - Under the **Certificates** section, click **Manage Certificate Templates**.
-     <img src="https://github.com/LEARN-LK/lms/blob/master/img/01-certification.png?raw=true" alt="image" style="max-width: 100%;width: 800px;">
+     <img src="https://github.com/LEARN-LK/lms/blob/master/img/01-certification.png" alt="image" style="max-width: 100%;width: 800px;">
 
 3. **Access the Issue Certificate Option:**  
    - Inside the Certificate Manager, click on the **Certificates** button.  
    - From the dropdown, select **Issue Certificate**.
-      <img src="https://github.com/LEARN-LK/lms/blob/master/img/02-certification.png?raw=true" alt="image" style="max-width: 100%;width: 800px;">
+      <img src="https://github.com/LEARN-LK/lms/blob/master/img/02-certification.png" alt="image" style="max-width: 100%;width: 800px;">
 
 4. **Select the Student:**  
    - Choose the name of the student to whom the certificate will be issued.
-     <img src="https://github.com/LEARN-LK/lms/blob/master/img/03-certification.png?raw=true" alt="image" style="max-width: 100%;width: 800px;">
+     <img src="https://github.com/LEARN-LK/lms/blob/master/img/03-certification.png" alt="image" style="max-width: 100%;width: 800px;">
 5. **Save and Issue Certificate:**  
    - Click the **Save** button.  
 
