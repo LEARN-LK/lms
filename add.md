@@ -96,7 +96,7 @@ You'll need a comma-separated values (CSV) file containing course information. Y
     -  Quote character: Usually double quote ("") or single quote (').
     -  Click Preview [7]to see how Moodle will interpret your CSV data. Review the information carefully and ensure everything looks correct.
 
-     <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/124-bulk.png>
+     <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/124-bulk.png">
 4. (Optional) Use a course template:
 
 If you have a pre-existing course setup with settings you want to apply to all new courses, you can use it as a template.
