@@ -47,7 +47,7 @@ Users with the "Create users" capability (such as administrators, managers, and 
 
 Clicking the New user button shows the Browse list of users page.
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/14%20users.png" alt="image" style="max-width: 100%;width: 600px;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/14%20users.png" alt="image" style="max-width: 100%;width: 700px;">
 
 
 <h4>General</h4>
@@ -72,7 +72,7 @@ Follow the these steps :
 * Log in to Moodle as an administrator.
 * Go to Site administration > Users > Accounts > Upload users.
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/15%20bulk.png" alt="image" style="max-width: 100%;width: 600px;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/15%20bulk.png" alt="image" style="max-width: 100%;width: 700px;">
 
 * Click the Choose a file button and select the CSV file containing your user data.
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/16-nCVS.png" alt="image" style="max-width: 100%;width: 500px;">
@@ -96,7 +96,7 @@ Now is the time to give users their student, teacher, or other roles. Once users
 * Step 2: Editing manual enrolment settings
 Managers and users with the capability "enrol/manual:config" can modify manual enrollment settings for a course, including the default enrollment period and default role. To access these settings, click on the "Enrolment methods" link.
 
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/17-Manual%20enrolments.png" alt="image" style="max-width: 100%;width: 600px;">
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/17-Manual%20enrolments.png" alt="image" style="max-width: 100%;width: 700px;">
   
 Students and teachers can receive notifications about expiring enrollments. To enable these notifications, select either "Enroller only" or "Enroller and enrolled user" from the "Notify before enrolment expires" dropdown menu.Additionally, specify a time in the "Notification threshold" field. This determines how many days in advance the notifications will be sent.
 
@@ -106,7 +106,7 @@ Students and teachers can receive notifications about expiring enrollments. To e
 
  
 * step 4 : Enrollment Methods: Once inside the course, click on the "Participants" link in the course administration block
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/20-participants.png" alt="image" style="max-width: 100%;width: 600px;">
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/20-participants.png" alt="image" style="max-width: 100%;width: 700px;">
  
 * step 5 :Enroll Users: In the Participants page,  To manually enroll a user, click on the "Enroll users" button at the top right corner of the page.
 * steo 6 : Search for the User: In the "Manual enrolment" section, you will need to find the user you want to enroll. You can search for the user by their name or username.
@@ -120,7 +120,7 @@ Self-enrolment empowers users to register themselves in courses. They can do so 
 * step :2  From the dropdown select click Enrolment methods
 * step :3  Open the "eye" icon next to the Self enrolment method:
   
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/22-Self%20enrolment%20(Student).png" alt="image" style="max-width: 100%;width: 600px;">
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/22-Self%20enrolment%20(Student).png" alt="image" style="max-width: 100%;width: 700px;">
 
 <b>Note</b> : When you log in to Moodle as a student, you'll see an "Enroll me" button next to courses you can join
 
