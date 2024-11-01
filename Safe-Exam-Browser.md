@@ -12,7 +12,7 @@
 
 03.  Go to the quiz in your course and click on it to start.
 04.  Click the 'Launch Safe Exam Browser' button - ignore the other button labelled 'Download Configuration'
- <img src="https://github.com/LEARN-LK/lms/blob/master/img/120-safe%20browser.png" alt="image" style="max-width: 100%;width: 850px;">
+ <img src="https://github.com/LEARN-LK/lms/blob/master/img/120-safe%20browser.png" alt="image" style="max-width: 100%;width: 900px;">
  
 05.  A popup window will appear: In the popup window choose "Open Safe Exam browser". If you don’t see the popup window, go back to Step 2 to make sure you have enabled popups in the browser you are using.
 06.   The Safe Exam Browser will launch and you will be prompted to enter your Moodle username and password to continue.
