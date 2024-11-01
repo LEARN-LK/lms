@@ -58,10 +58,9 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * [Checklist - Plugin](https://github.com/LEARN-LK/lms/blob/master/Checklist.md)
      
 5.  [Students Guide](https://github.com/LEARN-LK/lms/blob/master/Student-Guide.md)
-   * [Getting Started]()
-   * [Navigating Courses,Submit the Assignment,Quiz Submission]
-   * [Submit the Forum]
-   * [feedback activity,Survey Submission]]
-   * [Personalization and Preferences]
-   * [Join in VCR Class Room]
-   * [Safe Exam Browser]
+   * [Getting Started](https://github.com/LEARN-LK/lms/blob/master/getting-started.md)
+   * [Navigating Courses,Submit the Assignment,Quiz Submission](https://github.com/LEARN-LK/lms/blob/master/Courses-Assignment-Quiz-Submission.md)
+   * [Submit the Forum](https://github.com/LEARN-LK/lms/blob/master/Submit-Forum.md)
+   * [feedback activity,Survey Submission](https://github.com/LEARN-LK/lms/blob/master/feedback-Survey-Submission.md)
+   * [Join in VCR Class Room](https://github.com/LEARN-LK/lms/blob/master/Join-VCR.md)
+   * [Safe Exam Browser](https://github.com/LEARN-LK/lms/blob/master/Safe-Exam-Browser.md)
