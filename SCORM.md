@@ -18,7 +18,7 @@ In the section of the course where you want to add the SCORM activity, click on 
 
 * Step 5: Choose SCORM Package
 From the activity chooser, select "SCORM Package" and click the "Add" button.
-<img width="681" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/104-SCORM.png?raw=true">
+<img width="681" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/104-SCORM.png">
 
 <pre><h3>Site for Generating SCORM Activities</h3>[EDAPP :](https://www.edapp.com/blog/10-scorm-creator-software/) </pre>
 
@@ -30,7 +30,7 @@ Name and Description: Give your SCORM activity a name and provide a description 
 
 Once you have configured the SCORM activity, click the "Save and display" button. This will save your settings and take you to the page where you can view the SCORM content.
 
-<img width="681" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/105-SCORM.png?raw=true">
+<img width="681" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/105-SCORM.png">
 
 * Step 8: Test the SCORM Activity
 
