@@ -2,7 +2,7 @@
 <h2>01. Navigating Courses</h2>
 Click on a Mycourse  to access the course.
 Explore different sections, such as "Announcements," "Resources," and "Activities."
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/102-myCourse.png?raw=true" style="max-width:100%;width: 60%;"> 
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/102-myCourse.png?raw=true" style="max-width:100%;width: 70%;"> 
 
 <h2>02. Submit the Assignment </h2>
 
@@ -11,8 +11,8 @@ Students click the assignment link and click “Add submission” (1)
 Depending on the assignment settings, they either have a text box into which to type their work or an upload area to submit their file (2)
 They may be able to return to their work and redraft it, or they might have to click a submit button to send in a final version which cannot be changed.
 
- <img src="https://github.com/LEARN-LK/lms/blob/master/img/27-student%20view.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/28-Add+submission.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+ <img src="https://github.com/LEARN-LK/lms/blob/master/img/27-student%20view.png?raw=true" alt="image" style="max-width: 100%;width: 600px;">
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/28-Add+submission.png?raw=true" alt="image" style="max-width: 100%;width: 600px;">
 
 <h2>03. Quiz Submission </h2>
 Quiz view:
@@ -36,4 +36,4 @@ To complete the quiz:
 * After you have submitted your quiz, you will see your quiz results.
 * Your results will show you your score for the quiz, as well as the correct answers to each question [4].
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/39-all%20-student%20view.png?raw=true" style="max-width:100%;width: 60%;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/39-all%20-student%20view.png?raw=true" style="max-width:100%;width: 70%;">
