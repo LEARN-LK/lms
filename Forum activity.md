@@ -26,13 +26,13 @@ Forum activities are ideal for asynchronous courses, enabling collaborative lear
 * Give your form a name and description [4].
 
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/41-form-activity.png?raw=true" style="max-width: 100%;width: 60%;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/41-form-activity.png" style="max-width: 100%;width: 60%;">
 
 * Choose your Forum type, clicking the question mark (?) icon for descriptions of each type. If you're unsure, use the default Standard forum for general use[5].
 * Expand the other sections to define the settings you want [6]. 
 * Click Save and display and, optionally, add a post to get started [7].
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/42-%20add%20form-activity.png?raw=true" style="max-width: 100%;width: 60%;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/42-%20add%20form-activity.png" style="max-width: 100%;width: 60%;">
 
 
 To lock a specific discussion within a forum in Moodle, follow these steps:
@@ -40,23 +40,23 @@ To lock a specific discussion within a forum in Moodle, follow these steps:
 ###  01 **Managing the Forum (Locking, Pinning, Deleting Posts)**
    - **Locking a Forum**:
      - Open the forum, go to **Forum settings**, and set the **cut-off date** after which no new posts can be made.
-       <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-discussion-lock.png?raw=true" style="max-width: 100%;width: 60%;">
+       <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-discussion-lock.png" style="max-width: 100%;width: 60%;">
    - **Locking a Specific Discussion**:
      - Inside the forum, go to the discussion you want to lock.
      - Click the options menu (often three dots or a dropdown) next to the discussion title.
      - Select **Lock discussion** to prevent new replies from being posted.
-       <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-lock-discusion.png?raw=true" style="max-width: 100%;width: 60%;">   
+       <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-lock-discusion.png" style="max-width: 100%;width: 70%;">   
    - **Pinning Discussions**:
      - In the forum, click on the discussion you want to pin, then choose **Pin** from the dropdown menu next to the post title. This keeps the post at the top.
 
-        <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-lock-discusion.png?raw=true" style="max-width: 100%;width: 60%;">
+        <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-lock-discusion.png" style="max-width: 100%;width: 70%;">
        
    - **Deleting a Forum or Discussion**:
      - **Delete a Forum**: Turn on editing, then select the **Delete** icon next to the forum in your course. Confirm when prompted.
-        <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-delete descussion.png?raw=true" style="max-width: 100%;width: 60%;">
+        <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-delete descussion.png" style="max-width: 100%;width: 70%;">
        
      - **Delete a Discussion**: Open the forum, locate the discussion, and choose **Delete** from the options menu next to the post. Confirm to remove it.
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-delete discution.png?raw=true" style="max-width: 100%;width: 60%;">
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-delete discution.png" style="max-width: 100%;width: 70%;">
 
 To set up grading for a forum in Moodle, follow these steps:
 
@@ -74,7 +74,7 @@ To set up grading for a forum in Moodle, follow these steps:
       - In the **Scale** dropdown, choose a grading scale or select **Point** to assign a numeric value.
       - Specify the **Maximum grade** if using points.
         
-          <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-rating.png?raw=true" style="max-width: 100%;width: 60%;">
+          <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-rating.png" style="max-width: 100%;width: 60%;">
 
 ### 2. **Assign Grades in the Forum**
    - **Rate Individual Posts**:
@@ -82,7 +82,7 @@ To set up grading for a forum in Moodle, follow these steps:
      - Under each post, you'll see a **Rating** dropdown (if ratings are enabled).
      - Select a rating or score for each student’s post. Moodle will automatically calculate the grade based on the aggregate type.
 
-       <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-give-rating.png?raw=true" style="max-width: 100%;width: 60%;">
+       <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-give-rating.png" style="max-width: 100%;width: 70%;">
 
       
 
