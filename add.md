@@ -2,12 +2,12 @@
 
 `Note: Regular teachers cannot add new courses to Moodle. To do this, you need to be log in as an administrator, course creator, or manager.`
 
-<img width="281" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/1.png?raw=true">
+<img width="281" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/1.png">
 
 Step – 01
 From the Site administration link, click Courses>Manage courses and categories
 
-<img width="500" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/02%20course%20add.png?raw=true">
+<img width="500" alt="image" src="https://github.com/LEARN-LK/lms/blob/master/img/02%20course%20add.png">
 
 Step – 02
 Assume you have to add categories and courses  following like this
@@ -39,7 +39,7 @@ Before you create courses, you must add cources categories (main & sub categorie
 	- Semester 01
   	- Semester 02
 
- <img width="500" src=" https://github.com/LEARN-LK/lms/blob/master/img/03%20add%20new%20cate.png?raw=true">
+ <img width="500" src=" https://github.com/LEARN-LK/lms/blob/master/img/03%20add%20new%20cate.png">
 
 <h5>Ex : Sub Category "Year 01 > Semester 01 , Semester 02 </h5>
 
@@ -48,7 +48,7 @@ sometimes it might be useful to have a sub-category of a course. For example, yo
 You can make one category a subcategory of another by checking the box to the left of its name and then by selecting from the drop down menu 'Move selected categories to' You can create a new, empty sub-category by clicking the actions icon next to its name in Administration>Site administration>Courses>Manage courses and categories. and selecting 'Create new subcategory.'
 
 
- <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/04%20sub%20-%20cat.png?raw=true">
+ <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/04%20sub%20-%20cat.png">
 
 
 
@@ -57,7 +57,7 @@ Assume that Year 01 > Semester 01 has two courses (Business Management,Economics
 
 Click the category you want your course to be in (Bachelor Degree Program > Year 01 > Semester 01), then click the "Create course" button. Enter the course settings, then choose either "Save and return" to go back to your course, or "Save and display" to go to the next screen.
 
- <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/05%20-add%20couser%20-%20sem%2001.png?raw=true">
+ <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/05%20-add%20couser%20-%20sem%2001.png">
  
 <h1>03 Add Bulk Course </h1>
 
@@ -72,7 +72,7 @@ You'll need a comma-separated values (CSV) file containing course information. Y
    - fullname: The course's full name.
    - category: The category where the course will be listed.
  
-     <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/001-bulk-courses.png?raw=true">
+     <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/001-bulk-courses.png">
      
 * Optional fields:
    - course format: Choose a format like "weeks" or "topics".
@@ -85,7 +85,7 @@ You'll need a comma-separated values (CSV) file containing course information. Y
    - Log in to your Moodle site as an administrator [1].
    - Click on the gear icon in the top right corner to access the Site administration panel.
    -  Go to Courses [2] > Upload courses [3].
-   -  <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/123%20-bulk.png?raw=true">
+   -  <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/123%20-bulk.png">
    
 3. Upload your CSV file:
 
@@ -96,7 +96,7 @@ You'll need a comma-separated values (CSV) file containing course information. Y
     -  Quote character: Usually double quote ("") or single quote (').
     -  Click Preview [7]to see how Moodle will interpret your CSV data. Review the information carefully and ensure everything looks correct.
 
-     <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/124-bulk.png?raw=true">
+     <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/124-bulk.png>
 4. (Optional) Use a course template:
 
 If you have a pre-existing course setup with settings you want to apply to all new courses, you can use it as a template.
@@ -126,7 +126,7 @@ Click on the Delete button.
 Confirm that you want to delete the course
 
 
- <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/06%20-%20delete%2001.png?raw=true">
+ <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/06%20-%20delete%2001.png">
 
 <h1>05 -Automated Course Backup</h1>
 
@@ -138,12 +138,12 @@ Confirm that you want to delete the course
 3. Choose Backup Frequency:
 - Select the days of the week on which you want the backups to run [5].
 - Set the execution time for the backup process. Consider choosing a time when server activity is low, such as early morning [6].
-   <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/126-backup.png?raw=true"> 
+   <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/126-backup.png"> 
 4. Specify Backup Location:
 
 - Set the "Save to..." path to the desired location for storing backups.
 Important: Choose a location that is not on the same drive as your Moodle installation. This ensures that backups are preserved even if the main drive fails.
- <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/127-path.png?raw=true"> 
+ <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/127-path.png"> 
 
 5. Optional: Use Course Names in Filenames:
 
