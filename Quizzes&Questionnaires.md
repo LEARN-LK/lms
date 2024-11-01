@@ -20,18 +20,18 @@ Quizzes can be graded automatically or manually. For automatically graded quizze
 * Enter a name and description for the quiz.
 * Configure the quiz settings, such as the time limit, number of attempts, and grading method.
 * Click Save and Display button.
- <img src="https://github.com/LEARN-LK/lms/blob/master/img/31-%20Quiz.png?raw=true"  style="max-width: 100%;width: 500px;">
+ <img src="https://github.com/LEARN-LK/lms/blob/master/img/31-%20Quiz.png"  style="max-width: 100%;width: 600px;">
 * Click add Quastion button
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/32-add%20Quiz.png?raw=true" style="max-width: 100%;width: 500px;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/32-add%20Quiz.png" style="max-width: 100%;width: 600px;">
 
 * Click Add and then click '+ a new question' (If you already made questions in the question bank, then click '+ from question bank' or if you wish to add a question randomly picked from a category of questions, click '+ a random question'.)"
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/33-add%20new%20quastion.png?raw=true" style="max-width: 100%;width: 500px;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/33-add%20new%20quastion.png" style="max-width: 100%;width: 600px;">
 
 <h4>To add questions to your quiz:</h4>
 
 * Choose the type of question you want to add.
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/34-quastion%20type.png?raw=true"  style="max-width: 100%;width: 500px;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/34-quastion%20type.png"  style="max-width: 100%;width: 600px;">
   
 * Click Add at the bottom.
 * Add your question. For help, see the documentation on question types.
@@ -52,9 +52,9 @@ in this section cover following
 
 Step: Follow the steps shown in the image.
 
-
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/135-Embeded.jpg?raw=true" style="max-width:100%;width: 60%;">
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/121-emb.png?raw=true" style="max-width:100%;width: 60%;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/34-quastion%20type.png"  style="max-width: 100%;width: 600px;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/135-Embeded.jpg" style="max-width:100%;width: 60%;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/121-emb.png" style="max-width:100%;width: 60%;">
 
 Preview 
 
