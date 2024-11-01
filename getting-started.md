@@ -15,22 +15,24 @@ Moodle is a learning management system (LMS) that allows you to access course ma
 * Go to the Moodle login page.
 * Enter your username and password.
 * Click the "Log In" button.
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/100-Student-login.png?raw=true" style="max-width:100%;width: 60%;"> 
+  
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/100-Student-login.png" style="max-width:100%;width: 60%;"> 
 
 <h2>03. Dashboard Overview</h2>
 Once logged in, you will see your dashboard displaying enrolled courses, upcoming deadlines, and recent activities.
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/101-Dashborad.png?raw=true" style="max-width:100%;width: 60%;"> 
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/101-Dashborad.png" style="max-width:100%;width: 60%;"> 
 
 <h2>04. Personalization and Preferences</h2>
 * Customizing Your Profile
 * Click on your profile picture or name.
   
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/100-profile.png?raw=true" style="max-width: 100%;width: 60%;">
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/101-profile.png?raw=true" style="max-width: 100%;width: 60%;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/100-profile.png" style="max-width: 100%;width: 60%;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/101-profile.png" style="max-width: 100%;width: 60%;">
 
 * Update your profile information, including a profile picture.
 * Setting Preferences for Notifications
 * Access the "Notification Preferences" or "Settings" section.
 * Choose your preferred notification settings for emails, forum posts, etc.
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/103-profile.png?raw=true" style="max-width: 100%;width: 80%;">
+  
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/103-profile.png" style="max-width: 100%;width: 80%;">
