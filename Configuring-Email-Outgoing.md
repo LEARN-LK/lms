@@ -5,6 +5,7 @@ To configure outgoing email in Moodle, follow these steps:
 ### 1. **Access Outgoing Mail Configuration**
    - Log in to Moodle as an administrator.
    - Go to **Site administration > Server > Email > Outgoing mail configuration**.
+   - “When you have a lot of students in your Moodle site, using an educational Gmail account cannot be recommended as it holds daily limit of 500 emails sending limits. You have to own an email (SMTP) account from your on premise hosted campus mail server or obtain a business email account without such daily limits.”
 
 ### 2. **Configure SMTP Settings**
    - **SMTP hosts**: Enter the SMTP server address. For example, for Gmail, it’s `smtp.gmail.com`. For others, use the SMTP details provided by your email service.
