@@ -26,7 +26,7 @@ To configure outgoing email in Moodle, follow these steps:
 
 ### 5. **Save Changes**
 
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/email-configuration.png" style="max-width: 100%;width: 120%;">
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/001-mail-config.png" style="max-width: 100%;width: 100%;">
 
 
    - Click **Save changes** to apply your settings.
