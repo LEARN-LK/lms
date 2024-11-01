@@ -22,13 +22,13 @@ You can log in to VRC in two ways: one using institutional credentials and the o
 * To log in using EDUID/Institutional credentials you need to visit the following URL https://idp.eduid.lk/idp/profile/SAML2/POST/SSO?execution=e1s1 .
 * Select the dropdown menu and choose 'equID Sri Lanka.' Afterward, click the 'Continue' button. If you have institutional credentials, you should choose your institute from the dropdown menu.
 
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/106-eduid.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/106-eduid.png" alt="image" style="max-width: 100%;width: 500px;">
 * You will be redirected to the login page. Enter your EDUID username and password. If you have institutional credentials, enter those credentials instead.
 
-   <img src="https://github.com/LEARN-LK/lms/blob/master/img/107-login.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+   <img src="https://github.com/LEARN-LK/lms/blob/master/img/107-login.png" alt="image" style="max-width: 100%;width: 500px;">
 * Then you will gain access to Learn VCR.
   
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/108-vcrDashboard.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/108-vcrDashboard.png" alt="image" style="max-width: 100%;width: 500px;">
    
 <h4>1.2 Create VCR Classroom</h4>
 To create the VCR classroom, refer to the following user guideline link:https://vcr.learn.ac.lk/userguide/"
@@ -39,33 +39,33 @@ To create the VCR classroom, refer to the following user guideline link:https://
 
 * after creating VCR Class room Copy URL:
 
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/111-vcr-link.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/111-vcr-link.png" alt="image" style="max-width: 100%;width: 500px;">
 * Log in to your Moodle site as a teacher or administrator.
 * Navigate to the course where you want to add the URL activity.
 * Click on the "Turn editing on" button to enable editing mode.
 
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/110-url-1.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/110-url-1.png" alt="image" style="max-width: 100%;width: 700px;">
 * Click on the "Add an activity or resource" button.
 
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/111-url-2.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/111-url-2.png" alt="image" style="max-width: 100%;width: 700px;">
 * Scroll down or use the search bar to find the "URL" activity module.
 
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/112-url-3.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/112-url-3.png" alt="image" style="max-width: 100%;width: 500px;">
 * Click on the "Add" button next to the URL activity.
 * Fill in the Activity Details:
   - Activity name: Provide a descriptive name for the activity, so students understand its purpose.
   - External URL: Paste the full URL of VCR Meeting link you want to link to.
   - Description (optional): Add a brief description of the activity or the content of the linked resource.
 
-     <img src="https://github.com/LEARN-LK/lms/blob/master/img/113-url-4.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+     <img src="https://github.com/LEARN-LK/lms/blob/master/img/113-url-4.png" alt="image" style="max-width: 100%;width: 700px;">
 
 <h2>Student Access:</h2>
 * Students will now see the URL activity (VCR) within the course page.
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/107-stud-vcr.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/108-stud-vcr2.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/107-stud-vcr.png" alt="image" style="max-width: 100%;width: 700px;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/108-stud-vcr2.png" alt="image" style="max-width: 100%;width: 700px;">
 
 * They can click on the link or resource to access the VCR Classroom.
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/109-stud-vcr3.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/109-stud-vcr3.png" alt="image" style="max-width: 100%;width: 500px;">
   
 <h2> Add VRC Repater Session to Calender   </h2>
 when VRC meeting repeat you can add it to the Calender
@@ -77,7 +77,7 @@ when VRC meeting repeat you can add it to the Calender
 - Locate and access the Calendar on the Dashboard page [2].
 - Choose the date for the VCR Meeting or Click on "New Event" Button [3].
 
-   <img src="https://github.com/LEARN-LK/lms/blob/master/img/136%20-Event.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+   <img src="https://github.com/LEARN-LK/lms/blob/master/img/136%20-Event.png" alt="image" style="max-width: 100%;width: 500px;">
   
 - Add the following details:
   - Event title [4]
@@ -87,7 +87,7 @@ when VRC meeting repeat you can add it to the Calender
   - Location
   - Duration
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/136%20-%20Event%20dialog%20box.png?raw=true" alt="image" style="max-width: 100%;width: 500px;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/136%20-%20Event%20dialog%20box.png" alt="image" style="max-width: 100%;width: 500px;">
   
  
 
