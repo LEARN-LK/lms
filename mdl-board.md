@@ -66,7 +66,7 @@ A teacher creates a board with the following columns:
     - *Link:* Documentation on Git workflows.
    
       
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/1-Board.png?raw=true" alt="image" style="max-width: 100%;width: 800px;">
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/1-Board.png" alt="image" style="max-width: 100%;width: 900px;">
 
 ### Additional Features:
 - **Ratings:** Students can rate posts to highlight the most valuable ideas or resources.
