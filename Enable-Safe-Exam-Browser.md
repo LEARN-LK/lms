@@ -23,7 +23,7 @@ Safe Exam Browser is a web browser environment to carry out e-assessments safely
 * Navigate to Site Administration > Plugins > Install Plugins.
 * Search for "Safe Exam Browser" and install the plugin.
 
-   <img src="https://github.com/LEARN-LK/lms/blob/master/img/114-plugin.png?raw=true" alt="image" style="max-width: 100%;width: 700px;">
+   <img src="https://github.com/LEARN-LK/lms/blob/master/img/114-plugin.png" alt="image" style="max-width: 100%;width: 700px;">
 
 <h3>02- Configure Global Settings (Optional):</h3>
 
