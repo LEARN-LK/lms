@@ -33,9 +33,11 @@ Now that the plugin is installed, you can add it to any course to start tracking
 3. **Add the Completion Progress Block**:
    - Scroll down to the **Add a block** option (often found in the side panel or at the bottom of the course page).
    - Click **Add a block** and select **Completion Progress** from the list of available blocks.
+     <img src="https://github.com/LEARN-LK/lms/blob/master/img/p-2-Completion Progress-01.png" style="max-width: 100%;width: 60%;">
 
 4. **Position the Block**:
    - Once added, the **Completion Progress** block will appear on the right side of your course page. You can reposition it by dragging or configuring it to display in a particular location.
+     <img src="https://github.com/LEARN-LK/lms/blob/master/img/p-2-Completion Progress-02.png" style="max-width: 100%;width: 60%;">
 
 ---
 
@@ -57,6 +59,7 @@ To make use of the Completion Progress block, you need to enable **Activity Comp
       - **None**: The activity won’t be tracked.
       - **Students must manually mark the activity as done**: Allows students to mark it as done themselves.
       - **Activity is completed when students do all the following:**: Set specific criteria, such as View the activity, Start discussions or post replies, or Receive a grade the activity.
+          <img src="https://github.com/LEARN-LK/lms/blob/master/img/p-3-Completion Progress-03.png" style="max-width: 100%;width: 60%;">
 
 4. **Save Changes**:
    - After setting the completion criteria, click **Save and return to course**.
@@ -115,6 +118,8 @@ Let’s say you want to track progress for **Assignment 1**, **Quiz 1**, and a *
 
 - **For Students**: Students will see a color-coded bar displaying their progress for each tracked activity, helping them manage deadlines and upcoming tasks.
 - **For Teachers**: Teachers can click on the block to view an overview of each student’s progress, making it easier to identify students who may need reminders or additional support to complete the activities.
+
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/p-5-Completion Progress-04.png" style="max-width: 100%;width: 60%;">
 
 ---
 
