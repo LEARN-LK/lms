@@ -39,7 +39,7 @@ Now that the plugin is installed, you can add it to any course to start tracking
 4. **Position the Block**:
    - Once added, the **Completion Progress** block will appear on the right side of your course page. You can reposition it by dragging or configuring it to display in a particular location.
 
-      <img src="https://github.com/LEARN-LK/lms/blob/master/img/p-2-Completion Progress-02.png" style="max-width: 100%;width: 60%;">
+      <img src="https://github.com/LEARN-LK/lms/blob/master/img/p-2-Completion Progress-02.png" style="max-width: 100%;width: 50%;">
 
 ---
 
@@ -121,7 +121,7 @@ Let’s say you want to track progress for **Assignment 1**, **Quiz 1**, and a *
 - **For Students**: Students will see a color-coded bar displaying their progress for each tracked activity, helping them manage deadlines and upcoming tasks.
 - **For Teachers**: Teachers can click on the block to view an overview of each student’s progress, making it easier to identify students who may need reminders or additional support to complete the activities.
 
-    <img src="https://github.com/LEARN-LK/lms/blob/master/img/p-5-1-Completion Progress-04.png" style="max-width: 100%;width: 80%;">
+    <img src="https://github.com/LEARN-LK/lms/blob/master/img/p-5-1-Completion Progress-04.png" style="max-width: 100%;width: 50%;">
 
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/p-5-Completion Progress-04.png" style="max-width: 100%;width: 80%;">
 
