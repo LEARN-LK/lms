@@ -52,11 +52,11 @@ To make use of the Completion Progress block, you need to enable **Activity Comp
    - Click **Edit** next to the activity, then select **Edit settings**.
 
 3. **Enable Activity Completion**:
-   - Scroll down to the **Activity completion** section.
-   - In the **Completion tracking** dropdown, select one of the following options:
-      - **Do not indicate activity completion**: The activity won’t be tracked.
-      - **Students can manually mark the activity as completed**: Allows students to mark it as done themselves.
-      - **Show activity as complete when conditions are met**: Set specific criteria, such as receiving a grade, making a post, or viewing the activity.
+   - Scroll down to the **Completion conditions** section.
+   - In the **Completion conditions** dropdown, select one of the following options:
+      - **None**: The activity won’t be tracked.
+      - **Students must manually mark the activity as done**: Allows students to mark it as done themselves.
+      - **Activity is completed when students do all the following:**: Set specific criteria, such as View the activity, Start discussions or post replies, or Receive a grade the activity.
 
 4. **Save Changes**:
    - After setting the completion criteria, click **Save and return to course**.
