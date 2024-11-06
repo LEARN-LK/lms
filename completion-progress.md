@@ -116,6 +116,20 @@ Let’s say you want to track progress for **Assignment 1**, **Quiz 1**, and a *
 
 ---
 
+
+### **Part 6: How Students Mark Activities as Done**
+
+Once manual completion is enabled, students can mark the activity as done from their end:
+
+1. **Go to the Activity**: Students will see a checkbox next to each activity that has manual completion enabled.
+2. **Mark as Done**:
+   - To mark the activity as complete, students simply click the checkbox next to the activity name.
+   - Once checked, the activity will show as **completed** in their view, and it will appear as completed in the **Completion Progress** block.
+
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/p-6-mark-as-done.png" style="max-width: 100%;width: 60%;">
+---
+
+
 ### **Viewing and Using the Completion Progress Block**
 
 - **For Students**: Students will see a color-coded bar displaying their progress for each tracked activity, helping them manage deadlines and upcoming tasks.
