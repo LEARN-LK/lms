@@ -56,6 +56,7 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * [Board - Plugin](https://github.com/LEARN-LK/lms/blob/master/mdl-board.md)
    * [Workplace Course Certificate](https://github.com/LEARN-LK/lms/blob/master/course-certificate.md)
    * [Checklist - Plugin](https://github.com/LEARN-LK/lms/blob/master/Checklist.md)
+   * [Completion Progress - plugin]()
      
 5. Student Guide
    <!--[Students Guide](https://github.com/LEARN-LK/lms/blob/master/Student-Guide.md)-->
