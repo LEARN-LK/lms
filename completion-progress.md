@@ -39,7 +39,7 @@ Now that the plugin is installed, you can add it to any course to start tracking
 4. **Position the Block**:
    - Once added, the **Completion Progress** block will appear on the right side of your course page. You can reposition it by dragging or configuring it to display in a particular location.
 
-      <img src="https://github.com/LEARN-LK/lms/blob/master/img/p-2-Completion Progress-02.png" style="max-width: 100%;width: 50%;">
+      <img src="https://github.com/LEARN-LK/lms/blob/master/img/p-2-Completion Progress-02.png" style="max-width: 100%;width: 40%;">
 
 ---
 
