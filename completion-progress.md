@@ -1,3 +1,4 @@
+## Completion Progress Plugin
 ### **Part 1: Install the Completion Progress Plugin**
 
 **Description**: The **Completion Progress** block is a visual tool that allows both teachers and students to track progress in a Moodle course. It shows the completion status of activities and provides a color-coded visual bar to indicate progress, upcoming tasks, and overdue activities.
