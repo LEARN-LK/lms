@@ -27,7 +27,9 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
       >  -->
  
 01. Moodle Admin Guide
-    * [Moodle installation](https://github.com/LEARN-LK/lms/blob/master/moodle-install.md)
+    * Moodle installation
+      - [Linux](https://github.com/LEARN-LK/lms/blob/master/moodle-install.md)
+      - [Alpine Linux]()
     * Create courses [(Create category,Create courses ,Add bulk course,Delete courses,Automated course backup)](https://github.com/LEARN-LK/lms/blob/master/add.md#-adding-a-course-category-)
     * Add users [Adding User methods,Enrolling](https://github.com/LEARN-LK/lms/blob/master/Adding%20users.md#adding-users-)
     * [Moodle Virtual Class Room (Webinar)](https://github.com/LEARN-LK/lms/blob/master/Moodle%20Virtual%20Class%20Room%20(Webinar)%20.md)
