@@ -3,9 +3,6 @@
 Here is a step-by-step guide to installing Moodle on Alpine Linux running in VirtualBox. The setup includes using Nginx, PHP-FPM, and MariaDB.
 
 ---
-The `config.php` file for Moodle is located in the Moodle installation directory, typically at `/var/www/moodle/config.php`. This file is generated during the Moodle installation process and contains critical configuration details like database connection settings, directory paths, and other site-specific options.
-
----
 
 ### **Regenerated Steps to Install Moodle on Alpine Linux via VirtualBox**
 
