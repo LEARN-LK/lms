@@ -6,7 +6,7 @@ Here is a step-by-step guide to installing Moodle on Alpine Linux running in Vir
 
 #### **1. Prepare Virtual Machine in VirtualBox**
 - Create a VM with **Alpine Linux** as the operating system.
-- Allocate at least **2 GB RAM** and **20 GB disk space**.
+- Allocate at least **1 GB RAM** and **5 GB disk space**.
 - Boot the VM with the Alpine Linux ISO and complete the installation.
 
 ---
