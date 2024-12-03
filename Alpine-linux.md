@@ -82,7 +82,7 @@ Here is a step-by-step guide to installing Moodle on Alpine Linux running in Vir
 ---
 
 #### **6. Configure Nginx**
-1. Create a new Nginx configuration file:
+1. Create a new Nginx configuration file: or Edit Nginx.config file
    ```bash
    nano /etc/nginx/http.d/moodle.conf
    ```
