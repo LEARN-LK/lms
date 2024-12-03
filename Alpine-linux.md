@@ -100,7 +100,7 @@ Here is a step-by-step guide to installing Moodle on Alpine Linux running in Vir
    ```nginx
    server {
        listen 80;
-       server_name localhost;
+       server_name localhost [VM IP];
 
        root /var/www/moodle;
        index index.php index.html index.htm;
@@ -114,6 +114,7 @@ Here is a step-by-step guide to installing Moodle on Alpine Linux running in Vir
            fastcgi_split_path_info ^(.+\.php)(/.+)$;
            fastcgi_index index.php;
            fastcgi_pass 127.0.0.1:9000;
+           fastcgi_param  PATH_INFO $fastcgi_path_info;
            fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
        }
 
@@ -149,19 +150,6 @@ Here is a step-by-step guide to installing Moodle on Alpine Linux running in Vir
 
 ---
 
-### **Step 8: Configure Localhost Access**
-1. **Map a port in VirtualBox**:
-   - Go to **Settings > Network > Port Forwarding**.
-   - Add a rule:
-     - Protocol: TCP
-     - Host Port: 8080
-     - Guest Port: 80
-2. **Access Moodle via localhost**:
-   - Open a browser and go to:
-     ```
-     http://localhost:8080
-     ```
 
----
 
 
