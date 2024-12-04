@@ -55,7 +55,7 @@ This guide explains how to set up a `.vdi` file with Alpine Linux, configure it 
 #### **Windows**:
 1. Path:  
    `C:\Windows\System32\drivers\etc\hosts`
-2. Open Notepad as an administrator and add:
+2. Open Notepad as an administrator and add your VM IP: eg:
    ```
    192.168.1.10 mymoodle.learn.ac.lk
    ```
