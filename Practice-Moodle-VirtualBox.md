@@ -90,7 +90,7 @@ This guide explains how to set up a `.vdi` file with Alpine Linux, configure it 
 1. Open a browser on the host machine.
 2. Navigate to:
    ```
-   http://mymoodle.test.learn.ac.lk
+   http://mymoodle.learn.ac.lk
    ```
 
 ---
