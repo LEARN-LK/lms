@@ -132,4 +132,4 @@ Renew DHCP Lease on Alpine Linux
 ``` bash
 /etc/init.d/networking restart
 ```
-then follow [Step 5](https://github.com/LEARN-LK/lms/edit/master/Practice-Moodle-VirtualBox.md#5-find-the-vm-ip-address)
+then follow [Step 5](https://github.com/LEARN-LK/lms/blob/master/Practice-Moodle-VirtualBox.md#5-find-the-vm-ip-address)
