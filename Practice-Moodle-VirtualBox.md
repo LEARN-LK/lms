@@ -133,3 +133,33 @@ Renew DHCP Lease on Alpine Linux
 /etc/init.d/networking restart
 ```
 then follow [Step 5](https://github.com/LEARN-LK/lms/blob/master/Practice-Moodle-VirtualBox.md#5-find-the-vm-ip-address)
+
+#### plugin installation Troubleshooting
+
+Edit config.php in the Moodle directory:
+// Add these lines at the end of config.php:
+ ``` bash
+@error_reporting(E_ALL | E_STRICT);
+@ini_set('display_errors', '1');
+$CFG->debug = (E_ALL | E_STRICT);
+$CFG->debugdisplay = 1;
+```
+
+#### 1. Update PHP-FPM User and Group
+   Open the PHP-FPM pool configuration file:
+ ``` bash
+vi /etc/php82/php-fpm.d/www.conf
+```
+ ``` bash
+user = nginx
+group = nginx
+```
+####  Restart PHP-FPM
+
+ ``` bash
+rc-service php-fpm82 restart
+```
+#### Set Permission  "$CFG->directorypermissions = 0777;"
+ ``` bash
+vi /var/www/moodle/config.php
+```
