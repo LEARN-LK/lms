@@ -55,7 +55,13 @@ Here is a step-by-step guide to installing Moodle on Alpine Linux running in Vir
    - Disallow root login remotely: Yes
    - Remove test database: Yes
    - Reload privilege tables: Yes
-3. Create a Moodle database:
+     
+3. Access the MariaDB/MySQL CLI
+```bash
+mysql -u root -p
+```
+
+4. Create a Moodle database:
    ```sql
    CREATE DATABASE moodle CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
    CREATE USER 'moodleuser'@'localhost' IDENTIFIED BY 'yourpassword';
