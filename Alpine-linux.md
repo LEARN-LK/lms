@@ -89,7 +89,7 @@ Here's the updated step-by-step guide to install Moodle on Alpine Linux with you
    ```nginx
    server {
        listen 80;
-       server_name 192.248.4.194;
+       server_name 192.XXX.X.XX
        root /var/www/moodle;
        index index.php index.html index.htm;
 
@@ -151,9 +151,9 @@ Here's the updated step-by-step guide to install Moodle on Alpine Linux with you
    $CFG->dbhost    = 'localhost';
    $CFG->dbname    = 'moodle';
    $CFG->dbuser    = 'moodleuser';
-   $CFG->dbpass    = 'mdl@123';
+   $CFG->dbpass    = 'Passwrd@12';
    $CFG->prefix    = 'mdl_';
-   $CFG->wwwroot   = 'http://192.248.4.194';
+   $CFG->wwwroot   = 'http://192.XXX.X.XXX';
    $CFG->dataroot  = '/var/www/moodledata';
    $CFG->directorypermissions = 0777;
    require_once(__DIR__ . '/lib/setup.php');
@@ -168,7 +168,7 @@ Here's the updated step-by-step guide to install Moodle on Alpine Linux with you
 ### **Step 8: Complete Moodle Installation**
 
 1. **Access Moodle in your browser:**
-   - Navigate to `http://192.248.4.194`.
+   - Navigate to `http://192.XXX.X.XXX`.
 2. **Follow the Moodle setup wizard:**
    - Confirm database settings:
      - Database: `moodle`
