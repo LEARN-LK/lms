@@ -212,4 +212,3 @@ Here's the updated step-by-step guide to install Moodle on Alpine Linux with you
 - **Username**: `moodle`
 - **Password**: `mdl@123`
 
-Let me know if you need further clarification!
