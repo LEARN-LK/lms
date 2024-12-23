@@ -1,178 +1,215 @@
-## Moodle installation.
-
-Here is a step-by-step guide to installing Moodle on Alpine Linux running in VirtualBox. The setup includes using Nginx, PHP-FPM, and MariaDB.
+Here's the updated step-by-step guide to install Moodle on Alpine Linux with your provided configuration:
 
 ---
 
-#### **1. Prepare Virtual Machine in VirtualBox**
-- Create a VM with **Alpine Linux** as the operating system.
-- Allocate at least **1 GB RAM** and **5 GB disk space**.
-- Boot the VM with the Alpine Linux ISO and complete the installation.
+### **Step-by-Step Guide to Install Moodle on Alpine Linux**
 
 ---
 
-#### **2. Update and Install Required Packages**
-1. Update the system:
+### **Step 1: Update and Prepare Alpine Linux**
+
+1. **Update the package list:**
    ```bash
-   apk update && apk upgrade
+   apk update
    ```
-2. Install necessary packages:
+2. **Upgrade installed packages:**
    ```bash
-   apk add nginx php82 php82-fpm php82-mysqli php82-iconv php82-curl php82-opcache php82-gd php82-xml php82-xmlreader php82-sodium php82-ctype php82-intl php82-zip mariadb mariadb-client curl wget unzip
+   apk upgrade
    ```
 
 ---
 
-#### **3. Configure PHP**
-1. Edit the PHP configuration:
+### **Step 2: Install Required Packages**
+
+1. Install necessary packages:
    ```bash
-   nano /etc/php82/php.ini
+   apk add nginx php82 php82-fpm php82-session php82-opcache php82-gd php82-mysqli php82-pdo_mysql php82-xmlreader php82-ctype php82-zip php82-soap php82-intl php82-xmlrpc php82-mbstring php82-json php82-curl php82-tokenizer mariadb mariadb-client wget
    ```
-2. Update these values:
+2. Enable and start services:
+   ```bash
+   rc-service nginx start
+   rc-service php-fpm82 start
+   rc-service mariadb start
+   rc-update add nginx
+   rc-update add php-fpm82
+   rc-update add mariadb
+   ```
+
+---
+
+### **Step 3: Configure MariaDB**
+
+1. **Secure the MariaDB installation:**
+   ```bash
+   mysql_secure_installation
+   ```
+2. **Log in to MariaDB:**
+   ```bash
+   mysql -u root -p
+   ```
+3. **Create a database and user for Moodle:**
+   ```sql
+   CREATE DATABASE moodle CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+   CREATE USER 'moodleuser'@'localhost' IDENTIFIED BY 'mdl@123';
+   GRANT ALL PRIVILEGES ON moodle.* TO 'moodleuser'@'localhost';
+   FLUSH PRIVILEGES;
+   EXIT;
+   ```
+
+---
+
+### **Step 4: Download and Set Up Moodle**
+
+1. **Download Moodle:**
+   ```bash
+   cd /var/www
+   wget https://download.moodle.org/stable402/moodle-latest-402.tgz
+   ```
+2. **Extract Moodle:**
+   ```bash
+   tar -xvzf moodle-latest-402.tgz
+   rm moodle-latest-402.tgz
+   ```
+3. **Create the Moodle data directory:**
+   ```bash
+   mkdir /var/www/moodledata
+   chown -R nginx:nginx /var/www/moodle /var/www/moodledata
+   chmod -R 777 /var/www/moodledata
+   ```
+
+---
+
+### **Step 5: Configure Nginx**
+
+1. **Edit the Nginx configuration:**
+   ```bash
+   nano /etc/nginx/http.d/moodle.conf
+   ```
+2. **Add the following content:**
+   ```nginx
+   server {
+       listen 80;
+       server_name 192.248.4.194;
+       root /var/www/moodle;
+       index index.php index.html index.htm;
+
+       location / {
+           try_files $uri $uri/ /index.php?$query_string;
+       }
+
+       location ~ [^/]\.php(/|$) {
+           fastcgi_split_path_info ^(.+\.php)(/.+)$;
+           fastcgi_index           index.php;
+           include fastcgi_params;
+           fastcgi_pass 127.0.0.1:9000;
+           fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+           fastcgi_param PATH_INFO $fastcgi_path_info;
+       }
+
+       location ~* /\. {
+           deny all;
+       }
+   }
+   ```
+3. **Test and restart Nginx:**
+   ```bash
+   nginx -t
+   rc-service nginx restart
+   ```
+
+---
+
+### **Step 6: Configure PHP-FPM**
+
+1. **Edit the PHP-FPM configuration:**
+   ```bash
+   nano /etc/php82/php-fpm.d/www.conf
+   ```
+2. **Set the `user` and `group` to `nginx`:**
    ```ini
-   max_input_vars = 5000
-   memory_limit = 256M
-   post_max_size = 100M
-   upload_max_filesize = 100M
+   user = nginx
+   group = nginx
    ```
-3. Restart PHP-FPM:
+3. **Restart PHP-FPM:**
    ```bash
    rc-service php-fpm82 restart
    ```
 
 ---
 
-#### **4. Set Up MariaDB**
-1. Start MariaDB:
-   ```bash
-   rc-service mariadb start
-   ```
-2. Secure the installation:
-   ```bash
-   mysql_secure_installation
-   ```
-   - Remove anonymous users: Yes
-   - Disallow root login remotely: Yes
-   - Remove test database: Yes
-   - Reload privilege tables: Yes
-     
-3. Access the MariaDB/MySQL CLI
-```bash
-mysql -u root -p
-```
+### **Step 7: Configure Moodle**
 
-4. Create a Moodle database:
-   ```sql
-   CREATE DATABASE moodle CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-   CREATE USER 'moodleuser'@'localhost' IDENTIFIED BY 'yourpassword';
-   GRANT ALL PRIVILEGES ON moodle.* TO 'moodleuser'@'localhost';
-   FLUSH PRIVILEGES;
-   ```
-
----
-
-#### **5. Install Moodle**
-1. Download Moodle:
-   ```bash
-   cd /var/www
-   wget https://download.moodle.org/stable403/moodle-latest-403.tgz
-   tar -xvzf moodle-latest-403.tgz
-   ```
-2. Set permissions:
-   ```bash
-   mkdir -p /var/www/moodledata
-   chown -R nginx:nginx /var/www/moodle /var/www/moodledata
-   chmod -R 775 /var/www/moodledata
-   ```
-
----
-
-#### **6. Configure Nginx**
-1. Create a new Nginx configuration file: or Edit Nginx.config file
-   ```bash
-   nano /etc/nginx/http.d/moodle.conf
-   ```
-2. Add the following:
-   ```nginx
-   server {
-       listen 80;
-       server_name localhost [VM IP];
-
-       root /var/www/moodle;
-       index index.php index.html index.htm;
-
-       location / {
-           try_files $uri $uri/ =404;
-       }
-
-       location ~ [^/]\.php(/|$) {
-           include fastcgi_params;
-           fastcgi_split_path_info ^(.+\.php)(/.+)$;
-           fastcgi_index index.php;
-           fastcgi_pass 127.0.0.1:9000;
-           fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
-       }
-
-       location ~* \.(?:ico|css|js|gif|jpe?g|png|svg|webp|ttf|woff|woff2|otf|eot)$ {
-           try_files $uri /index.php$is_args$args;
-           expires max;
-           access_log off;
-           add_header Cache-Control "public";
-       }
-   }
-   ```
-3. Restart Nginx:
-   ```bash
-   rc-service nginx restart
-   ```
-
----
-
-#### **7. Access the Moodle Installation Wizard**
-1. Open a browser and go to:
-   ```
-   http://<your-VM-IP> (e.g., http://192.168.56.101)
-   ```
-2. Follow the installation wizard:
-   - Select database type: `mariadb`
-   - Enter database details:
-     - **Host**: `localhost`
-     - **Database**: `moodle`
-     - **User**: `moodleuser`
-     - **Password**: `yourpassword`
-   - Complete the installation steps.
-
----
-
-#### **8. Configure `config.php`**
-During the installation, Moodle generates a `config.php` file automatically in `/var/www/moodle/`. If needed, you can manually edit the file:
-
-1. Open the `config.php` file:
+1. **Edit the Moodle configuration file:**
    ```bash
    nano /var/www/moodle/config.php
    ```
-2. Verify key settings:
+2. **Add the following content:**
    ```php
+   <?php
    $CFG->dbtype    = 'mariadb';
    $CFG->dblibrary = 'native';
    $CFG->dbhost    = 'localhost';
    $CFG->dbname    = 'moodle';
    $CFG->dbuser    = 'moodleuser';
-   $CFG->dbpass    = 'yourpassword';
-   $CFG->wwwroot   = 'http://<your-VM-IP>';
+   $CFG->dbpass    = 'mdl@123';
+   $CFG->prefix    = 'mdl_';
+   $CFG->wwwroot   = 'http://192.248.4.194';
    $CFG->dataroot  = '/var/www/moodledata';
+   $CFG->directorypermissions = 0777;
+   require_once(__DIR__ . '/lib/setup.php');
    ```
-
----
-
-
-
-#### **09. Verify and Finalize**
-- Ensure that CSS and JavaScript load correctly.
-- If the site still appears without CSS, purge caches:
+3. **Set permissions:**
    ```bash
-   php82 admin/cli/purge_caches.php
+   chmod -R 777 /var/www/moodledata
    ```
-- Adjust any additional permissions or configurations as needed.
 
 ---
+
+### **Step 8: Complete Moodle Installation**
+
+1. **Access Moodle in your browser:**
+   - Navigate to `http://192.248.4.194`.
+2. **Follow the Moodle setup wizard:**
+   - Confirm database settings:
+     - Database: `moodle`
+     - User: `moodleuser`
+     - Password: `mdl@123`
+   - Complete the installation.
+
+---
+
+### **Step 9: Verify Installation**
+
+1. Ensure all required PHP extensions are installed:
+   ```bash
+   php -m
+   ```
+   If extensions are missing, install them using:
+   ```bash
+   apk add php82-<extension_name>
+   ```
+   Example: `apk add php82-soap`.
+
+2. Restart services:
+   ```bash
+   rc-service php-fpm82 restart
+   rc-service nginx restart
+   ```
+
+---
+
+### **Step 10: Share the VM**
+
+1. Export the VM as a `.vdi` file:
+   - In VirtualBox, go to **File > Export Appliance** and select your Alpine VM.
+2. Share the `.vdi` file via a platform like OneDrive.
+   - Example: `https://onedrive.live.com/?id=example`.
+
+---
+
+### **Default VM Credentials**
+
+- **Username**: `moodle`
+- **Password**: `mdl@123`
+
+Let me know if you need further clarification!
