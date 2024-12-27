@@ -12,32 +12,37 @@ This guide explains how to set up a `.vdi` file with Alpine Linux, configure it 
 1. Visit [VirtualBox’s official site](https://www.virtualbox.org/).
 2. Download the latest version for your operating system (Windows/macOS/Linux).
 3. Install VirtualBox using the default options.
-
+---
 #### **2. Download the `.ova` File**:
 1. Open the Google Drive link provided:
    ```
    https://drive.google.com/file/d/1bun_iIx-RaQINks6RFgXBHM8kWDEhaAq/view?usp=sharing
    ```
 2. Download the `.ova file.
+---
+#### **3. Import the .ova File**:
 
-#### **3. Set Up the Virtual Machine**:
-1. Open VirtualBox and click **New**.
-2. Set the VM Name (e.g., `MoodleAlpine`).
-3. Configure the VM:
-   - **Type**: Linux
-   - **Version**: Other Linux (64-bit)
-   - **Memory**: 1 GB (1024 MB)
-4. Select **Use an existing virtual hard disk file** and choose the downloaded `.vdi` file.
-5. Go to **Settings**:
-   - **Storage**: Ensure the `.vdi` file is attached as the primary disk.
-   - **Network**: Under **Adapter 1**, select **Bridged Adapter**.
+1.	Launch VirtualBox:
+	- Open VirtualBox from your Start Menu, Applications, or Dock.
+2.	Import the Appliance:
+   - Go to File > Import Appliance from the VirtualBox menu bar.
+3.	Browse to the .ova File:
+   - Click on the folder icon to open the file picker.
+   - Locate and select the .ova file you want to import.
+4.	Review Appliance Settings:
+   - Click Next after selecting the file.
+   - Review the virtual machine settings, including CPU, memory, and network.
+5.	Import the Appliance:
+   - Click Import to start the process.
+   - Wait for VirtualBox to import the .ova file. This might take a few minutes.
 
+---
 #### **4. Start the Virtual Machine**:
 1. Click **Start** in VirtualBox.
 2. Log in using:
    - **Username**: `moodle`
    - **Password**: `mdl@123`
-
+---
 #### **5. Find the VM IP Address**:
 1. Inside the VM, type:
    ```bash
