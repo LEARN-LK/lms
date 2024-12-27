@@ -13,12 +13,12 @@ This guide explains how to set up a `.vdi` file with Alpine Linux, configure it 
 2. Download the latest version for your operating system (Windows/macOS/Linux).
 3. Install VirtualBox using the default options.
 
-#### **2. Download the `.vdi` File**:
-1. Open the OneDrive link provided:
+#### **2. Download the `.ova` File**:
+1. Open the Google Drive link provided:
    ```
-   https://onedrive.live.com/?id=examplefilelink
+   https://drive.google.com/file/d/1bun_iIx-RaQINks6RFgXBHM8kWDEhaAq/view?usp=sharing
    ```
-2. Download the `.vdi` file.
+2. Download the `.ova file.
 
 #### **3. Set Up the Virtual Machine**:
 1. Open VirtualBox and click **New**.
