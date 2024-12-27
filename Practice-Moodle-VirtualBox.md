@@ -100,7 +100,7 @@ This guide explains how to set up a `.vdi` file with Alpine Linux, configure it 
 - Ensure the VM is running before accessing Moodle.
 - Default credentials for the VM:
   - **Username**: `moodle`
-  - **Password**: `mdl@123`
+  - **Password**: `Mdl@1234`
 
 This guide ensures users can easily import the `.vdi` file, configure the VM, and start practicing Moodle without additional setup.
 
