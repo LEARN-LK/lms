@@ -57,7 +57,7 @@ This guide explains how to set up a `.vdi` file with Alpine Linux, configure it 
    `C:\Windows\System32\drivers\etc\hosts`
 2. Open Notepad as an administrator and add your VM IP: eg:
    ```
-   192.168.1.10 mymoodle.learn.ac.lk
+   192.168.1.10 mymoodle.test.learn.ac.lk
    ```
 
 #### **MacOS**:
@@ -69,7 +69,7 @@ This guide explains how to set up a `.vdi` file with Alpine Linux, configure it 
    ```
 3. Add:
    ```
-   192.168.1.10 mymoodle.learn.ac.lk
+   192.168.1.10 mymoodle.test.learn.ac.lk
    ```
 
 #### **Linux**:
@@ -81,7 +81,7 @@ This guide explains how to set up a `.vdi` file with Alpine Linux, configure it 
    ```
 3. Add:
    ```
-   192.168.1.10 mymoodle.learn.ac.lk
+   192.168.1.10 mymoodle.test.learn.ac.lk
    ```
 
 ---
@@ -90,7 +90,7 @@ This guide explains how to set up a `.vdi` file with Alpine Linux, configure it 
 1. Open a browser on the host machine.
 2. Navigate to:
    ```
-   http://mymoodle.learn.ac.lk
+   http://mymoodle.test.learn.ac.lk
    ```
 
 ---
