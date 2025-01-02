@@ -11,20 +11,28 @@ Creating a private YouTube channel involves hiding your channel and setting your
 Hiding your channel makes all your content and activities private.
 
 - **Sign In**: Go to [YouTube](https://www.youtube.com) and sign in to your account.
+  https://github.com/LEARN-LK/lms/blob/master/imgs/01.png?raw=true
 
 - **Access YouTube Studio**: Click on your profile picture in the top-right corner and select **"YouTube Studio"**.
+  https://github.com/LEARN-LK/lms/blob/master/imgs/2.png?raw=true
 
 - **Open Settings**: In the left-hand menu, scroll down and click on **"Settings"**.
+  https://github.com/LEARN-LK/lms/blob/master/imgs/3.png?raw=true
 
 - **Channel Settings**: In the Settings window, select the **"Channel"** tab.
+  https://github.com/LEARN-LK/lms/blob/master/imgs/4.png?raw=true
 
 - **Advanced Settings**: Navigate to the **"Advanced Settings"** tab.
+  https://github.com/LEARN-LK/lms/blob/master/imgs/5.png?raw=true
 
 - **Remove YouTube Content**: At the bottom, click on **"Remove YouTube Content"**. This won't delete your content immediately.
+https://github.com/LEARN-LK/lms/blob/master/imgs/6.png?raw=true
 
 - **Re-verify Your Identity**: You may be prompted to sign in again for verification.
+ https://github.com/LEARN-LK/lms/blob/master/imgs/01.png?raw=true
 
 - **Hide Channel**: Select **"I want to hide my channel"**.
+   https://github.com/LEARN-LK/lms/blob/master/imgs/7.png?raw=true
 
 - **Confirm**: Check the boxes to confirm which content you want to hide and acknowledge the implications.
 
@@ -39,8 +47,10 @@ To ensure new content remains private:
 - **Upload Video**: In YouTube Studio, click the **"Create"** button (camera icon) and select **"Upload videos"**.
 
 - **Set Visibility**: During the upload process, in the **"Visibility"** section, choose **"Private"**.
+    https://github.com/LEARN-LK/lms/blob/master/imgs/8.png?raw=true
 
 - **Share Privately**: After uploading, click on the video in YouTube Studio, go to **"Details"**, and under **"Visibility"**, click **"Share privately"**. Enter the email addresses of the people you want to grant access to.
+    https://github.com/LEARN-LK/lms/blob/master/imgs/9.png?raw=true
 
 *Note*: Recipients must have a Google account to view private videos.
 
@@ -53,6 +63,8 @@ To share videos you've already uploaded as private:
 - **Select Video**: Find the private video you wish to share.
 
 - **Share Privately**: In the **"Visibility"** column, click on **"Private"**, then select **"Share privately"**. Enter the email addresses of the individuals you want to share the video with.
+  https://github.com/LEARN-LK/lms/blob/master/imgs/9.png?raw=true
+  
 
 *Note*: You can share private videos with up to 50 people.
 
