@@ -12,14 +12,15 @@ Hiding your channel makes all your content and activities private.
 
 - **Sign In**: Go to [YouTube](https://www.youtube.com) and sign in to your account.
   ?raw=true
-  <img src="https://github.com/LEARN-LK/lms/blob/master/imgs/01.png" alt="image" style="max-width: 100%;width: 500px;">
+
+  <img src="https://github.com/LEARN-LK/lms/blob/master/imgs/01.png" alt="image" style="max-width: 100%;width: 300px;">
 
 - **Access YouTube Studio**: Click on your profile picture in the top-right corner and select **"YouTube Studio"**.
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/imgs/2.png" alt="image" style="max-width: 100%;width: 500px;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/imgs/2.png" alt="image" style="max-width: 100%;width: 300px;">
 
 - **Open Settings**: In the left-hand menu, scroll down and click on **"Settings"**.
- <img src="https://github.com/LEARN-LK/lms/blob/master/imgs/3.png" alt="image" style="max-width: 100%;width: 500px;">
+ <img src="https://github.com/LEARN-LK/lms/blob/master/imgs/3.png" alt="image" style="max-width: 100%;width: 200px;">
 
 - **Channel Settings**: In the Settings window, select the **"Channel"** tab.
  <img src="https://github.com/LEARN-LK/lms/blob/master/imgs/4.png" alt="image" style="max-width: 100%;width: 500px;">
@@ -31,10 +32,11 @@ Hiding your channel makes all your content and activities private.
 <img src="https://github.com/LEARN-LK/lms/blob/master/imgs/6.png" alt="image" style="max-width: 100%;width: 500px;">
 
 - **Re-verify Your Identity**: You may be prompted to sign in again for verification.
-<img src="https://github.com/LEARN-LK/lms/blob/master/imgs/01.png" alt="image" style="max-width: 100%;width: 500px;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/imgs/01.png" alt="image" style="max-width: 100%;width: 300px;">
 
 - **Hide Channel**: Select **"I want to hide my channel"**.
-   <img src="https://github.com/LEARN-LK/lms/blob/master/imgs/7.png" alt="image" style="max-width: 100%;width: 500px;">
+  
+   <img src="https://github.com/LEARN-LK/lms/blob/master/imgs/7.png" alt="image" style="max-width: 100%;width: 300px;">
 
 - **Confirm**: Check the boxes to confirm which content you want to hide and acknowledge the implications.
 
@@ -68,7 +70,7 @@ To share videos you've already uploaded as private:
 <img src="https://github.com/LEARN-LK/lms/blob/master/imgs/9.png" alt="image" style="max-width: 100%;width: 500px;">
   
 
-*Note*: You can share private videos with up to 50 people.
+** *Note*: You can share private videos with up to 50 people. **
 
 
  
