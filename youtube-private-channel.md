@@ -70,7 +70,7 @@ To share videos you've already uploaded as private:
 <img src="https://github.com/LEARN-LK/lms/blob/master/imgs/9.png" alt="image" style="max-width: 100%;width: 500px;">
   
 
-** *Note*: You can share private videos with up to 50 people. **
+### ** Note: You can share private videos with up to 50 people. **
 
 
  
