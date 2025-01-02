@@ -1,6 +1,6 @@
 ## Practice Moodle in VirtualBox
 
-### Step-by-Step Guide to Share Alpine Linux `.vdi` File with Moodle Preconfigured  
+### Step-by-Step Guide to Share Alpine Linux `.OVA` File with Moodle Preconfigured  
 
 This guide explains how to set up a `.vdi` file with Alpine Linux, configure it for sharing, and provide instructions for others to use it in VirtualBox.
 
