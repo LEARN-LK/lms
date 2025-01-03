@@ -6,7 +6,33 @@ For video creators aged 13 to 17, YouTube automatically sets the channel to priv
 
 Creating a private YouTube channel involves hiding your channel and setting your videos to private, ensuring only authorized individuals can access your content. Here's a step-by-step guide to achieve this:
 
-## **1. Hide Your YouTube Channel**
+## **1. Upload Videos as Private**
+
+To ensure new content remains private:
+
+- **Upload Video**: In YouTube Studio, click the **"Create"** button (camera icon) and select **"Upload videos"**.
+
+- **Set Visibility**: During the upload process, in the **"Visibility"** section, choose **"Private"**.
+<img src="https://github.com/LEARN-LK/lms/blob/master/imgs/8.png" alt="image" style="max-width: 100%;width: 500px;">
+
+- **Share Privately**: After uploading, click on the video in YouTube Studio, go to **"Details"**, and under **"Visibility"**, click **"Share privately"**. Enter the email addresses of the people you want to grant access to.
+ <img src="https://github.com/LEARN-LK/lms/blob/master/imgs/9.png" alt="image" style="max-width: 100%;width: 500px;">
+
+*Note*: Recipients must have a Google account to view private videos.
+
+## **2. Share Existing Private Videos**
+
+To share videos you've already uploaded as private:
+
+- **Access Content**: In YouTube Studio, click on **"Content"** in the left-hand menu.
+
+- **Select Video**: Find the private video you wish to share.
+
+- **Share Privately**: In the **"Visibility"** column, click on **"Private"**, then select **"Share privately"**. Enter the email addresses of the individuals you want to share the video with.
+<img src="https://github.com/LEARN-LK/lms/blob/master/imgs/9.png" alt="image" style="max-width: 100%;width: 500px;">
+
+
+## **3. Hide Your YouTube Channel**
 
 Hiding your channel makes all your content and activities private.
 
@@ -44,30 +70,7 @@ Hiding your channel makes all your content and activities private.
 
 *Note*: Hiding your channel makes your videos, playlists, and other content private. Your comments and replies will be permanently deleted.
 
-## **2. Upload Videos as Private**
 
-To ensure new content remains private:
-
-- **Upload Video**: In YouTube Studio, click the **"Create"** button (camera icon) and select **"Upload videos"**.
-
-- **Set Visibility**: During the upload process, in the **"Visibility"** section, choose **"Private"**.
-<img src="https://github.com/LEARN-LK/lms/blob/master/imgs/8.png" alt="image" style="max-width: 100%;width: 500px;">
-
-- **Share Privately**: After uploading, click on the video in YouTube Studio, go to **"Details"**, and under **"Visibility"**, click **"Share privately"**. Enter the email addresses of the people you want to grant access to.
- <img src="https://github.com/LEARN-LK/lms/blob/master/imgs/9.png" alt="image" style="max-width: 100%;width: 500px;">
-
-*Note*: Recipients must have a Google account to view private videos.
-
-## **3. Share Existing Private Videos**
-
-To share videos you've already uploaded as private:
-
-- **Access Content**: In YouTube Studio, click on **"Content"** in the left-hand menu.
-
-- **Select Video**: Find the private video you wish to share.
-
-- **Share Privately**: In the **"Visibility"** column, click on **"Private"**, then select **"Share privately"**. Enter the email addresses of the individuals you want to share the video with.
-<img src="https://github.com/LEARN-LK/lms/blob/master/imgs/9.png" alt="image" style="max-width: 100%;width: 500px;">
   
 
 ### ** Note: You can share private videos with up to 50 people. **
