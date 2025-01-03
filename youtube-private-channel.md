@@ -1,4 +1,4 @@
-### What is a Private Youtube Channel?
+## What is a Private Youtube Channel?
 
 If you set your YouTube channel to private, only the people you specifically grant access to can view your videos. Private videos are hidden from YouTube’s search results and recommendations and cannot be monetized. 
 
@@ -6,7 +6,7 @@ For video creators aged 13 to 17, YouTube automatically sets the channel to priv
 
 Creating a private YouTube channel involves hiding your channel and setting your videos to private, ensuring only authorized individuals can access your content. Here's a step-by-step guide to achieve this:
 
-### **1. Hide Your YouTube Channel**
+## **1. Hide Your YouTube Channel**
 
 Hiding your channel makes all your content and activities private.
 
@@ -44,7 +44,7 @@ Hiding your channel makes all your content and activities private.
 
 *Note*: Hiding your channel makes your videos, playlists, and other content private. Your comments and replies will be permanently deleted.
 
-### **2. Upload Videos as Private**
+## **2. Upload Videos as Private**
 
 To ensure new content remains private:
 
@@ -58,7 +58,7 @@ To ensure new content remains private:
 
 *Note*: Recipients must have a Google account to view private videos.
 
-### **3. Share Existing Private Videos**
+## **3. Share Existing Private Videos**
 
 To share videos you've already uploaded as private:
 
