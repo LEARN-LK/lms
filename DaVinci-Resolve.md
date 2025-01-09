@@ -108,4 +108,3 @@ You can download Kdenlive from its official website:
 
 ---
 
-Let me know if you'd like detailed instructions for any specific task or further assistance!
