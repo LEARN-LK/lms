@@ -29,10 +29,12 @@ You can download Kdenlive from its official website:
 1. **Import Video:**
    - Open Kdenlive and create a new project.
    - Go to the **"Project"** [1] menu and click **"Add Clip or Folder"** [2] (or press `Ctrl+I`).
-      <img src="https://github.com/LEARN-LK/lms/blob/master/kdenlive/1.png" alt="image" style="max-width: 100%;width: 500px;">
+
+       <img src="https://github.com/LEARN-LK/lms/blob/master/kdenlive/1.png" alt="image" style="max-width: 100%;width: 500px;">
 
    - Browse and select your video file, then click **"Open"**.
    - The video will appear in the **Project Bin** [3].
+
        <img src="https://github.com/LEARN-LK/lms/blob/master/kdenlive/2.png" alt="image" style="max-width: 100%;width: 500px;">
 
 1. **Drag Video to Timeline:**
@@ -45,6 +47,7 @@ You can download Kdenlive from its official website:
    - Click on the video in the timeline [5].
    - Move the **playhead (White vertical line)** [6] to the point you want to trim.
    - Right-click the timeline and choose **"Cut"** [7] or press `Ctrl+X`.
+
         <img src="https://github.com/LEARN-LK/lms/blob/master/kdenlive/3.png" alt="image" style="max-width: 100%;width: 500px;">
 
 2. **Reposition Clips:**
@@ -53,6 +56,7 @@ You can download Kdenlive from its official website:
 3. **Adjust Length:**
    - Hover over the start or end of a clip in the timeline until you see a double arrow [8].
    - Drag to extend or shorten the clip.
+
       <img src="https://github.com/LEARN-LK/lms/blob/master/kdenlive/4.jpeg" alt="image" style="max-width: 100%;width: 500px;">
 ---
 
