@@ -62,12 +62,12 @@ You can download Kdenlive from its official website:
 
 ### **3. Add Effects to Video**
 1. **Select the Clip:**
-   - Click the clip in the timeline you want to add effects to.
+   - Click the clip in the timeline you want to add effects to [9].
 
       <img src="https://github.com/LEARN-LK/lms/blob/master/kdenlive/5.png" alt="image" style="max-width: 100%;width: 500px;">
 
 2. **Apply Effects:**
-   - Open the **"Effects"** tab (usually on the right side of the screen).
+   - Open the **"Effects"** tab (usually on the right side of the screen)[10].
 
     <img src="https://github.com/LEARN-LK/lms/blob/master/kdenlive/6.png" alt="image" style="max-width: 100%;width: 500px;">
      
@@ -75,12 +75,12 @@ You can download Kdenlive from its official website:
  
     <img src="https://github.com/LEARN-LK/lms/blob/master/kdenlive/7.png" alt="image" style="max-width: 100%;width: 500px;">
      
-   - Drag the desired effect onto the clip in the timeline.
+   - Drag the desired effect onto the clip in the timeline [11].
 
      <img src="https://github.com/LEARN-LK/lms/blob/master/kdenlive/7.png" alt="image" style="max-width: 100%;width: 500px;">
 
 3. **Adjust Effect Properties:**
-   - Click the clip to open the **"Effect Stack"** where you can fine-tune the effect properties.
+   - Click the clip to open the **"Effect Stack"** where you can fine-tune the effect properties [12].
 
       <img src="https://github.com/LEARN-LK/lms/blob/master/kdenlive/8.png" alt="image" style="max-width: 100%;width: 500px;">
 ---
