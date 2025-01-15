@@ -64,10 +64,20 @@ You can download Kdenlive from its official website:
 1. **Select the Clip:**
    - Click the clip in the timeline you want to add effects to.
 
+      <img src="https://github.com/LEARN-LK/lms/blob/master/kdenlive/5.png" alt="image" style="max-width: 100%;width: 500px;">
+
 2. **Apply Effects:**
    - Open the **"Effects"** tab (usually on the right side of the screen).
+
+    <img src="https://github.com/LEARN-LK/lms/blob/master/kdenlive/6.png" alt="image" style="max-width: 100%;width: 500px;">
+     
    - Browse or search for an effect (e.g., blur, color correction, etc.).
+ 
+    <img src="https://github.com/LEARN-LK/lms/blob/master/kdenlive/7.png" alt="image" style="max-width: 100%;width: 500px;">
+     
    - Drag the desired effect onto the clip in the timeline.
+
+     <img src="https://github.com/LEARN-LK/lms/blob/master/kdenlive/8.png" alt="image" style="max-width: 100%;width: 500px;">
 
 3. **Adjust Effect Properties:**
    - Click the clip to open the **"Effect Stack"** where you can fine-tune the effect properties.
