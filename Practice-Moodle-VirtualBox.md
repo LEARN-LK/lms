@@ -107,7 +107,7 @@ This guide explains how to set up a `.vdi` file with Alpine Linux, configure it 
   - **Username**: `moodle`
   - **Password**: `Mdl@1234`
 
-This guide ensures users can easily import the `.vdi` file, configure the VM, and start practicing Moodle without additional setup.
+This guide ensures users can easily import the `.ova` file, configure the VM, and start practicing Moodle without additional setup.
 
 ---
 
