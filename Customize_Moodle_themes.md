@@ -12,33 +12,103 @@
  <img src="https://github.com/LEARN-LK/lms/blob/master/img/129-thems.png" alt="image" style="max-width: 100%;width: 700px;">
  - Save your changes to see the updated theme.
 
-<h3>02 - Add Custom Menu</h3>
+<h1>02 - Add Custom Menu </h1>
 
-- Go to Administration > Appearance > Themes.
-- Select the theme you want to modify.
-- Create the menu item:
--  Look for the section titled Custom menu items.
--  Each line defines a single item. Enter the details in this format:
-   - Name|Link
-   - Name is the text displayed for the menu item.
+### **Scenario:**  
+Assume you need to add a custom menu for **BSc - IT** courses.  
+- **BSc - IT** is the main menu.  
+- **Semester 01** and **Semester 02** are submenus.  
+- **Semester 01** contains two subjects: **Networking** and **Software Engineering**.  
 
-     <img src="https://github.com/LEARN-LK/lms/blob/master/img/130-menu.png" alt="image" style="max-width: 100%;width: 700px;">    
+---
+
+### **Steps to Add a Custom Menu in Moodle:**  
+
+1. **Log in to Moodle:**  
+   - Access Moodle with administrative privileges using your credentials.  
+
+2. **Access Site Administration:**  
+   - Navigate to **"Site administration"** in the top-right corner of the page.  
+
+3. **Navigate to Appearance Settings:**  
+   - Under **"Site administration,"** click on the **"Appearance"** tab.  
+   - Select **"Theme settings"** or **"Theme"** (depending on your Moodle version).  
+
+4. **Configure Custom Menu Items:**  
+   - In the **"Theme settings"** section, locate the **"Custom menu items"** box.  
+
+5. **Add Main Menu and Submenus:**  
+   - Enter the menu structure using the following format:  
+
+     ```
+     BSc - IT|# 
+     - Semester 01|#
+     -- Networking| Put here to URL # (network)
+     -- Software Engineering| Put here to URL #(SE)
+     - Semester 02|#
+     ```
+
+    <img src="https://github.com/LEARN-LK/lms/blob/master/img/130-menu.png" alt="image" style="max-width: 100%;width: 700px;">    
+
+6. **Save Changes:**  
+   - Scroll down to the bottom of the page and click on the **"Save changes"** button to apply the new custom menu.  
+
+7. **Verify Custom Menu:**  
+   - Go to the main page of your Moodle site to check the newly added custom menu.  
+   - Hover over **"BSc - IT"** to see the submenus:  
+     - **Semester 01** (with **Networking** and **Software Engineering**)  
+     - **Semester 02**  
+   - Confirm that the subject links redirect correctly.  
+
+
+
 - Save the changes:Click Save changes at the bottom of the page.
 
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/131-menu.png" alt="image" style="max-width: 100%;width: 500px;"> 
 <h3>03 - Customising the Header</h3>
 
-- The administrator has the capability to incorporate links, metatags, CSS, or JavaScript into the header section of your page through Site administration > Appearance > Additional HTML.
+### **Scenario:**  
+Assume you need to add a **contact email** using the customization options available in the Moodle header.  
 
- <img src="https://github.com/LEARN-LK/lms/blob/master/img/132-header.png" alt="image" style="max-width: 100%;width: 500px;"> 
+---
+
+### **Steps to Add a Contact Email by Customizing the Header:**  
+  
+
+1. **Navigate to Appearance Settings:**  
+   - Under **"Site administration,"** click on the **"Appearance"** tab.  
+   - Select **"Theme settings"** or **"Theme"** (depending on your Moodle version).  
+
+2. **Customize Header:**  
+   - In the **"Theme settings"** section, locate the **"Additional HTML"** or **"Custom header content"** section.
+      <img src="https://github.com/LEARN-LK/lms/blob/master/img/132-header.png" alt="image" style="max-width: 100%;width: 500px;"> 
  
-- In the 'Within HEAD' box, you can define HTML, CSS, or JavaScript that will be included on every page without the need to modify the Moodle code files."
+   - In the **"Within HEAD"** box, you can define **HTML**, **CSS**, or **JavaScript** to include on every page without modifying Moodle code files.  
 
+3. **Add Contact Email:**  
+   - Find the text box where you can add custom HTML for the header.  
+   - Enter the following HTML to add a contact email:  
+
+   ```html
+   <div class="header-contact">
+     Contact us at: <a href="mailto:contact@university.edu">contact@university.edu</a>
+   </div>
+   ```
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/133-header.png" alt="image" style="max-width: 100%;width: 800px;"> 
-- Save and Preview:
 
-  <img src="https://github.com/LEARN-LK/lms/blob/master/img/134-header.png" alt="image" style="max-width: 100%;width: 800px;"> 
+   This code creates a **div** for potential styling and includes a **mailto** link for the contact email.  
 
+4. **Save Changes:**  
+   - Scroll down to the bottom of the page and click on the **"Save changes"** button to apply the custom header content.  
+
+5. **Verify Header Customization:**  
+   - Go to the **main page** of your Moodle site to check if the contact email appears in the header.  
+   - Click on the email link to ensure it opens your default email client correctly.  
+
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/134-header.png" alt="image" style="max-width: 100%;width: 800px;"> 
+
+---
+  
 <h3>04 - Customising the Footer</h3>
 
 - As with header options in the section above, the administrator can add links, CSS or Java Script to the footer section of your page via Site administration > Appearance > Additional HTML
