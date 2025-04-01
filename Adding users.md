@@ -77,6 +77,9 @@ Follow the these steps :
 * Click the Choose a file button and select the CSV file containing your user data.
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/16-nCVS.png" alt="image" style="max-width: 100%;width: 500px;">
 
+* you can [downlord](https://github.com/LEARN-LK/lms/blob/master/N-Admin-bulkuser%20.csv) CVS file here
+  Ensure that your CSV file is correctly formatted and that the required fields are included.
+
 
 * Click the Upload users button.
 * On the Upload user preview page, review the user data and make any necessary changes.
