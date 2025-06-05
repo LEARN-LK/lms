@@ -23,29 +23,30 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
 
  `Note : This guide was prepared for Moodle version  Moodle 4.0.11+ (Build: 20240104) and Ubuntu 22.04.3 LTS.` 
 
- <!-- > [!NOTE]This content will not appear in the rendered Markdown
-      >  -->
+ <!-- > [!NOTE]This content will not appear in the rendered Markdown  -->
  
 <h4> 01. Moodle Admin Guide </h4>
-    * Moodle installation
-      - [Linux](https://github.com/LEARN-LK/lms/blob/master/moodle-install.md)
-      - [Alpine Linux](https://github.com/LEARN-LK/lms/blob/master/Alpine-linux.md)
-    * [Practice Moodle in VirtualBox(Alpine)](https://github.com/LEARN-LK/lms/blob/master/Practice-Moodle-VirtualBox.md)
-    * [Change Moodle Language Pack](https://github.com/LEARN-LK/lms/blob/master/mdl-language-pack.md) 
-    * Create courses [(Create category,Create courses ,Add bulk course,Delete courses,Automated course backup)](https://github.com/LEARN-LK/lms/blob/master/add.md#-adding-a-course-category-)
-    * Add users [Adding User methods,Enrolling](https://github.com/LEARN-LK/lms/blob/master/Adding%20users.md#adding-users-)
-    * [Moodle Virtual Class Room (Webinar)](https://github.com/LEARN-LK/lms/blob/master/Moodle%20Virtual%20Class%20Room%20(Webinar)%20.md)
-    * [Enable Safe Exam Browser](https://github.com/LEARN-LK/lms/blob/master/Enable-Safe-Exam-Browser.md)
-    * [Customize the Moodle themes](https://github.com/LEARN-LK/lms/blob/master/Customize_Moodle_themes.md)
-    * [Configuring Email Outgoing](https://github.com/LEARN-LK/lms/blob/master/Configuring-Email-Outgoing.md)
-    * External Authentication
+
+   * Moodle installation
+     - [Linux](https://github.com/LEARN-LK/lms/blob/master/moodle-install.md)
+     - [Alpine Linux](https://github.com/LEARN-LK/lms/blob/master/Alpine-linux.md)
+   * [Practice Moodle in VirtualBox(Alpine)](https://github.com/LEARN-LK/lms/blob/master/Practice-Moodle-VirtualBox.md)
+   * [Change Moodle Language Pack](https://github.com/LEARN-LK/lms/blob/master/mdl-language-pack.md) 
+   * Create courses [(Create category,Create courses ,Add bulk course,Delete courses,Automated course backup)](https://github.com/LEARN-LK/lms/blob/master/add.md#-adding-a-course-category-)
+   * Add users [Adding User methods,Enrolling](https://github.com/LEARN-LK/lms/blob/master/Adding%20users.md#adding-users-)
+   * [Moodle Virtual Class Room (Webinar)](https://github.com/LEARN-LK/lms/blob/master/Moodle%20Virtual%20Class%20Room%20(Webinar)%20.md)
+   * [Enable Safe Exam Browser](https://github.com/LEARN-LK/lms/blob/master/Enable-Safe-Exam-Browser.md)
+   * [Customize the Moodle themes](https://github.com/LEARN-LK/lms/blob/master/Customize_Moodle_themes.md)
+   * [Configuring Email Outgoing](https://github.com/LEARN-LK/lms/blob/master/Configuring-Email-Outgoing.md)
+   * External Authentication
       -  [LIAF SSO - Auth SAML2](https://github.com/LEARN-LK/lms/blob/master/Learn-SSO.md)
       -  [LIAF SSO - Shiboleth SP](https://github.com/LEARN-LK/lms/blob/master/shiboleth.md)
       -  [O365 Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#-mirosoft-o365--)
       -  [Google Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#google-authentication)
      
      
-<h4>3. Teachers Guide</h4>
+<h4> 02. Teachers Guide</h4>
+
    * [Adding contents/Assignments](https://github.com/LEARN-LK/lms/blob/master/Assignment-activity.md)
    * [Quizzes, Questionnaires](https://github.com/LEARN-LK/lms/blob/master/Quizzes&Questionnaires.md)
    * [Interactive content](https://github.com/LEARN-LK/lms/blob/master/Interactive-content.md)
@@ -62,7 +63,8 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * [Checklist - Plugin](https://github.com/LEARN-LK/lms/blob/master/Checklist.md)
    * [Completion Progress - plugin](https://github.com/LEARN-LK/lms/blob/master/completion-progress.md)
      
-<h4>5. Student Guide</h4>
+<h4> 03. Student Guide</h4>
+
    <!--[Students Guide](https://github.com/LEARN-LK/lms/blob/master/Student-Guide.md)-->
    * [Getting Started](https://github.com/LEARN-LK/lms/blob/master/getting-started.md)
    * [Navigating Courses,Submit the Assignment,Quiz Submission](https://github.com/LEARN-LK/lms/blob/master/Courses-Assignment-Quiz-Submission.md)
