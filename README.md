@@ -26,7 +26,7 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
  <!-- > [!NOTE]This content will not appear in the rendered Markdown
       >  -->
  
-01. Moodle Admin Guide
+<h4> 01. Moodle Admin Guide </h4>
     * Moodle installation
       - [Linux](https://github.com/LEARN-LK/lms/blob/master/moodle-install.md)
       - [Alpine Linux](https://github.com/LEARN-LK/lms/blob/master/Alpine-linux.md)
@@ -45,7 +45,7 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
       -  [Google Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#google-authentication)
      
      
-3. Teachers Guide
+<h4>3. Teachers Guide</h4>
    * [Adding contents/Assignments](https://github.com/LEARN-LK/lms/blob/master/Assignment-activity.md)
    * [Quizzes, Questionnaires](https://github.com/LEARN-LK/lms/blob/master/Quizzes&Questionnaires.md)
    * [Interactive content](https://github.com/LEARN-LK/lms/blob/master/Interactive-content.md)
@@ -62,7 +62,7 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * [Checklist - Plugin](https://github.com/LEARN-LK/lms/blob/master/Checklist.md)
    * [Completion Progress - plugin](https://github.com/LEARN-LK/lms/blob/master/completion-progress.md)
      
-5. Student Guide
+<h4>5. Student Guide</h4>
    <!--[Students Guide](https://github.com/LEARN-LK/lms/blob/master/Student-Guide.md)-->
    * [Getting Started](https://github.com/LEARN-LK/lms/blob/master/getting-started.md)
    * [Navigating Courses,Submit the Assignment,Quiz Submission](https://github.com/LEARN-LK/lms/blob/master/Courses-Assignment-Quiz-Submission.md)
