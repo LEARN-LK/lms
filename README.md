@@ -38,11 +38,11 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * [Enable Safe Exam Browser](https://github.com/LEARN-LK/lms/blob/master/Enable-Safe-Exam-Browser.md)
    * [Customize the Moodle themes](https://github.com/LEARN-LK/lms/blob/master/Customize_Moodle_themes.md)
    * [Configuring Email Outgoing](https://github.com/LEARN-LK/lms/blob/master/Configuring-Email-Outgoing.md)
-   * External Authentication
-      -  [LIAF SSO - Auth SAML2](https://github.com/LEARN-LK/lms/blob/master/Learn-SSO.md)
-      -  [LIAF SSO - Shiboleth SP](https://github.com/LEARN-LK/lms/blob/master/shiboleth.md)
-      -  [O365 Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#-mirosoft-o365--)
-      -  [Google Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#google-authentication)
+   * <h4>  External Authentication </h4>
+   * [LIAF SSO - Auth SAML2](https://github.com/LEARN-LK/lms/blob/master/Learn-SSO.md)
+   * [LIAF SSO - Shiboleth SP](https://github.com/LEARN-LK/lms/blob/master/shiboleth.md)
+   * [O365 Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#-mirosoft-o365--)
+   * [Google Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#google-authentication)
      
      
 <h4> 02. Teachers Guide</h4>
