@@ -16,7 +16,7 @@ Everyone using your site is required to have an account. You may allow people to
 
 <h4> 01 Email-based self-registration - (Enable)</h4>
 1. Go to Site administration > Plugins > Authentication > Manage authentication.
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/08%20-email-based%20self-registration.png" alt="image" style="max-width: 100%;width: 500px;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/08-email-basedself-registration.png" alt="image" style="max-width: 100%;width: 500px;">
 
 
 2. Enable the Email-based self-registration plugin.
