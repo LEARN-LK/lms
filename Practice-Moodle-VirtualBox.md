@@ -103,7 +103,7 @@ This guide explains how to set up a `.vdi` file with Alpine Linux, configure it 
 ### Notes for Users:
 - Ensure VirtualBox's network settings are set to **Bridged Adapter**.
 - Ensure the VM is running before accessing Moodle.
-- Default credentials for the VM:
+- Default credentials for the Moodle:
   - **Username**: `moodle`
   - **Password**: `Mdl@1234`
 
