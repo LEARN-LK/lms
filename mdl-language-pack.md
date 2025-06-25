@@ -1,11 +1,11 @@
 ## Here is the complete step-by-step guide to **installing the language pack** 
 ---
 
-## **Step 1: Install the Sinhala Language Pack in Moodle**
+## **Step 1: Install the Sinhala /Tamil Language Pack in Moodle**
 ### **Method 1: Install via Moodle Web Interface (Recommended)**
 1. **Login as Admin** to your Moodle site.
 2. Go to **Site administration > Language > Language packs**.
-3. Find **Sinhala (si)** in the available language list.
+3. Find **Sinhala (si) Tamil (ta_lk)** in the available language list.
 4. Select it and click **Install selected language pack**.
 5. Once installed, go to **Site administration > Language > Language settings**.
 6. Set **Default language** to **Sinhala (si)**.
