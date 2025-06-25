@@ -16,7 +16,7 @@ This guide explains how to set up a `.vdi` file with Alpine Linux, configure it 
 #### **2. Download the `.ova` File**:
 1. Open the Google Drive link provided:
    ```
-   https://drive.google.com/file/d/1bun_iIx-RaQINks6RFgXBHM8kWDEhaAq/view?usp=sharing
+   https://drive.google.com/file/d/1AUnJanfNOT-sOQ_8J8ihS8WfgQdSTEVR/view?usp=sharing
    ```
 2. Download the `.ova file.
 ---
