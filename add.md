@@ -167,14 +167,6 @@ Important: Choose a location that is not on the same drive as your Moodle instal
 6. Save Settings:
 
 - Click the "Save changes" button to apply the settings.
-- Additional Considerations:
-
-
-
-
-
-
-
 
 
 
