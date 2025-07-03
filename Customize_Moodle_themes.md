@@ -18,7 +18,6 @@
 Assume you need to add a custom menu for **BSc - IT** courses.  
 - **BSc - IT** is the main menu.  
 - **Semester 01** and **Semester 02** are submenus.  
-- **Semester 01** contains two subjects: **Networking** and **Software Engineering**.  
 
 ---
 
@@ -43,8 +42,6 @@ Assume you need to add a custom menu for **BSc - IT** courses.
      ```
      BSc - IT|# 
      - Semester 01|#
-     -- Networking| Put here to URL # (network)
-     -- Software Engineering| Put here to URL #(SE)
      - Semester 02|#
      ```
 
@@ -90,9 +87,8 @@ Assume you need to add a **contact email** using the customization options avail
    - Enter the following HTML to add a contact email:  
 
    ```html
-   <div class="header-contact">
-     Contact us at: <a href="mailto:contact@university.edu">contact@university.edu</a>
-   </div>
+   	<p style=”padding-top: 100px; text-align:center;color:black;”>For support please <a href="mailto:contact@university.edu">contact@university.edu</a></p>
+
    ```
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/133-header.png" alt="image" style="max-width: 100%;width: 800px;"> 
 
