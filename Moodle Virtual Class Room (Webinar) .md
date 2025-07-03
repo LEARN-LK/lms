@@ -82,7 +82,7 @@ when VRC meeting repeat you can add it to the Calender
 - Add the following details:
   - Event title [4]
   - Date [5]
-  - Type of event [6] / for more details Click [6.1]
+  - Type of event [6] / for more details Click "Show more"[6.1]
   - Description [7]
   - Location
   - Duration
