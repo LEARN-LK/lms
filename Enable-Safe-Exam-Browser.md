@@ -27,7 +27,7 @@ Safe Exam Browser is a web browser environment to carry out e-assessments safely
 
 <h3>02- Configure Global Settings (Optional):</h3>
 
-* Go to Site Administration > Plugins > Activity Modules > Quiz > Safe Exam Browser.
+* Go to Site Administration > Plugins > Activity Modules > Quiz > Safe Exam Browser access rules
 
 <h3>03-add quiz</h3>
 * Go to MyCourses > Select the couruse > Enable Edit Mode> Add an activity or resource >Select Quiz >Safe Exam Browser>
