@@ -53,7 +53,7 @@ Assume you need to add a custom menu for **BSc - IT** courses.
 7. **Verify Custom Menu:**  
    - Go to the main page of your Moodle site to check the newly added custom menu.  
    - Hover over **"BSc - IT"** to see the submenus:  
-     - **Semester 01** (with **Networking** and **Software Engineering**)  
+     - **Semester 01**  
      - **Semester 02**  
    - Confirm that the subject links redirect correctly.  
 
