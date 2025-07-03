@@ -311,4 +311,3 @@ To generate a certificate, download SP metadata, and register it at LIAF for you
    - **Login**: Click the "Login" or "Sign In" button. Your institution's authentication system will verify your identity.
    - **Access Moodle**: After successful authentication, you will be logged into your Moodle account.
 
-**** troubleshoot step***
