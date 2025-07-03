@@ -67,7 +67,7 @@ To create the VCR classroom, refer to the following user guideline link:https://
 * They can click on the link or resource to access the VCR Classroom.
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/109-stud-vcr3.png" alt="image" style="max-width: 100%;width: 500px;">
   
-<h2> Add VRC Repater Session to Calender   </h2>
+<h2> Add VRC Repeats Session to Calender   </h2>
 when VRC meeting repeat you can add it to the Calender
 
 <h3> Step </h3>
