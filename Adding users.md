@@ -97,7 +97,7 @@ Now is the time to give users their student, teacher, or other roles. Once users
    <img src="https://github.com/LEARN-LK/lms/blob/master/img/17-%20plugin%20enable.png" alt="image" style="max-width: 100%;width: 500px;">
 
 * Step 2: Editing manual enrolment settings
-Managers and users with the capability "enrol/manual:config" can modify manual enrollment settings for a course, including the default enrollment period and default role. To access these settings, click on the -----"**Manual enrolment >settings**" link.------   ***Screenshot*
+Managers and users with the capability "enrol/manual:config" can modify manual enrollment settings for a course, including the default enrollment period and default role. To access these settings, click on the "**Manual enrolments >settings** [02]" .
 
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/17-Manual%20enrolments.png" alt="image" style="max-width: 100%;width: 700px;">
   
@@ -114,7 +114,7 @@ Students and teachers can receive notifications about expiring enrollments. To e
 * step 5 :Enroll Users: In the Participants page,  To manually enroll a user, click on the "Enroll users" button at the top right corner of the page.
 * steo 6 : Search for the User: In the "Manual enrolment" section, you will need to find the user you want to enroll. You can search for the user by their name or username.
 
-   <img src="https://github.com/LEARN-LK/lms/blob/master/img/21-popup.png" alt="image" style="max-width: 100%;width: 500px;">
+   <img src="https://github.com/LEARN-LK/lms/blob/master/img/21-popup.jpeg" alt="image" style="max-width: 100%;width: 500px;">
   
 <h2>02 - Self-enrolment</h2>
 Self-enrolment empowers users to register themselves in courses. They can do so instantly by clicking "Enroll me in this course" or by entering a provided enrollment key. For this feature to work, the site administrator must enable the enrollment plugin in the Enrolment plugins section, and enable it within the respective course. Additionally, the manual enrollment plugin must be enabled within the same course.
