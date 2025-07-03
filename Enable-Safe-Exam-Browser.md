@@ -32,6 +32,8 @@ Safe Exam Browser is a web browser environment to carry out e-assessments safely
 <h3>03-add quiz</h3>
 * Go to MyCourses > Select the couruse > Enable Edit Mode> Add an activity or resource >Select Quiz >Safe Exam Browser.
 
+
+   <img src="https://github.com/LEARN-LK/lms/blob/master/img/115-1quiz.jpeg" alt="image" style="max-width: 100%;width: 700px;">
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/115-safe%20browser.png" alt="image" style="max-width: 100%;width: 700px;">
   
 * Choose 'Yes - Configure Manually' to edit how you want Safe Exam Browser to behave.
