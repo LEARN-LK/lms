@@ -83,15 +83,6 @@ You'll need a comma-separated values (CSV) file containing course information. Y
 
 ---
 
-### Note:
-
-* If you're uploading **bulk users into courses**, you'll usually need the **Course ID** (not just the category ID). You can find it similarly by clicking into a course and checking the URL:
-
-  ```
-  https://your-moodle-site.com/course/view.php?id=8
-  ```
-
-  → Course ID = `8`
 
 * You can use these IDs in your bulk CSV file if you're assigning roles or enrollments.
 
