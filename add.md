@@ -71,8 +71,32 @@ You'll need a comma-separated values (CSV) file containing course information. Y
    - shortname: Unique identifier for the course (lowercase, no spaces).
    - fullname: The course's full name.
    - category: The category where the course will be listed.
- 
-     <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/001-bulk-courses.png">
+     -  **Locate the Category**
+        * Click on the **category name** (e.g., `UOP - BSc in IT` or `Semester 01`).
+        * **Check the URL for the Category ID**
+        * When you click on a category name, the browser URL will change.
+        * It will look like this:
+  ```
+  https://your-moodle-site.com/course/management.php?categoryid=8
+  ```
+   - The **`categoryid=8`** at the end of the URL is your **Category ID**.
+
+---
+
+### Note:
+
+* If you're uploading **bulk users into courses**, you'll usually need the **Course ID** (not just the category ID). You can find it similarly by clicking into a course and checking the URL:
+
+  ```
+  https://your-moodle-site.com/course/view.php?id=8
+  ```
+
+  → Course ID = `8`
+
+* You can use these IDs in your bulk CSV file if you're assigning roles or enrollments.
+
+  <img width="500" src="https://github.com/LEARN-LK/lms/blob/master/img/001-bulk-courses.png">
+
      
 * Optional fields:
    - course format: Choose a format like "weeks" or "topics".
