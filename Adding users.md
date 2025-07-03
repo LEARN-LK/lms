@@ -97,7 +97,7 @@ Now is the time to give users their student, teacher, or other roles. Once users
    <img src="https://github.com/LEARN-LK/lms/blob/master/img/17-%20plugin%20enable.png" alt="image" style="max-width: 100%;width: 500px;">
 
 * Step 2: Editing manual enrolment settings
-Managers and users with the capability "enrol/manual:config" can modify manual enrollment settings for a course, including the default enrollment period and default role. To access these settings, click on the "Enrolment methods" link.
+Managers and users with the capability "enrol/manual:config" can modify manual enrollment settings for a course, including the default enrollment period and default role. To access these settings, click on the -----"**Manual enrolment >settings**" link.------   ***Screenshot*
 
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/17-Manual%20enrolments.png" alt="image" style="max-width: 100%;width: 700px;">
   
