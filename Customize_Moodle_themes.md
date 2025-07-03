@@ -2,7 +2,7 @@
 
 <h2> 01 -Basic Customization (Theme Selector and Settings):</h2>
 
-- Go to Administration > Appearance > Themes.
+- Go to Administration > Appearance > Themes Setting / advanced Themes Settings.
 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/128-thems.png" alt="image" style="max-width: 100%;width: 500px;">
  - Select your current theme.
