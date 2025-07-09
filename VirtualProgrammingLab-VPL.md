@@ -1,4 +1,4 @@
-# Virtual Programming Lab - VPL
+<!-- # Virtual Programming Lab - VPL
 
 Here are the steps to download, install, and configure Virtual Programming Lab (VPL) for Moodle, and how to set up a simple "Hello World" assignment for students.
 
@@ -18,11 +18,11 @@ Here are the steps to download, install, and configure Virtual Programming Lab (
 1. After installation, navigate to `Site administration > Plugins > Activity modules > VPL`.
 2. Configure the VPL execution server (optional, but needed for actual code execution). If you want to run the VPL server:
    - Install the VPL server on a separate machine or the same server. Detailed instructions can be found [here](https://vpl.dis.ulpgc.es).
-   - Configure the execution server in Moodle using the server’s IP address and port.
+   - Configure the execution server in Moodle using the server’s IP address and port. -->
 
 
 
-## 2. Prepare the Assignment Question (TEACHER)
+## 1. Prepare the Assignment Question (TEACHER)
 The assignment question will be the same for both Python and C++:
 
 **Assignment**:  
