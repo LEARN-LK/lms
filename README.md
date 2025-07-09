@@ -43,7 +43,7 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * [Google Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#google-authentication)
      
 
-<h4> 02. Moodle Manager/faculty coordinator Guide </h4>
+<h4> 02. Moodle Manager/ Faculty Coordinator Guide </h4>
 
   * Add users [Adding User methods,Enrolling](https://github.com/LEARN-LK/lms/blob/master/Adding%20users.md#adding-users-)
   * Create courses [(Create category,Create courses ,Add bulk course,Delete courses,Automated course backup)](https://github.com/LEARN-LK/lms/blob/master/add.md#-adding-a-course-category-)
