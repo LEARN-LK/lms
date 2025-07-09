@@ -40,20 +40,21 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * [LIAF SSO - Auth SAML2](https://github.com/LEARN-LK/lms/blob/master/Learn-SSO.md)
    * [LIAF SSO - Shiboleth SP](https://github.com/LEARN-LK/lms/blob/master/shiboleth.md)
    * [O365 Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#-mirosoft-o365--)
-   * [Google Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#google-authentication)
+   * [Google Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#google-authentication) 
+   * Plugin Installation
+     - [Interactive content](https://github.com/LEARN-LK/lms/blob/master/Install-H5P-plugin.md)
+     - [Virtual Programming Lab - VPL](https://github.com/LEARN-LK/lms/blob/master/installVPL.md)
+     - [Board](https://github.com/LEARN-LK/lms/blob/master/install-boad.md) 
+     - Workplace Course Certificate
+     - Checklist
+     - Completion Progress
      
 
 <h4> 02. Moodle Manager/ Faculty Coordinator Guide </h4>
 
   * Add users [Adding User methods,Enrolling](https://github.com/LEARN-LK/lms/blob/master/Adding%20users.md#adding-users-)
   * Create courses [(Create category,Create courses ,Add bulk course,Delete courses,Automated course backup)](https://github.com/LEARN-LK/lms/blob/master/add.md#-adding-a-course-category-)
-  * Plugin Installation
-    - [Interactive content](https://github.com/LEARN-LK/lms/blob/master/Install-H5P-plugin.md)
-    - [Virtual Programming Lab - VPL](https://github.com/LEARN-LK/lms/blob/master/installVPL.md)
-    - [Board](https://github.com/LEARN-LK/lms/blob/master/install-boad.md) 
-    - Workplace Course Certificate
-    - Checklist
-    - Completion Progress
+
 
 
 <h4> 03. Teachers Guide</h4>
