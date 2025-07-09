@@ -50,10 +50,10 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
   * Plugin Installation
     - [Interactive content](https://github.com/LEARN-LK/lms/blob/master/Install-H5P-plugin.md)
     - [Virtual Programming Lab - VPL](https://github.com/LEARN-LK/lms/blob/master/installVPL.md)
-    - Board - Plugin
+    - [Board](https://github.com/LEARN-LK/lms/blob/master/install-boad.md) 
     - Workplace Course Certificate
-    - Checklist - Plugin
-    - Completion Progress - plugin
+    - Checklist
+    - Completion Progress
 
 
 <h4> 03. Teachers Guide</h4>
