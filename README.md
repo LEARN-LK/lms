@@ -32,8 +32,6 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
      - [Alpine Linux](https://github.com/LEARN-LK/lms/blob/master/Alpine-linux.md)
    * [Practice Moodle in VirtualBox(Alpine)](https://github.com/LEARN-LK/lms/blob/master/Practice-Moodle-VirtualBox.md)
    * [Change Moodle Language Pack](https://github.com/LEARN-LK/lms/blob/master/mdl-language-pack.md)
-   * Add users [Adding User methods,Enrolling](https://github.com/LEARN-LK/lms/blob/master/Adding%20users.md#adding-users-)
-   * Create courses [(Create category,Create courses ,Add bulk course,Delete courses,Automated course backup)](https://github.com/LEARN-LK/lms/blob/master/add.md#-adding-a-course-category-)
    * [Moodle Virtual Class Room (Webinar)](https://github.com/LEARN-LK/lms/blob/master/Moodle%20Virtual%20Class%20Room%20(Webinar)%20.md)
    * [Enable Safe Exam Browser](https://github.com/LEARN-LK/lms/blob/master/Enable-Safe-Exam-Browser.md)
    * [Customize the Moodle themes](https://github.com/LEARN-LK/lms/blob/master/Customize_Moodle_themes.md)
@@ -44,8 +42,14 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * [O365 Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#-mirosoft-o365--)
    * [Google Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#google-authentication)
      
-     
-<h4> 02. Teachers Guide</h4>
+
+<h4> 02. Moodle Manager Guide </h4>
+
+  * Add users [Adding User methods,Enrolling](https://github.com/LEARN-LK/lms/blob/master/Adding%20users.md#adding-users-)
+  * Create courses [(Create category,Create courses ,Add bulk course,Delete courses,Automated course backup)](https://github.com/LEARN-LK/lms/blob/master/add.md#-adding-a-course-category-)
+
+
+<h4> 03. Teachers Guide</h4>
 
    * [Adding contents/Assignments](https://github.com/LEARN-LK/lms/blob/master/Assignment-activity.md)
    * [Quizzes, Questionnaires](https://github.com/LEARN-LK/lms/blob/master/Quizzes&Questionnaires.md)
@@ -63,7 +67,7 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * [Checklist - Plugin](https://github.com/LEARN-LK/lms/blob/master/Checklist.md)
    * [Completion Progress - plugin](https://github.com/LEARN-LK/lms/blob/master/completion-progress.md)
      
-<h4> 03. Student Guide</h4>
+<h4> 04. Student Guide</h4>
 
    <!--[Students Guide](https://github.com/LEARN-LK/lms/blob/master/Student-Guide.md)-->
    * [Getting Started](https://github.com/LEARN-LK/lms/blob/master/getting-started.md)
