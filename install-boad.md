@@ -7,6 +7,8 @@
    - Search for "**Board**" and select the appropriate plugin page .
    - Download the latest version of the plugin in a ZIP format.
 
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/board-01.png">
+
 2. **Upload the Plugin:**
    - Log in to your Moodle site as an administrator.
    - Navigate to **Site administration > Plugins > Install plugins**.
