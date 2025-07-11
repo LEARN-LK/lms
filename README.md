@@ -51,6 +51,7 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
 
 <h4> 02. Moodle Manager/ Faculty Coordinator Guide </h4>
 
+  * Manager / Faculty Coordinator []
   * Add users [Adding User methods,Enrolling](https://github.com/LEARN-LK/lms/blob/master/Adding%20users.md#adding-users-)
   * Create courses [(Create category,Create courses ,Add bulk course,Delete courses,Automated course backup)](https://github.com/LEARN-LK/lms/blob/master/add.md#-adding-a-course-category-)
 
