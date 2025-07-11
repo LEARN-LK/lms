@@ -8,6 +8,8 @@ Here are the steps to download, install, and configure Virtual Programming Lab (
 1. Go to the [Moodle plugins directory](https://moodle.org/plugins/mod_vpl)  or go directly to the [Virtual Programming Lab (VPL)](https://moodle.org/plugins/mod_vpl) .
 2. Download the latest version of the **Virtual Programming Lab (VPL)** plugin for your Moodle version.
 
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/vpl-01.png">
+
 #### Step 2: Install VPL on Moodle
 1. Log in to your Moodle site as an administrator.
 2. Navigate to `Site administration > Plugins > Install plugins`.
