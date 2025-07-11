@@ -46,7 +46,7 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * [Board](https://github.com/LEARN-LK/lms/blob/master/install-boad.md) 
    * [Workplace Course Certificate](https://github.com/LEARN-LK/lms/tree/master)
    * [Checklist](https://github.com/LEARN-LK/lms/tree/master)
-   * Completion Progress
+   * [Completion Progress](https://github.com/LEARN-LK/lms/blob/master/Progress-plugin.md)
      
 
 <h4> 02. Moodle Manager/ Faculty Coordinator Guide </h4>
