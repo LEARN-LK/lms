@@ -4,7 +4,7 @@
 
 1. **Download the Plugin:**
    - Go to the Moodle plugins directory: [Moodle Plugins Directory](https://moodle.org/plugins/).
-   - Search for "Board" and select the appropriate plugin page.
+   - Search for "[Board](https://moodle.org/plugins/mod_board)" and select the appropriate plugin page .
    - Download the latest version of the plugin in a ZIP format.
 
 2. **Upload the Plugin:**
