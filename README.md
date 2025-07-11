@@ -33,7 +33,6 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
      - [Alpine Linux](https://github.com/LEARN-LK/lms/blob/master/Alpine-linux.md)
    * [Practice Moodle in VirtualBox(Alpine)](https://github.com/LEARN-LK/lms/blob/master/Practice-Moodle-VirtualBox.md)
    * [Change Moodle Language Pack](https://github.com/LEARN-LK/lms/blob/master/mdl-language-pack.md)
-   * [Moodle Virtual Class Room (Webinar)](https://github.com/LEARN-LK/lms/blob/master/Moodle%20Virtual%20Class%20Room%20(Webinar)%20.md)
    * [Customize the Moodle themes](https://github.com/LEARN-LK/lms/blob/master/Customize_Moodle_themes.md)
    * [Configuring Email Outgoing](https://github.com/LEARN-LK/lms/blob/master/Configuring-Email-Outgoing.md)
    * <h4>  External Authentication </h4>
@@ -62,6 +61,7 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
 
    * [Adding contents/Assignments](https://github.com/LEARN-LK/lms/blob/master/Assignment-activity.md)
    * [Quizzes, Questionnaires](https://github.com/LEARN-LK/lms/blob/master/Quizzes&Questionnaires.md)
+   * [Moodle Virtual Class Room (Webinar)](https://github.com/LEARN-LK/lms/blob/master/Moodle%20Virtual%20Class%20Room%20(Webinar)%20.md)
    * [Interactive content](https://github.com/LEARN-LK/lms/blob/master/Interactive-content.md)
    * [Creating and Managing forums](https://github.com/LEARN-LK/lms/blob/master/Forum%20activity.md)
    * [Scheduling activities](https://github.com/LEARN-LK/lms/blob/master/Scheduling-activities.md)
