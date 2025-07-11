@@ -8,6 +8,7 @@ Participants can access their certificates directly within the course or receive
 
 These tools are especially useful in workplace environments and structured courses, where automated and verifiable certification is required to acknowledge achievements systematically.
 
+<!--
 ## installing the **Workplace Course Certificate** plugin in Moodle:
 
 ### Step 1: **Download the Plugin**  
@@ -31,21 +32,21 @@ These tools are especially useful in workplace environments and structured cours
 ### Step 4: **Configure Certificate Settings**  
 1. Once installed, navigate to **Site Administration > Plugins > Activities > Course Certificate**.  
 2. Configure any settings like default email behavior or display options.
+-->
 
-
-### Step 5: **Design Certificate Templates**  
+### Step 1: **Design Certificate Templates**  
 1. Go to **Site Administration > Manage Certificate Template** (provided by the `tool_certificate` plugin).  
 2. Create a new template and add dynamic fields like course name, student name, date, and a QR code for verification.
  <img src="https://github.com/LEARN-LK/lms/blob/master/img/2-Certificate-manage.png" alt="image" style="max-width: 100%;width: 800px;">
 
-### Step 6: **Add Certificate Activity to a Course**  
+### Step 2: **Add Certificate Activity to a Course**  
 1. In the course where you want to issue certificates, click **Add an activity or resource**.  
 2. Select **Course Certificate** from the list.
     <img src="https://github.com/LEARN-LK/lms/blob/master/img/1-Certificate-manage.png" alt="image" style="max-width: 100%;width: 800px;">
 
 4. Configure the activity’s settings (e.g., restrict access to students who have completed the course).
    
-### Step 7: **Test the Plugin**  
+### Step 3: **Test the Plugin**  
 - Assign the certificate to a test user and verify the PDF download or email functionality.  
 - Scan the QR code (if used) to validate the certificate.
 
