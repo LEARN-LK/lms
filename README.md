@@ -33,7 +33,6 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * [Practice Moodle in VirtualBox(Alpine)](https://github.com/LEARN-LK/lms/blob/master/Practice-Moodle-VirtualBox.md)
    * [Change Moodle Language Pack](https://github.com/LEARN-LK/lms/blob/master/mdl-language-pack.md)
    * [Moodle Virtual Class Room (Webinar)](https://github.com/LEARN-LK/lms/blob/master/Moodle%20Virtual%20Class%20Room%20(Webinar)%20.md)
-   * [Enable Safe Exam Browser](https://github.com/LEARN-LK/lms/blob/master/Enable-Safe-Exam-Browser.md)
    * [Customize the Moodle themes](https://github.com/LEARN-LK/lms/blob/master/Customize_Moodle_themes.md)
    * [Configuring Email Outgoing](https://github.com/LEARN-LK/lms/blob/master/Configuring-Email-Outgoing.md)
    * <h4>  External Authentication </h4>
@@ -64,6 +63,7 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * [Interactive content](https://github.com/LEARN-LK/lms/blob/master/Interactive-content.md)
    * [Creating and Managing forums](https://github.com/LEARN-LK/lms/blob/master/Forum%20activity.md)
    * [Scheduling activities](https://github.com/LEARN-LK/lms/blob/master/Scheduling-activities.md)
+   * [Enable Safe Exam Browser](https://github.com/LEARN-LK/lms/blob/master/Enable-Safe-Exam-Browser.md)
    * [SCORM](https://github.com/LEARN-LK/lms/blob/master/SCORM.md)
    * [Feedback](https://github.com/LEARN-LK/lms/blob/master/Feedback.md)
    * [Surveys](https://github.com/LEARN-LK/lms/blob/master/Survey-activity.md)
