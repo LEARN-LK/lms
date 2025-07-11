@@ -3,7 +3,7 @@
 
 **Description**: The **Completion Progress** block is a visual tool that allows both teachers and students to track progress in a Moodle course. It shows the completion status of activities and provides a color-coded visual bar to indicate progress, upcoming tasks, and overdue activities.
 
-#### **Step-by-Step Installation**
+<!-- #### **Step-by-Step Installation**
 
 1. **Download the Plugin**:
    - Go to the [Moodle Plugin Directory](https://moodle.org/plugins/block_completion_progress) and download the latest version of the **Completion Progress** plugin as a zip file.
@@ -17,9 +17,9 @@
 3. **Verify Installation**:
    - After installation, Moodle will list the plugin under **Site Administration > Plugins > Plugins overview** in the **Blocks** section. If you see **Completion Progress** here, the plugin is successfully installed and ready for use.
 
----
+---    -->
 
-### **Part 2: Add Completion Progress Block to a Course**
+### **Part 1: Add Completion Progress Block to a Course**
 
 Now that the plugin is installed, you can add it to any course to start tracking student progress.
 
@@ -44,7 +44,7 @@ Now that the plugin is installed, you can add it to any course to start tracking
 
 ---
 
-### **Part 3: Enable Activity Completion for Course Activities**
+### **Part 2: Enable Activity Completion for Course Activities**
 
 To make use of the Completion Progress block, you need to enable **Activity Completion** for each activity or resource you want to track.
 
@@ -71,7 +71,7 @@ To make use of the Completion Progress block, you need to enable **Activity Comp
 
 ---
 
-### **Part 4: Configure the Completion Progress Block**
+### **Part 3: Configure the Completion Progress Block**
 
 Once the activities have Activity Completion enabled, configure the Completion Progress block to display the desired activities.
 
@@ -95,7 +95,7 @@ Once the activities have Activity Completion enabled, configure the Completion P
 
 ---
 
-### **Part 5: Example Scenario of Completion Progress in Action**
+### **Part 4: Example Scenario of Completion Progress in Action**
 
 Let’s say you want to track progress for **Assignment 1**, **Quiz 1**, and a **Discussion Forum**. Here’s how it would look in action:
 
@@ -118,7 +118,7 @@ Let’s say you want to track progress for **Assignment 1**, **Quiz 1**, and a *
 ---
 
 
-### **Part 6: How Students Mark Activities as Done**
+### **Part 5: How Students Mark Activities as Done**
 
 Once manual completion is enabled, students can mark the activity as done from their end:
 
