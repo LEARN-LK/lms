@@ -1,8 +1,7 @@
 ## installing the **Workplace Course Certificate** plugin in Moodle:
 
 ### Step 1: **Download the Plugin**  
-1. Visit the Moodle plugin directory:  
-   [Workplace Course Certificate](https://moodle.org/plugins/mod_coursecertificate).  
+1. Visit the Moodle plugin directory: Search **Workplace Course Certificate** or go directly to the [Workplace Course Certificate](https://moodle.org/plugins/mod_coursecertificate).  
 2. Download the latest version of the plugin as a ZIP file.
 
 ### Step 2: **Upload the Plugin to Moodle**  
