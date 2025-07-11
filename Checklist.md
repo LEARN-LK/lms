@@ -1,6 +1,8 @@
+
 ## Checklist
 The **Checklist plugin** for Moodle allows instructors to create task lists for students to track their progress through course activities. It provides a clear, interactive checklist where students can manually mark items as complete, or items can be automatically checked off based on completion of specific activities. The plugin includes a visual progress bar and options for email notifications, helping both students and instructors monitor course progress effectively.
 
+<!--
 To install the **Checklist plugin** in Moodle, follow these steps:
 
 ### Step 1: Download the Checklist Plugin
@@ -21,8 +23,9 @@ To install the **Checklist plugin** in Moodle, follow these steps:
 ### Step 4: Configure the Checklist Plugin (Optional)
 1. Go to **Site administration > Plugins > Activity modules > Checklist** to adjust any default settings.
 2. Set any options such as **default permissions** or **email notifications** for checklist completion.
+-->
 
-### Step 5: Add Checklist to a Course
+### Step 1: Add Checklist to a Course
 1. Go to the desired course in **Editing Mode**.
 2. Select **Add an activity or resource**.
 3. Choose **Checklist** from the list and follow the on-screen prompts to add your checklist to the course.
