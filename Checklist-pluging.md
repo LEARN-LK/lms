@@ -7,6 +7,8 @@ To install the **Checklist plugin** in Moodle, follow these steps:
 ### Step 1: Download the Checklist Plugin
 1. Go to the [Moodle Plugin Directory](https://moodle.org/plugins) and search for **Checklist** or go directly to the [Checklist plugin page](https://moodle.org/plugins/mod_checklist).
 2. Download the plugin ZIP file to your computer.
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/checklist-01.png">
+
 
 ### Step 2: Upload the Plugin to Moodle
 1. Log in to your Moodle site as an **administrator**.
