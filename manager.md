@@ -1,46 +1,66 @@
-##  Manager / Faculty Coordinator
 
-**Role Purpose**: Assigned to manage a category (e.g., Faculty of Science) or specific courses.
+##   Manager / Faculty Coordinator 
 
-####  Key Tasks and Responsibilities:
+###  **Role Definition**:
 
-* **Course Oversight**
+The **Manager** (or **Faculty Coordinator**) role in Moodle is designed to provide **administrative control over a specific category or group of courses**, such as a faculty, department, or program. It’s **less powerful than Site Administrator** but more privileged than a teacher.
 
-  * Create and manage courses **within assigned categories**.
-  * Assign teachers to courses in their faculty.
-* **User Support**
-
-  * Support teachers in course setup and enrolments.
-  * View student activity reports.
-* **Content Quality Assurance**
-
-  * Review course content and ensure consistency.
-* **Reports and Logs**
-
-  * View course-level reports and logs.
-* **Communication**
-
-  * Send messages to users in assigned categories/courses.
-* **Enrollment Support**
-
-  * Enrol users (teachers/students) in courses they manage.
-
->  *Managers cannot access site-wide settings, install plugins, or change site configurations.*
+This role is ideal for **non-technical academic coordinators** who help manage course setup, teacher assignment, and user support within a limited scope.
 
 ---
 
-###  Summary Table
+###  **Typical Use Case**
 
-| Task                         | Site Admin   | Manager                               |
-| ---------------------------- | ------------ | ------------------------------------  |
-| Create/manage site settings  | ✅            | ❌                                    |
-| Manage users (all)           | ✅            | ❌ (only view/enrol in their courses) |
-| Create categories/courses    | ✅            | ✅ (only in assigned categories)      |
-| Assign teachers/managers     | ✅            | ✅ (within scope)                     |
-| Install plugins/themes       | ✅            | ❌                                    |
-| View all site logs/reports   | ✅            | ❌ (only course-level)                |
-| Backup/restore site/courses  | ✅            | ❌ (limited course backup)            |
-| Send system-wide messages    | ✅            | ❌                                    |
-| Language/appearance settings | ✅            | ❌                                    |
+In a university setting:
 
+* **Faculty of Science** → assigned to a **Faculty Coordinator (Manager)**.
+* The Coordinator manages courses like “Physics 101”, “Biology Basics” in that faculty, assigns teachers, helps with student enrolment, and monitors course quality and progress.
+
+---
+
+###  **Main Responsibilities & Capabilities**
+
+#### A. **Course and Category Management**
+
+* View and manage all courses in the assigned category (e.g., Faculty of Science).
+* Create, edit, and delete courses within the category.
+* Reuse course templates for new offerings.
+* Set course visibility (Hide/Show).
+* Control course formats (Weekly, Topics, etc.).
+
+####  B. **Teacher and Student Management**
+
+* Assign **teachers** to courses (without needing site admin).
+* Manually enroll or unenroll **students** in courses.
+* Assign or switch student roles (e.g., Student, Non-editing Teacher).
+* Support teachers with enrollment and course setup issues.
+
+####  C. **User Support and Monitoring**
+
+* Assist teachers in uploading resources (PDFs, videos, quizzes).
+* Review course progress, completion rates, and student logs.
+* Monitor teacher activity and course quality.
+
+####  D. **Reports and Logs**
+
+* View course-level reports:
+
+  * Participation
+  * Activity completion
+  * Grades overview
+* Analyze student progress and attendance (if enabled).
+* Identify inactive students and notify them.
+
+####  E. **Communication**
+
+* Send **messages or notifications** to all users in a course or faculty.
+* Use announcements or forums to coordinate with teachers.
+* Help with onboarding of new academic staff.
+
+####  F. **Backup and Restore**
+
+* Back up individual courses (within scope).
+* Restore courses from previous years or import content into new ones.
+
+---
 
