@@ -41,6 +41,9 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * [O365 Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#-mirosoft-o365--)
    * [Google Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#google-authentication) 
    * <h4>Plugin Installation</h4>
+   
+`Note: Enabling Default Moodle Plugins (e.g., “Survey”)If a default plugin (like Survey) is not visible in the “Add an activity or resource” list for teachers, the Moodle administrator should:Navigate to:-Site administration → Plugins → Activity modules → Manage activities`
+
    * [Interactive content](https://github.com/LEARN-LK/lms/blob/master/Install-H5P-plugin.md)
    * [Virtual Programming Lab - VPL](https://github.com/LEARN-LK/lms/blob/master/installVPL.md)
    * [Board](https://github.com/LEARN-LK/lms/blob/master/install-boad.md) 
