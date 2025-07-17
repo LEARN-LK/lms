@@ -64,7 +64,7 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * [Moodle Virtual Class Room (Webinar)](https://github.com/LEARN-LK/lms/blob/master/Moodle%20Virtual%20Class%20Room%20(Webinar)%20.md)
    * [Interactive content](https://github.com/LEARN-LK/lms/blob/master/Interactive-content.md)
    * [Creating and Managing forums](https://github.com/LEARN-LK/lms/blob/master/Forum%20activity.md)
-   * [Scheduling activities](https://github.com/LEARN-LK/lms/blob/master/Scheduling-activities.md)
+     <!--* [Scheduling activities](https://github.com/LEARN-LK/lms/blob/master/Scheduling-activities.md)-->
    * [Enable Safe Exam Browser](https://github.com/LEARN-LK/lms/blob/master/Enable-Safe-Exam-Browser.md)
    * [SCORM](https://github.com/LEARN-LK/lms/blob/master/SCORM.md)
    * [Feedback](https://github.com/LEARN-LK/lms/blob/master/Feedback.md)
