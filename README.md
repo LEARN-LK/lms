@@ -19,13 +19,13 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
 - Moodle constantly updates its security controls to ensure your data is protected from loss, misuse, and unauthorized access.
 - It offers cross-browser compatibility and a default mobile-compatible interface.
 
-<h2> In this guide, we will cover the following areas </h2>
+<h2> In this guide, we will cover the **following areas** </h2>
 
  `Note : This guide was prepared for Moodle version  Moodle 4.0.11+ (Build: 20240104) and Ubuntu 22.04.3 LTS.` 
 
  <!-- > [!NOTE]This content will not appear in the rendered Markdown  -->
  
-<h4> 01. Moodle Admin Guide </h4>
+<h4>   `Note01. Moodle Admin Guide </h4>
 
    * [Site Admin](https://github.com/LEARN-LK/lms/blob/master/site-admin.md)
    * Moodle installation
