@@ -17,7 +17,7 @@ A **forum activity** in Moodle is a tool for online discussions, enabling teache
 
 Forum activities are ideal for asynchronous courses, enabling collaborative learning outside traditional lectures.
 
-<h2>To create a Form activity in Moodle 4.0, follow these steps:</h2>
+<h2>To create a Forum activity in Moodle 4.0, follow these steps:</h2>
 
 * Go to the course homepage where you want to create the form.
 * Click on the editing turned on button [1],
