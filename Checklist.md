@@ -66,7 +66,7 @@ To add the **Scenario - Course Cybersecurity** checklist to Moodle, follow these
 
    - For each item, you can specify:
      - **Description**: Explain what the task involves.
-     - **Completion type**: Set to **Manual** for items that students need to check off themselves, and **Automatic** for items that complete automatically (like quizzes and assignments).
+     - **Completion type**: Set to **Manual** for items that students need to check off themselves.
 
 ### Step 5: Additional Settings
 1. **Progress Bar**: Enable the progress bar to allow students to see their completion status visually.
