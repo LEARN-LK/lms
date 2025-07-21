@@ -22,7 +22,7 @@ Forum activities are ideal for asynchronous courses, enabling collaborative lear
 * Go to the course homepage where you want to create the forum.
 * Click on the editing turned on button [1],
 * Click on the Add an activity or resource button [2].
-* Select Form from the list of activities [3].
+* Select Forum from the list of activities [3].
 * Give your forum a name and description [4].
 
 
