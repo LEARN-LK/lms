@@ -19,11 +19,11 @@ Forum activities are ideal for asynchronous courses, enabling collaborative lear
 
 <h2>To create a Forum activity in Moodle 4.0, follow these steps:</h2>
 
-* Go to the course homepage where you want to create the form.
+* Go to the course homepage where you want to create the forum.
 * Click on the editing turned on button [1],
 * Click on the Add an activity or resource button [2].
 * Select Form from the list of activities [3].
-* Give your form a name and description [4].
+* Give your forum a name and description [4].
 
 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/41-form-activity.png" style="max-width: 100%;width: 60%;">
