@@ -13,9 +13,9 @@ For swift access to Attendance functionality, an optional Attendance block is av
 #### **Step-by-Step Installation**
 
 1. **Download the Plugin**:
-   - Go to the Moodle Plugin Directory and download the latest version of the **Attendance Activity** plugin as a zip file or go directly to the [Moodle Plugin Directory](https://moodle.org/plugins/block_completion_progress)
+   - Go to the Moodle Plugin Directory and download the latest version of the **Attendance Activity** plugin as a zip file or go directly to the [Moodle Plugin Directory](https://moodle.org/plugins/block_attendance)
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/completion-progress-01.png">
+<img src="https://github.com/LEARN-LK/lms/blob/master/imgs/attendance-plugin-1.png">
      
 2. **Install the Plugin in Moodle**:
    - Log in to Moodle as an administrator.
