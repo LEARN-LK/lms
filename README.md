@@ -37,9 +37,9 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * [Configuring Email Outgoing](https://github.com/LEARN-LK/lms/blob/master/Configuring-Email-Outgoing.md)
    * <h4>  External Authentication </h4>
    * [LIAF SSO - Auth SAML2](https://github.com/LEARN-LK/lms/blob/master/Learn-SSO.md)
-   * [LIAF SSO - Shiboleth SP](https://github.com/LEARN-LK/lms/blob/master/shiboleth.md)
+ <!--  * [LIAF SSO - Shiboleth SP](https://github.com/LEARN-LK/lms/blob/master/shiboleth.md)
    * [O365 Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#-mirosoft-o365--)
-   * [Google Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#google-authentication) 
+   * [Google Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#google-authentication) -->
    * <h4>Plugin Installation</h4>
    * [Interactive content](https://github.com/LEARN-LK/lms/blob/master/Install-H5P-plugin.md)
    * [Virtual Programming Lab - VPL](https://github.com/LEARN-LK/lms/blob/master/installVPL.md)
