@@ -47,7 +47,7 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * [Workplace Course Certificate](https://github.com/LEARN-LK/lms/blob/master/Workplace-Certificate.md)
    * [Checklist](https://github.com/LEARN-LK/lms/blob/master/Checklist-pluging.md)
    * [Completion Progress](https://github.com/LEARN-LK/lms/blob/master/Progress-plugin.md)
-   * [Attendance Activity Plugin]()
+   * [Attendance Activity Plugin](https://github.com/LEARN-LK/lms/blob/master/attendance-plugin.md)
 
      
 ```Note: Enabling Default Moodle Plugins (e.g., “Survey”)If a default plugin (like Survey) is not visible in the “Add an activity or resource” list for teachers, the Moodle administrator should:Navigate to:-Site administration → Plugins → Activity modules → Manage activities```
