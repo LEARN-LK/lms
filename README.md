@@ -25,7 +25,7 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
 
  <!-- > [!NOTE]This content will not appear in the rendered Markdown  -->
  
-<h4>   `Note01. Moodle Admin Guide </h4>
+<h4>   Moodle Admin Guide </h4>
 
    * [Site Admin](https://github.com/LEARN-LK/lms/blob/master/site-admin.md)
    * Moodle installation
