@@ -28,9 +28,9 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
 <h4>   Moodle Admin Guide </h4>
 
    * [Site Admin](https://github.com/LEARN-LK/lms/blob/master/site-admin.md)
-   * Moodle installation
+<!--   * Moodle installation
      - [Linux](https://github.com/LEARN-LK/lms/blob/master/moodle-install.md)
-     - [Alpine Linux](https://github.com/LEARN-LK/lms/blob/master/Alpine-linux.md)
+     - [Alpine Linux](https://github.com/LEARN-LK/lms/blob/master/Alpine-linux.md) -->
    * [Practice Moodle in VirtualBox(Alpine)](https://github.com/LEARN-LK/lms/blob/master/Practice-Moodle-VirtualBox.md)
    * [Change Moodle Language Pack](https://github.com/LEARN-LK/lms/blob/master/mdl-language-pack.md)
    * [Customize the Moodle themes](https://github.com/LEARN-LK/lms/blob/master/Customize_Moodle_themes.md)
