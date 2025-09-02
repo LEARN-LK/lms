@@ -8,6 +8,11 @@ In order to upload your students successfully, you will need to create a CSV fil
 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/p-2-Completion Progress-01.png" style="max-width: 100%;width: 80%;">
 
+<h4>Create your CSV using google forms (Alternative method)</h4>
+
+Step 1: Create a google form
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/p-2-Completion Progress-01.png" style="max-width: 100%;width: 80%;">
+
 <h4>Enrol the Students</h4>
 
 In the Settings block on your course, under Course administration, click Users > Bulk enrolments.
