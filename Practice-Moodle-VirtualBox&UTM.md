@@ -137,6 +137,16 @@ sudo nano /etc/hosts
   192.168.1.10 mymoodle.test.learn.ac.lk
   ```
 
+
+#### How to Save & Exit in Nano Editor
+
+When editing files with nano (like /etc/hosts or config.php):
+
+- Make your changes (type or paste text).
+- Press Ctrl + O → Writes (saves) the file.
+- It will ask for the filename — just press Enter to confirm.
+Press Ctrl + X → Exits Nano.
+
 ---
 
 ### **7. Access Moodle**:
