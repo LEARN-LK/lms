@@ -1,8 +1,3 @@
-Great 👍 I’ll adjust your **Practice Moodle in VirtualBox guide** so it includes **both VirtualBox (Intel/AMD users)** and **UTM (Mac Apple Silicon users)**. The structure will remain consistent, so users can easily follow their section.
-
-Here’s the updated combined guide:
-
----
 
 # **Practice Moodle in VirtualBox / UTM**
 
@@ -232,4 +227,8 @@ $CFG->directorypermissions = 0777;
 
 👉 Now your guide supports **both VirtualBox (.ova)** and **UTM (.utm)** users, while keeping the Moodle practice setup steps common.
 
-Do you also want me to make a **diagram/flow chart** showing "VirtualBox path vs UTM path" before both sets of steps (like a decision tree for Intel/AMD vs Apple Silicon)?
+- Ensure VirtualBox's network settings are set to **Bridged Adapter**.
+- Ensure the VM is running before accessing Moodle.
+- Default credentials for the Moodle:
+  - **Username**: `moodle`
+  - **Password**: `Mdl@1234`
