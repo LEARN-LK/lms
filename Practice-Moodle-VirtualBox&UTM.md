@@ -61,6 +61,9 @@ This guide explains how to set up a preconfigured virtual machine and practice M
 ### **2. Download the `.utm` File**:
 
 1. Open the Google Drive link provided (UTM version).
+ ```
+   https://drive.google.com/file/d/1lTmono6KG2KkGD6V8n_4uAZRNrQV-iyo/view?usp=sharing
+   ```
 2. Download the `.utm` file to your **Downloads** folder.
 
 ---
