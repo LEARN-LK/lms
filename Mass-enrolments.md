@@ -1,7 +1,7 @@
 ### Mass Enrolments Plugin for Moodle
 
 **Plugin Name:** Mass Enrolments (local\_mass\_enroll)
-**Purpose:** Allows teachers to enrol existing users into their courses using CSV files—no need to involve administrators. It also supports assigning users to groups and creating those groups automatically if they don’t exist.([moodle.org][1], [docs.moodle.org][2])
+**Purpose:** Allows teachers to enrol existing users into their courses using CSV files—no need to involve administrators. It also supports assigning users to groups and creating those groups automatically if they don’t exist.
 
 ---
 
