@@ -35,3 +35,11 @@ Set First column contains to reflect they type of data you have used in your spr
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/bulk/bulk_enroll4.png" style="max-width: 100%;width: 50%;">
 
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/bulk/bulk_enroll5.png" style="max-width: 100%;width: 50%;">
+
+<ul><li>Step 1: Go to the course and select participants tab. (Figure 4)</li>
+<li>Step 2: Click on the down arrow in enrolled users. (Figure 5)</li>
+<li>Step 3: Click on bulk enrolments. (Figure 6)</li>
+<li>Step 4: Click choose a file. (Figue 7)</li>
+<li>Step 5: Click on browse and select your CSV file. Click on upload.</li>
+<li>Step 6: Scroll through the bulk enrolments page, go to mapping section and select the relevant column for the username. (Figure 9) If the column is not relevant or empty select respective column as none. If you need groupings, you can select relevant options.</li>
+<li>Step 7: Click on Enrol them to my course. (Figure 10)</li></ul>
