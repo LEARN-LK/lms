@@ -11,8 +11,13 @@ In order to upload your students successfully, you will need to create a CSV fil
 <h4>Create your CSV using google forms (Alternative method)</h4>
 
 <ul><li>Step 1: Create a google form to get the usernames</li>
-<li>Step 2: View the responses from 'Responses' menu</li></ul>
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/bulk/regform.png" style="max-width: 100%;width: 80%;">
+<li>Step 2: View the responses from 'Responses' menu (Figure 1)</li>
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/bulk/regform.png" style="max-width: 100%;width: 80%;">
+<li>Step 3: Go to the three dots menu (Figure 2)</li>
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/bulk/responses.png" style="max-width: 100%;width: 80%;">
+<li>Step 4: Click save as CSV (Figure 3)</li>
+  <img src="https://github.com/LEARN-LK/lms/blob/master/img/bulk/save_as_csv.png" style="max-width: 100%;width: 80%;">
+<li>Step 5: Use the CSV file as the input for next step <b>(Please note first column is timestamp in google form)</b></li></ul>
 
 <h4>Enrol the Students</h4>
 
