@@ -19,7 +19,7 @@
    - Moodle will validate the plugin; follow the prompts to complete the installation.
 
 3. **Verify Installation**:
-   - After installation, Moodle will list the plugin under **Site Administration > Plugins > Plugins overview** in the **Blocks** section. If you see **Completion Progress** here, the plugin is successfully installed and ready for use.
+   - After installation, Moodle will list the plugin under **Site Administration > Plugins > Plugins overview** in the **Local plugins** section. If you see **Mass enrolments** here, the plugin is successfully installed and ready for use.
 
 ---
 
