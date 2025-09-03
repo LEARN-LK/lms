@@ -6,12 +6,13 @@ Bulk enrolments allows you to enrol students and add them to groups in a Moodle 
 
 In order to upload your students successfully, you will need to create a CSV file with the students details. CSVs are simple to create - one way is in a spreadsheet package, making sure to save it as a .csv file type. At minimum, your CSV file should contain one column for the main student identifier, usually their email address but it can also be their userid, or student ID number. Ensure you have column labels - this is because Moodle anticipates these and so ignores the first row of CSV file. In other words, don't put any actual student data in your file's top row. If you are using email then put 'email', if you are using user IDs then put 'userid'. If you want to enrol the students into Groups, include a second column which gives the group name for each student. Be careful to type these exactly. Give it a column heading 'group'. You can add subsequent groups in subsequent columns.
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/bulk/bulk_upload_csv.webp" style="max-width: 100%;width: 80%;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/bulk/bulk_upload_csv.webp" style="max-width: 100%;width: 50%;">
 
 <h4>Create your CSV using google forms (Alternative method)</h4>
 
-Step 1: Create a google form
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/p-2-Completion Progress-01.png" style="max-width: 100%;width: 80%;">
+Step 1: Create a google form to get the usernames
+Step 2: View the responses from 'Responses' menu
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/regform.png" style="max-width: 100%;width: 80%;">
 
 <h4>Enrol the Students</h4>
 
