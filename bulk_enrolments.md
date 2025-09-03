@@ -26,12 +26,12 @@ In the Settings block on your course, under Course administration, click Users >
 Select Choose a file and upload your CSV file. Make sure Role to assign is left as student. 
 Set First column contains to reflect they type of data you have used in your spreadsheet, either the students' email address, userid or ID number. If you need to create groups, ensure Create group(s) if needed is set to Yes. If you would like to create groupings in your course, based on the groups that the students will been placed into, ensure Create grouping(s) if needed is kept to yes. If you do not want to create groupings, set this to No. To receive an email report confirming which students have been enrolled and which groups they have been placed into, keep Send me a mail report set to Yes. Click Enrol them to my course. Check the students have been enrolled in their groups by going to the Settings menu and under Course Administration click on Users then Groups. You should see the groups listed, followed by the number of students in each group in brackets. You can also bulk unenrol students from your course by clicking on Bulk unenrolments in the block, and following the instructions above.
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/bulk/buk_enroll1.png" style="max-width: 100%;width: 50%;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/bulk/bulk_enroll1.png" style="max-width: 100%;width: 50%;">
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/bulk/buk_enroll2.png" style="max-width: 100%;width: 50%;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/bulk/bulk_enroll2.png" style="max-width: 100%;width: 50%;">
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/bulk/buk_enroll3.png" style="max-width: 100%;width: 50%;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/bulk/bulk_enroll3.png" style="max-width: 100%;width: 50%;">
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/bulk/buk_enroll4.png" style="max-width: 100%;width: 50%;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/bulk/bulk_enroll4.png" style="max-width: 100%;width: 50%;">
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/bulk/buk_enroll5.png" style="max-width: 100%;width: 50%;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/bulk/bulk_enroll5.png" style="max-width: 100%;width: 50%;">
