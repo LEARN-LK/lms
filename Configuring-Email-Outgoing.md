@@ -11,11 +11,16 @@ To configure outgoing email in Moodle, follow these steps:
 
  `Note:  When you have a lot of students in your Moodle site, using an educational Gmail account cannot be recommended as it holds daily limit of 500 emails sending limits. You have to own an email (SMTP) account from your on premise hosted campus mail server or obtain a business email account without such daily limits.` 
 
-   - **SMTP hosts**: Enter the SMTP server address. For example, for Gmail, it’s `smtp.gmail.com`. For others, use the SMTP details provided by your email service.
+<!--   - **SMTP hosts**: Enter the SMTP server address. For example, for Gmail, it’s `smtp.gmail.com`. For others, use the SMTP details provided by your email service.
    - **SMTP security**: Choose **TLS** or **SSL** if required by your SMTP server (e.g., Gmail requires TLS/SSL).
    - **SMTP port**: Enter the SMTP port number (e.g., **587** for TLS or **465** for SSL).
    - **SMTP username**: Enter the email address you are using to send mail.
-   - **SMTP password**: Enter the password for the SMTP email account.
+   - **SMTP password**: Enter the password for the SMTP email account.-->
+
+   - **SMTP hosts**: Enter the SMTP server address. For example, for Gmail, it’s `smtp.gmail.com:465` for SSL and `smtp.gmail.com:587` for TLS. For others, use the SMTP details provided by your email service.
+   - **SMTP security**: Choose **TLS** or **SSL** if required by your SMTP server (e.g., Gmail requires TLS/SSL).
+   - **SMTP username**: Enter the email address you are using to send mail.
+   - **SMTP password**: Enter the password for the SMTP email account. (For Gmail, you have to use app passwords)
 
 ### 3. **Set No-Reply Email Address**
    - **No-reply address**: Enter a no-reply address like `noreply@yourdomain.com`. This address appears as the sender for automated emails where replies are not needed.
