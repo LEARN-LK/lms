@@ -1,4 +1,4 @@
-## Here is the complete step-by-step guide to **installing the language pack** 
+## Here is the complete guide to **installing the language pack** 
 ---
 
 ## Step 1: Install the Sinhala /Tamil Language Pack in Moodle
@@ -52,7 +52,7 @@ To apply changes, **purge caches**:
 1. Download the **Sinhala language pack** manually from:  
    👉 [https://download.moodle.org/langpack/4.3/](https://download.moodle.org/langpack/4.3/)  
    (Select `si.zip` for Sinhala)
-2. Transfer the `si.zip` file to your Moodle server:
+<!-- 2. Transfer the `si.zip` file to your Moodle server:
    ```bash
    scp si.zip user@your-server:/tmp/
    ```
@@ -62,11 +62,11 @@ To apply changes, **purge caches**:
    unzip /tmp/si.zip -d /var/www/moodledata/lang/
    chown -R nginx:nginx /var/www/moodledata/lang/
    ```
-4. Verify by going to **Site administration > Language packs**.
+4. Verify by going to **Site administration > Language packs**. -->
 
 ---   
 
-## Force Sinhala as Default Language
+<!-- ## Force Sinhala as Default Language
 If the interface is still in English:
 1. Open **config.php**:
    ```bash
@@ -82,7 +82,7 @@ If the interface is still in English:
    rc-service php-fpm82 restart
    ```
 
----
+--- -->
 ##  Verify Sinhala Text Rendering in Moodle
 If Sinhala text does not display correctly:
 1. **Use Google Input Tools**  
@@ -101,9 +101,9 @@ If Sinhala text does not display correctly:
    - **For Windows/macOS**:  
      Download Sinhala fonts from [UCSC](https://www.ucsc.lk/).
 ---
-### Alternatively, run:
+<!-- ### Alternatively, run:
   ```bash
   rm -rf /var/www/moodledata/cache/*
   ```
 
----
+---  -->
