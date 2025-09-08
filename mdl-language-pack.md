@@ -13,7 +13,7 @@
 
 ---
 
-## **Step 4: Allow Sinhala/Tamil Text Input**
+## **Step 2: Allow Sinhala/Tamil Text Input**
 Since Moodle does not translate typed text, you need a **Sinhala/Tamil keyboard**.
 
 ### **Enable Sinhala/Tamil Keyboard on Your Computer**
