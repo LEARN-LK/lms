@@ -39,9 +39,7 @@ Since Moodle does not translate typed text, you need a **Sinhala/Tamil keyboard*
 
 ---
 
-
-
-## **Step 6: Clear Moodle Cache**
+## **Step 3: Clear Moodle Cache**
 To apply changes, **purge caches**:
 - Go to **Site administration > Development > Purge caches**.
 - Click **Purge all caches**.
@@ -68,7 +66,7 @@ To apply changes, **purge caches**:
 
 ---   
 
-## **Step 2: Force Sinhala as Default Language**
+## Force Sinhala as Default Language
 If the interface is still in English:
 1. Open **config.php**:
    ```bash
@@ -85,7 +83,7 @@ If the interface is still in English:
    ```
 
 ---
-## **Step 3: Verify Sinhala Text Rendering in Moodle**
+##  Verify Sinhala Text Rendering in Moodle
 If Sinhala text does not display correctly:
 1. **Use Google Input Tools**  
    - Visit [Google Input Tools](https://www.google.com/inputtools/try/)
