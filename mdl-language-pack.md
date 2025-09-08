@@ -45,10 +45,10 @@ To apply changes, **purge caches**:
 - Click **Purge all caches**.
 
 
+___
+## Troubleshoot options 
 
-## troubleshoot option 
-
-### Manual Installation (If the server has no internet)**
+### Manual Installation (If the server has no internet)
 1. Download the **Sinhala language pack** manually from:  
    👉 [https://download.moodle.org/langpack/4.3/](https://download.moodle.org/langpack/4.3/)  
    (Select `si.zip` for Sinhala)
