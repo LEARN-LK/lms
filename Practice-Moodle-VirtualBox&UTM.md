@@ -182,7 +182,7 @@ rc-service nginx restart
 rc-service php-fpm82 restart
 ```
 
-### **Permission Issues**
+<!-- ### **Permission Issues**
 
 ```bash
 chmod -R 777 /var/www/moodledata
@@ -192,17 +192,17 @@ chmod -R 777 /var/www/moodledata
 
 ```bash
 tail -f /var/log/nginx/error.log
-```
+``` -->
 
 ### **Renew DHCP Lease**
 
 ```bash
-/etc/init.d/networking restart
+/etc/init.d/networking restart 
 ```
 
 Then recheck the IP (Step 5).
 
-### **Plugin Installation Errors**
+<!-- ### **Plugin Installation Errors**
 
 Edit `config.php`:
 
@@ -226,19 +226,19 @@ Set:
 ```
 user = nginx
 group = nginx
-```
+```   -->
 
 Restart PHP-FPM:
 
 ```bash
 rc-service php-fpm82 restart
 ```
-
+<!-- 
 Set Moodle config directory permissions:
 
 ```php
 $CFG->directorypermissions = 0777;
-```
+```  -->
 
 ---
 
