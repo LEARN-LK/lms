@@ -55,6 +55,13 @@ To apply changes, **purge caches**:
 ___
 ## Troubleshoot options 
 
+###  If `504` error occurs (in the testbed environment), restart services:
+   ```bash
+   rc-service nginx restart
+   rc-service php-fpm82 restart
+   ```
+
+
 ### Manual Installation (If the server has no internet)
 1. Download the **Sinhala language pack** manually from:  
    👉 [https://download.moodle.org/langpack/4.3/](https://download.moodle.org/langpack/4.3/)  
