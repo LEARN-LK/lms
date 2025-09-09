@@ -130,6 +130,9 @@ sudo nano /private/etc/hosts
   192.168.1.10 mymoodle.test.learn.ac.lk
   ```
 
+ * Save in nano:
+   * **Ctrl + O** → Enter → **Ctrl + X**
+
 #### **Linux**:
 
 * Edit file: `/etc/hosts`
@@ -144,6 +147,8 @@ sudo nano /etc/hosts
   192.168.1.10 mymoodle.test.learn.ac.lk
   ```
 
+ * Save in nano:
+   * **Ctrl + O** → Enter → **Ctrl + X**
 
 #### How to Save & Exit in Nano Editor
 
