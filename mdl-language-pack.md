@@ -6,8 +6,6 @@
 1. **Login as Admin** to your Moodle site.
 2. Go to **Site administration > Language > Language packs**.
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/lan.png" alt="image" style="max-width: 100%;width: 300px;">
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/lan2.png" alt="image" style="max-width: 100%;width: 300px;">
 
 
 3. Find **Sinhala (si) Tamil (ta_lk)** in the available language list.
@@ -15,6 +13,10 @@
 5. Once installed, go to **Site administration > Language > Language settings**.
 6. Set **Default language** to **Sinhala (si) or Tamil (ta_lk)**.
 7. Click **Save changes**.
+8. Change the **Language**
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/lan.png" alt="image" style="max-width: 100%;width: 300px;">
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/lan2.png" alt="image" style="max-width: 100%;width: 300px;">
+
 
 ---
 
