@@ -50,6 +50,13 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * [Attendance Activity Plugin](https://github.com/LEARN-LK/lms/blob/master/attendance-plugin.md)
    * [Mass Enrolments](https://github.com/LEARN-LK/lms/blob/master/Mass-enrolments.md)
 
+
+
+
+```  sed -i 's/upload_max_filesize = 2M/upload_max_filesize = 128M/g' /etc/php82/php.ini```
+
+```  sed -i 's/post_max_size = 8M/post_max_size = 128M/g' /etc/php82/php.ini```
+
      
 ```Note: Enabling Default Moodle Plugins (e.g., “Survey”)If a default plugin (like Survey) is not visible in the “Add an activity or resource” list for teachers, the Moodle administrator should:Navigate to:-Site administration → Plugins → Activity modules → Manage activities```
      
