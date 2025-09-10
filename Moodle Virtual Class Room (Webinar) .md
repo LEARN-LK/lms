@@ -19,7 +19,7 @@ You can log in to VCR in two ways: one using institutional credentials and the o
 
 <h5>Step :</h5>
 
-* To log in using EDUID/Institutional credentials you need to visit the following [SSO Login:](https://fds.ac.lk/?entityID=https%3A%2F%2Fbbb-fdds.learn.ac.lk%2FSaml2%2Fproxy_saml2_backend.xml&return=https%3A%2F%2Fbbb-fdds.learn.ac.lk%2FSaml2%2Fdisco).
+* To log in using EDUID/Institutional credentials you need to visit the following [VCR Login:](https://vcr.learn.ac.lk/).
 * Select the dropdown menu and choose 'equID Sri Lanka.' Afterward, click the 'Continue' button. If you have institutional credentials, you should choose your institute from the dropdown menu.
 
   <img src="https://github.com/LEARN-LK/lms/blob/master/img/106-eduid.png" alt="image" style="max-width: 100%;width: 500px;">
