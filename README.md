@@ -41,6 +41,13 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * [O365 Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#-mirosoft-o365--)
    * [Google Authentication](https://github.com/LEARN-LK/lms/blob/master/authentication.md#google-authentication) -->
    * <h4>Plugin Installation</h4>
+
+  **Note** If you are facing limitations with upload_max_filesize and post_max_size, please run the following commands in your virtual machine terminal:
+
+```  sed -i 's/upload_max_filesize = 2M/upload_max_filesize = 128M/g' /etc/php82/php.ini```
+
+```  sed -i 's/post_max_size = 8M/post_max_size = 128M/g' /etc/php82/php.ini```
+
    * [Interactive content](https://github.com/LEARN-LK/lms/blob/master/Install-H5P-plugin.md)
    * [Virtual Programming Lab - VPL](https://github.com/LEARN-LK/lms/blob/master/installVPL.md)
    * [Board](https://github.com/LEARN-LK/lms/blob/master/install-boad.md) 
@@ -51,13 +58,7 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
    * [Mass Enrolments](https://github.com/LEARN-LK/lms/blob/master/Mass-enrolments.md)
 
 
-
-
-```  sed -i 's/upload_max_filesize = 2M/upload_max_filesize = 128M/g' /etc/php82/php.ini```
-
-```  sed -i 's/post_max_size = 8M/post_max_size = 128M/g' /etc/php82/php.ini```
-
-     
+    
 ```Note: Enabling Default Moodle Plugins (e.g., “Survey”)If a default plugin (like Survey) is not visible in the “Add an activity or resource” list for teachers, the Moodle administrator should:Navigate to:-Site administration → Plugins → Activity modules → Manage activities```
      
 
