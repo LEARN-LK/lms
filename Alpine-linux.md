@@ -23,7 +23,13 @@ Here's the updated step-by-step guide to install Moodle on Alpine Linux with you
 
 1. Install necessary packages:
    ```bash
-   apk add nginx php82 php82-fpm php82-session php82-opcache php82-gd php82-mysqli php82-pdo_mysql php82-xmlreader php82-ctype php82-zip php82-soap php82-intl php82-xmlrpc php82-mbstring php82-json php82-curl php82-tokenizer mariadb mariadb-client wget
+   apk update
+   apk add nginx mariadb mariadb-client openrc
+   apk add php83 php83-fpm php83-opcache php83-gd php83-mysqli php83-zlib \
+   php83-curl php83-xml php83-mbstring php83-zip php83-intl php83-json \
+   php83-soap php83-xmlreader php83-xmlwriter php83-tokenizer php83-fileinfo \
+   php83-sodium php83-exif php83-iconv php83-session php83-simplexml
+
    ```
 2. Enable and start services:
    ```bash
@@ -63,12 +69,12 @@ Here's the updated step-by-step guide to install Moodle on Alpine Linux with you
 1. **Download Moodle:**
    ```bash
    cd /var/www
-   wget https://download.moodle.org/stable402/moodle-latest-402.tgz
+   wget https://download.moodle.org/download.php/direct/stable405/moodle-latest-405.tgz
    ```
 2. **Extract Moodle:**
    ```bash
-   tar -xvzf moodle-latest-402.tgz
-   rm moodle-latest-402.tgz
+   tar -xvzf moodle-latest-405.tgz
+   rm moodle-latest-405.tgz
    ```
 3. **Create the Moodle data directory:**
    ```bash
@@ -78,8 +84,30 @@ Here's the updated step-by-step guide to install Moodle on Alpine Linux with you
    ```
 
 ---
+### **Step 5: Configure PHP**
+ Edit:   **/etc/php83/php.ini:**
+  
+ ```bash
+ upload_max_filesize = 128M
+post_max_size = 128M
+max_execution_time = 300
+memory_limit = 256M
+max_input_vars = 5000
 
-### **Step 5: Configure Nginx**
+   ```
+
+
+
+
+
+
+
+
+### **Step 6: Configure Nginx**
+0. **Move the default config:**
+    ```bash
+   mv /etc/nginx/http.d/default.conf /etc/nginx/http.d/default.conf.bak
+   ```
 
 1. **Edit the Nginx configuration:**
    ```bash
@@ -87,57 +115,80 @@ Here's the updated step-by-step guide to install Moodle on Alpine Linux with you
    ```
 2. **Add the following content:**
    ```nginx
-   server {
-       listen 80;
-       server_name 192.XXX.X.XX
-       root /var/www/moodle;
-       index index.php index.html index.htm;
+    server {
+    listen 80;
+    listen [::]:80;
+    server_name _;
+    root /var/www/moodle;
+    index index.php index.html index.htm;
 
-       location / {
-           try_files $uri $uri/ /index.php?$query_string;
-       }
+    client_max_body_size 128M;
 
-       location ~ [^/]\.php(/|$) {
-           fastcgi_split_path_info ^(.+\.php)(/.+)$;
-           fastcgi_index           index.php;
-           include fastcgi_params;
-           fastcgi_pass 127.0.0.1:9000;
-           fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
-           fastcgi_param PATH_INFO $fastcgi_path_info;
-       }
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+        autoindex off;
+    }
 
-       location ~* /\. {
-           deny all;
-       }
-   }
-   ```
+    location ~ [^/]\.php(/|$) {
+        fastcgi_split_path_info ^(.+?\.php)(/.*)$;
+        fastcgi_pass unix:/run/php-fpm83.sock;
+        fastcgi_index index.php;
+        include fastcgi.conf;
+        fastcgi_param PATH_INFO $fastcgi_path_info;
+    }
+
+    location /dataroot/ {
+        internal;
+        alias /var/www/moodledata/;
+    }
+
+    location ~* \.(ico|jpg|jpeg|png|gif|svg|css|js|woff|woff2|ttf|eot|map)$ {
+        expires max;
+        log_not_found off;
+        access_log off;
+    }
+
+    location ~ /\. {
+        deny all;
+    }
+   } ```
+
+
 3. **Test and restart Nginx:**
-   ```bash
+
+ ```bash
    nginx -t
    rc-service nginx restart
    ```
 
 ---
 
-### **Step 6: Configure PHP-FPM**
+### **Step 7: Configure PHP-FPM**
 
 1. **Edit the PHP-FPM configuration:**
    ```bash
    nano /etc/php82/php-fpm.d/www.conf
    ```
+
 2. **Set the `user` and `group` to `nginx`:**
    ```ini
    user = nginx
    group = nginx
+   listen = /run/php-fpm83.sock
+   listen.owner = nginx
+   listen.group = nginx
+   listen.mode = 0660
    ```
+
 3. **Restart PHP-FPM:**
+
    ```bash
    rc-service php-fpm82 restart
    ```
 
 ---
 
-### **Step 7: Configure Moodle**
+### **Step 8: Configure Moodle**
 
 1. **Edit the Moodle configuration file:**
    ```bash
@@ -159,7 +210,8 @@ Here's the updated step-by-step guide to install Moodle on Alpine Linux with you
    require_once(__DIR__ . '/lib/setup.php');
    ```
 3. **Set permissions:**
-   ```bash
+
+    ```bash
    chmod -R 777 /var/www/moodledata
    ```
 
