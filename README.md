@@ -27,6 +27,7 @@ Moodle is a highly customisable LMS, and there are a variety of plugins and them
  
 <h4>   Moodle Admin Guide </h4>
 
+* [Site Admin](/site-admin/)
    * [Site Admin](https://github.com/LEARN-LK/lms/blob/master/site-admin.md)
 <!--   * Moodle installation
      - [Linux](https://github.com/LEARN-LK/lms/blob/master/moodle-install.md)
