@@ -1,8 +1,4 @@
----
-title: Site Admin
-layout: page
-permalink: /site-admin/
----
+
 ##  1. Site Administrator 
 
 ###  **Role Definition**:
