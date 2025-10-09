@@ -34,10 +34,11 @@ Here's the updated step-by-step guide to install Moodle on Alpine Linux with you
 2. Enable and start services:
    ```bash
    rc-service nginx start
-   rc-service php-fpm82 start
+   rc-service php-fpm83 star
+   rc-service maradb setup
    rc-service mariadb start
    rc-update add nginx
-   rc-update add php-fpm82
+   rc-update add php-fpm83
    rc-update add mariadb
    ```
 
