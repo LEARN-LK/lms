@@ -132,7 +132,7 @@ max_input_vars = 5000
 
     location ~ [^/]\.php(/|$) {
         fastcgi_split_path_info ^(.+?\.php)(/.*)$;
-        fastcgi_pass unix:/run/php-fpm83.sock;
+        fastcgi_pass 127.0.0.1:9001;
         fastcgi_index index.php;
         include fastcgi.conf;
         fastcgi_param PATH_INFO $fastcgi_path_info;
@@ -152,7 +152,7 @@ max_input_vars = 5000
     location ~ /\. {
         deny all;
     }
-   } ```
+   } 
 
 
 3. **Test and restart Nginx:**
@@ -168,14 +168,14 @@ max_input_vars = 5000
 
 1. **Edit the PHP-FPM configuration:**
    ```bash
-   nano /etc/php82/php-fpm.d/www.conf
+   nano /etc/php83/php-fpm.d/www.conf
    ```
 
 2. **Set the `user` and `group` to `nginx`:**
    ```ini
    user = nginx
    group = nginx
-   listen = /run/php-fpm83.sock
+   listen = 127.0.0.1:9001
    listen.owner = nginx
    listen.group = nginx
    listen.mode = 0660
@@ -184,7 +184,7 @@ max_input_vars = 5000
 3. **Restart PHP-FPM:**
 
    ```bash
-   rc-service php-fpm82 restart
+   rc-service php-fpm83 restart
    ```
 
 ---
@@ -239,7 +239,7 @@ max_input_vars = 5000
    ```
    If extensions are missing, install them using:
    ```bash
-   apk add php82-<extension_name>
+   apk add php83-<extension_name>
    ```
    Example: `apk add php82-soap`.
 
