@@ -25,7 +25,7 @@ Here's the updated step-by-step guide to install Moodle on Alpine Linux with you
    ```bash
    apk update
    apk add nginx mariadb mariadb-client openrc
-   apk add php83 php83-fpm php83-opcache php83-gd php83-mysqli php83-zlib \
+   apk add php83 php83-fpm php83-opcache php83-gd php83-mysqli php83-zlib php83-ctype \
    php83-curl php83-xml php83-mbstring php83-zip php83-intl php83-json \
    php83-soap php83-xmlreader php83-xmlwriter php83-tokenizer php83-fileinfo \
    php83-sodium php83-exif php83-iconv php83-session php83-simplexml
@@ -241,11 +241,11 @@ max_input_vars = 5000
    ```bash
    apk add php83-<extension_name>
    ```
-   Example: `apk add php82-soap`.
+   Example: `apk add php83-soap`.
 
 2. Restart services:
    ```bash
-   rc-service php-fpm82 restart
+   rc-service php-fpm83 restart
    rc-service nginx restart
    ```
 
