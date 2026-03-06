@@ -23,6 +23,9 @@ In Moodle, the **Exabis ePortfolio** plugin allows students to:
 
 This tool supports **continuous learning, reflection, and competency-based education**.
 
+
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/exabis-workflow.png?raw=true" style="max-width: 100%;width: 70%;">
+
 ---
 
 # 2. Learning Objectives of This Training
