@@ -59,9 +59,6 @@ Example:
 http://moodle:9000
 ```
 
-📷 **Screenshot Placeholder**
-`[Screenshot: Moodle login page]`
-
 ---
 
 ## Step 2 – Access Exabis e-Portfolio
