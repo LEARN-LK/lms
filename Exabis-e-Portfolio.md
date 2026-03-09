@@ -97,45 +97,43 @@ The main sections include:
 
 ---
 
-# 5.1 Add Personal Information
+# 5.1 Completing the CV Section
 
-Students should first complete their **portfolio profile**.
+Students should first complete their **My CV** section.
 
 Steps:
 
-1. Open **Information**
-2. Click **Edit Profile**
-3. Enter details:
+1. Click **My CV**
+2. Select **Edit**
+3. Add:
 
-   * Name
-   * Program
-   * Skills
-   * Career goals
-4. Save changes
+* Personal details
+* Education
+* Skills
+* Career goals
 
-📷 **Screenshot Placeholder**
-`[Screenshot: Student portfolio profile page]`
+📷 Screenshot placeholder
+`[Screenshot: CV editing page]`
 
 ---
 
 # 5.2 Adding Portfolio Artifacts
 
-Artifacts are items added to the portfolio.
+Artifacts are files, links, or notes stored in the portfolio.
 
 Examples:
 
 * Assignments
-* Reports
+* Research reports
 * Presentations
 * Certificates
-* Project work
 
 ---
 
-### Step-by-Step
+### Steps
 
-1. Go to **My Portfolio**
-2. Click **Add Artifact**
+1. Go to **My Portfolio Artefacts**
+2. Click **Add Artefact**
 3. Select type:
 
 ```
@@ -144,81 +142,73 @@ Link
 Note
 ```
 
-4. Fill in details
-5. Upload file
-6. Save
+4. Upload or enter information
+5. Save
 
-📷 **Screenshot Placeholder**
+📷 Screenshot placeholder
 `[Screenshot: Add artifact interface]`
 
 ---
 
-# 5.3 Organizing Portfolio Artifacts
+# 5.3 Organizing Artifacts
 
-Students should organize artifacts using folders.
+Students can create categories to organize their portfolio.
 
 Example structure:
 
 ```
 My Portfolio
-   Assignments
-   Projects
-   Research
-   Certificates
+ ├── Assignments
+ ├── Projects
+ ├── Research
+ └── Certificates
 ```
 
-📷 **Screenshot Placeholder**
-`[Screenshot: Portfolio folder structure]`
+📷 Screenshot placeholder
+`[Screenshot: Portfolio categories]`
 
 ---
 
 # 5.4 Creating Portfolio Views
 
-A **View** is a portfolio page where selected artifacts are displayed.
+A **View** is a presentation page showing selected artifacts.
 
-Example:
+Example view:
 
 ```
 Web Development Portfolio
-   Project Report
-   GitHub Link
-   Presentation Slides
+  - Website project report
+  - GitHub repository link
+  - Presentation slides
 ```
 
 ---
 
 ### Steps
 
-1. Go to **Views**
-2. Click **Create New View**
+1. Click **My Views**
+2. Select **Create New View**
 3. Add title and description
 4. Select artifacts
-5. Arrange items
-6. Save
+5. Save
 
-📷 **Screenshot Placeholder**
+📷 Screenshot placeholder
 `[Screenshot: Create portfolio view]`
 
 ---
 
 # 5.5 Sharing Portfolio with Teacher
 
+Students must share their view with the teacher.
+
 Steps:
 
-1. Open the portfolio **View**
+1. Open the portfolio view
 2. Click **Share**
-3. Select:
-
-```
-Teacher
-Course
-Group
-```
-
+3. Select teacher or course
 4. Enable comments
-5. Save
 
-📷 **Screenshot Placeholder**
+📷 Screenshot placeholder
 `[Screenshot: Portfolio sharing settings]`
 
 ---
@@ -227,16 +217,16 @@ Group
 
 ---
 
-# 6.1 Access Student Portfolios
+# 6.1 Viewing Student Portfolios
 
-Teachers can access portfolios via:
+Teachers can access shared portfolios through:
 
 ```
-Exabis e-Portfolio → Shared Portfolios
+Shared Views
 ```
 
-📷 **Screenshot Placeholder**
-`[Screenshot: Teacher portfolio review page]`
+📷 Screenshot placeholder
+`[Screenshot: Teacher shared portfolio list]`
 
 ---
 
@@ -245,44 +235,45 @@ Exabis e-Portfolio → Shared Portfolios
 Teachers can:
 
 * View uploaded files
-* Review student work
-* Track progress
-* Evaluate learning outcomes
+* Review reflections
+* Assess student work
 
 ---
 
 # 6.3 Providing Feedback
 
-Teachers can add comments on portfolio views.
+Teachers can comment directly on portfolio views.
 
-Example comment:
+Example feedback:
 
 ```
-Your project demonstrates good problem solving.
-Consider improving the documentation section.
+Good project implementation.
+Please improve documentation of the database design.
 ```
 
-📷 **Screenshot Placeholder**
-`[Screenshot: Teacher feedback interface]`
+📷 Screenshot placeholder
+`[Screenshot: Teacher feedback comment section]`
 
 ---
 
 # 7. Scenario-Based Training Module
 
+This section is designed for **university staff training workshops**.
+
 ---
 
 # Scenario 1 – Programming Course Portfolio
 
-Course: **Introduction to Programming**
+Course: Introduction to Programming
 
 ### Student Tasks
 
-Students must upload:
+Students upload:
 
 ```
-Assignment 1 – Python calculator
-Assignment 2 – File processing program
-Assignment 3 – Web scraping project
+Assignment 1 – Python Calculator
+Assignment 2 – File Processing Program
+Assignment 3 – Web Scraping Script
 ```
 
 Students create a **Programming Portfolio View**.
@@ -293,17 +284,17 @@ Students create a **Programming Portfolio View**.
 
 Teachers review:
 
-* Code quality
-* Program logic
+* Code functionality
+* Program structure
 * Documentation
 
-Teachers provide feedback in the portfolio.
+Teacher provides feedback through the portfolio.
 
 ---
 
 # Scenario 2 – Final Year Project Portfolio
 
-Students document their **Final Year Project**.
+Students document their project progress.
 
 Artifacts include:
 
@@ -315,122 +306,132 @@ Presentation Slides
 Demo Video
 ```
 
-Students create:
+Students create a **Final Year Project Portfolio View**.
 
-```
-Final Year Project Portfolio View
-```
-
-Teacher reviews project progress throughout the semester.
+Teachers monitor project development during the semester.
 
 ---
 
 # Scenario 3 – Reflective Learning Journal
 
-Students maintain a **weekly reflection portfolio**.
+Students maintain weekly reflections.
 
 Example:
 
 Week 1
 
 ```
-Topic: Linux Commands
-Reflection: Learned file permissions and directory management.
+Topic: Linux file permissions
+Reflection: Learned chmod and directory structure.
 ```
 
 Week 2
 
 ```
-Topic: Git Version Control
-Reflection: Practiced commit and branch management.
+Topic: Git version control
+Reflection: Practiced commits and branching.
 ```
 
-Teachers comment weekly.
+Teachers review reflections weekly.
 
 ---
 
 # 8. Sample Course Activity
 
-### Integrating Portfolio with Moodle Assignments
-
-This activity integrates **Moodle Assignment + Portfolio Reflection**.
+## Portfolio + Moodle Assignment Integration
 
 ---
 
-## Activity Title
+# Activity Title
 
-**Programming Assignment Portfolio**
+Programming Assignment Reflection Portfolio
 
 ---
 
-## Step 1 – Create Moodle Assignment
+# Step 1 – Create Moodle Assignment
 
-Teacher creates assignment in **Moodle**:
+Teacher creates an assignment in **Moodle**.
 
 ```
 Course → Add Activity → Assignment
 ```
 
-Assignment name:
+Assignment title:
 
 ```
 Python File Processing Program
 ```
 
-Students submit code.
+Students submit their program.
 
-📷 **Screenshot Placeholder**
+📷 Screenshot placeholder
+`[Screenshot: Moodle assignment creation]`
 
 ---
 
-## Step 2 – Portfolio Artifact
+# Step 2 – Portfolio Artifact
 
-After submission, students must:
+Students must upload the assignment into the portfolio.
 
-1. Upload their program to portfolio
-2. Add explanation note
+Steps:
 
-Example reflection:
+```
+My Portfolio Artefacts → Add File
+```
+
+Students upload:
+
+* Python program
+* Program output
+* Documentation
+
+---
+
+# Step 3 – Reflection Note
+
+Students add a **Note artifact** describing their work.
+
+Example:
 
 ```
 This program reads a CSV file and calculates total sales.
-I used Python file handling and loops.
+I used Python loops and file handling.
 ```
 
 ---
 
-## Step 3 – Portfolio View
+# Step 4 – Create Portfolio View
 
-Students create a **Programming Portfolio View** including:
+Students create a view including:
 
 ```
 Assignment file
 Reflection note
+Program screenshots
 GitHub link
-Screenshots of program output
 ```
 
 ---
 
-## Step 4 – Share with Teacher
+# Step 5 – Share with Teacher
 
-Students share the portfolio view with the instructor.
+Students share the portfolio view with the course teacher.
 
-Teacher reviews both:
+Teacher reviews:
 
 * Assignment submission
 * Portfolio reflection
 
 ---
 
-# 9. Assessment Rubric Example
+# 9. Example Assessment Rubric
 
-| Criteria                  | Marks |
-| ------------------------- | ----- |
-| Code functionality        | 40    |
-| Documentation             | 20    |
-| Portfolio reflection      | 20    |
-| Presentation of portfolio | 20    |
+| Criteria               | Marks |
+| ---------------------- | ----- |
+| Code functionality     | 40    |
+| Documentation          | 20    |
+| Portfolio reflection   | 20    |
+| Portfolio presentation | 20    |
 
 Total = **100 marks**
 
@@ -440,30 +441,24 @@ Total = **100 marks**
 
 ### For Students
 
-* Upload artifacts regularly
-* Write reflections
-* Organize folders clearly
-* Update portfolio each semester
+* Update portfolio regularly
+* Add reflections
+* Organize artifacts clearly
 
 ### For Teachers
 
+* Encourage reflection
+* Provide feedback early
 * Use portfolio for formative assessment
-* Provide feedback regularly
-* Encourage reflective learning
 
 ---
 
-# 11. Suggested Portfolio Structure
+✅ If you want, I can also create **three advanced materials that make your training much stronger**:
 
-```
-My Portfolio
-   Assignments
-   Projects
-   Research
-   Internship
-   Certifications
-   Reflections
-```
+1️⃣ **A complete 2-hour university workshop plan for Exabis e-Portfolio**
+2️⃣ **A PowerPoint slide deck for staff training**
+3️⃣ **A visual architecture diagram showing how Moodle, Assignment, and Portfolio interact**
 
----
+These are very useful if you are **training university lecturers or LMS administrators.**
+
 
