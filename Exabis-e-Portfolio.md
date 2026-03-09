@@ -68,12 +68,6 @@ From the dashboard or course page:
 Navigate to:
 
 ```
-Dashboard → Exabis e-Portfolio
-```
-
-or
-
-```
 Course Page → Exabis e-Portfolio Block
 ```
 
