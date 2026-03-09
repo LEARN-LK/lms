@@ -56,7 +56,7 @@ Open the Moodle site and login using your university credentials.
 Example:
 
 ```
-https://yourmoodlesite.edu
+http://moodle:9000
 ```
 
 📷 **Screenshot Placeholder**
