@@ -453,12 +453,6 @@ Total = **100 marks**
 
 ---
 
-✅ If you want, I can also create **three advanced materials that make your training much stronger**:
 
-1️⃣ **A complete 2-hour university workshop plan for Exabis e-Portfolio**
-2️⃣ **A PowerPoint slide deck for staff training**
-3️⃣ **A visual architecture diagram showing how Moodle, Assignment, and Portfolio interact**
-
-These are very useful if you are **training university lecturers or LMS administrators.**
 
 
