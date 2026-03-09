@@ -112,8 +112,7 @@ Steps:
 * Skills
 * Career goals
 
-📷 Screenshot placeholder
-`[Screenshot: CV editing page]`
+<img src="https://github.com/LEARN-LK/lms/blob/master/img/ePortfolio-MyCV-1.png?raw=true" style="max-width: 100%;width: 60%;">
 
 ---
 
