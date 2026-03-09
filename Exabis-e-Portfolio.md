@@ -81,15 +81,15 @@ Course Page → Exabis e-Portfolio Block
 
 The main sections include:
 
-| Section           | Description             |
-| ----------------- | ----------------------- |
-| Information       | Personal profile and CV |
-| My Portfolio      | Upload artifacts        |
-| Views             | Create portfolio pages  |
-| Shared Portfolios | View shared work        |
+| Section                     | Description             |
+| -----------------           | ----------------------- |
+| My CV                       | Student profile and CV |
+| My Portfolio Artefacts      | Upload artifacts        |
+| My Views                    | Create portfolio pages  |
+| Shared Views                | Access shared portfolios |
+| Shared Categories           | Share artifact collections |
+| Import/Export               |Backup or transfer portfolio|
 
-📷 **Screenshot Placeholder**
-`[Screenshot: Portfolio main interface]`
 
 ---
 
