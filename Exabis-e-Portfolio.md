@@ -71,9 +71,9 @@ Navigate to:
 Course Page → Exabis e-Portfolio Block
 ```
 
-📷 **Screenshot Placeholder**
 `[Screenshot: Exabis e-Portfolio block on Moodle page]`
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/ePortfolio-courses.png?raw=true" style="max-width: 100%;width: 30%;">
+
 <img src="https://github.com/LEARN-LK/lms/blob/master/img/ePortfolio-courses-1.png?raw=true" style="max-width: 100%;width: 60%;">
 
 ---
