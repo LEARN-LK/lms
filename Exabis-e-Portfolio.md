@@ -130,8 +130,14 @@ Examples:
 
 ### Steps
 
-1. Go to **My Portfolio Artefacts**
-2. Click **Add Artefact**
+1. Go to **My Portfolio Artefacts [1]**
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/MyePortfolio.png?raw=true" style="max-width: 100%;width: 60%;">
+
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/Artefact.png?raw=true" style="max-width: 100%;width: 60%;">
+
+
+
+2. Click **Add Artefact [2]**
 3. Select type:
 
 ```
@@ -143,8 +149,7 @@ Note
 4. Upload or enter information
 5. Save
 
-📷 Screenshot placeholder
-`[Screenshot: Add artifact interface]`
+
 
 ---
 
