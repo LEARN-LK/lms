@@ -30,8 +30,6 @@ This tool supports **continuous learning, reflection, and competency-based educa
 
 # 2. Learning Objectives of This Training
 
-After completing this training, participants will be able to:
-
 Teachers will be able to:
 
 * Configure Exabis e-Portfolio in Moodle
