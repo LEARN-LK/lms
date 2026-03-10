@@ -24,7 +24,8 @@ In Moodle, the **Exabis ePortfolio** plugin allows students to:
 This tool supports **continuous learning, reflection, and competency-based education**.
 
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/exabis-workflow.png?raw=true" style="max-width: 100%;width: 70%;">
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/exabis-workflow.png?raw=true" style="max-width: 100%;width: 70%;">
+
 
 ---
 
@@ -69,11 +70,9 @@ Navigate to:
 Course Page → Exabis e-Portfolio Block
 ```
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/ePortfolio-courses.png?raw=true" style="max-width: 100%;width: 30%;">
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/ePortfolio-courses.png?raw=true" style="max-width: 100%;width: 30%;">     <img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/ePortfolio-courses-2.png?raw=true" style="max-width: 100%;width: 30%;">
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/ePortfolio-courses-2.png?raw=true" style="max-width: 100%;width: 60%;">
-
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/ePortfolio-courses-1.png?raw=true" style="max-width: 100%;width: 60%;">
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/ePortfolio-courses-1.png?raw=true" style="max-width: 100%;width: 60%;">
 
 ---
 
@@ -112,7 +111,7 @@ Steps:
 * Skills
 * Career goals
 
-<img src="https://github.com/LEARN-LK/lms/blob/master/img/ePortfolio-MyCV-1.png?raw=true" style="max-width: 100%;width: 60%;">
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/ePortfolio-MyCV-1.png?raw=true" style="max-width: 100%;width: 60%;">
 
 ---
 
