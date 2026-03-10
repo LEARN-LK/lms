@@ -169,7 +169,7 @@ My Portfolio
 <img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/Categories-1.png?raw=true" style="max-width: 100%;width: 60%;">
 <img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/Categories-2.png?raw=true" style="max-width: 100%;width: 60%;">
 <img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/Categories-3.png?raw=true" style="max-width: 100%;width: 60%;">
-<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/Categories-4.png?raw=true" style="max-width: 100%;width: 60%;">
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/Categories-4.png?raw=true" style="max-width: 100%;width: 80%;">
 
 ---
 
