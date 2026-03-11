@@ -180,9 +180,6 @@ Instead of sharing the entire portfolio, students can create a **custom view** t
 
 Portfolio views are commonly used to **showcase coursework, projects, and reflections**.
 
-📷 **Screenshot Placeholder**
-`[Screenshot: My Views section in Exabis e-Portfolio]`
-
 ---
 
 ### Example Scenario
@@ -213,8 +210,8 @@ The student creates a portfolio view containing this assignment.
 2. Navigate to **Exabis e-Portfolio**.
 3. Click **My Views**.
 
-📷 Screenshot Placeholder
-`[Screenshot: My Views section]`
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/myview-1.png?raw=true" style="max-width: 100%;width: 60%;">
+
 
 ---
 
@@ -239,8 +236,8 @@ This portfolio contains assignments completed during Semester 01 of the BSc in I
 
 **Save**
 
-📷 Screenshot Placeholder
-`[Screenshot: Create new view form]`
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/myview-2.png?raw=true" style="max-width: 100%;width: 60%;">
+
 
 ---
 
@@ -257,8 +254,8 @@ Instruction shown in the interface:
 Drag and drop content "Artifacts" blocks from the tabs below to create your page.
 ```
 
-📷 Screenshot Placeholder
-`[Screenshot: Drag and drop artifact block]`
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/myview-3.png?raw=true" style="max-width: 100%;width: 60%;">
+
 
 ---
 
@@ -283,8 +280,8 @@ Example:
 ☑ Programming_Assignment_01.pdf
 ```
 
-📷 Screenshot Placeholder
-`[Screenshot: Choose artefact popup window]`
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/myview-4.png?raw=true" style="max-width: 100%;width: 60%;">
+
 
 ---
 
