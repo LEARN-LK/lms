@@ -204,7 +204,7 @@ The student creates a portfolio view containing this assignment.
 
 # Steps to Create a Portfolio View
 
-## Step 1 – Open My Views
+#### Step 1 – Open My Views
 
 1. Log in to Moodle.
 2. Navigate to **Exabis e-Portfolio**.
@@ -215,7 +215,7 @@ The student creates a portfolio view containing this assignment.
 
 ---
 
-# Step 2 – Create a New View
+#### Step 2 – Create a New View
 
 1. Click **Create New View**.
 2. Enter the following details:
@@ -241,7 +241,7 @@ This portfolio contains assignments completed during Semester 01 of the BSc in I
 
 ---
 
-# Step 3 – Build the Portfolio Page Layout
+#### Step 3 – Build the Portfolio Page Layout
 
 The view editor allows you to build the portfolio page using **content blocks**.
 
@@ -259,7 +259,7 @@ Drag and drop content "Artifacts" blocks from the tabs below to create your page
 
 ---
 
-# Step 4 – Select the Artifact from the Category
+#### Step 4 – Select the Artifact from the Category
 
 After adding the **Artifacts block**, a popup window will appear.
 
@@ -285,7 +285,7 @@ Example:
 
 ---
 
-# Step 5 – Save the Portfolio View
+#### Step 5 – Save the Portfolio View
 
 After selecting the artifact:
 
