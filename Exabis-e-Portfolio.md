@@ -295,9 +295,6 @@ or
 
 2. Click **Save view and send notifications** if you want to notify the teacher.
 
-📷 Screenshot Placeholder
-`[Screenshot: Save view buttons]`
-
 ---
 
 # Example Portfolio View Structure
@@ -306,8 +303,61 @@ or
 BSc IT – Semester 01 Portfolio
    Programming_Assignment_01.pdf
 ```
+---
 
-The portfolio view is now ready and can be **shared with the teacher for review**.
+# 5.5 Sharing Portfolio Views
+
+After creating a portfolio view, students must **share the view with their teacher or course group** so that the teacher can review the submitted work.
+
+To configure sharing options, open the portfolio view and select the **Share** tab.
+
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/myview-5.png?raw=true" style="max-width: 100%;width: 60%;">
+
+
+## Sharing Options (Short Guide)
+
+The **Share** tab allows students to control who can view their portfolio view.
+
+### Internal Access
+
+Allows users **within the Moodle system** to access the portfolio.
+
+### Access for all
+
+Makes the portfolio visible to **all users logged into Moodle**.
+
+### Access only for the following users
+
+Allows sharing the portfolio with **specific users**, such as a course teacher.
+
+### Access only for the following groups
+
+Allows sharing the portfolio with **a selected group** (e.g., class or project group).
+
+### External Access
+
+Allows users **outside Moodle** to view the portfolio using a public link.
+
+### Share by Email
+
+Sends the portfolio view to someone via **email invitation**.
+
+---
+
+**Recommended for assignment submission**
+
+```
+Internal Access
+Access only for the following users
+Select the course teacher
+```
+
+This ensures the **teacher can view the portfolio while keeping it private from others.**
+
+
+**5.6 Teacher Workflow – How lecturers review and comment on student portfolios**
+
+This will show **how teachers access Shared Views and provide feedback**, which is usually the **last step in an e-Portfolio submission guide**.
 
 ---
 
