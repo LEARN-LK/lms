@@ -460,3 +460,198 @@ Total = **100 marks**
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 5.4 Creating Portfolio Views
+
+A **Portfolio View** is a page that displays selected portfolio artifacts together in an organized format.
+Instead of sharing the entire portfolio, students can create a **custom view** to present specific artifacts related to a course, project, or semester.
+
+Portfolio views are commonly used to **showcase coursework, projects, and reflections**.
+
+📷 **Screenshot Placeholder**
+`[Screenshot: My Views section in Exabis e-Portfolio]`
+
+---
+
+# Example Scenario
+
+Program: **BSc in Information Technology**
+Semester: **Semester 01**
+
+A student wants to present selected coursework from Semester 01.
+
+The student creates a **portfolio view** called:
+
+```
+BSc IT – Semester 01 Portfolio
+```
+
+The view includes the following artifacts:
+
+```
+Introduction to Programming – Python Assignment
+Computer Fundamentals – Lab Report
+Mathematics for IT – Assignment
+Semester Reflection Note
+```
+
+This portfolio view can then be **shared with the teacher for evaluation**.
+
+---
+
+# Steps to Create a Portfolio View
+
+## Step 1 – Access My Views
+
+1. Log in to Moodle.
+2. Open **Exabis e-Portfolio**.
+3. Click **My Views** from the portfolio menu.
+
+📷 **Screenshot Placeholder**
+`[Screenshot: My Views page]`
+
+---
+
+## Step 2 – Create a New View
+
+1. Click **Create New View**.
+2. Enter the required information.
+
+Example:
+
+**Title**
+
+```
+BSc IT – Semester 01 Portfolio
+```
+
+**Description**
+
+```
+This portfolio view contains selected coursework completed during Semester 01 of the BSc in IT program.
+```
+
+📷 **Screenshot Placeholder**
+`[Screenshot: Create New View form]`
+
+---
+
+## Step 3 – Add Artifacts to the View
+
+Select the artifacts you want to include in the portfolio view.
+
+Example artifacts:
+
+```
+Introduction to Programming – Python Calculator Program
+Computer Fundamentals – Lab Report
+Mathematics for IT – Assignment 01
+Semester Reflection Note
+```
+
+Artifacts can include:
+
+* Files
+* Links
+* Notes
+
+📷 **Screenshot Placeholder**
+`[Screenshot: Selecting artifacts for the view]`
+
+---
+
+## Step 4 – Arrange the Portfolio Layout
+
+Arrange the artifacts in the order you want them displayed.
+
+Example layout:
+
+```
+BSc IT – Semester 01 Portfolio
+
+1. Introduction to Programming – Assignment
+2. Computer Fundamentals – Lab Report
+3. Mathematics for IT – Problem Set
+4. Semester Reflection
+```
+
+📷 **Screenshot Placeholder**
+`[Screenshot: Portfolio layout editor]`
+
+---
+
+## Step 5 – Save the Portfolio View
+
+Click **Save** to create the portfolio view.
+
+The new view will appear in the **My Views** section.
+
+📷 **Screenshot Placeholder**
+`[Screenshot: Portfolio views list]`
+
+---
+
+# Step 6 – Share the Portfolio View
+
+Students must share the portfolio view with their teacher.
+
+Steps:
+
+1. Open the portfolio view.
+2. Click **Share**.
+3. Select the **course or teacher**.
+4. Save the sharing settings.
+
+📷 **Screenshot Placeholder**
+`[Screenshot: Sharing portfolio view settings]`
+
+---
+
+# Example Portfolio View Structure
+
+```
+BSc IT – Semester 01 Portfolio
+   Introduction to Programming – Python Assignment
+   Computer Fundamentals – Lab Report
+   Mathematics for IT – Assignment
+   Semester Reflection
+```
+
+Teachers can review the shared view and **provide feedback on the student's work**.
+
