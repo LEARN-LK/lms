@@ -201,78 +201,119 @@ BSc IT – Semester 01 Portfolio
 • Semester Reflection Note
 ```
 
+The student creates a portfolio view containing this assignment.
+
 ---
 
-### Steps to Create a Portfolio View
+# Steps to Create a Portfolio View
 
-1. Open **Exabis e-Portfolio**.
-2. Click **My Views**.
-3. Click **Create New View**.
+## Step 1 – Open My Views
 
-Enter the following details:
+1. Log in to Moodle.
+2. Navigate to **Exabis e-Portfolio**.
+3. Click **My Views**.
 
-```
-Title: BSc IT – Semester 01 Portfolio
-Description: Portfolio containing assignments completed during Semester 01.
-```
+📷 Screenshot Placeholder
+`[Screenshot: My Views section]`
 
-4. Select artifacts from the **Assignments category**.
+---
+
+# Step 2 – Create a New View
+
+1. Click **Create New View**.
+2. Enter the following details:
 
 Example:
 
-```
-Programming_Assignment_01.pdf
-```
-
-5. Arrange the artifacts.
-6. Click **Save**.
-
-📷 Screenshot Placeholder
-`[Screenshot: Create portfolio view page]`
-
----
-
-# 5.5 Sharing Portfolio Views
-
-After creating a portfolio view, students can share it with their teacher.
-
-This allows the teacher to review the student’s work and provide feedback.
-
----
-
-### Steps to Share a Portfolio View
-
-1. Open **My Views**.
-2. Select the view:
+Title
 
 ```
 BSc IT – Semester 01 Portfolio
 ```
 
-3. Click **Share**.
-4. Select the **course or teacher**.
-5. Enable comments (optional).
-6. Click **Save**.
+Description
+
+```
+This portfolio contains assignments completed during Semester 01 of the BSc in IT program.
+```
+
+**Save**
 
 📷 Screenshot Placeholder
-`[Screenshot: Portfolio sharing settings]`
+`[Screenshot: Create new view form]`
 
 ---
 
-# Example Portfolio Workflow
+# Step 3 – Build the Portfolio Page Layout
+
+The view editor allows you to build the portfolio page using **content blocks**.
+
+1. Locate the **Blocks/Content tabs** at the bottom of the page.
+2. Drag and drop the **Artifacts block** into the portfolio page area.
+
+Instruction shown in the interface:
 
 ```
-BSc in IT
-   Semester 01
-      Assignments
-         Programming_Assignment_01.pdf
-      Portfolio View
-         BSc IT – Semester 01 Portfolio
+Drag and drop content "Artifacts" blocks from the tabs below to create your page.
 ```
 
-Teacher can now **access the shared view and provide feedback**.
+📷 Screenshot Placeholder
+`[Screenshot: Drag and drop artifact block]`
 
 ---
+
+# Step 4 – Select the Artifact from the Category
+
+After adding the **Artifacts block**, a popup window will appear.
+
+In the popup window:
+
+1. Find **To category**.
+2. Select the category:
+
+```
+Assignments
+```
+
+3. In the **Assignments section**, tick the checkbox for the artifact.
+
+Example:
+
+```
+☑ Programming_Assignment_01.pdf
+```
+
+📷 Screenshot Placeholder
+`[Screenshot: Choose artefact popup window]`
+
+---
+
+# Step 5 – Save the Portfolio View
+
+After selecting the artifact:
+
+1. Click **Save view**.
+
+or
+
+2. Click **Save view and send notifications** if you want to notify the teacher.
+
+📷 Screenshot Placeholder
+`[Screenshot: Save view buttons]`
+
+---
+
+# Example Portfolio View Structure
+
+```
+BSc IT – Semester 01 Portfolio
+   Programming_Assignment_01.pdf
+```
+
+The portfolio view is now ready and can be **shared with the teacher for review**.
+
+---
+
 
 # 6. Teacher Guide
 
@@ -513,6 +554,9 @@ Total = **100 marks**
 * Use portfolio for formative assessment
 
 ---
+
+
+
 
 
 
