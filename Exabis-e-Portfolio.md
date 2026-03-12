@@ -405,7 +405,7 @@ Please improve documentation of the database design.
 
 ---
 
-# 7. Scenario-Based Training Module
+<!-- # 7. Scenario-Based Training Module
 
 This section is designed for **university staff training workshops**.
 
@@ -586,6 +586,13 @@ Total = **100 marks**
 
 ---
 
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+
+
 # 10. Best Practices
 
 ### For Students
@@ -600,7 +607,7 @@ Total = **100 marks**
 * Provide feedback early
 * Use portfolio for formative assessment
 
----
+---     --->
 
 
 
