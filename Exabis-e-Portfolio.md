@@ -364,292 +364,90 @@ This will show **how teachers access Shared Views and provide feedback**, which 
 
 # 6. Teacher Guide
 
----
+Teachers review student portfolios and provide feedback.
 
-# 6.1 Viewing Student Portfolios
+### Steps
 
-Teachers can access shared portfolios through:
+1. Go to
 
 ```
-Shared Views
+ePortfolio → Shared Views
 ```
 
-📷 Screenshot placeholder
-`[Screenshot: Teacher shared portfolio list]`
+2. Select the **Course**
 
----
+Example:
 
-# 6.2 Reviewing Artifacts
+```
+BSc in IT – Semester 01
+```
 
-Teachers can:
+3. Select the **Student Name**
 
-* View uploaded files
-* Review reflections
-* Assess student work
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/shared-view-1.png?raw=true" style="max-width: 100%;width: 60%;">
 
----
 
-# 6.3 Providing Feedback
+4. Select the **Portfolio View**
 
-Teachers can comment directly on portfolio views.
+Example:
 
-Example feedback:
+```
+IT – SE Assignment
+```
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/shared-view-2.png?raw=true" style="max-width: 100%;width: 60%;">
+
+
+5. Click **Show**
+
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/shared-view-3.png?raw=true" style="max-width: 100%;width: 60%;">
+
+6. Scroll to **Add Comment**
+
+7. Enter feedback
+
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/shared-view-4.png?raw=true" style="max-width: 100%;width: 60%;">
+
+Example:
 
 ```
 Good project implementation.
 Please improve documentation of the database design.
 ```
 
-📷 Screenshot placeholder
-`[Screenshot: Teacher feedback comment section]`
+8. Click **Add**
+
+📷 Screenshot Placeholder
+`[Screenshot: Teacher comment interface]`
 
 ---
 
-<!-- # 7. Scenario-Based Training Module
+# 7. Complete Workflow Summary
 
-This section is designed for **university staff training workshops**.
-
----
-
-# Scenario 1 – Programming Course Portfolio
-
-Course: Introduction to Programming
-
-### Student Tasks
-
-Students upload:
+### Student Process
 
 ```
-Assignment 1 – Python Calculator
-Assignment 2 – File Processing Program
-Assignment 3 – Web Scraping Script
+Upload Artifact
+      ↓
+Create Portfolio View
+      ↓
+Add Artifact to View
+      ↓
+Share View with Teacher
 ```
 
-Students create a **Programming Portfolio View**.
-
----
-
-### Teacher Tasks
-
-Teachers review:
-
-* Code functionality
-* Program structure
-* Documentation
-
-Teacher provides feedback through the portfolio.
-
----
-
-# Scenario 2 – Final Year Project Portfolio
-
-Students document their project progress.
-
-Artifacts include:
+### Teacher Process
 
 ```
-Project Proposal
-Progress Report
-Final Report
-Presentation Slides
-Demo Video
+Open Shared Views
+      ↓
+Select Course
+      ↓
+Open Student Portfolio
+      ↓
+Review Artifact
+      ↓
+Add Feedback
 ```
-
-Students create a **Final Year Project Portfolio View**.
-
-Teachers monitor project development during the semester.
-
----
-
-# Scenario 3 – Reflective Learning Journal
-
-Students maintain weekly reflections.
-
-Example:
-
-Week 1
-
-```
-Topic: Linux file permissions
-Reflection: Learned chmod and directory structure.
-```
-
-Week 2
-
-```
-Topic: Git version control
-Reflection: Practiced commits and branching.
-```
-
-Teachers review reflections weekly.
-
----
-
-# 8. Sample Course Activity
-
-## Portfolio + Moodle Assignment Integration
-
----
-
-# Activity Title
-
-Programming Assignment Reflection Portfolio
-
----
-
-# Step 1 – Create Moodle Assignment
-
-Teacher creates an assignment in **Moodle**.
-
-```
-Course → Add Activity → Assignment
-```
-
-Assignment title:
-
-```
-Python File Processing Program
-```
-
-Students submit their program.
-
-📷 Screenshot placeholder
-`[Screenshot: Moodle assignment creation]`
-
----
-
-# Step 2 – Portfolio Artifact
-
-Students must upload the assignment into the portfolio.
-
-Steps:
-
-```
-My Portfolio Artefacts → Add File
-```
-
-Students upload:
-
-* Python program
-* Program output
-* Documentation
-
----
-
-# Step 3 – Reflection Note
-
-Students add a **Note artifact** describing their work.
-
-Example:
-
-```
-This program reads a CSV file and calculates total sales.
-I used Python loops and file handling.
-```
-
----
-
-# Step 4 – Create Portfolio View
-
-Students create a view including:
-
-```
-Assignment file
-Reflection note
-Program screenshots
-GitHub link
-```
-
----
-
-# Step 5 – Share with Teacher
-
-Students share the portfolio view with the course teacher.
-
-Teacher reviews:
-
-* Assignment submission
-* Portfolio reflection
-
----
-
-# 9. Example Assessment Rubric
-
-| Criteria               | Marks |
-| ---------------------- | ----- |
-| Code functionality     | 40    |
-| Documentation          | 20    |
-| Portfolio reflection   | 20    |
-| Portfolio presentation | 20    |
-
-Total = **100 marks**
-
----
-
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
-
-
-# 10. Best Practices
-
-### For Students
-
-* Update portfolio regularly
-* Add reflections
-* Organize artifacts clearly
-
-### For Teachers
-
-* Encourage reflection
-* Provide feedback early
-* Use portfolio for formative assessment
-
----     --->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
