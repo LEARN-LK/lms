@@ -4,6 +4,27 @@
 
 Using **Exabis ePortfolio** in **Moodle**
 
+# Introduction
+
+##  What is an e-Portfolio?
+
+An **e-Portfolio** is a digital collection of a student's academic work, reflections, achievements, and learning progress.
+
+In Moodle, the **Exabis ePortfolio** plugin allows students to:
+
+* Upload files and documents
+* Save web links
+* Write notes and reflections
+* Organize artifacts into folders
+* Create portfolio pages (Views)
+* Share work with teachers for feedback
+
+This tool supports **continuous learning, reflection, and competency-based education**.
+
+
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/exabis-workflow.png?raw=true" style="max-width: 100%;width: 70%;">
+
+
 ---
 
 # 1. Final Output (What Students Will Produce)
@@ -82,8 +103,11 @@ Main sections of the portfolio system.
 | Shared Categories      | Categories shared with groups |
 | Import / Export        | Backup portfolio data         |
 
-📷 Screenshot Placeholder
+
 `[ePortfolio Navigation Menu]`
+
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/MyePortfolio-10.png?raw=true" style="max-width: 100%;width: 60%;">
+
 
 ---
 
