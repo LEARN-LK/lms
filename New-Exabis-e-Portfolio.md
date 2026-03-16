@@ -122,19 +122,22 @@ Example artifacts:
 • Certificates
 • Presentations
 
+
 ### Steps
 
 1. Go to
 
-```
-ePortfolio → My Portfolio Artefacts
-```
+ePortfolio → My Portfolio Artefacts **[1]**
+
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/MyePortfolio.png?raw=true" style="max-width: 100%;width: 60%;">
 
 2. Click
 
-```
-Add new Artefact
-```
+
+Add new Artefact **[2]**
+
+
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/Artefact.png?raw=true" style="max-width: 100%;width: 60%;">
 
 3. Enter details
 
