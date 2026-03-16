@@ -25,8 +25,8 @@ Contents of the Portfolio Page:
 • Displayed in a **Portfolio View**
 • Shared with the **course teacher**
 
-📷 Screenshot Placeholder
-`[Final Portfolio View Page Showing Assignment Artifact]`
+
+`<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/Categories-4.png?raw=true" style="max-width: 100%;width: 80%;">
 
 ---
 
@@ -45,8 +45,7 @@ Good project implementation.
 Please improve documentation of the database design.
 ```
 
-📷 Screenshot Placeholder
-`[Teacher Comment Interface]`
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/shared-view-4.png?raw=true" style="max-width: 100%;width: 60%;">
 
 ---
 
