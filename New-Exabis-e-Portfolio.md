@@ -135,8 +135,6 @@ ePortfolio → My Portfolio Artefacts **[1]**
 Add new Artefact **[2]**
 
 
-<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/Artefact.png?raw=true" style="max-width: 100%;width: 60%;">
-
 3. Enter details
 
 Example:
@@ -150,8 +148,7 @@ File: Upload PDF
 
 4. Click **Save**
 
-📷 Screenshot Placeholder
-`[Add Artifact Screen]`
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/Artefact.png?raw=true" style="max-width: 100%;width: 60%;">`
 
 ---
 
