@@ -2,8 +2,6 @@
 
 # Exabis e-Portfolio Training Guide
 
-Using **Exabis ePortfolio** in **Moodle**
-
 # Introduction
 
 ##  What is an e-Portfolio?
