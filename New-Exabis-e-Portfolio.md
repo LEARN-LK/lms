@@ -41,10 +41,10 @@ IT – Software Engineering Assignment
 
 Contents of the Portfolio Page:
 
-• Assignment PDF uploaded to portfolio
-• Organized under **Assignments category**
-• Displayed in a **Portfolio View**
-• Shared with the **course teacher**
+* Assignment PDF uploaded to portfolio
+* Organized under **Assignments category**
+* Displayed in a **Portfolio View**
+* Shared with the **course teacher**
 
 
 `<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/Categories-4.png?raw=true" style="max-width: 100%;width: 80%;">
@@ -55,9 +55,9 @@ Contents of the Portfolio Page:
 
 After sharing, the teacher will be able to:
 
-• Open the student portfolio
-• Review the assignment
-• Add comments and feedback
+* Open the student portfolio
+* Review the assignment
+* Add comments and feedback
 
 Example teacher feedback:
 
