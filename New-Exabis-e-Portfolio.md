@@ -19,6 +19,8 @@ In Moodle, the **Exabis ePortfolio** plugin allows students to:
 
 This tool supports **continuous learning, reflection, and competency-based education**.
 
+**Figure 1: e-Portfolio Workflow Overview**
+
 <img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/exabis-workflow.png?raw=true" style="max-width: 100%; width: 70%;">
 
 ---
@@ -42,6 +44,8 @@ IT – Software Engineering Assignment
 * Displayed in a **Portfolio View**
 * Shared with the **course teacher**
 
+**Figure 2: Example Portfolio Categories**
+
 <img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/Categories-4.png?raw=true" style="max-width: 100%; width: 80%;">
 
 ---
@@ -60,6 +64,8 @@ After sharing, the teacher will:
 Good project implementation.
 Please improve documentation of the database design.
 ```
+
+**Figure 3: Teacher View of Shared Portfolio**
 
 <img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/shared-view-4.png?raw=true" style="max-width: 100%; width: 60%;">
 
@@ -96,6 +102,8 @@ IT – Software Engineering
 | Shared Categories      | Categories shared with groups |
 | Import / Export        | Backup portfolio data         |
 
+**Figure 4: ePortfolio Navigation Menu**
+
 <img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/MyePortfolio-10.png?raw=true" style="max-width: 100%; width: 60%;">
 
 ---
@@ -116,25 +124,30 @@ Artefacts are files stored in the portfolio.
 1. Go to
    **ePortfolio → My Portfolio Artefacts**
 
-<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/MyePortfolio.png?raw=true" style="max-width: 100%;width: 60%;">
+**Figure 5: Accessing My Portfolio Artefacts**
 
-<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/Artefact.png?raw=true" style="max-width: 100%;width: 60%;">
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/MyePortfolio.png?raw=true" style="max-width: 100%; width: 60%;">
 
-2. Click
-   **Add New Artefact**
+---
+
+2. Click **Add New Artefact**
 
 3. Enter details:
 
 ```
-Title: IT – SE Assignment
-Category: Assignments
-Description: Software Engineering assignment report
-File: Upload PDF
+Title: IT – SE Assignment  
+Category: Assignments  
+Description: Software Engineering assignment report  
+File: Upload PDF  
 ```
 
-4. Click **Save**
+**Figure 6: Add New Artefact Form**
 
 <img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/Artefact.png?raw=true" style="max-width: 100%; width: 60%;">
+
+---
+
+4. Click **Save**
 
 ---
 
@@ -151,19 +164,19 @@ My Portfolio
  ├── Projects
  └── Research
 ```
-<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/Categories-1.png?raw=true" style="max-width: 100%;width: 60%;">
-<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/Categories-2.png?raw=true" style="max-width: 100%;width: 60%;">
-<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/Categories-3.png?raw=true" style="max-width: 100%;width: 60%;">
-<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/Categories-4.png?raw=true" style="max-width: 100%;width: 80%;">
+
+**Figure 7: Portfolio Category Structure**
+
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/Categories-1.png?raw=true" style="max-width: 100%; width: 60%;">
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/Categories-2.png?raw=true" style="max-width: 100%; width: 60%;">
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/Categories-3.png?raw=true" style="max-width: 100%; width: 60%;">
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/Categories-4.png?raw=true" style="max-width: 100%; width: 80%;">
 
 ---
 
 # 6. Step 3 – Create a Portfolio View
 
-A **Portfolio View** is a page that displays selected portfolio artifacts together in an organized format.
-Instead of sharing the entire portfolio, students can create a **custom view** to present specific artifacts related to a course, project, or semester.
-
-Portfolio views are commonly used to **showcase coursework, projects, and reflections**.
+A **Portfolio View** is a page that displays selected artefacts.
 
 ## Steps
 
@@ -179,43 +192,40 @@ ePortfolio → My Views
 Add View
 ```
 
-<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/myview-1.png?raw=true" style="max-width: 100%;width: 60%;">
+**Figure 8: Create Portfolio View**
+
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/myview-1.png?raw=true" style="max-width: 100%; width: 60%;">
+
+---
 
 3. Enter details:
 
 ```
-Title: IT – SE Assignment
-Description: Semester 01 Software Engineering assignment
+Title: IT – SE Assignment  
+Description: Semester 01 Software Engineering assignment  
 ```
 
-4. Select layout
-   Example: **One Column**
+4. Select layout (Example: One Column)
 
-<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/myview-2.png?raw=true" style="max-width: 100%;width: 60%;">
+**Figure 9: Portfolio Layout Selection**
 
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/myview-2.png?raw=true" style="max-width: 100%; width: 60%;">
 
 ---
 
 # 7. Step 4 – Build the Portfolio Page Layout
 
-The view editor allows you to build the portfolio page using **content blocks**.
-
-1. Locate the **Blocks/Content tabs** at the bottom of the page.
-2. Drag and drop the **Artifacts block** into the portfolio page area.
-
-Instruction shown in the interface:
-
 ## Steps
 
 1. Go to **Content Tab**
 
-2. Drag and drop:
+2. Drag and drop the **Artifacts Block**
 
-<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/myview-3.png?raw=true" style="max-width: 100%;width: 60%;">
+**Figure 10: Content Tab and Blocks**
 
-```
-Artifacts Block
-```
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/myview-3.png?raw=true" style="max-width: 100%; width: 60%;">
+
+---
 
 3. In popup:
 
@@ -231,13 +241,12 @@ Assignments
 IT – SE Assignment
 ```
 
-4. Click:
+4. Click **Save View**
 
-```
-Save View
+**Figure 11: Adding Artefact to View**
 
-```
-<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/myview-4.png?raw=true" style="max-width: 100%;width: 60%;">
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/myview-4.png?raw=true" style="max-width: 100%; width: 60%;">
+
 ---
 
 # 8. Step 5 – Share the Portfolio with the Teacher
@@ -251,6 +260,12 @@ Save View
 ```
 Share
 ```
+
+**Figure 12: Share Tab in Portfolio View**
+
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/myview-5.png?raw=true" style="max-width: 100%; width: 60%;">
+
+---
 
 3. Enable
 
@@ -266,10 +281,26 @@ Access only for the following users
 
 5. Choose the **course teacher**
 
-6. Click
+6. Click **Share**
+
+---
+
+## Sharing Options (Quick Guide)
+
+| Option          | Description         |
+| --------------- | ------------------- |
+| Internal Access | Share within Moodle |
+| Access for all  | All logged-in users |
+| Selected Users  | Only specific users |
+| Groups          | Share with a group  |
+| External Access | Public link         |
+
+**Recommended for assignments:**
 
 ```
-Share
+Internal Access  
+Access only for the following users  
+Select the course teacher  
 ```
 
 ⚠ **Important:**
@@ -277,141 +308,9 @@ If not shared, the teacher **cannot view the portfolio**.
 
 ---
 
+# 9. Teacher Workflow – Reviewing Student Portfolio
 
-
-
-
----
-
-#### 8. Step 6 – Save the Portfolio View
-
-After selecting the artifact:
-
-1. Click **Save view**.
-
-or
-
-2. Click **Save view and send notifications** if you want to notify the teacher.
-
----
-
-# Example Portfolio View Structure
-
-```
-BSc IT – Semester 01 Portfolio
-   Programming_Assignment_01.pdf
-```
----
-
-# 8. Step 7 - Sharing Portfolio Views
-
-After creating a portfolio view, students must **share the view with their teacher or course group** so that the teacher can review the submitted work.
-
-To configure sharing options, open the portfolio view and select the **Share** tab.
-
-<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/myview-5.png?raw=true" style="max-width: 100%;width: 60%;">
-
-
-## Sharing Options (Short Guide)
-
-The **Share** tab allows students to control who can view their portfolio view.
-
-### Internal Access
-
-Allows users **within the Moodle system** to access the portfolio.
-
-### Access for all
-
-Makes the portfolio visible to **all users logged into Moodle**.
-
-### Access only for the following users
-
-Allows sharing the portfolio with **specific users**, such as a course teacher.
-
-### Access only for the following groups
-
-Allows sharing the portfolio with **a selected group** (e.g., class or project group).
-
-### External Access
-
-Allows users **outside Moodle** to view the portfolio using a public link.
-
-### Share by Email
-
-Sends the portfolio view to someone via **email invitation**.
-
----
-
-**Recommended for assignment submission**
-
-```
-Internal Access
-Access only for the following users
-Select the course teacher
-```
-
-This ensures the **teacher can view the portfolio while keeping it private from others.**
-
-
-**8.7 Teacher Workflow – How lecturers review and comment on student portfolios**
-
-This will show **how teachers access Shared Views and provide feedback**, which is usually the **last step in an e-Portfolio submission guide**.
-
----
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# 9. Teacher Guide
-
-Teachers review student portfolios and provide feedback.
-
-### Steps
+## Steps
 
 1. Go to
 
@@ -421,38 +320,33 @@ ePortfolio → Shared Views
 
 2. Select the **Course**
 
-Example:
-
-```
-BSc in IT – Semester 01
-```
-
 3. Select the **Student Name**
 
-<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/shared-view-1.png?raw=true" style="max-width: 100%;width: 60%;">
+**Figure 13: Shared Views – Student List**
 
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/shared-view-1.png?raw=true" style="max-width: 100%; width: 60%;">
+
+---
 
 4. Select the **Portfolio View**
 
-Example:
+**Figure 14: Selecting Portfolio View**
 
-```
-IT – SE Assignment
-```
-<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/shared-view-2.png?raw=true" style="max-width: 100%;width: 60%;">
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/shared-view-2.png?raw=true" style="max-width: 100%; width: 60%;">
 
+---
 
 5. Click **Show**
 
-<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/shared-view-3.png?raw=true" style="max-width: 100%;width: 60%;">
+**Figure 15: Viewing Portfolio**
+
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/shared-view-3.png?raw=true" style="max-width: 100%; width: 60%;">
+
+---
 
 6. Scroll to **Add Comment**
 
-7. Enter feedback
-
-<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/shared-view-4.png?raw=true" style="max-width: 100%;width: 60%;">
-
-Example:
+7. Enter feedback:
 
 ```
 Good project implementation.
@@ -461,106 +355,45 @@ Please improve documentation of the database design.
 
 8. Click **Add**
 
-📷 Screenshot Placeholder
-`[Screenshot: Teacher comment interface]`
-
 ---
 
-# 10. Completing the CV Section (NEW)
+# 10. Completing the CV Section
 
 The **My CV** section allows students to build a professional academic profile.
 
-## Purpose of CV Section
+## Steps
 
-* Showcase student identity
-* Record academic achievements
-* Add skills and experience
-* Support employability
-
----
-
-## Steps to Complete CV
-
-### 1. Access CV Section
-
-Go to:
+1. Go to
 
 ```
 ePortfolio → My CV
 ```
 
----
+**Figure 16: My CV Section**
 
-### 2. Fill Personal Information
-
-Add:
-
-* Full Name
-* Email
-* Profile Picture
-* Contact Details
-
----
-<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/ePortfolio-MyCV-1.png?raw=true" style="max-width: 100%;width: 60%;">
-
-
-### 3. Add Education Details
-
-Example:
-
-```
-Degree: BSc in Information Technology  
-University: XYZ University  
-Year: 2023 – Present
-```
+<img src="https://raw.githubusercontent.com/LEARN-LK/lms/master/img/ePortfolio-MyCV-1.png?raw=true" style="max-width: 100%; width: 60%;">
 
 ---
 
-### 4. Add Skills
+2. Fill:
 
-Examples:
+* Personal information
+* Education
+* Skills
+* Experience
+* Certificates
 
-* Programming (Python, Java)
-* Web Development
-* Database Management
-
----
-
-### 5. Add Experience (Optional)
-
-Example:
-
-```
-Intern – IT Support  
-ABC Company  
-2024
-```
-
----
-
-### 6. Add Certificates
-
-Upload:
-
-* Course certificates
-* Workshop participation
-* Online learning achievements
-
----
-
-### 7. Save CV
-
-Click **Save** after completing each section.
+3. Click **Save**
 
 ---
 
 ## Tip
 
-A well-completed CV helps:
+A complete CV helps:
 
 * Teachers understand student background
-* Students prepare for job opportunities
-* Build a professional digital identity
+* Students prepare for jobs
+* Build a professional profile
 
 ---
 
